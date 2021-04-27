@@ -19,7 +19,7 @@ ideas = {
 			}
 
 		}
-		MCA_trade_Committe_veli_idea = {MCA_trade_Committe_Mesean_idea
+		MCA_trade_Committe_veli_idea = {
 			
 			allowed = {
 				always = yes
