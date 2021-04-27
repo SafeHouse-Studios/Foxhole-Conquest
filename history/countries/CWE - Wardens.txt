@@ -1,0 +1,222 @@
+﻿capital = 244
+
+oob = "CWE_0782"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+0782.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		
+		#equipment
+		gw_artillery = 1
+		
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+	
+	create_equipment_variant = {
+		name = "Swimmer Class"
+		type = destroyer_1
+		parent_version = 0
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+		
+	}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	
+	name = "Military Junta"
+	picture = "Portrait_CWE_leader.tga"
+	expire = "0802.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "RegaSaurus"
+	picture = "Portait_CWE_RegaSaurus.dds"
+	traits = { brilliant_strategist trait_cautious }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Bob Semple"
+	picture = "Portait_CWE_Bob_Semple.dds"
+	traits = { trait_engineer trait_cautious infantry_officer }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Tanneth"
+	picture = "Portait_CWE_Tanneth.dds"
+	traits = { trait_reckless infantry_officer }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Noir"
+	picture = "Portait_CWE_Noir.dds"
+	traits = { panzer_leader trickster }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Flashwhite"
+	picture = "Portait_CWE_Flashwhite.dds"
+	traits = { old_guard naval_invader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Trekker"
+	gfx = "Portait_CWE_Trekker.dds"
+	traits = { trait_reckless panzer_leader armor_officer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Gorm"
+	gfx = "Portait_CWE_Gorm.dds"
+	traits = { infantry_officer urban_assault_specialist }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Tsar"
+	gfx = "Portait_CWE_Tsar.dds"
+	traits = { inflexible_strategist hill_fighter }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Argie"
+	gfx = "Portait_CWE_Argie.dds"
+	traits = { trait_engineer trait_reckless infantry_officer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Kvirin"
+	gfx = "Portait_CWE_Kvirin.dds"
+	traits = { hill_fighter trait_reckless }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Mint"
+	gfx = "Portait_CWE_Mint.dds"
+	traits = { panzer_leader armor_officer media_personality }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Partisan Hero"
+	gfx = "Portait_CWE_Partisan_Hero.dds"
+	traits = { war_hero commando }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "MrDrake"
+	gfx = "Portait_CWE_MrDrake.dds"
+	traits = { trait_cautious trait_engineer panzer_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Bratec"
+	gfx = "Portait_CWE_Bratec.dds"
+	traits = { organizer logistics_wizard }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Kamil!"
+	gfx = "Portait_CWE_Kamil.dds"
+	traits = { career_officer infantry_officer defensive_doctrine skilled_staffer }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Alpmert"
+	picture = "Portait_CWE_Alpmert.dds"
+	traits = { old_guard_navy naval_lineage ironside }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "RigerousBacon"
+	picture = "Portait_CWE_RigerousBacon.dds"
+	traits = { bold battleship_adherent superior_tactician }
+	skill = 1 
+}
+
+create_navy_leader = {
+	name = "Psucho"
+	picture = "Portait_CWE_Psucho.dds"
+	traits = { ironside gunnery_expert }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Wilson"
+	picture = "Portait_CWE_Wilson.dds"
+	traits = { gentlemanly blockade_runner fleet_protector }
+	skill = 1
+}
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+state={
+	id=462
+	name="STATE_462"
+	provinces={
+		328 674 784 806 929 999 1192 1387 1438 1680 2348 3300 3314 3726 3770 4028 4635 5290 5563 5969 6701 6702 6708 6719 6729 6742 6756 6772 6810 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			6742 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	resources = {
+		steel = 9
+	}
+}

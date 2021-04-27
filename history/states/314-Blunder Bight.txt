@@ -1,0 +1,18 @@
+state={
+	id=314
+	name="STATE_314"
+	provinces={
+		1979 5643 9529 9551 9607 9644 9667 9678 9733 9745 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

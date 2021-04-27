@@ -1,0 +1,24 @@
+state={
+	id=276
+	name="STATE_276"
+	provinces={
+		409 503 1182 2248 2281 2402 3882 4052 4357 5153 10722 10730 10760 10764 10786 10806 10821 10843 10865 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			10786 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		1175 2776 5333 5723 6119 9169 9230 9231 9271 9287 9293 9324 9349 9368 9377 9390 9406 9494 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            5723 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+			dockyard = 1
+			
+			5333 = {
+				naval_base = 1
+			}
+		}
+	}
+}

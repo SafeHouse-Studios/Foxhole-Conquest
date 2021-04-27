@@ -1,0 +1,18 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		830 1777 4368 5029 5498 9546 9596 9601 9602 9656 9705 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		847 1055 1262 1995 2069 2864 3007 3091 3716 4168 4539 4593 4775 4902 5047 5517 10838 10845 10862 10878 10927 10943 10950 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

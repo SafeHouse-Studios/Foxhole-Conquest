@@ -1,0 +1,18 @@
+state={
+	id=101
+	name="STATE_101"
+	provinces={
+		102 588 1707 2106 2424 5703 6046 8641 8706 8720 8776 8823 8831 8930 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

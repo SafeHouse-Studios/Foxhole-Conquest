@@ -1,0 +1,30 @@
+state={
+	id=451
+	name="STATE_451"
+	provinces={
+		49 405 1002 1830 2499 2781 2823 2982 3531 3804 4292 4604 5060 6721 6728 6737 6740 6752 6760 6767 6771 6776 6795 6808 6817 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			6760 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			industrial_complex = 1
+			dockyard = 1
+			
+			6740 = {
+				naval_base = 1
+			}
+		}
+	}
+}

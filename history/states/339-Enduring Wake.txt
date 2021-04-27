@@ -1,0 +1,22 @@
+state={
+	id=339
+	name="STATE_339"
+	provinces={
+		1059 1622 1905 2835 2973 3416 5446 5839 6038 8568 8573 8598 8607 8612 8625 8657 8696 8715 8779 8829 8840 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			8657 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+		}
+	}
+}

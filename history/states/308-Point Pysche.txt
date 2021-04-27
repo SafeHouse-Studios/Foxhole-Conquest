@@ -1,0 +1,18 @@
+state={
+	id=308
+	name="STATE_308"
+	provinces={
+		744 2568 2598 3400 3508 3765 4111 4897 5582 6222 9746 9778 9819 9854 9879 9918 9919 10016 10045 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

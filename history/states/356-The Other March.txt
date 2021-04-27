@@ -1,0 +1,31 @@
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		877 1089 1739 2292 2509 2583 2850 2926 4623 5561 5618 5724 6133 9275 9283 9318 9332 9338 9362 9363 9364 9396 9403 9419 9424 9425 9457 9458 9481 9497 9505 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			2583 = {
+				bunker = 5
+			}
+			9424 = {
+				bunker = 5
+			}
+			9364 = {
+				bunker = 5
+			}
+			2850 = {
+				bunker = 5
+			}
+		}
+	}
+}

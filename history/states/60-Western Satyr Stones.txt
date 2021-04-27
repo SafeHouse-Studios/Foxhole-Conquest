@@ -1,0 +1,22 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		179 2952 4371 4432 5985 6006 9535 9594 9632 9645 9655 9717 9729 9761 9780 9787 9864 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			9729 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

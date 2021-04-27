@@ -1,0 +1,18 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		7934 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category = tiny_island
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

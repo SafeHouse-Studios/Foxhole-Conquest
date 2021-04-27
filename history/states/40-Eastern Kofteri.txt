@@ -1,0 +1,30 @@
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		3002 3236 4514 4520 5587 8105 8149 8156 8250 8298 8304 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			8156 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+			
+			dockyard =1
+			
+			
+			4514 = {
+				naval_base = 1
+			}
+		}
+	}
+}

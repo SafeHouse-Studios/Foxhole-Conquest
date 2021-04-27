@@ -1,0 +1,31 @@
+bookmarks = {
+	bookmark = {
+		name = "Foxhole World Conquest"
+		desc = "FOXHOLE_WAR_DESC"
+		date = 0782.1.1.12
+		picture = "GFX_select_date_0782"
+		default_country = "MCA"
+	
+		MCA = {
+			history = MCA_WAR_LOC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		CWE = {
+			history = CWE_WAR_LOC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		"---"={
+			history = "OTHER_FOXHOLE_WAR_LOC"
+		}
+	}
+}

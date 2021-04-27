@@ -1,0 +1,24 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		69 488 2125 2981 3684 4890 5320 5793 5922 6324 8881 8901 8939 8960 8972 8976 9000 9016 9022 9051 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			9016 = {
+				naval_base = 1
+			}
+		}
+	}
+}

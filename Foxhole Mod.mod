@@ -1,0 +1,16 @@
+name="Foxhole"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="map/terrain"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="common/bookmarks"
+tags={
+	"Alternative History"
+	"Events"
+	"National Focuses"
+	"Gameplay"
+}
+version="0.17.1"
+supported_version="1.10.*"
+path="C:/Users/YOURPCNAMEHERE/Documents/Paradox Interactive/Hearts of Iron IV/mod/Hoi4 Foxhole Mod"

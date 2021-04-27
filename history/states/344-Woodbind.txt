@@ -1,0 +1,26 @@
+state={
+	id=344
+	name="STATE_344"
+	provinces={
+		120 638 731 2154 3032 3949 4462 5180 6085 6348 8820 8830 8880 8914 8948 8967 9014 9063 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			3949 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
+	}
+}

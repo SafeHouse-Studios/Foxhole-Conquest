@@ -1,0 +1,951 @@
+focus_tree = {
+	id = 1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MCA
+		}
+	}
+	#Focus for Establish the Trade Committee
+	focus = {
+		id = MCA_establish_the_trade_committee
+		icon = establish_the_trade_committee
+		x = 8
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= MCA_trade_Committe_idea
+		}
+	}
+
+	#Focus for Fund the Damokratos Rail Line
+	focus = {
+		id = MCA_fund_the_damokratos_rail_line
+		icon = fund_the_damokratos_rail_line
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_establish_the_trade_committee }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			520 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			519 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+			522 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Develop Mesean Infrastructure
+	focus = {
+		id = MCA_develop_mesean_infrastructure
+		icon = develop_mesean_infrastructure
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_establish_the_trade_committee }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			216 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			267 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			265 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			263 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			225 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			226 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			264 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			260 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Develop Damokratos Ports
+	focus = {
+		id = MCA_develop_damokratos_ports
+		icon = develop_damokratos_ports
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_fund_the_damokratos_rail_line }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+				527 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				527 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+				}
+				}
+			}
+		}
+	}
+
+	#Focus for Stack the Trade Committee with Velians
+	focus = {
+		id = MCA_stack_the_trade_committee_with_velians
+		icon = GFX_goal_generic_improve_relations
+		x = 6
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_damokratos_ports }
+		mutually_exclusive = { focus = MCA_stack_the_trade_committee_with_meseans }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= MCA_trade_Committe_veli_idea
+		204 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+		193 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+		205 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+			87 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Develop Therizo
+	focus = {
+		id = MCA_develop_therizo
+		icon = develop_therizo
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_the_colonies }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			524 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Establish Mesean Ports
+	focus = {
+		id = MCA_establish_mesean_ports
+		icon = establish_mesean_ports
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_mesean_infrastructure }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			87 = {
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Stack The Trade Committee With Meseans
+	focus = {
+		id = MCA_stack_the_trade_committee_with_meseans
+		icon = GFX_goal_generic_improve_relations
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_establish_mesean_ports }
+		mutually_exclusive = { focus = MCA_stack_the_trade_committee_with_velians }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = MCA_trade_Committe_Mesean_idea
+			543 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			544 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			545 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			550 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			551 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			567 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Develop The Colonies
+	focus = {
+		id = MCA_develop_the_colonies
+		icon = develop_the_colonies
+		x = 15
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_establish_the_trade_committee }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace Therizian Agrarianism
+	focus = {
+		id = MCA_embrace_therizian_agrarianism
+		icon = embrace_therizian_agrarianism
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_therizo }
+		mutually_exclusive = { focus = MCA_invest_in_therizian_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			524 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Invest In Therizian Industry
+	focus = {
+		id = MCA_invest_in_therizian_industry
+		icon = invest_in_therizian_industry
+		x = 16
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_therizo }
+		mutually_exclusive = { focus = MCA_invest_in_therizian_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			524 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for to feed the legion
+	focus = {
+		id = MCA_to_feed_the_legion
+		icon = to_feed_the_legion
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_embrace_therizian_agrarianism }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 788.01.01
+		} 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= MCA_to_feed_the_legion_idea
+			524 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for The Colonial Breadbasket
+	focus = {
+		id = MCA_the_colonial_breadbasket
+		icon = the_colonial_breadbasket
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_to_feed_the_legion }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 789.01.01
+		} 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = MCA_the_colonial_breadbasket_idea
+			remove_ideas = MCA_to_feed_the_legion_idea
+		}
+	}
+
+	#Focus for Focus Mesean Industry
+	focus = {
+		id = MCA_focus_mesean_industry
+		icon = focus_mesean_industry
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_stack_the_trade_committee_with_meseans }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			543 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			544 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			545 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			550 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			551 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			567 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Construct New Ordnance Plants
+	focus = {
+		id = MCA_construct_new_ordnance_plants
+		icon = construct_new_ordnance_plants
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		available = {
+			date > 788.01.01
+		}
+		prerequisite = { 
+			focus = MCA_invest_in_velian_lumber_trade 
+			focus = MCA_focus_mesean_industry 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			204 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			87 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			74 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			82 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Invest In Velian Lumber Trade
+	focus = {
+		id = MCA_invest_in_velian_lumber_trade
+		icon = invest_in_velian_lumber_trade
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_stack_the_trade_committee_with_velians }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		204 = {
+			add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		204 = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+		193 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+		205 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+			}
+		}
+			87 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}	
+	}
+
+	#Focus for Secure Kraunian Access to The Aging Ocean
+	focus = {
+		id = MCA_secure_kraunian_access_to_the_aging_ocean
+		icon = secure_kraunian_access_to_the_aging_ocean
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_kraunian_roads }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Fortify The Bulwark
+	focus = {
+		id = MCA_fortify_the_bulwark
+		icon = fortify_the_bulwark
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_construct_new_ordnance_plants }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available = {
+			date > 790.06.01
+		} 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Facilitate Therizian Arms Plants
+	focus = {
+		id = MCA_facilitate_therizian_arms_plants
+		icon = facilitate_therizian_arms_plants
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_invest_in_therizian_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 788.01.01
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			524 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for Develop Dimiourg
+	focus = {
+		id = MCA_develop_dimiourg
+		icon = develop_dimiourg
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_the_colonies }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Balanced Development
+	focus = {
+		id = MCA_balanced_development
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_dimiourg }
+		mutually_exclusive = { focus = MCA_embrace_dimian_industrialism }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prosperous Republic
+	focus = {
+		id = MCA_prosperous_republic
+		icon = prosperous_republic
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_balanced_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace Dimian Industrialism
+	focus = {
+		id = MCA_embrace_dimian_industrialism
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_dimiourg }
+		mutually_exclusive = { focus = MCA_balanced_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Disregard Labor Protests
+	focus = {
+		id = MCA_disregard_labor_protests
+		icon = Disregard_labour_Protests
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_embrace_dimian_industrialism }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Sky Of Smokestacks
+	focus = {
+		id = MCA_a_sky_of_smokestacks
+		icon = GFX_focus_generic_industry_2
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_disregard_labor_protests }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Import Therizan Grain
+	focus = {
+		id = MCA_import_therizan_grain
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_sky_of_smokestacks }
+		mutually_exclusive = { focus = MCA_convert_farmland_to_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Convert Farmland To Industry
+	focus = {
+		id = MCA_convert_farmland_to_industry
+		icon = convert_farmland_to_industry
+		x = 16
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_facilitate_therizian_arms_plants }
+		mutually_exclusive = { focus = MCA_import_therizan_grain }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 790.01.01
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = MCA_convert_farmland_to_industry_idea
+			524 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			526 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Focus for The Great Foundry Of The South
+	focus = {
+		id = MCA_the_great_foundry_of_the_south
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_import_therizan_grain }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop Kraunia
+	focus = {
+		id = MCA_develop_kraunia
+		icon = develop_kraunia
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_the_colonies }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop Kraunian Roads
+	focus = {
+		id = MCA_develop_kraunian_roads
+		icon = develop_kraunian_roads
+		x = 23
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_develop_kraunia }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#End of focuses 
+ }

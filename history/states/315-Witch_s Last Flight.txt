@@ -1,0 +1,18 @@
+state={
+	id=315
+	name="STATE_315"
+	provinces={
+		1744 3411 4088 4872 6129 9845 9980 10044 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

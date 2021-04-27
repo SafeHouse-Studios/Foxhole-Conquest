@@ -1,0 +1,24 @@
+state={
+	id=187
+	name="STATE_187"
+	provinces={
+		605 1408 1458 1949 3587 3662 3714 3866 4060 5155 9998 9999 10030 10046 10068 10096 10122 10139 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            3587 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=285
+	name="STATE_285"
+	provinces={
+		1268 2317 3008 4125 4156 4779 5726 9543 9651 9666 9685 9707 9715 9755 9764 9765 9785 9797 9828 9837 9842 11238 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			9785 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			4779 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+state={
+	id=499
+	name="STATE_499"
+	provinces={
+		99 761 2187 2390 3217 3349 3517 3715 3948 4011 4132 4428 4444 4723 4814 6058 6104 6229 6257 6633 6640 6646 6689 6700 6716 6725 6733 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			4814 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+			dockyard = 1
+			
+			4132 = {
+				naval_base = 1
+			}
+		}
+	}
+	resources = {
+		aluminium = 6
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=562
+	name="STATE_562"
+	provinces={
+		163 224 402 552 590 603 659 838 1132 1287 1800 2226 2764 4161 4619 4858 6241 6344 6361 6417 6420 6447 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			590 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	resources = {
+		steel = 55
+		aluminium = 40
+	}
+}

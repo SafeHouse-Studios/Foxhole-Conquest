@@ -1,0 +1,22 @@
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		287 465 1140 1657 1697 1783 3375 3670 3955 4472 4793 4898 5106 5170 5476 6219 8246 8294 8425 8473 8521 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			1140 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

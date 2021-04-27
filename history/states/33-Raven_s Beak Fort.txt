@@ -1,0 +1,33 @@
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		1042 1044 1270 2936 3613 4654 5369 6178 6881 6895 6899 6917 6928 6934 6960 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			6881 = {
+				naval_base = 1
+			}
+			1044 = {
+				naval_base = 1
+			}
+			6178 = {
+				naval_base = 1
+			}
+		}
+	}
+	resources = {
+		tungsten = 4
+	}
+}

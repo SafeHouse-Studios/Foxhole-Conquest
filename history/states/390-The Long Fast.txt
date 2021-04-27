@@ -1,0 +1,22 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		729 1036 1419 1462 1625 1899 3963 4725 5573 6096 6338 7138 7165 7209 7237 7254 7262 7289 7293 7294 7301 7321 7389 7425 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			7237 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

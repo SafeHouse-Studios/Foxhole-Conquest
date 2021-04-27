@@ -1,0 +1,22 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		184 313 3117 4547 4694 6105 6187 8035 8054 8055 8080 8132 8189 8190 8191 8199 8200 8238 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			8132 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

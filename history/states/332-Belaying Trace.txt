@@ -1,0 +1,22 @@
+state={
+	id=332
+	name="STATE_332"
+	provinces={
+		833 1393 1468 2840 3705 4373 4574 4662 5211 6100 6148 10327 10355 10381 10417 10444 10460 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			4373 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

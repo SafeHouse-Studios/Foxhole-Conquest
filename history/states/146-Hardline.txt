@@ -1,0 +1,23 @@
+state={
+	id=146
+	name="STATE_146"
+	provinces={
+		671 2448 2456 3685 3937 4015 4326 4468 4523 4700 6388 7686 7777 7805 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			4326 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+
+}

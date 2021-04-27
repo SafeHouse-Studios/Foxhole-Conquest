@@ -1,0 +1,21 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		630 825 1929 1957 3039 3445 3495 3982 4069 4616 4842 5499 6260 7974 8023 8093 8108 8126 8131 8147 8153 8170 8187 8196 8226 8268 8293 8309 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = {
+		steel = 9
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		462 913 1142 1145 1677 2079 2241 2560 2898 3899 4394 4822 4839 5376 6690 6694 6714 6718 6736 6745 6757 6773 6775 6787 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = {
+		tungsten = 3
+	}
+}

@@ -1,0 +1,32 @@
+state={
+	id=203
+	name="STATE_203"
+	provinces={
+		732 1708 1877 2938 3048 3827 4245 5108 5151 6097 6315 10386 10406 10411 10448 10538 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			4245 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			
+			6315 = {
+				bunker = 5
+			}
+			3048 = {
+				bunker = 5
+			}
+			10406 = {
+				bunker = 2
+			}
+		}
+	}
+}

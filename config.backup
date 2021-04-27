@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+	sharedrepository = 2
+[receive]
+	denyNonFastforwards = true
+[remote "FoxholeMod"]
+	url = https://github.com/Victory143/Hoi4-Foxhole-Mod.git
+	fetch = +refs/heads/*:refs/remotes/FoxholeMod/*

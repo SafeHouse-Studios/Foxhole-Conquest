@@ -1,0 +1,18 @@
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		612 1146 2075 2946 3787 5480 5536 6093 9030 9044 9143 9155 9159 9195 9212 9216 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

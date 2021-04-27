@@ -1,0 +1,22 @@
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		90 882 1013 1221 1431 2024 3095 3118 3222 3478 3888 3922 4507 4705 5338 5662 6624 6647 6677 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			3888 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

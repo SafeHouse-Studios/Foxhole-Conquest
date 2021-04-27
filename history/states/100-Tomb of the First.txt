@@ -1,0 +1,22 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		2422 2529 2953 3164 3429 3742 5525 5694 5983 6106 8583 8627 8628 8642 8667 8673 8744 8786 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			8673 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

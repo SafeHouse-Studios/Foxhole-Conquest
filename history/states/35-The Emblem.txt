@@ -1,0 +1,24 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		551 556 1082 3252 6076 6886 6900 6947 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			556 = {
+				naval_base = 1
+			}
+		}
+	}
+}

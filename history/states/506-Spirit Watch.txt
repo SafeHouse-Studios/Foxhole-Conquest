@@ -1,0 +1,22 @@
+state={
+	id=506
+	name="STATE_506"
+	provinces={
+		210 2216 2380 3469 3564 3890 4042 4272 4527 4894 5037 5641 6068 6195 6345 6850 6855 6871 6873 6904 6910 6935 6940 6963 6967 6971 6980 6999 7092 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+		    6940 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

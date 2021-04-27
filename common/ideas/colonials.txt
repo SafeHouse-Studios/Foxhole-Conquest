@@ -1,0 +1,108 @@
+ideas = {
+
+	country = {
+		MCA_trade_Committe_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05	
+				production_speed_infrastructure_factor = 0.05
+			}
+
+		}
+		MCA_trade_Committe_veli_idea = {MCA_trade_Committe_Mesean_idea
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		MCA_trade_Committe_Mesean_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		MCA_to_feed_the_legion_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.05
+				army_org_regain = 0.05
+			}
+		}
+		MCA_the_colonial_breadbasket_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.10
+				army_org_regain = 0.10
+				stability_factor = 0.10
+			}
+		}
+		MCA_convert_farmland_to_industry_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = +0.15
+			}
+		}
+	}

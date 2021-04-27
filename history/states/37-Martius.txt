@@ -1,0 +1,22 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		620 2495 2709 3166 3334 4633 4925 5467 6082 6954 6956 6981 7016 7044 7065 7096 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			7016 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

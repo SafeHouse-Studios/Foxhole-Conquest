@@ -1,0 +1,37 @@
+state={
+	id=247
+	name="STATE_247"
+	provinces={
+		1061 1296 1689 3555 3834 4431 4475 4833 5482 9817 9852 9875 9927 9977 10000 10031 10040 10078 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			10031 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 2
+			
+			10040 = {
+				bunker = 5
+			}
+			10000 = {
+				bunker = 5
+			}
+			9977 = {
+				bunker = 5
+			}
+			9927 = {
+				bunker = 5
+			}
+		}
+	}
+}

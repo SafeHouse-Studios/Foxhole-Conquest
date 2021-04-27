@@ -1,0 +1,64 @@
+MCA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+CWE = {
+	color = rgb { 1 1 200 }
+	color_ui = rgb { 2 2 200 }
+}
+TLA = {
+	color = rgb { 81 255 255 }
+	color_ui = rgb { 35 255 189 }
+}
+FTH = {
+	color = rgb { 2 85 30 }
+	color_ui =  rgb { 61 255 58 }
+}
+RDC = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+SOM = {
+	color = rgb { 61 158 56 }
+	color_ui = rgb { 32 84 30 }
+}
+DKD = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+PAR = {
+	color = rgb { 181 0 6 }
+	color_ui = rgb { 219 0 7 }
+}
+FWG = {
+	color = rgb { 71 255 230 }
+	color_ui = rgb { 52 186 170 }
+}
+LOX = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 188 157 0 }
+}
+SGE = {
+	color = rgb { 32 67 120 }
+	color_ui = rgb { 53 111 198 }
+}
+CSO = {
+	color = rgb { 47 74 54 }
+	color_ui = rgb { 47 209 54 }
+}
+WNA = {
+	color = rgb { 0 0 128 }
+	color_ui = rgb { 0 0 242 }
+}
+BRT = {
+	color = rgb { 0 0 105 }
+	color_ui = rgb { 0 109 181 }
+}
+GEP = {
+	color = rgb { 184 61 186 }
+	color_ui = rgb { 184 105 255 }
+}
+ANT = {
+	color = rgb { 145 20 32 }
+	color_ui = rgb { 219 30 49 }
+}

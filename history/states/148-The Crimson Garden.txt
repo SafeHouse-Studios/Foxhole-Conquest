@@ -1,0 +1,24 @@
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		67 656 2844 3021 3302 4158 4607 4780 5667 5999 7628 7703 7739 7786 7791 7800 7855 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+            3021 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+		}
+	}
+}

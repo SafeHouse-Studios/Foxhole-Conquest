@@ -1,0 +1,21 @@
+state={
+	id=555
+	name="STATE_555"
+	provinces={
+		167 172 195 231 467 514 643 698 762 785 926 960 1313 1490 2341 2730 2834 2883 4528 4939 5284 6403 6404 6412 6427 6443 6450 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = {
+		steel = 55
+	}
+}

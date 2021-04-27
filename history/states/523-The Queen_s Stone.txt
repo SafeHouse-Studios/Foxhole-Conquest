@@ -1,0 +1,22 @@
+state={
+	id=523
+	name="STATE_523"
+	provinces={
+		44 892 2454 3289 3793 3832 4589 5392 6175 10880 10888 10908 10928 10959 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	resources = {
+		aluminium = 7
+		tungsten = 3
+	}
+}

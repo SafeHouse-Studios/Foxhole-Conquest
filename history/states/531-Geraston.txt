@@ -1,0 +1,18 @@
+state={
+	id=531
+	name="STATE_531"
+	provinces={
+		73 211 298 360 714 782 930 1034 1209 1501 2299 2600 2632 2971 3502 3672 5164 5426 6065 11158 11161 11174 11178 11186 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

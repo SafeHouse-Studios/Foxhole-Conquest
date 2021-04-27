@@ -1,0 +1,18 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		940 954 1810 2163 4259 4269 4480 5850 8668 8678 8708 8778 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

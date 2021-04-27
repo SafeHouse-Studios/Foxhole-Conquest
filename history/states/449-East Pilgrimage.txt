@@ -1,0 +1,18 @@
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		83 278 531 1096 1507 1911 2156 2714 3092 3182 3423 4216 4773 5088 6012 6861 6862 6908 6915 6939 6995 7048 7049 7064 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

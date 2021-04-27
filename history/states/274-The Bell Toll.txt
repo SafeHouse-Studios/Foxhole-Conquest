@@ -1,0 +1,25 @@
+state={
+	id=274
+	name="STATE_274"
+	provinces={
+		567 1151 1855 3475 4387 5026 5076 5097 5661 5949 6294 10518 10536 10541 10562 10584 10598 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			1151 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	resources = {
+		aluminium = 6
+	}
+}

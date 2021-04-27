@@ -1,0 +1,27 @@
+state={
+	id=527
+	name="STATE_527"
+	provinces={
+		40 354 401 511 692 697 1162 1168 1271 1527 2990 3065 3521 4985 5574 11129 11152 11154 11156 11164 11169 11184 
+	}
+	manpower=1750000
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            3521 50
+		}
+		
+		buildings = {
+			infrastructure = 9
+			air_base = 1
+			
+			arms_factory = 2
+			industrial_complex = 2
+			fuel_silo = 2
+		}
+	}
+}

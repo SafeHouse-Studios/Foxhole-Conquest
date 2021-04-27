@@ -1,0 +1,22 @@
+state={
+	id=540
+	name="STATE_540"
+	provinces={
+		47 952 953 1038 1518 1947 2272 2564 2851 3134 3441 3634 4101 4237 4816 4823 5015 5233 5293 5581 6024 6056 6201 6268 6387 10748 10773 10777 10799 10840 10849 10881 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			2564 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+		}
+	}
+}

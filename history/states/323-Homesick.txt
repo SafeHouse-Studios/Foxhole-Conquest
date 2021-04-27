@@ -1,0 +1,31 @@
+state={
+	id=323
+	name="STATE_323"
+	provinces={
+		229 443 957 2476 2552 3773 3967 4278 5129 5383 5897 6092 6368 10015 10059 10100 10157 10248 10251 10284 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			2476 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			
+			dockyard = 1
+			
+			10059 = {
+				naval_base = 1
+			}
+			229 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=385
+	name="STATE_385"
+	provinces={
+		589 1884 1935 3178 3548 3984 5030 5400 6018 7337 7342 7352 7387 7395 7430 7440 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			3984 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	resources = {
+		steel = 9
+	}
+}

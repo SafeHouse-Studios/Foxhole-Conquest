@@ -1,0 +1,34 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		266 831 1220 2358 3086 4962 5256 5332 6137 10310 10318 10337 10358 10388 10425 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+			
+			4962 = {
+				bunker = 5
+			}
+			266 = {
+				bunker = 5
+			}
+			3086 = {
+				bunker = 5
+			}
+			10388 = {
+				bunker = 2
+			}
+			10358 = {
+				bunker = 5
+			}
+		}
+	}
+}

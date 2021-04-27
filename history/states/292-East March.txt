@@ -1,0 +1,35 @@
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		560 1219 1354 2217 2563 3096 3756 4261 4784 5020 5477 5586 9217 9220 9262 9276 9322 9327 9339 9430 9459 9486 9557 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			9262 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			
+			9339 = {
+				bunker = 5
+			}
+			9322 = {
+				bunker = 2
+			}
+			9327 = {
+				bunker = 5
+			}
+			560 = {
+				bunker = 5
+			}
+		}
+	}
+}

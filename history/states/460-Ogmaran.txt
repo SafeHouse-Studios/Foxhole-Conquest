@@ -1,0 +1,30 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		56 786 1078 1282 1483 1536 1610 1627 1711 1743 1919 1922 1942 2616 2763 3177 3275 4571 5017 6475 6477 6479 6490 6498 6514 6522 6534 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			6498 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			
+			6534 = {
+				naval_base = 1
+			}
+		}
+	}
+}

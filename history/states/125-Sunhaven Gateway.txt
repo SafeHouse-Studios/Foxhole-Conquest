@@ -1,0 +1,18 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		3296 8557 8585 8603 8622 8661 8679 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

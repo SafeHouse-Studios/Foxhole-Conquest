@@ -1,0 +1,24 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		969 2361 3232 5080 5437 7760 7827 7876 7881 7886 8005 8040 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			3232 = {
+				naval_base = 1
+			}
+		}
+	}
+}

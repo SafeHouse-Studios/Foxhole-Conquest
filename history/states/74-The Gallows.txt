@@ -1,0 +1,29 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		726 849 1806 2095 3568 3923 4445 4830 5775 6209 6283 9373 9383 9400 9413 9498 9515 9561 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            4445 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 2
+			dockyard = 1
+			
+			726 = {
+				naval_base = 1
+			}
+		}
+	}
+}

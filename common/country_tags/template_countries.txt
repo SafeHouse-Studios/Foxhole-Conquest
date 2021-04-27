@@ -1,0 +1,2 @@
+MCA = "countries/Colonials.txt"
+CWE = "countries/Wardens.txt"

@@ -1,0 +1,27 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		418 1308 2403 2704 4043 4537 4846 6014 6153 8671 8690 8782 8798 8799 8843 8862 8906 8950 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            8798 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			synthetic_refinery = 1
+		}
+	}
+	resources = {
+		tungsten = 4
+	}
+}

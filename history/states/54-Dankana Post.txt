@@ -1,0 +1,24 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		1996 2762 3775 3879 5675 9367 9389 9412 9434 9477 9507 9508 9553 9608 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 4
+			
+			dockyard = 1
+			
+			3775 = {
+				naval_base = 1
+			}
+		}
+	}
+}

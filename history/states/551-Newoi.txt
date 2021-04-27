@@ -1,0 +1,28 @@
+state={
+	id=551
+	name="STATE_551"
+	provinces={
+		307 585 757 1193 1214 1604 1924 2027 2259 2343 2419 2483 2491 2538 2591 2717 2951 2980 3029 3496 3603 4361 4473 4518 4552 4836 4952 5979 6354 10813 10816 10825 10842 10850 10856 10883 10901 10913 10946 10947 10964 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			10842 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	resources = {
+		steel = 21
+	}
+}

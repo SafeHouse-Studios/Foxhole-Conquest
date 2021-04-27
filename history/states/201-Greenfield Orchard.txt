@@ -1,0 +1,24 @@
+state={
+	id=201
+	name="STATE_201"
+	provinces={
+		277 2009 3149 3316 3739 4810 5018 6397 10076 10091 10123 10154 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			277 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			synthetic_refinery = 1
+		}
+	}
+}

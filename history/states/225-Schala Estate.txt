@@ -1,0 +1,18 @@
+state={
+	id=225
+	name="STATE_225"
+	provinces={
+		318 347 683 756 1391 1812 1946 2733 3116 4390 5041 5231 5818 10972 11006 11020 11041 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

@@ -1,0 +1,84 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+5264;5183;sea;16219;-1;-1;-1;-1;;West Jade-Apollo
+8589;2742;sea;15721;-1;-1;-1;-1;;East Jade-Apollo
+8590;8477;sea;11649;-1;-1;-1;-1;;Winged-Walks
+649;1322;sea;14981;-1;-1;-1;-1;;HuskHollow-PleadingWharf
+7910;6127;sea;15559;-1;-1;-1;-1;;Skelroad-Bonehaft
+7973;8029;sea;16168;-1;-1;-1;-1;;Skelroad-Scythe
+6132;8262;sea;13934;-1;-1;-1;-1;;WingedWalk-Mara
+7339;7288;sea;14371;-1;-1;-1;-1;;Akri-Ides
+3620;3034;sea;12914;-1;-1;-1;-1;;Ides-Skelter
+8543;8502;sea;16215;-1;-1;-1;-1;;Kofteri-Partisan
+9734;9769;sea;11413;-1;-1;-1;-1;;Ember-ThreeSisters
+9789;9689;sea;15271;-1;-1;-1;-1;;Sanctuary-CattleMarch
+6338;7148;sea;15361;-1;-1;-1;-1;;LongFast-HeirKnife
+6848;1789;sea;15708;-1;-1;-1;-1;;Tributary-BucklerSound
+1078;6491;sea;15822;-1;-1;-1;-1;;Ogmaran-Borderlane
+2529;8545;sea;16214;-1;-1;-1;-1;;MercysWish-TombFirst
+9121;5765;sea;16292;-1;-1;-1;-1;;MarketRoad-Feirmor
+9233;127;sea;15294;-1;-1;-1;-1;;OusterDown-FallenFields
+7838;7833;sea;13630;-1;-1;-1;-1;;FortDuncan-MercyfulStrait
+7521;5182;sea;16106;-1;-1;-1;-1;;UlsterFalls
+6816;6789;sea;13484;-1;-1;-1;-1;;ScaithingPass-SolasGate One
+4712;4451;sea;12843;-1;-1;-1;-1;;ScaithingPass-SolasGate Two
+8043;6374;sea;16159;-1;-1;-1;-1;;TarsalPathway-MercyfulStrait
+8336;176;sea;15451;-1;-1;-1;-1;;CoracoidFootpath-MercyfulStrait
+8329;8221;sea;15084;-1;-1;-1;-1;;LiberationPoint-TarsalPathway
+5956;8299;sea;16193;-1;-1;-1;-1;;AbandonedWard-ThePlaza One
+8412;8354;sea;12827;-1;-1;-1;-1;;AbandonedWard-ThePlaza Two
+422;2023;sea;16227;-1;-1;-1;-1;;CallahansBoot-HopesCauseway
+8792;8834;sea;14636;-1;-1;-1;-1;;HopesCauseway-BrineGlen
+9300;9282;sea;14921;-1;-1;-1;-1;;SaltFarms-MercysEnd
+9611;4310;sea;13927;-1;-1;-1;-1;;ShornFields-Stray
+6317;9821;sea;15634;-1;-1;-1;-1;;ClothosRefuge-Stray
+2317;11238;sea;15189;-1;-1;-1;-1;;Baths-Islands One
+2317;9666;sea;15189;-1;-1;-1;-1;;Baths-Islands Two
+11238;9543;sea;15189;-1;-1;-1;-1;;Baths-Islands Three
+4779;9543;sea;15189;-1;-1;-1;-1;;Baths-Islands Four
+9543;4156;sea;14789;-1;-1;-1;-1;;Baths-Islands Five
+4156;9466;sea;14789;-1;-1;-1;-1;;Baths-Soak
+5903;5704;sea;13486;-1;-1;-1;-1;;Soak-Wash
+9468;9513;sea;16333;-1;-1;-1;-1;Wash-EsterFalls
+9268;9237;sea;16306;-1;-1;-1;-1;;Wash-TurtleRocks
+8879;2558;sea;14465;-1;-1;-1;-1;;SingingSeperpents-Loggerhead
+8702;8769;sea;15168;-1;-1;-1;-1;;WispsWarning-LingeringLight
+4889;4735;sea;16533;-1;-1;-1;-1;;SilkFarms-WidowsWeb
+10458;10452;sea;12405;-1;-1;-1;-1;;SouthernReach-Savages
+1876;2150;sea;15000;-1;-1;-1;-1;;Savages-GorgonGrove
+9746;3141;sea;14739;-1;-1;-1;-1;;IslePysche-PointPysche
+10037;4595;sea;16395;-1;-1;-1;-1;;IslePysche-GaleLanding
+4595;10001;sea;14778;-1;-1;-1;-1;;IslePysche-TheGale
+9760;9679;sea;13273;-1;-1;-1;-1;;TheGale-LiarsHaven
+5234;8089;sea;13537;-1;-1;-1;-1;;Lockheed-LockheedBreakers
+8089;2882;sea;14609;-1;-1;-1;-1;;LockheedBreakers
+5031;4240;sea;12238;-1;-1;-1;-1;;FatelessGrove-MidMarch
+10756;10776;sea;15155;-1;-1;-1;-1;;FatelessGrove-VioletHome
+6400;4365;sea;16577;-1;-1;-1;-1;;Leto-SpiceRoad
+4200;1946;sea;14580;-1;-1;-1;-1;;Swan-SchalaEstate
+5929;7380;sea;15363;-1;-1;-1;-1;;LugboneDam-CheckpointBua
+577;4603;sea;14500;-1;-1;-1;-1;;Friars-SerenityBlight
+6558;6072;sea;14916;-1;-1;-1;-1;;Kirknell-Hardcaps
+8593;4917;sea;15323;-1;-1;-1;-1;;KelpiesTail-SelkieBluffs
+8368;8345;sea;12240;-1;-1;-1;-1;;SelkieBluffs-NightChurch
+8255;5406;sea;16177;-1;-1;-1;-1;;SaltbrookChannel One
+8240;8181;sea;15578;-1;-1;-1;-1;;SaltbrookChannel Two
+7946;6122;sea;16149;-1;-1;-1;-1;;DeargsFang-DamnantCoast
+8064;4535;sea;13763;-1;-1;-1;-1;;DamnantCoast-EvilEye
+7983;2557;sea;16157;-1;-1;-1;-1;;DamnantCoast-DarkRoad
+8242;8243;sea;15272;-1;-1;-1;-1;;AnchorBeach-UrsaTrail
+3877;7807;sea;14585;-1;-1;-1;-1;;BlackWatch
+3854;6282;sea;13972;-1;-1;-1;-1;;BlackWatch-Argosa
+5400;7353;sea;16093;-1;-1;-1;-1;;Protos-PrimusTrimes
+7153;4743;sea;15377;-1;-1;-1;-1;;Lathair-Nathair One
+7311;7252;sea;15698;-1;-1;-1;-1;;Lathair-Nathair Two
+7295;7251;sea;11919;-1;-1;-1;-1;;PrimusTrimes One
+7259;7236;sea;15356;-1;-1;-1;-1;;PrimusTrimes Two
+7245;1181;sea;14601;-1;-1;-1;-1;;DiceRoad-GamblersGulf
+7015;7069;sea;14377;-1;-1;-1;-1;;Skodio-GamblersGulf
+1711;6550;sea;15413;-1;-1;-1;-1;;Ogmaran-MoonsWalk
+9268;9237;sea;16306;-1;-1;-1;-1;;TheWash-TurtleRocks
+9754;9700;sea;16352;-1;-1;-1;-1;;VagrantBastion-Strands
+3716;10833;sea;13169;-1;-1;-1;-1;;UnderSilk
+10115;1061;sea;15022;-1;-1;-1;-1;;Amethyst-Leatherback
+8283;6389;sea;16184;-1;-1;-1;-1;;Wellchurch
+-1;-1;;-1;-1;-1;-1;-1;-1

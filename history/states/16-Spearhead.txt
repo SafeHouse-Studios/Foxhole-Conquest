@@ -1,0 +1,29 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		88 639 883 2119 3722 4017 4142 4516 4881 5625 5676 6035 7610 7646 7663 7685 7713 7751 7761 7762 7771 7809 7820 7836 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+            7809 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+	
+			dockyard = 1
+			synthetic_refinery = 1
+			
+			4017 = {
+				naval_base = 1
+			}
+		}
+	}
+}

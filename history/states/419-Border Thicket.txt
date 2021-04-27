@@ -1,0 +1,18 @@
+state={
+	id=419
+	name="STATE_419"
+	provinces={
+		1215 1274 2905 3157 4280 5137 5510 5559 5772 5964 6028 7856 7862 7863 7873 7900 7906 7997 8010 8011 8016 8045 8049 8058 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

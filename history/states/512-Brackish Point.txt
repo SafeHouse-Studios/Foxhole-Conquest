@@ -1,0 +1,24 @@
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		538 2986 3025 4029 4558 4638 5051 5065 5111 5158 5422 5610 5800 6377 7580 7606 7684 7698 7737 7746 7814 7850 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			4558 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			synthetic_refinery = 1
+		}
+	}
+}

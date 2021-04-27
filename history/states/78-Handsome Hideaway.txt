@@ -1,0 +1,28 @@
+state={
+	id=78
+	name="STATE_78"
+	provinces={
+		1798 2354 2382 2746 2945 2992 3108 3255 4367 5635 5682 6045 6253 6277 10034 10067 10099 10110 10143 10150 10175 10186 10197 10235 10241 10268 10305 10328 10334 10347 10398 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			1798 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			
+			dockyard = 1
+			
+			2354 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		1212 1294 1885 2020 4426 5165 5189 8230 8251 8261 8320 8321 8322 8335 8347 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+}

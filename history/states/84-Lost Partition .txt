@@ -1,0 +1,22 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		1764 3604 4316 4398 4508 5100 5491 6044 10165 10176 10204 10212 10259 10278 10294 10301 10309 10367 10372 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			10212 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+	}
+}

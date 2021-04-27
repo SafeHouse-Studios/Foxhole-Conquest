@@ -1,0 +1,25 @@
+state={
+	id=193
+	name="STATE_193"
+	provinces={
+		188 249 1945 2101 2519 4502 4776 5140 5503 5551 5925 5990 6041 6343 10322 10369 10403 10410 10432 10442 10483 10507 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            5503 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			industrial_complex = 1
+		}
+	}
+}

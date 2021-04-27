@@ -1,0 +1,30 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		945 1714 2553 3110 4392 5010 5917 6320 9052 9085 9142 9158 9194 9232 9250 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            2553 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			industrial_complex = 1
+			dockyard = 1
+			
+			3110 = {
+				naval_base = 1
+			}
+		}
+	}
+}

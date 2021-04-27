@@ -1,0 +1,56 @@
+state={
+	id=204
+	name="STATE_204"
+	provinces={
+		60 256 1005 3099 4243 4655 4750 4859 4862 4877 5552 5737 10627 10630 10647 10662 10705 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			4877 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			fuel_silo = 2
+			
+			4243 = {
+				bunker = 2
+			}
+			4655 = {
+				bunker = 5
+			}
+			4862 = {
+				bunker = 2
+			}
+			3099 = {
+				bunker = 5
+			}
+			60 = {
+				bunker = 5
+			}
+			4859 = {
+				bunker = 5
+			}
+			5737 = {
+				bunker = 5
+			}
+			10705 = {
+				bunker = 5
+			}
+			256 = {
+				bunker = 2
+			}
+			4750 = {
+				bunker = 5
+			}
+		}
+	}
+}

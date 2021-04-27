@@ -1,0 +1,27 @@
+state={
+	id=230
+	name="STATE_230"
+	provinces={
+		867 1058 1223 1544 1636 2014 2030 2347 3559 4993 10522 10558 10575 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			2030 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+		}
+	}
+	resources = {
+		tungsten = 7
+	}
+}

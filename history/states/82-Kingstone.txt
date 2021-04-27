@@ -1,0 +1,24 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		872 1879 5454 5612 6290 9839 9866 9970 9987 9997 10029 10043 10051 10073 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+            1879 30
+		}
+		
+		buildings = {
+			infrastructure = 2
+			
+			industrial_complex = 1
+		}
+	}
+}

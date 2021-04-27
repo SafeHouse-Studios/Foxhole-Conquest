@@ -1,0 +1,18 @@
+state={
+	id=543
+	name="STATE_543"
+	provinces={
+		38 39 71 78 139 463 543 664 1180 1218 1797 1977 2093 2258 2338 2371 2411 2643 2896 2991 3090 3582 4631 5260 5342 5550 5585 5870 6150 11126 11139 11162 11176 11203 11230 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

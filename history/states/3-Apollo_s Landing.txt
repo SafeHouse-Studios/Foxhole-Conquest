@@ -1,0 +1,25 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		525 2002 2542 2742 3251 3415 5183 5718 8431 8459 8524 8537 8564 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+            2002 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 2
+			industrial_complex = 1
+		}
+	}
+}

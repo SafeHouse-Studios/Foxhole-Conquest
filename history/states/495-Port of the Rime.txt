@@ -1,0 +1,31 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		986 994 1240 2301 2378 2784 3648 3798 6180 6569 6571 6584 6598 6609 6614 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			3648 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			
+			994 = {
+				naval_base = 1
+			}
+		}
+	}
+}

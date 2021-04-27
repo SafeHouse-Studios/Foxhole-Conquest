@@ -1,0 +1,27 @@
+state={
+	id=456
+	name="STATE_456"
+	provinces={
+		274 348 509 673 966 1454 1575 1918 1968 2085 2673 3602 3676 3692 3956 4103 5063 5619 6072 6488 6529 6535 6554 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			2085 = {
+				naval_base = 1
+			}
+		}
+	}
+	resources = {
+		steel = 15
+	}
+}

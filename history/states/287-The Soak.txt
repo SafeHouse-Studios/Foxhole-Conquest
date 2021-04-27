@@ -1,0 +1,31 @@
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		2051 2285 4964 5903 9359 9365 9387 9410 9431 9466 9482 9487 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			9365 = {
+				bunker = 5
+			}
+			9410 = {
+				bunker = 5
+			}
+			4964 = {
+				bunker = 5
+			}
+			5903 = {
+				bunker = 5
+			}
+		}
+	}
+}

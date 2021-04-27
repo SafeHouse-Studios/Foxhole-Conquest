@@ -1,0 +1,86 @@
+capital = 573
+
+oob = "WNA_0792"
+
+set_research_slots = 3
+
+set_convoys = 1
+
+set_war_support = 0.05
+set_stability = 0.40
+
+0792.1.1 = {
+	set_technology = {
+		
+		#equipment
+		gw_artillery = 1
+		
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 90
+	democratic = 10
+}
+create_country_leader = {
+	name = "Antman"
+	picture = "Portrait_ANT_leader.tga"
+	expire = "1939.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Leader2"
+	picture = "Portrait_ANT_leader.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Leader3"
+	picture = "Portrait_ANT_leader.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Leader1"
+	picture = "Portrait_ANT_leader.dds"
+	expire = "1965.1.1"
+	ideology = liberslism
+	traits = {
+		#
+	}
+}

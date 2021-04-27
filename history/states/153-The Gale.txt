@@ -1,0 +1,35 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		2908 3304 3343 3580 5209 5298 5362 6383 9687 9721 9752 9760 9798 9813 9830 9881 9886 9896 9920 9943 9962 10001 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			9798 10
+		}
+		
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+			
+			dockyard = 1
+			
+			9687 = {
+				naval_base = 1
+			}
+			3343 = {
+				naval_base = 1
+			}
+			9752 = {
+				naval_base = 1
+			}
+		}
+	}
+}

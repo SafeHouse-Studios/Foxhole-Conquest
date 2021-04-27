@@ -1,0 +1,34 @@
+state={
+	id=242
+	name="STATE_242"
+	provinces={
+		471 474 1429 1445 2249 2831 3154 3751 4889 5824 10737 10762 10783 10804 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			10804 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			
+			3154 = {
+				naval_base = 1
+			}
+		}
+	}
+	resources = {
+		steel = 9
+	}
+}

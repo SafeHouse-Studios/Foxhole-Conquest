@@ -1,0 +1,18 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		1121 1157 3287 3406 3463 3805 3925 4055 5373 5910 6218 7345 7351 7375 7400 7403 7424 7469 7516 7524 7530 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

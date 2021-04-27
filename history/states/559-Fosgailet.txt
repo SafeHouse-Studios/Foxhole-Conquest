@@ -1,0 +1,25 @@
+state={
+	id=559
+	name="STATE_559"
+	provinces={
+		36 96 276 324 399 617 627 734 795 1469 2287 3226 3238 3483 3667 4198 4612 5210 5259 5883 6272 6407 6408 6415 6424 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			5259 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+}

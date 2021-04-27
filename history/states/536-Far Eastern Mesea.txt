@@ -1,0 +1,25 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		10 170 259 357 362 368 400 507 579 668 803 820 865 1017 1035 1154 1195 1508 1664 1696 1756 1851 1930 1950 1966 2322 2464 2639 2816 2995 3267 3571 3772 3817 4093 4131 4249 4344 4425 5115 5352 5464 6158 6331 6370 11130 11149 11172 11180 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			6158 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+}

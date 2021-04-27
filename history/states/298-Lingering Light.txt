@@ -1,0 +1,21 @@
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		55 614 2330 2488 4295 5128 5213 5583 5828 6182 8769 8818 8827 8836 8839 8848 8878 8890 8891 8898 8933 8934 8945 8974 8990 8996 9026 9049 9058 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = {
+		steel = 9
+	}
+}

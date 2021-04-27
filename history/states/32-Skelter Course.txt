@@ -1,0 +1,30 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		97 153 1004 2801 3034 5666 5941 6143 6258 6347 7137 7168 7173 7219 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+            7137 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			
+			6258 = {
+				naval_base = 1
+			}
+		}
+	}
+}

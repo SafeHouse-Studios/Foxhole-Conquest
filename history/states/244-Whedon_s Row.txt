@@ -1,0 +1,30 @@
+state={
+	id=244
+	name="STATE_244"
+	provinces={
+		64 143 434 695 917 1228 1361 1471 1897 1965 2716 2921 3540 3570 3723 3880 4871 5316 5473 5515 5806 6533 6561 6578 6590 6599 6600 6613 
+	}
+	manpower=1750000
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+            3880 50
+		}
+		
+		buildings = {
+			infrastructure = 9
+			air_base = 1
+			
+			arms_factory = 2
+			industrial_complex = 2
+			fuel_silo = 2
+		}
+	}
+	resources = {
+		aluminium = 6
+	}
+}

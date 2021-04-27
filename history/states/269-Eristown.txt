@@ -1,0 +1,18 @@
+state={
+	id=269
+	name="STATE_269"
+	provinces={
+		484 792 1144 1779 3332 4408 11098 11117 11127 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 4
+		}
+	}
+}

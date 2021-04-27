@@ -1,0 +1,18 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		176 3208 3594 6214 6374 7981 7986 8021 8036 8088 8099 8130 8133 8144 8158 8186 8195 8213 8232 8253 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

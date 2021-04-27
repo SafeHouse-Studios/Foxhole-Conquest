@@ -1,0 +1,25 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		949 1912 2497 2693 3863 4404 7192 7193 7197 7226 7261 7267 7280 7310 7325 7376 7383 11235
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		victory_points = {
+			7267 30
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			industrial_complex = 1
+			synthetic_refinery = 1
+		}
+	}
+}

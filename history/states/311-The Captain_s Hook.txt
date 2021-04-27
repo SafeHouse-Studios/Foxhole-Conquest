@@ -1,0 +1,30 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		31 1626 1787 3477 3595 4855 4857 5091 5285 5365 5728 6113 9580 9637 9686 9710 9740 9768 9894 9929 9930 9950 9954 9961 9972 9985 9996 10022 10042 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		buildings = {
+			infrastructure = 4
+			
+			dockyard = 1
+			
+			9950 = {
+				naval_base = 1
+			}
+			3595 = {
+				naval_base = 1
+			}
+			3477 = {
+				naval_base = 1
+			}
+		}
+	}
+}

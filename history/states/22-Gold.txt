@@ -1,0 +1,23 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		1784 4155 4188 5244 5276 5706 6197 6221 6235 7331 7367 7388 7428 11236
+	}manpower=550000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history = {
+		owner = CWE
+		add_core_of = CWE
+		
+		buildings = {
+			infrastructure = 2
+			
+			dockyard = 1
+			
+			4155 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Colonial Navy"
+		naval_base = 6098
+		task_force = {				
+			name = "Fisherman's Guard"			
+			location = 6098
+			ship = { name = "CN Fisher I" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCA version_name = "Swimmer Class" } } }
+			ship = { name = "CN Fisher II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCA version_name = "Swimmer Class" } } }
+		}				
+	}
+}
+
+

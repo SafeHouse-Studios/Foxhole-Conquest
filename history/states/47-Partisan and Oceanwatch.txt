@@ -1,0 +1,35 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		1363 1737 2124 2799 3503 3677 6176 8543 8580 8649 8692 8741 8742 8797 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			6176 30
+		}
+		victory_points = {
+			1737 10   
+		}
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			
+			dockyard = 1
+			
+			8649 = {
+				naval_base = 1
+			}
+			6176 = {
+				naval_base = 1
+			}
+		}
+	}
+}

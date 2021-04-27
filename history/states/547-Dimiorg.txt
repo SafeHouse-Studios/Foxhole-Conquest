@@ -1,0 +1,28 @@
+state={
+	id=547
+	name="STATE_547"
+	provinces={
+		22 92 93 144 193 216 345 450 544 569 666 763 775 937 985 1086 1150 1188 1319 1349 1422 1435 1477 1479 1551 1570 1958 2035 2104 2261 2500 2534 2581 2677 2830 2922 2978 2997 3038 3346 3447 3505 3788 3837 4025 4032 4129 4379 4542 4807 4920 5502 5743 11103 11112 11115 11116 11128 11132 11136 11141 11142 11153 11167 11171 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = MCA
+		add_core_of = MCA
+		
+		victory_points = {
+			1435 40
+		}
+		
+		buildings = {
+			infrastructure = 8
+			
+			arms_factory = 4
+		}
+	}
+	resources = {
+		tungsten = 5
+		chromium = 10
+	}
+}
