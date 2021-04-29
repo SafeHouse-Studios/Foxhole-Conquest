@@ -1,4 +1,3 @@
-#rega was here
 focus_tree = {
 	id = 1
 	country = {
