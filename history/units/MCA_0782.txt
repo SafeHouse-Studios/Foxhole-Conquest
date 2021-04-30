@@ -71,6 +71,8 @@ units = {
 			ship = { name = "CN Sisher II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCA version_name = "Swimmer Class" } } }
 		}				
 	}
+}
+
 #########################
 ## STARTING PRODUCTION ##
 #########################
@@ -78,14 +80,11 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "MCA"
 		}
 		requested_factories = 10
 		progress = 0.1
 		efficiency = 50
 	}
-
-	
-
-#####################
+}
