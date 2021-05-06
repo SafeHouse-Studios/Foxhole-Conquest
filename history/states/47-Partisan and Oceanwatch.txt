@@ -11,6 +11,13 @@ state={
 		owner = MCA
 		add_core_of = MCA
 		
+		0792.1.1 = {
+			owner = WNA
+			controller = WNA
+			add_core_of = WNA
+			remove_core_of = MCA
+		}
+		
 		victory_points = {
 			6176 30
 		}

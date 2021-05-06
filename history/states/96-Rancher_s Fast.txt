@@ -11,6 +11,13 @@ state={
 		owner = MCA
 		add_core_of = MCA
 		
+		0792.1.1 = {
+			owner = LOX
+			controller = LOX
+			add_core_of = LOX
+			remove_core_of = MCA
+		}
+		
 		victory_points = {
 			3862 10
 		}

@@ -11,6 +11,13 @@ state={
 		owner = MCA
 		add_core_of = MCA
 		
+		0792.1.1 = {
+			owner = SGE
+			controller = SGE
+			add_core_of = SGE
+			remove_core_of = MCA
+		}
+		
 		victory_points = {
 			2984 40
 		}
@@ -26,6 +33,7 @@ state={
 			arms_factory = 2
 			industrial_complex = 3
 			dockyard = 1
+			rocket_site = 3
 			
 			10413 = {
 				naval_base = 1

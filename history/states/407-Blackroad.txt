@@ -11,6 +11,13 @@ state={
 		owner = CWE
 		add_core_of = CWE
 		
+		0792.1.1 = {
+			owner = BRT
+			controller = BRT
+			add_core_of = BRT
+			remove_core_of = CWE
+		}
+		
 		buildings = {
 			infrastructure = 6
 		}

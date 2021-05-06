@@ -13,6 +13,8 @@ state={
 		
 		buildings = {
 			infrastructure = 2
+			
+			rocket_site = 3
 		}
 	}
 }

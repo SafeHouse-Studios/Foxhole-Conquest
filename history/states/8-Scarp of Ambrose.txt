@@ -11,12 +11,21 @@ state={
 		owner = CWE
 		add_core_of = CWE
 		
+		0792.1.1 = {
+			owner = WNA
+			controller = WNA
+			add_core_of = WNA
+			remove_core_of = CWE
+		}
+		
 		victory_points = {
 			8128 10
 		}
 		
 		buildings = {
 			infrastructure = 6
+			
+			rocket_site = 3
 		}
 	}
 }

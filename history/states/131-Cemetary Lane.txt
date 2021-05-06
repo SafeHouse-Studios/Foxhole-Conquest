@@ -11,6 +11,13 @@ state={
 		owner = MCA
 		add_core_of = MCA
 		
+		0792.1.1 = {
+			owner = RDC
+			controller = RDC
+			add_core_of = RDC
+			remove_core_of = MCA
+		}
+		
 		buildings = {
 			infrastructure = 6
 		}

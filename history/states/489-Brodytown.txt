@@ -11,6 +11,13 @@ state={
 		owner = CWE
 		add_core_of = CWE
 		
+		0792.1.1 = {
+			owner = TLA
+			controller = TLA
+			add_core_of = TLA
+			remove_core_of = CWE
+		}
+		
 		victory_points = {
 			771 30
 		}
