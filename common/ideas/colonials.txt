@@ -19,7 +19,7 @@ ideas = {
 			}
 
 		}
-		MCA_trade_Committe_veli_idea = {
+		MCA_trade_Committe_veli_idea = {MCA_trade_Committe_Mesean_idea
 			
 			allowed = {
 				always = yes
@@ -104,5 +104,24 @@ ideas = {
 				stability_factor = -0.10
 				production_factory_max_efficiency_factor = +0.15
 			}
+		}
+		MCA_senate_divided_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.10
+				war_support_factor = -0.05
+			}
+
 		}
 	}

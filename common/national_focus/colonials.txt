@@ -30,7 +30,7 @@ focus_tree = {
 		icon = fund_the_damokratos_rail_line
 		x = 6
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_establish_the_trade_committee }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -69,7 +69,7 @@ focus_tree = {
 		icon = develop_mesean_infrastructure
 		x = 10
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_establish_the_trade_committee }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -142,7 +142,7 @@ focus_tree = {
 		icon = develop_damokratos_ports
 		x = 6
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_fund_the_damokratos_rail_line }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -173,7 +173,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 6
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_damokratos_ports }
 		mutually_exclusive = { focus = MCA_stack_the_trade_committee_with_meseans }
@@ -220,7 +220,7 @@ focus_tree = {
 		icon = develop_therizo
 		x = 14
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_the_colonies }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -261,7 +261,7 @@ focus_tree = {
 		icon = establish_mesean_ports
 		x = 10
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_mesean_infrastructure }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -290,7 +290,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 10
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_establish_mesean_ports }
 		mutually_exclusive = { focus = MCA_stack_the_trade_committee_with_velians }
@@ -311,7 +311,7 @@ focus_tree = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
-					instant_build = yes
+					instant_build = yes 
 				}
 			}
 			545 = {
@@ -358,7 +358,7 @@ focus_tree = {
 		icon = develop_the_colonies
 		x = 15
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_establish_the_trade_committee }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -373,7 +373,7 @@ focus_tree = {
 		icon = embrace_therizian_agrarianism
 		x = 12
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_therizo }
 		mutually_exclusive = { focus = MCA_invest_in_therizian_industry }
@@ -412,7 +412,7 @@ focus_tree = {
 		icon = invest_in_therizian_industry
 		x = 16
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_therizo }
 		mutually_exclusive = { focus = MCA_invest_in_therizian_industry }
@@ -451,7 +451,7 @@ focus_tree = {
 		icon = to_feed_the_legion
 		x = 12
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_embrace_therizian_agrarianism }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -493,7 +493,7 @@ focus_tree = {
 		icon = the_colonial_breadbasket
 		x = 12
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_to_feed_the_legion }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -515,7 +515,7 @@ focus_tree = {
 		icon = focus_mesean_industry
 		x = 9
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_stack_the_trade_committee_with_meseans }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -581,7 +581,7 @@ focus_tree = {
 		icon = construct_new_ordnance_plants
 		x = 7
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		available = {
 			date > 788.01.01
@@ -632,7 +632,7 @@ focus_tree = {
 		icon = invest_in_velian_lumber_trade
 		x = 5
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_stack_the_trade_committee_with_velians }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -684,7 +684,7 @@ focus_tree = {
 		icon = secure_kraunian_access_to_the_aging_ocean
 		x = 23
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_kraunian_roads }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -698,7 +698,7 @@ focus_tree = {
 		icon = fortify_the_bulwark
 		x = 7
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_construct_new_ordnance_plants }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -708,6 +708,72 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			83 = {
+				add_building_construction = {
+				 type = bunker
+				  level = 2
+				  instant_build = yes
+				  province = 2727
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 4585
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 10208
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 10242
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 10277
+				}
+			  }
+			86 = {
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 1251
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 10349
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 1563
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 2028
+				}
+				add_building_construction = {
+					type = bunker
+					 level = 2
+					 instant_build = yes
+					 province = 10418
+				}
+			}
+		}
 	}
 
 	#Focus for Facilitate Therizian Arms Plants
@@ -716,7 +782,7 @@ focus_tree = {
 		icon = facilitate_therizian_arms_plants
 		x = 16
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_invest_in_therizian_industry }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -757,12 +823,38 @@ focus_tree = {
 		icon = develop_dimiourg
 		x = 19
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_the_colonies }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			547 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -772,13 +864,40 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 20
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_dimiourg }
 		mutually_exclusive = { focus = MCA_embrace_dimian_industrialism }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			stability_factor = .05
+			547 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -788,12 +907,54 @@ focus_tree = {
 		icon = prosperous_republic
 		x = 20
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_balanced_development }
+		available = { date > 788.01.01 }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			547 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -803,13 +964,36 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_dimiourg }
 		mutually_exclusive = { focus = MCA_balanced_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward - {
+			547 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -819,12 +1003,37 @@ focus_tree = {
 		icon = Disregard_labour_Protests
 		x = 18
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_embrace_dimian_industrialism }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			communism_drift_factor = 0.03
+			stability_factor = -0.05
+			547 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -834,12 +1043,38 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		x = 18
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_disregard_labor_protests }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 787.06.01
+		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			547 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			548 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			549 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -849,23 +1084,26 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_a_sky_of_smokestacks }
 		mutually_exclusive = { focus = MCA_convert_farmland_to_industry }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		available = {
+			date > 788.06.01
+		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
+		##### start here
 	#Focus for Convert Farmland To Industry
 	focus = {
-		id = MCA_convert_farmland_to_industry
+		id = MCA_convert_farmland_to_industry 
 		icon = convert_farmland_to_industry
 		x = 16
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_facilitate_therizian_arms_plants }
 		mutually_exclusive = { focus = MCA_import_therizan_grain }
@@ -908,7 +1146,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 7
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_import_therizan_grain }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -923,7 +1161,7 @@ focus_tree = {
 		icon = develop_kraunia
 		x = 23
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_the_colonies }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -938,7 +1176,7 @@ focus_tree = {
 		icon = develop_kraunian_roads
 		x = 23
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_kraunia }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -946,6 +1184,981 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+	#Focus for Dawn Of The Velian Imperium
+	focus = {
+		id = MCA_dawn_of_the_velian_imperium
+		icon = GFX_goal_unknown
+		x = 26
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_select_a_new_caesar 
+		}
+		prerequisite = { 
+			focus = MCA_secret_velian_arms_plants 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Slay The Mesean Bear
+	focus = {
+		id = MCA_slay_the_mesean_bear
+		icon = GFX_goal_unknown
+		x = 26
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_dawn_of_the_velian_imperium }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Veli Invicta
+	focus = {
+		id = MCA_veli_invicta
+		icon = GFX_goal_unknown
+		x = 26
+		y = 13
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_slay_the_mesean_bear }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Commune
+	focus = {
+		id = MCA_the_great_commune
+		icon = GFX_goal_unknown
+		x = 40
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_enforce_decolonization }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revolution's Dawn
+	focus = {
+		id = MCA_revolutions_dawn
+		icon = MCA_revolutions_dawn
+		x = 40
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_forsake_the_legion 
+			focus = MCA_legionary_officers_cabal 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Organize The Red Legion
+	focus = {
+		id = MCA_organize_the_red_legion
+		icon = GFX_goal_support_fourth_int
+		x = 41
+		y = 3
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_concessions_to_labor_unions }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Failing Senate
+	focus = {
+		id = MCA_a_failing_senate
+		icon = GFX_goal_tripartite_pact
+		x = 28
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_senate_divided }
+		mutually_exclusive = { 
+			focus = MCA_offer_greater_representation_to_the_colonies 
+		}
+		mutually_exclusive = { 
+			focus = MCA_concessions_to_labor_unions 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Construct The Colonial Institute Of Science
+	focus = {
+		id = MCA_construct_the_colonial_institute_of_science
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 35
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_establish_the_technology_committee }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reassess Colonial Rights
+	focus = {
+		id = MCA_reassess_colonial_rights
+		icon = reassess_colonial_rights
+		x = 28
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_failing_senate }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Replace Democratic Senators
+	focus = {
+		id = MCA_replace_democratic_senators
+		icon = GFX_MCA_replace_democratic_senators-93419
+		x = 27
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_reassess_colonial_rights }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower Legates
+	focus = {
+		id = MCA_empower_legates
+		icon = GFX_MCA_empower_legates-93418
+		x = 29
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_reassess_colonial_rights }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Form The Opposition Coalition
+	focus = {
+		id = MCA_form_the_opposition_coalition
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 28
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_empower_legates 
+		}
+		prerequisite = { 
+			focus = MCA_replace_democratic_senators 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Change In Course
+	focus = {
+		id = MCA_a_change_in_course
+		icon = GFX_MCA_a_change_in_course-93433
+		x = 27
+		y = 6
+		cost = 9
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_form_the_opposition_coalition }
+		mutually_exclusive = { focus = MCA_refuse_colonial_representation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Aquilia Party
+	focus = {
+		id = MCA_the_aquilia_party
+		icon = GFX_goal_unknown
+		x = 27
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_change_in_course }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appeal To Velian Imperators
+	focus = {
+		id = MCA_appeal_to_velian_imperators
+		icon = GFX_goal_unknown
+		x = 27
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_the_aquilia_party }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reconciliation With The Colonies
+	focus = {
+		id = MCA_reconciliation_with_the_colonies
+		icon = GFX_goal_unknown
+		x = 25
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_the_aquilia_party }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secret Velian Arms Plants
+	focus = {
+		id = MCA_secret_velian_arms_plants
+		icon = GFX_goal_unknown
+		x = 25
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_reconciliation_with_the_colonies 
+			focus = MCA_appeal_to_velian_imperators 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Select A New Caesar
+	focus = {
+		id = MCA_select_a_new_caesar
+		icon = GFX_goal_unknown
+		x = 27
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_reconciliation_with_the_colonies 
+			focus = MCA_appeal_to_velian_imperators 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Form The Praetorian Guard
+	focus = {
+		id = MCA_form_the_praetorian_guard
+		icon = GFX_goal_unknown
+		x = 23
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_select_a_new_caesar 
+		}
+		prerequisite = { 
+			focus = MCA_secret_velian_arms_plants 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Refuse Colonial Representation
+	focus = {
+		id = MCA_refuse_colonial_representation
+		icon = GFX_goal_unknown
+		x = 29
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_form_the_opposition_coalition }
+		mutually_exclusive = { focus = MCA_a_change_in_course }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mesean Fascist Movement
+	focus = {
+		id = MCA_mesean_fascist_movement
+		icon = GFX_goal_unknown
+		x = 29
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_refuse_colonial_representation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appeal To Velian Senators
+	focus = {
+		id = MCA_appeal_to_velian_senators
+		icon = GFX_goal_unknown
+		x = 29
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_mesean_fascist_movement }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace Populism
+	focus = {
+		id = MCA_embrace_populism
+		icon = GFX_goal_unknown
+		x = 31
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_mesean_fascist_movement }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prepare Fascist Assault Divisions
+	focus = {
+		id = MCA_prepare_fascist_assault_divisions
+		icon = GFX_goal_unknown
+		x = 29
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_embrace_populism 
+		}
+		prerequisite = { 
+			focus = MCA_appeal_to_velian_senators 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Suppress The Press
+	focus = {
+		id = MCA_suppress_the_press
+		icon = GFX_goal_unknown
+		x = 31
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_embrace_populism 
+		}
+		prerequisite = { 
+			focus = MCA_appeal_to_velian_senators 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Disband The Senate
+	focus = {
+		id = MCA_disband_the_senate
+		icon = GFX_goal_unknown
+		x = 30
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_suppress_the_press 
+			focus = MCA_prepare_fascist_assault_divisions 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Subjugate Colonies
+	focus = {
+		id = MCA_subjugate_colonies
+		icon = GFX_goal_unknown
+		x = 30
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_disband_the_senate }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Veli-Mesean State
+	focus = {
+		id = MCA_the_velimesean_state
+		icon = GFX_goal_unknown
+		x = 30
+		y = 13
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_subjugate_colonies }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rebuild The Nation
+	focus = {
+		id = MCA_rebuild_the_nation
+		icon = GFX_goal_unknown
+		x = 28
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_slay_the_mesean_bear 
+			focus = MCA_subjugate_colonies 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Senate Divided
+	focus = {
+		id = MCA_a_senate_divided
+		icon = GFX_a_senate_divided
+		x = 34
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = MCA_senate_divided_idea
+		}
+	}
+
+	#Focus for Offer Greater Representation to The Colonies 
+	focus = {
+		id = MCA_offer_greater_representation_to_the_colonies
+		icon = GFX_goal_generic_improve_relations
+		x = 34
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_senate_divided }
+		mutually_exclusive = { 
+			focus = MCA_a_failing_senate 
+		}
+		mutually_exclusive = { 
+			focus = MCA_concessions_to_labor_unions 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Maintain The Status Quo
+	focus = {
+		id = MCA_maintain_the_status_quo
+		icon = GFX_MCA_maintain_the_status_quo-93422
+		x = 34
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_offer_greater_representation_to_the_colonies }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sow The Seeds of Caovish Democracy
+	focus = {
+		id = MCA_sow_the_seeds_of_caovish_democracy
+		icon = GFX_MCA_sow_the_seeds_of_caovish_democracy-93428
+		x = 33
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_maintain_the_status_quo }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fund Caovish Republican Partisans
+	focus = {
+		id = MCA_fund_caovish_republican_partisans
+		icon = GFX_MCA_fund_caovish_republican_partisans-93420
+		x = 33
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_sow_the_seeds_of_caovish_democracy }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish The Technology Committee
+	focus = {
+		id = MCA_establish_the_technology_committee
+		icon = GFX_goal_generic_scientific_exchange
+		x = 35
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_maintain_the_status_quo }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arsenal of Democracy
+	focus = {
+		id = MCA_arsenal_of_democracy
+		icon = GFX_goal_support_democracy
+		x = 34
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_fund_caovish_republican_partisans 
+			focus = MCA_construct_the_colonial_institute_of_science 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Form The Republican Guard
+	focus = {
+		id = MCA_form_the_republican_guard
+		icon = GFX_MCA_form_the_republican_guard-93431
+		x = 34
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_arsenal_of_democracy }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish NorthWestern Colonies
+	focus = {
+		id = MCA_establish_northwestern_colonies
+		icon = GFX_MCA_establish_northwestern_colonies-93429
+		x = 34
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_form_the_republican_guard }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish NorthEastern Colonies
+	focus = {
+		id = MCA_establish_northeastern_colonies
+		icon = GFX_MCA_establish_northeastern_colonies-93430
+		x = 36
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_form_the_republican_guard }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Senate
+	focus = {
+		id = MCA_expand_the_senate
+		icon = GFX_goal_anschluss
+		x = 35
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_establish_northeastern_colonies 
+		}
+		prerequisite = { 
+			focus = MCA_establish_northwestern_colonies 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for At The Gates of Wheadon’s Row
+	focus = {
+		id = MCA_at_the_gates_of_wheadons_row
+		icon = GFX_focus_eng_special_air_service
+		x = 35
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_expand_the_senate }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fallback to the Bulwark
+	focus = {
+		id = MCA_fallback_to_the_bulwark
+		icon = GFX_goal_generic_fortify_city
+		x = 37
+		y = 9
+		cost = 6
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Last Stand
+	focus = {
+		id = MCA_last_stand
+		icon = GFX_goal_generic_attack_allies
+		x = 37
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_fallback_to_the_bulwark }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Legion Of Liberty
+	focus = {
+		id = MCA_legion_of_liberty
+		icon = GFX_goal_generic_small_arms
+		x = 35
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_at_the_gates_of_wheadons_row }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Concessions To Labor Unions
+	focus = {
+		id = MCA_concessions_to_labor_unions
+		icon = GFX_goal_generic_war_with_comintern
+		x = 40
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_senate_divided }
+		mutually_exclusive = { 
+			focus = MCA_offer_greater_representation_to_the_colonies 
+		}
+		mutually_exclusive = { 
+			focus = MCA_a_failing_senate 
+		}
+		mutually_exclusive = { 
+			focus = MCA_ 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 150
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		}
+	}
+
+	#Focus for Prosecute Nobility
+	focus = {
+		id = MCA_prosecute_nobility
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		x = 39
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_concessions_to_labor_unions }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Colonial Socialist Party
+	focus = {
+		id = MCA_the_colonial_socialist_party
+		icon = GFX_MCA_the_colonial_socialist_party-93437
+		x = 40
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_prosecute_nobility 
+			focus = MCA_organize_the_red_legion 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_velian_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_mesean_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_ 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Mesean Socialist Party
+	focus = {
+		id = MCA_the_mesean_socialist_party
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_prosecute_nobility 
+			focus = MCA_organize_the_red_legion 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_colonial_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_velian_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_ 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Velian Socialist Party
+	focus = {
+		id = MCA_the_velian_socialist_party
+		icon = GFX_goal_unknown
+		x = 42
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_prosecute_nobility 
+			focus = MCA_organize_the_red_legion 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_colonial_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_the_mesean_socialist_party 
+		}
+		mutually_exclusive = { 
+			focus = MCA_ 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Legionary Officers Cabal
+	focus = {
+		id = MCA_legionary_officers_cabal
+		icon = GFX_MCA_legionary_officers_cabal-93450
+		x = 41
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_prepare_the_second_front }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Legionnaire Mutinies
+	focus = {
+		id = MCA_legionnaire_mutinies
+		icon = GFX_MCA_legionnaire_mutinies-93445
+		x = 40
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MCA_the_colonial_socialist_party 
+			focus = MCA_the_mesean_socialist_party 
+			focus = MCA_the_velian_socialist_party 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for No Compromise
+	focus = {
+		id = MCA_no_compromise
+		icon = GFX_MCA_no_compromise-93449
+		x = 41
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_legionnaire_mutinies }
+		mutually_exclusive = { focus = MCA_contact_caovish_diplomats }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prepare The Second Front
+	focus = {
+		id = MCA_prepare_the_second_front
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 41
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_no_compromise }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Contact Caovish Diplomats
+	focus = {
+		id = MCA_contact_caovish_diplomats
+		icon = GFX_goal_unknown
+		x = 39
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_legionnaire_mutinies }
+		mutually_exclusive = { focus = MCA_no_compromise }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Deal With The Devil
+	focus = {
+		id = MCA_a_deal_with_the_devil
+		icon = GFX_goal_unknown
+		x = 39
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_contact_caovish_diplomats }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Forsake The Legion
+	focus = {
+		id = MCA_forsake_the_legion
+		icon = GFX_goal_unknown
+		x = 39
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_a_deal_with_the_devil }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enforce Decolonization
+	focus = {
+		id = MCA_enforce_decolonization
+		icon = GFX_goal_unknown
+		x = 40
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = MCA_revolutions_dawn }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 #End of focuses 
  }
