@@ -1,4 +1,5 @@
 ﻿division_template = {
+	# Infantry Bois
 	name = "Infantry Division"
 
 	division_names_group = MCA_Inf_01
@@ -51,6 +52,217 @@ division_template = {
 	}
 }
 
+division_template = {	
+	name = "404th Motorized"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		mot_artillery_brigade = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {	
+	name = "Mechanized Armor"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mot_artillery_brigade = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 1 y = 3 }
+		light_armor = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+        light_tank_recon = {x = 0 y = 2 }
+	}
+}
+
+division_template = {	
+	name = "Swords of Maro"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		heavy_armor = { x = 3 y = 0 }
+		heavy_armor = { x = 3 y = 1 }
+		heavy_armor = { x = 3 y = 2 }
+		artillery_brigade = { x = 4 y = 0 }
+		artillery_brigade = { x = 4 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {	
+	name = "RAID Directorate"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 3 y = 0 }
+		paratrooper = { x = 3 y = 1 }
+		paratrooper = { x = 4 y = 0 }
+		paratrooper = { x = 4 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {	
+	name = "Red Legion"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		anti-tank_brigade = { x = 3 y = 3 }
+		
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {	
+	name = "Praetorian Guard"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+        mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {	
+	name = "Fascist Assault Unit"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {	
+	name = "Republican Guard"
+
+	division_names_group = MCA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+}
+
 units = {
 	division= {
 		division_name = {
@@ -61,6 +273,7 @@ units = {
 		division_template = "Infantry Division"
 
 	}
+	# Navy Bois
 	fleet = {
 		name = "Colonial Navy"
 		naval_base = 6098
@@ -71,8 +284,6 @@ units = {
 			ship = { name = "CN Sisher II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCA version_name = "Swimmer Class" } } }
 		}				
 	}
-}
-
 #########################
 ## STARTING PRODUCTION ##
 #########################
@@ -80,11 +291,14 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = infantry_equipment_1
 			creator = "MCA"
 		}
 		requested_factories = 10
 		progress = 0.1
 		efficiency = 50
 	}
-}
+
+	
+
+#####################
