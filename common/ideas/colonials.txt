@@ -222,7 +222,7 @@ ideas = {
 			}
 		}
 
-		turtleAndRabbit_advisor = {
+		turtleandrabbit_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -260,7 +260,7 @@ ideas = {
 			}
 		}
 
-		myManMarx_advisor = {
+		mymanmarx_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -279,7 +279,7 @@ ideas = {
 			}
 		}
 
-		theMasterSpy_advisor = {
+		themasterspy_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
