@@ -127,8 +127,198 @@ ideas = {
 		
 	}
 	political_advisor = {
-		
+		grom_communist_revolutionary = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { communist_revolutionary }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		aviary_chang = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { technocrat }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		the_crab = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { fascist_demagogue }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		simplicity = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { democratic_reformer }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		eggy_boi = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { quartermaster_general }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		turtleAndRabbit = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { captain_of_industry }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		terran_marine = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { ideological_crusader }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		myManMarx = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { propaganda_expert, popular_figurehead }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		theMasterSpy = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { silent_workhorse }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		shun_kazama = {
+			allowed = {
+				NOT = { OR { original_tag = MCA }
+				}
+			}
+			traits = { traditional_theorist }
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
+
+	
 
 	
 	# TECHNOLOGY
