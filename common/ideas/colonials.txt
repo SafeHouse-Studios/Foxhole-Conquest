@@ -127,7 +127,7 @@ ideas = {
 		
 	}
 	political_advisor = {
-		grom_communist_revolutionary = {
+		grom_communist_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -146,7 +146,7 @@ ideas = {
 			}
 		}
 
-		aviary_chang = {
+		aviary_chang_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -165,7 +165,7 @@ ideas = {
 			}
 		}
 
-		the_crab = {
+		the_crab_fascist_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -184,7 +184,7 @@ ideas = {
 			}
 		}
 
-		simplicity = {
+		simplicity_democratic_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -203,7 +203,7 @@ ideas = {
 			}
 		}
 
-		eggy_boi = {
+		eggy_boi_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -222,7 +222,7 @@ ideas = {
 			}
 		}
 
-		turtleAndRabbit = {
+		turtleAndRabbit_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -241,7 +241,7 @@ ideas = {
 			}
 		}
 
-		terran_marine = {
+		terran_marine_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -260,12 +260,12 @@ ideas = {
 			}
 		}
 
-		myManMarx = {
+		myManMarx_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
 			}
-			traits = { propaganda_expert, popular_figurehead }
+			traits = { propaganda_expert popular_figurehead }
 			on_add = {
 
 			}
@@ -279,7 +279,7 @@ ideas = {
 			}
 		}
 
-		theMasterSpy = {
+		theMasterSpy_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
@@ -298,7 +298,7 @@ ideas = {
 			}
 		}
 
-		shun_kazama = {
+		shun_kazama_traditional_advisor = {
 			allowed = {
 				NOT = { OR { original_tag = MCA }
 				}
