@@ -1,32 +1,29 @@
 bookmarks = {
 	bookmark = {
 		name = "Rise of the Clans"
-		desc = "GATHERING_STORM_DESC"
+		desc = "CLAN_WARS_DESC"
 		date = 0792.1.1.12
 		picture = "GFX_select_date_0792"
-		default_country = "WNA"
-		default = yes
-		
-		WNA = {
-			history = WNA_WAR_LOC
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		TLA = {
-			history = TLA_WAR_LOC
-			ideology = neutrality
-			ideas = {
-				disjointed_government
+		default_country = "MCA"
+	
+		MCA = {
+			history = MCA_WAR_LOC
+			ideology = democratic
+			ideas={
 			}
 			focuses = {
 			
 			}
 		}
-		
+		CWE = {
+			history = CWE_WAR_LOC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
 		"---"={
 			history = "OTHER_FOXHOLE_WAR_LOC"
 		}
