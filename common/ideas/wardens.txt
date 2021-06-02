@@ -2,10 +2,11 @@ ideas = {
 	political_advisor = {
 		papatrotsky_communist_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
+			
 			traits = { communist_revolutionary }
+			
 			on_add = {
 
 			}
@@ -21,8 +22,7 @@ ideas = {
 		
 		maul_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { prince_of_terror }
 			on_add = {
@@ -40,8 +40,7 @@ ideas = {
 		
 		weatherby_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { silent_workhorse }
 			on_add = {
@@ -59,8 +58,7 @@ ideas = {
 		
 		kbear44_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { captain_of_industry popular_figurehead }
 			on_add = {
@@ -78,8 +76,7 @@ ideas = {
 		
 		nockon_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { technocrat }
 			on_add = {
@@ -97,8 +94,7 @@ ideas = {
 		
 		jimmiefan_traditional_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { traditional_theorist }
 			on_add = {
@@ -116,8 +112,7 @@ ideas = {
 		
 		orbital_democratic_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { democratic_reformer }
 			on_add = {
@@ -135,10 +130,11 @@ ideas = {
 		
 		death_dealerz_fascist_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
+			
 			traits = { fascist_demagogue }
+			
 			on_add = {
 
 			}
@@ -154,8 +150,7 @@ ideas = {
 		
 		versaceguy_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
 			traits = { quartermaster_general }
 			on_add = {
@@ -173,10 +168,11 @@ ideas = {
 		
 		infidel_advisor = {
 			allowed = {
-				NOT = { OR { original_tag = CWE }
-				}
+				original_tag = CWE
 			}
+			
 			traits = { ideological_crusader propaganda_expert}
+			
 			on_add = {
 
 			}
