@@ -60,23 +60,23 @@ set_convoys = 5
 	}	
 }
 set_politics = {
-	ruling_party = deomocratic
+	ruling_party = democratic
 	last_election = "0781.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 84
-	neutrality = 7
-	communism = 5
-	fascism = 4
+	democratic = 80
+	neutrality = 8
+	communism = 4
+	fascism = 8
 }
 
 create_country_leader = {
 	
 	name = "Colonial Senate"
 	picture = "Portrait_MCA_leader.tga"
-	expire = "0802.1.1"
+	expire = "0800.1.1"
 	ideology = conservatism
 	traits = {
 		#
@@ -84,28 +84,28 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leader2"
-	picture = "Portrait_MCA_leader.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	name = "Colonial People's Leader"
+	picture = "Portrait_MCA_leader.tga"
+	expire = "0800.1.1"
+	ideology = leninism
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Leader3"
-	picture = "Portrait_MCA_leader.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Colonial Emperor"
+	picture = "Portrait_MCA_leader.tga"
+	expire = "0800.1.1"
+	ideology = rexism
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Leader1"
-	picture = "Portrait_MCA_leader.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Colonial High Nobility"
+	picture = "Portrait_MCA_leader.tga"
+	expire = "0800.1.1"
+	ideology = oligarchism
 	traits = {
 		#
 	}
