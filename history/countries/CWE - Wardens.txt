@@ -75,37 +75,37 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Military Junta"
+	name = "Warden Emperor"
 	picture = "Portrait_CWE_leader.tga"
-	expire = "0802.1.1"
-	ideology = despotism
+	expire = "0800.1.1"
+	ideology = centrism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Leader2"
-	picture = "Portrait_CWE_leader.dds"
-	expire = "1965.1.1"
+	name = "Warden General Secretary"
+	picture = "Portrait_CWE_leader.tga"
+	expire = "0800.1.1"
 	ideology = stalinism
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Leader3"
-	picture = "Portrait_CWE_leader.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Warden Military Junta"
+	picture = "Portrait_CWE_leader.tga"
+	expire = "0800.1.1"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Leader1"
-	picture = "Portrait_CWE_leader.dds"
-	expire = "1965.1.1"
+	name = "Warden President"
+	picture = "Portrait_CWE_leader.tga"
+	expire = "0800.1.1"
 	ideology = liberalism
 	traits = {
 		#
