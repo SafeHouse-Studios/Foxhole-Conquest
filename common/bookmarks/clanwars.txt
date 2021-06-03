@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "Rise of the Clans"
 		desc = "CLAN_WARS_DESC"
-		date = 0792.1.1.12
+		date = 0783.1.1.12
 		picture = "GFX_select_date_0792"
 		default_country = "MCA"
 	
