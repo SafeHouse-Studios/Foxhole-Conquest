@@ -105,7 +105,7 @@ create_country_leader = {
 	name = "Leader1"
 	picture = "Portrait_MCA_leader.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = despotism
 	traits = {
 		#
 	}
