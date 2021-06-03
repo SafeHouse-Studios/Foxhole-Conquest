@@ -83,6 +83,34 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Leader2"
+	picture = "Portrait_MCA_leader.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Leader3"
+	picture = "Portrait_MCA_leader.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Leader1"
+	picture = "Portrait_MCA_leader.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Moorep8"
 	picture = "Portait_MCA_Moorep8.dds"
