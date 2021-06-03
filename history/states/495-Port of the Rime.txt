@@ -11,7 +11,7 @@ state={
 		owner = CWE
 		add_core_of = CWE
 		
-		0792.1.1 = {
+		0783.1.1 = {
 			add_core_of = DKD
 			add_core_of = GEP
 			remove_core_of = CWE

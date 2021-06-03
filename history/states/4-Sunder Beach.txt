@@ -1,25 +1,29 @@
+
 state={
 	id=4
 	name="STATE_4"
-	provinces={
-		329 1533 1991 2081 4813 8237 8276 8319 8350 8406 8450 
-	}
-	manpower=550000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
-	history = {
+
+	history={
 		owner = CWE
 		add_core_of = CWE
-		
-		0792.1.1 = {
+		0783.1.1 = {
 			owner = WNA
 			controller = WNA
 			add_core_of = WNA
 			remove_core_of = CWE
+
 		}
-		
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
+	provinces={
+		329 1991 4813 8237 8276 8319 8350 8406 8450 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
