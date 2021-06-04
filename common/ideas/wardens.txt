@@ -24,7 +24,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { prince_of_terror }
+			
 			on_add = {
 
 			}
@@ -42,7 +44,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { silent_workhorse }
+			
 			on_add = {
 
 			}
@@ -60,7 +64,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { captain_of_industry popular_figurehead }
+			
 			on_add = {
 
 			}
@@ -78,7 +84,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { technocrat }
+			
 			on_add = {
 
 			}
@@ -96,7 +104,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
-			traits = { traditional_theorist }
+			
+			traits = { traditionalist_theorist }
+			
 			on_add = {
 
 			}
@@ -114,7 +124,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { democratic_reformer }
+			
 			on_add = {
 
 			}
@@ -152,7 +164,9 @@ ideas = {
 			allowed = {
 				original_tag = CWE
 			}
+			
 			traits = { quartermaster_general }
+			
 			on_add = {
 
 			}

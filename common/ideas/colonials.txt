@@ -311,7 +311,7 @@ ideas = {
 				original_tag = MCA
 			}
 			
-			traits = { traditional_theorist }
+			traits = { traditionalist_theorist }
 			
 			on_add = {
 
