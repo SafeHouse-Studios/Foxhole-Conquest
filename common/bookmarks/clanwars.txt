@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "MCA"
 	
 		MCA = {
-			history = MCA_WAR_LOC
+			history = MCA_CLAN_WAR_LOC
 			ideology = democratic
 			ideas={
 			}
@@ -15,8 +15,9 @@ bookmarks = {
 			
 			}
 		}
+		
 		CWE = {
-			history = CWE_WAR_LOC
+			history = CWE_CLAN_WAR_LOC
 			ideology = neutrality
 			ideas={
 			}
@@ -24,8 +25,9 @@ bookmarks = {
 			
 			}
 		}
+		
 		"---"={
-			history = "OTHER_FOXHOLE_WAR_LOC"
+			history = "OTHER_FOXHOLE_CLAN_WAR_LOC"
 		}
 		
 		effect = {
