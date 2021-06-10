@@ -1,0 +1,458 @@
+focus_tree = {
+	id = 2
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CWE
+		}
+	}
+	#Focus for The Council On Industrial Development
+	focus = {
+		id = CWE_the_council_on_industrial_development
+		icon = the_council_on_industrial_development
+		x = 10
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Whedon's Row
+	focus = {
+		id = CWE_the_port_of_whedons_row
+		icon = the_port_of_whedons_row
+		x = 10
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for Repair Central Infrastructure
+	focus = {
+		id = CWE_repair_central_infastructure
+		icon = repair_central_infastructure
+		x = 10
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_whedons_row }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for The Elksford Rail Line
+	focus = {
+		id = CWE_the_elksford_rail_line
+		icon = the_elksford_rail_line
+		x = 10
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_repair_central_infastructure }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Create The Lochan Birth Rail Hub
+	focus = {
+		id = CWE_create_the_lochan_birth_rail_hub
+		icon = create_the_lochan_birth_rail_hub
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_elksford_rail_line }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Revive The Ancient Capital
+	focus = {
+		id = CWE_revive_the_ancient_capital
+		icon = revive_the_ancient_capital
+		x = 10
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_create_the_lochan_birth_rail_hub }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Reoccupy The Ward
+	focus = {
+		id = CWE_reoccupy_the_ward
+		icon = reoccupy_the_ward
+		x = 10
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_revive_the_ancient_capital }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for The Domain Of Sunhaven
+	focus = {
+		id = CWE_the_domain_of_sunhaven
+		icon = the_domain_of_sunhaven
+		x = 10
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_reoccupy_the_ward }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Ogmaran
+	focus = {
+		id = CWE_the_port_of_ogmaran
+		icon = the_port_of_ogmaran
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Buckler Sound
+	focus = {
+		id = CWE_port_of_buckler_sound
+		icon = port_of_buckler_sound
+		x = 8
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_ogmaran }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Skelter Course
+	focus = {
+		id = CWE_skelter_course
+		icon = skelter_course
+		x = 8
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_port_of_buckler_sound }
+		mutually_exclusive = { focus = CWE_facilitate_heacy_arms_plants }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Forward Western Factories
+	focus = {
+		id = CWE_forward_western_factories
+		icon = forward_western_factories
+		x = 6
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_ogmaran }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Facilitate Heavy Arms Plants
+	focus = {
+		id = CWE_facilitate_heacy_arms_plants
+		icon = facilitate_heacy_arms_plants
+		x = 6
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forward_western_factories }
+		mutually_exclusive = { focus = CWE_skelter_course }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Build the Ulster Dam
+	focus = {
+		id = CWE_build_the_ulster_dam
+		icon = build_the_ulster_dam
+		x = 7
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_facilitate_heacy_arms_plants focus = CWE_skelter_course }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Farranac Industrial Concern
+	focus = {
+		id = CWE_farranac_industrial_concern
+		icon = farranac_industrial_concern
+		x = 7
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_build_the_ulster_dam }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Develop Nicevian Oil Fields
+	focus = {
+		id = CWE_develop_nicevian_oil_fields
+		icon = develop_nicevian_oil_fields
+		x = 3
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Develop Snowfal Refineries
+	focus = {
+		id = CWE_develop_snowfal_refineries
+		icon = develop_snowfal_refineries
+		x = 3
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_nicevian_oil_fields }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Pace Extraction
+	focus = {
+		id = CWE_pace_extraction
+		icon = pace_extraction
+		x = 4
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_snowfal_refineries }
+		mutually_exclusive = { focus = CWE_increase_labor_quotas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Increase Labor Quotas
+	focus = {
+		id = CWE_increase_labor_quotas
+		icon = increase_labor_quotas
+		x = 2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_snowfal_refineries }
+		mutually_exclusive = { focus = CWE_pace_extraction }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Viper Pit
+	focus = {
+		id = CWE_the_port_of_viper_pit
+		icon = the_port_of_viper_pit
+		x = 12
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Rime
+	focus = {
+		id = CWE_port_of_rime
+		icon = port_of_rime
+		x = 12
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_viper_pit }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Axehead
+	focus = {
+		id = CWE_port_of_axehead
+		icon = port_of_axehead
+		x = 12
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_port_of_rime }
+		mutually_exclusive = { focus = CWE_focus_land_infastructure_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Forward Eastern Factories
+	focus = {
+		id = CWE_forward_eastern_factories
+		icon = forward_eastern_factories
+		x = 14
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus =  CWE_the_port_of_viper_pit }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Focus Land Infrastructure Development
+	focus = {
+		id = CWE_focus_land_infastructure_development
+		icon = focus_land_infastructure_development
+		x = 14
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_viper_pit }
+		mutually_exclusive = { focus = CWE_port_of_axehead }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Smokestacks of Malden's Veil
+	focus = {
+		id = CWE_smokestacks_of_maldens_veil
+		icon = smokestacks_of_maldens_veil
+		x = 13
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_focus_land_infastructure_development focus = CWE_port_of_axehead }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Endless Foundries
+	focus = {
+		id = CWE_endless_foundries
+		icon = endless_foundries
+		x = 13
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_smokestacks_of_maldens_veil }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+#End of focuses 
+ }
