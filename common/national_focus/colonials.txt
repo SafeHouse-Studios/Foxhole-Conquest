@@ -1951,6 +1951,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = MCA_nobility_purge_idea
+		}
 	}
 
 	#Focus for The Colonial Socialist Party
@@ -2004,6 +2007,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			MSP = {
+				add_state_core = 527
+			}
 		}
 	}
 
@@ -2159,6 +2167,686 @@ focus_tree = {
 			factor = 1
 		}
 	}
+
+		#Focus for Establish the War Committee
+		focus = {
+			id = MCA_establish_the_war_committee
+			icon = GFX_goal_unknown
+			x = 53
+			y = 0
+			cost = 4
+			available_if_capitulated = yes
+			search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Legion Reforms
+		focus = {
+			id = MCA_legion_reforms
+			icon = GFX_goal_unknown
+			x = 51
+			y = 1
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_establish_the_war_committee }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Reformed Legion Command
+		focus = {
+			id = MCA_reformed_legion_command
+			icon = GFX_goal_unknown
+			x = 51
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legion_reforms }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Colonial Legionnaire
+		focus = {
+			id = MCA_the_colonial_legionnaire
+			icon = GFX_goal_unknown
+			x = 53
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legion_reforms }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Establish The Velian Military Academy
+		focus = {
+			id = MCA_establish_the_velian_military_academy
+			icon = GFX_goal_unknown
+			x = 51
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_reformed_legion_command }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Infantry Innovations
+		focus = {
+			id = MCA_infantry_innovations
+			icon = GFX_goal_unknown
+			x = 53
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_the_colonial_legionnaire }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Sapper Cohorts
+		focus = {
+			id = MCA_sapper_cohorts
+			icon = GFX_goal_unknown
+			x = 52
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_infantry_innovations 
+				focus = MCA_establish_the_velian_military_academy 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Legionaries Batteries
+		focus = {
+			id = MCA_legionaries_batteries
+			icon = GFX_goal_unknown
+			x = 52
+			y = 5
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_sapper_cohorts }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Pass The Invictus Act
+		focus = {
+			id = MCA_pass_the_invictus_act
+			icon = GFX_goal_unknown
+			x = 52
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legionaries_batteries }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Direct Senatorial Control
+		focus = {
+			id = MCA_direct_senatorial_control
+			icon = GFX_goal_unknown
+			x = 52
+			y = 7
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_pass_the_invictus_act }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Motorized Cohorts
+		focus = {
+			id = MCA_motorized_cohorts
+			icon = GFX_goal_unknown
+			x = 49
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legion_reforms }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Form The 404th
+		focus = {
+			id = MCA_form_the_404th
+			icon = GFX_goal_unknown
+			x = 47
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_motorized_cohorts }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Legionis Equites
+		focus = {
+			id = MCA_legionis_equites
+			icon = GFX_goal_unknown
+			x = 49
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_motorized_cohorts }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Hatchet
+		focus = {
+			id = MCA_the_hatchet
+			icon = GFX_goal_unknown
+			x = 49
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legionis_equites }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Integrate Armor Doctrine
+		focus = {
+			id = MCA_integrate_armor_doctrine
+			icon = GFX_goal_unknown
+			x = 49
+			y = 5
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_the_hatchet }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Mechanized Cohorts
+		focus = {
+			id = MCA_mechanized_cohorts
+			icon = GFX_goal_unknown
+			x = 47
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_integrate_armor_doctrine }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Lance
+		focus = {
+			id = MCA_the_lance
+			icon = GFX_goal_unknown
+			x = 49
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_integrate_armor_doctrine }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Ballista
+		focus = {
+			id = MCA_the_ballista
+			icon = GFX_goal_unknown
+			x = 49
+			y = 7
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_the_lance }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Swords Of Maro
+		focus = {
+			id = MCA_the_swords_of_maro
+			icon = GFX_goal_unknown
+			x = 51
+			y = 8
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_the_ballista 
+			}
+			prerequisite = { 
+				focus = MCA_direct_senatorial_control 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Colonial Aeronautics
+		focus = {
+			id = MCA_colonial_aeronautics
+			icon = GFX_goal_unknown
+			x = 55
+			y = 1
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_establish_the_war_committee }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Fighter Focus
+		focus = {
+			id = MCA_fighter_focus
+			icon = GFX_goal_unknown
+			x = 55
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_colonial_aeronautics }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Bomber Focus
+		focus = {
+			id = MCA_bomber_focus
+			icon = GFX_goal_unknown
+			x = 57
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_colonial_aeronautics }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Legion Air Command
+		focus = {
+			id = MCA_legion_air_command
+			icon = GFX_goal_unknown
+			x = 56
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_fighter_focus 
+				focus = MCA_bomber_focus 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for CAS Development
+		focus = {
+			id = MCA_cas_development
+			icon = GFX_goal_unknown
+			x = 55
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legion_air_command }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Manta Ray
+		focus = {
+			id = MCA_the_manta_ray
+			icon = GFX_goal_unknown
+			x = 57
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legion_air_command }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Legionis Aetherium
+		focus = {
+			id = MCA_legionis_aetherium
+			icon = GFX_goal_unknown
+			x = 56
+			y = 5
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_the_manta_ray 
+				focus = MCA_cas_development 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Maro’s Legacy
+		focus = {
+			id = MCA_maros_legacy
+			icon = GFX_goal_unknown
+			x = 51
+			y = 9
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_the_swords_of_maro }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Mesean Air Service
+		focus = {
+			id = MCA_mesean_air_service
+			icon = GFX_goal_unknown
+			x = 56
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_legionis_aetherium }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for RAID Directorate
+		focus = {
+			id = MCA_raid_directorate
+			icon = GFX_goal_unknown
+			x = 56
+			y = 7
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_mesean_air_service }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Establish The Naval Committee
+		focus = {
+			id = MCA_establish_the_naval_committee
+			icon = GFX_goal_unknown
+			x = 65
+			y = 0
+			cost = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Phalanx Fleet
+		focus = {
+			id = MCA_phalanx_fleet
+			icon = GFX_goal_unknown
+			x = 64
+			y = 1
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_establish_the_naval_committee }
+			mutually_exclusive = { focus = MCA_auxiliary_fleets }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Auxiliary Fleets
+		focus = {
+			id = MCA_auxiliary_fleets
+			icon = GFX_goal_unknown
+			x = 66
+			y = 1
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_establish_the_naval_committee }
+			mutually_exclusive = { focus = MCA_phalanx_fleet }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Fleet of the Aging Ocean
+		focus = {
+			id = MCA_the_fleet_of_the_aging_ocean
+			icon = GFX_goal_unknown
+			x = 64
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_auxiliary_fleets 
+				focus = MCA_phalanx_fleet 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for The Fleet of the Endless Sea
+		focus = {
+			id = MCA_the_fleet_of_the_endless_sea
+			icon = GFX_goal_unknown
+			x = 66
+			y = 2
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_auxiliary_fleets 
+				focus = MCA_phalanx_fleet 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Destroyer Focus
+		focus = {
+			id = MCA_destroyer_focus
+			icon = GFX_goal_unknown
+			x = 63
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_the_fleet_of_the_endless_sea 
+				focus = MCA_the_fleet_of_the_aging_ocean 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Carrier Focus
+		focus = {
+			id = MCA_carrier_focus
+			icon = GFX_goal_unknown
+			x = 65
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_the_fleet_of_the_endless_sea 
+				focus = MCA_the_fleet_of_the_aging_ocean 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Capital Ship Focus
+		focus = {
+			id = MCA_capital_ship_focus
+			icon = GFX_goal_unknown
+			x = 67
+			y = 3
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_the_fleet_of_the_endless_sea 
+				focus = MCA_the_fleet_of_the_aging_ocean 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Fisherman’s Row Naval Bases
+		focus = {
+			id = MCA_fishermans_row_naval_bases
+			icon = GFX_goal_unknown
+			x = 64
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_capital_ship_focus 
+				focus = MCA_carrier_focus 
+				focus = MCA_destroyer_focus 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Tempest Isle Naval Bases
+		focus = {
+			id = MCA_tempest_isle_naval_bases
+			icon = GFX_goal_unknown
+			x = 66
+			y = 4
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_capital_ship_focus 
+				focus = MCA_carrier_focus 
+				focus = MCA_destroyer_focus 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Orebreaker Isle Naval Bases
+		focus = {
+			id = MCA_orebreaker_isle_naval_bases
+			icon = GFX_goal_unknown
+			x = 62
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_tempest_isle_naval_bases 
+			}
+			prerequisite = { 
+				focus = MCA_fishermans_row_naval_bases 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Godscroft Naval Bases
+		focus = {
+			id = MCA_godscroft_naval_bases
+			icon = GFX_goal_unknown
+			x = 68
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_tempest_isle_naval_bases 
+			}
+			prerequisite = { 
+				focus = MCA_fishermans_row_naval_bases 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Submarine Focus
+		focus = {
+			id = MCA_submarine_focus
+			icon = GFX_goal_unknown
+			x = 65
+			y = 5
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_tempest_isle_naval_bases 
+			}
+			prerequisite = { 
+				focus = MCA_fishermans_row_naval_bases 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Grand Colonial Navy
+		focus = {
+			id = MCA_grand_colonial_navy
+			icon = GFX_goal_unknown
+			x = 65
+			y = 6
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { focus = MCA_submarine_focus }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		#Focus for Naval Supremacy
+		focus = {
+			id = MCA_naval_supremacy
+			icon = GFX_goal_unknown
+			x = 65
+			y = 7
+			cost = 10
+			available_if_capitulated = yes
+			prerequisite = { 
+				focus = MCA_grand_colonial_navy 
+			}
+			prerequisite = { 
+				focus = MCA_godscroft_naval_bases 
+			}
+			prerequisite = { 
+				focus = MCA_orebreaker_isle_naval_bases 
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	#End of focuses 
+	 }
 
 #End of focuses 
  }
