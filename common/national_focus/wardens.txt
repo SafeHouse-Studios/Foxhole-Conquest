@@ -7,6 +7,7 @@ focus_tree = {
 			tag = CWE
 		}
 	}
+		# INDUSTRIAL ------------ INDUSTRIAL ----------- INDUSTRIAL
 	#Focus for The Council On Industrial Development
 	focus = {
 		id = CWE_the_council_on_industrial_development
@@ -453,6 +454,352 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	#Focus for Develop Soravian Aluminium Mines
+	focus = {
+		id = CWE_develop_soravian_aluminium_mines
+		icon = develop_soravian_aluminium_mines
+		x = 17
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Forges of Red Chapel
+	focus = {
+		id = CWE_forges_of_red_chapel
+		icon = forges_of_red_chapel
+		x = 17
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_soravian_aluminium_mines }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Rapid Development
+	focus = {
+		id = CWE_rapid_development
+		icon = rapid_development
+		x = 16
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forges_of_red_chapel }
+		mutually_exclusive = { focus = CWE_balanced_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Balanced Development
+	focus = {
+		id = CWE_balanced_development
+		icon = balanced_development
+		x = 18
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forges_of_red_chapel }
+		mutually_exclusive = { focus = CWE_rapid_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	# POLITICAL --------------- POLITICAL ---------------- POLITICAL
+
+	#Focus for The State of the Empire
+	focus = {
+		id = CWE_the_state_of_the_empire
+		icon = the_state_of_the_empire
+		x = 26
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Divine Right
+	focus = {
+		id = CWE_the_divine_right
+		icon = the_divine_right
+		x = 26
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Maintain Royal Authority
+	focus = {
+		id = CWE_maintain_royal_authority
+		icon = maintain_royal_authority
+		x = 26
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_divine_right }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Coerce Soravian Involvement
+	focus = {
+		id = CWE_coerce_soravian_involvement
+		icon = coerce_soravian_involvement
+		x = 25
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_maintain_royal_authority }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Develop Nicevian Resources
+	focus = {
+		id = CWE_develop_nicevian_resources
+		icon = develop_nicevian_resources
+		x = 25
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_coerce_soravian_involvement }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Imperial Army
+	focus = {
+		id = CWE_the_imperial_army
+		icon = the_imperial_army
+		x = 27
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_maintain_royal_authority }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Technology Reclamation
+	focus = {
+		id = CWE_technology_reclamation
+		icon = technology_reclamation
+		x = 27
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_imperial_army }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Victory Through Tradition
+	focus = {
+		id = CWE_victory_through_tradition
+		icon = victory_through_tradition
+		x = 26
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_nicevian_resources focus = CWE_technology_reclamation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Hands Of Callahan
+	focus = {
+		id = CWE_the_hands_of_callahan
+		icon = the_hands_of_callahan
+		x = 26
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_victory_through_tradition }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Southwestern Protectorate State
+	focus = {
+		id = CWE_southwestern_protectorate_state
+		icon = southwestern_protectorate_state
+		x = 25
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_hands_of_callahan }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Southeastern Protectorate State
+	focus = {
+		id = CWE_southeastern_protectorate_state
+		icon = southeastern_protectorate_state
+		x = 27
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_hands_of_callahan }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Reaffirm the Nevish Alliance
+	focus = {
+		id = CWE_reaffirm_the_nevish_alliance
+		icon = reaffirm_the_nevish_alliance
+		x = 26
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_southeastern_protectorate_state }
+		prerequisite = { focus = CWE_southwestern_protectorate_state }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for At The Gates of Demokratos
+	focus = {
+		id = CWE_at_the_gates_of_demokratos
+		icon = at_the_gates_of_demokratos
+		x = 26
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_reaffirm_the_nevish_alliance }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Shielded by The Mountains
+	focus = {
+		id = CWE_shielded_by_the_mountains
+		icon = shielded_by_the_mountains
+		x = 24
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = { always = false }
+		completion_reward = {
+		}
+	}
+	#Focus for His Fury In Our Voice
+	focus = {
+		id = CWE_his_fury_in_our_voice
+		icon = his_fury_in_our_voice
+		x = 24
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_shielded_by_the_mountains }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Heritage of Victory
+	focus = {
+		id = CWE_heritage_of_victory
+		icon = heritage_of_victory
+		x = 25
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_his_fury_in_our_voice focus = CWE_at_the_gates_of_demokratos}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	# RESEARCH --------------- RESEARCH ---------------- RESEARCH
+
+	#Focus for Empower the War Council
+	focus = {
+		id = CWE_empower_the_war_council
+		icon = empower_the_war_council
+		x = 36
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+
 
 #End of focuses 
  }
