@@ -798,7 +798,298 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
+	#Focus for Militaristic Transformation
+	focus = {
+		id = CWE_militaristic_transformation
+		icon = militaristic_transformation
+		x = 36
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_empower_the_war_council }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Armored Car Battalions
+	focus = {
+		id = CWE_armored_car_battalions
+		icon = armored_car_battalions
+		x = 34
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Niska
+	focus = {
+		id = CWE_the_niska
+		icon = the_niska
+		x = 34
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_armored_car_battalions }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Devitt
+	focus = {
+		id = CWE_the_devitt
+		icon = the_devitt
+		x = 34
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_niska }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Integrate Militias
+	focus = {
+		id = CWE_integrate_militias
+		icon = integrate_militias
+		x = 36
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Infantry Innovations
+	focus = {
+		id = CWE_infantry_innovations
+		icon = infantry_innovations
+		x = 36
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_integrate_militias }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Warden Shock Army
+	focus = {
+		id = CWE_warden_shock_army
+		icon = warden_shock_army
+		x = 36
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_infantry_innovations }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Restructured Command
+	focus = {
+		id = CWE_restructured_command
+		icon = restructured_command
+		x = 38
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Establish Warden Officer Academy
+	focus = {
+		id = CWE_establish_warden_officer_academy
+		icon = establish_warden_officer_academy
+		x = 38
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_restructured_command }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Command Protocols
+	focus = {
+		id = CWE_command_protocols
+		icon = command_protocols
+		x = 38
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_establish_warden_officer_academy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Warden Military
+	focus = {
+		id = CWE_the_warden_military
+		icon = the_warden_military
+		x = 36
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_command_protocols focus = CWE_warden_shock_army focus = CWE_the_devitt }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Flood
+	focus = {
+		id = CWE_the_flood
+		icon = the_flood
+		x = 34
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		prerequisite = { focus = CWE_the_devitt }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Warden Artillery Batteries
+	focus = {
+		id = CWE_warden_artillery_batteries
+		icon = warden_artillery_batteries
+		x = 36
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Combined Arms Doctrine
+	focus = {
+		id = CWE_combined_arms_doctrine
+		icon = combined_arms_doctrine
+		x = 38
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		prerequisite = { focus = CWE_command_protocols }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Silverhand
+	focus = {
+		id = CWE_the_silverhand
+		icon = the_silverhand
+		x = 34
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_flood }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Dread Korps
+	focus = {
+		id = CWE_the_dread_korps
+		icon = the_dread_korps
+		x = 36
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_warden_artillery_batteries }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Final Offensive Doctrine
+	focus = {
+		id = CWE_final_offensive_doctrine
+		icon = final_offensive_doctrine
+		x = 38
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_combined_arms_doctrine }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Guardians of The North
+	focus = {
+		id = CWE_guardians_of_the_north
+		icon = guardians_of_the_north
+		x = 36
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_final_offensive_doctrine }
+		prerequisite = { focus = CWE_the_dread_korps }
+		prerequisite = { focus = CWE_the_silverhand }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
 
 
 #End of focuses 
