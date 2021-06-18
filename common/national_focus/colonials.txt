@@ -415,7 +415,7 @@ focus_tree = {
 		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_develop_therizo }
-		mutually_exclusive = { focus = MCA_invest_in_therizian_industry }
+		mutually_exclusive = { focus = MCA_embrace_therizian_agrarianism }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -486,7 +486,7 @@ focus_tree = {
 			}
 		}
 	}
-
+	 
 	#Focus for The Colonial Breadbasket
 	focus = {
 		id = MCA_the_colonial_breadbasket
@@ -1164,10 +1164,10 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Great Foundry Of The South
+	#Focus for The Great Foundry Of The South 
 	focus = {
 		id = MCA_the_great_foundry_of_the_south
-		icon = GFX_goal_unknown
+		icon = the_great_foundry_of_the_south
 		x = 18
 		y = 7
 		cost = 7
@@ -1179,7 +1179,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-
+ 
 		}
 	}
 
@@ -1364,9 +1364,9 @@ focus_tree = {
 	#Focus for Replace Democratic Senators
 	focus = {
 		id = MCA_replace_democratic_senators
-		icon = GFX_MCA_replace_democratic_senators-93419
+		icon = replace_democratic_senators
 		x = 27
-		y = 4
+		y = 4 
 		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = MCA_reassess_colonial_rights }
@@ -1379,7 +1379,7 @@ focus_tree = {
 	#Focus for Empower Legates
 	focus = {
 		id = MCA_empower_legates
-		icon = GFX_MCA_empower_legates-93418
+		icon = empower_legates
 		x = 29
 		y = 4
 		cost = 7
@@ -1698,7 +1698,7 @@ focus_tree = {
 	#Focus for A Senate Divided
 	focus = {
 		id = MCA_a_senate_divided
-		icon = GFX_a_senate_divided
+		icon = a_senate_divided
 		x = 34
 		y = 0
 		cost = 7
@@ -1709,7 +1709,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = MCA_senate_divided_idea
-		}
+		} 
 	}
 
 	#Focus for Offer Greater Representation to The Colonies 
@@ -1987,7 +1987,7 @@ focus_tree = {
 	#Focus for The Colonial Socialist Party
 	focus = {
 		id = MCA_the_colonial_socialist_party
-		icon = GFX_MCA_the_colonial_socialist_party-93437
+		icon = the_colonial_socialist_party
 		x = 40
 		y = 4
 		cost = 7
@@ -2088,7 +2088,7 @@ focus_tree = {
 	#Focus for Legionnaire Mutinies
 	focus = {
 		id = MCA_legionnaire_mutinies
-		icon = GFX_MCA_legionnaire_mutinies-93445
+		icon = legionnaire_mutinies
 		x = 40
 		y = 5
 		cost = 7
@@ -2107,7 +2107,7 @@ focus_tree = {
 	#Focus for No Compromise
 	focus = {
 		id = MCA_no_compromise
-		icon = GFX_MCA_no_compromise-93449
+		icon = no_compromise
 		x = 41
 		y = 6
 		cost = 7
