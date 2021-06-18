@@ -2469,4 +2469,40 @@ spriteTypes = {
 		name = "GFX_focus_TUR_loosen_the_laws_on_secularism"
 		texturefile = "gfx/interface/goals/focus_TUR_loosen_the_laws_on_secularism.dds"
 	}
+	
+	SpriteType = { 
+		name = "the_great_foundry_of_the_south"
+		texturefile = "gfx/interface/goals/the_great_foundry_of_the_south.png"
+	}
+
+	SpriteType = { 
+		name = "a_senate_divided"
+		texturefile = "gfx/interface/goals/a_senate_divided.dds"
+	}
+
+	SpriteType = { 
+		name = "replace_democratic_senators"
+		texturefile = "gfx/interface/goals/replace_democratic_senators.tga"
+	}
+
+	SpriteType = { 
+		name = "empower_legates"
+		texturefile = "gfx/interface/goals/empower_legates.tga"
+	}
+ 
+	SpriteType = { 
+		name = "the_colonial_socialist_party"
+		texturefile = "gfx/interface/goals/the_colonial_socialist_party.dds"
+	} 
+  
+	SpriteType = { 
+		name = "legionnaire_mutinies"
+		texturefile = "gfx/interface/goals/legionnaire_mutinies.dds"
+	}
+   
+	SpriteType = { 
+		name = "no_compromise" 
+		texturefile = "gfx/interface/goals/no_compromise.dds"
+	}
+ 
 }
