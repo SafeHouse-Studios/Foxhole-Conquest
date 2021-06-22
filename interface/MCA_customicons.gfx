@@ -1,5 +1,17 @@
 spriteTypes = { 
 	
+	#STARTING DATE ICONS HERE
+
+	SpriteType = {
+		name = "GFX_select_date_0782"
+		texturefile = "gfx/interface/gfx_select_date_0782.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_select_date_0792"
+		texturefile = "gfx/interface/gfx_select_date_0792.dds"
+	}
+	
 	##Icon Shine For: Secure Kraunian Access to The Aging Ocean
 	SpriteType = { 
 		name = "secure_kraunian_access_to_the_aging_ocean"
