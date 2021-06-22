@@ -1,31 +1,33 @@
+
 state={
 	id=280
 	name="STATE_280"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = MCA
+		add_core_of = MCA
+		victory_points = {
+			10556 10 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			2571 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
 	provinces={
-		492 1264 1306 1597 1850 2083 2108 2571 2828 2955 3687 3849 5028 5393 5693 6270 10515 10539 10542 10543 10556 10571 10606 
+		492 1264 1306 1597 1821 1850 2083 2108 2571 2828 2955 3687 3849 4983 5028 5393 5693 6270 10515 10539 10542 10543 10556 10571 10606 10621 10649 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category = town
-	history = {
-		owner = MCA
-		add_core_of = MCA
-		
-		victory_points = {
-			10556 10
-		}
-		
-		buildings = {
-			infrastructure = 6
-			
-			dockyard = 1
-			
-			2571 = {
-				naval_base = 1
-			}
-		}
-	}
-	resources = {
-		steel = 9
-	}
+	state_category=town
 }
