@@ -75,8 +75,9 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Warden Emperor"
-	picture = "Portrait_CWE_leader.tga"
+	name = "Emperor Ian Callahan"
+	desc = "POLITICS_IAN_CALLAHAN_DESC"
+	picture = "Portrait_CWE_callahan.tga"
 	expire = "0800.1.1"
 	ideology = centrism
 	traits = {
