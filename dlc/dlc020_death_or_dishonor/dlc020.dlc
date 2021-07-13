@@ -1,9 +1,0 @@
-name = "Death or Dishonor"
-archive = "dlc/dlc020_death_or_dishonor/dlc020.zip"
-steam_id = "584140"
-pops_id = "hoi4_dlc020_death_or_dishonor"
-affects_checksum = yes
-affects_compatability = no
-checksum = "16cf0b3d0a9c27ec0a7d3f91173cc951"
-third_party_content = no
-category = "expansion"
