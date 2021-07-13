@@ -1,0 +1,9 @@
+name = "La Resistance"
+archive = "dlc/dlc028_la_resistance/dlc028.zip"
+steam_id = "1158100"
+pops_id = "hoi4_dlc028_la_resistance"
+affects_checksum = yes
+affects_compatability = no
+checksum = "4b02567e2e7bda1f2ee46ebc24e2cec1"
+third_party_content = no
+category = "expansion"

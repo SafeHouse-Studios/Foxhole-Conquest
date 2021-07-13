@@ -1,0 +1,9 @@
+name = "Together for Victory"
+archive = "dlc/dlc018_together_for_victory/dlc018.zip"
+steam_id = "530760"
+pops_id = "hoi4_dlc018_together_for_victory"
+affects_checksum = yes
+affects_compatability = no
+checksum = "d5f8aecccd920034f663daa7e5e7fe2b"
+third_party_content = no
+category = "expansion"
