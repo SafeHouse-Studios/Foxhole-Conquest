@@ -19,8 +19,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_frontend_foxhole_logo"
-		texturefile = "gfx/interface/foxhole_logo.tga"
+		name = "GFX_mainmenu_foxhole_logo"
+		texturefile = "gfx/interface/mainmenu_foxhole_logo.tga"
 	}
 
 	spriteType = {
