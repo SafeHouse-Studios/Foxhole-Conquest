@@ -4,8 +4,8 @@ guiTypes = {
 		name ="frontend_background"
 		position = { x=0 y =0 }	
 		size = { 
-			width = 1920 
-			height = 1440 
+			width = 1920
+			height = 1080 
 			min = { width = 100% height = 100% }
 			max = { width = 100% height = 10000 }
 			preserve_aspect_ratio = yes
@@ -25,7 +25,7 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
+		position = { x=0 y =200 }
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
@@ -34,8 +34,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="frontend_foxhole_logo"
-			spriteType = "GFX_frontend_foxhole_logo"
-			position = { x= 20 y = 20 }
+			spriteType = "GFX_mainmenu_foxhole_logo"
+			position = { x= 20 y = 900 }
 		}
 		
 	}
@@ -73,19 +73,19 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 
-		iconType =
-		{
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
-		}
+		#iconType =
+		#{
+		#	name ="frontend_dev_logo"
+		#	spriteType = "GFX_frontend_dev_logo"
+		#	position = { x= 15 y = 15 }
+		#}
 		
-		iconType =
-		{
-			name ="pdx_int_logo"
-			spriteType = "GFX_pdx_int_logo"
-			position = { x= 135 y = 15 }
-		}		
+		#iconType =
+		#{
+		#	name ="pdx_int_logo"
+		#	spriteType = "GFX_pdx_int_logo"
+		#	position = { x= 135 y = 15 }
+		#}		
 		
 	}		
 
@@ -341,18 +341,11 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=0 y=0 }
+			position = { x=30 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
-		}
-		ButtonType = {
-			name = "forum_button"
-			position = { x=50 y=0 }
-			quadTextureSprite ="forum"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			web_link = "https://discord.gg/4WEsADc6xa"
 		}
 		ButtonType = {
 			name = "facebook_button"
@@ -360,19 +353,11 @@ guiTypes = {
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-		}
-		ButtonType = {
-			name = "twitter_button"
-			position = { x=150 y=0 }
-			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
+			web_link = "https://foxhole.fandom.com/wiki/Foxhole_Wiki"
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=200 y=0 }
+			position = { x=170 y=0 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
