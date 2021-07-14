@@ -528,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_state_of_the_empire
 		icon = the_state_of_the_empire
-		x = 26
+		x = 30
 		y = 0
 		cost = 5
 		available_if_capitulated = yes
@@ -539,15 +539,137 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	#Focus for The Divine Right
+
+	#Focus for The Imperial Truth
 	focus = {
-		id = CWE_the_divine_right
-		icon = the_divine_right
-		x = 26
+		id = CWE_the_imperial_truth
+		icon = the_imperial_truth
+		x = 24
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_divine_right }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Depower the Council
+	focus = {
+		id = CWE_depower_the_council
+		icon = the_depower_the_council
+		x = 24
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_imperial_truth }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Soravian Support
+	focus = {
+		id = CWE_secure_soravian_support
+		icon = secure_soravian_support
+		x = 22
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Caovish Democratic League
+	focus = {
+		id = CWE_the_caovish_democratic_league
+		icon = the_caovish_democratic_league
+		x = 24
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Nicevin Support
+	focus = {
+		id = CWE_secure_nicevin_support
+		icon = secure_nicevin_support
+		x = 26
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Resistance
+	focus = {
+		id = CWE_the_resistance
+		icon = the_resistance
+		x = 24
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_nicevin_support focus = CWE_the_caovish_democratic_league focus = CWE_secure_soravian_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Military Support
+	focus = {
+		id = CWE_secure_military_support
+		icon = secure_military_support
+		x = 24
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_resistance }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Divine Right
+	focus = {
+		id = CWE_the_divine_right
+		icon = the_divine_right
+		x = 30
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_imperial_truth }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -559,7 +681,7 @@ focus_tree = {
 	focus = {
 		id = CWE_maintain_royal_authority
 		icon = maintain_royal_authority
-		x = 26
+		x = 30
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
@@ -575,7 +697,7 @@ focus_tree = {
 	focus = {
 		id = CWE_coerce_soravian_involvement
 		icon = coerce_soravian_involvement
-		x = 25
+		x = 29
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -591,7 +713,7 @@ focus_tree = {
 	focus = {
 		id = CWE_develop_nicevian_resources
 		icon = develop_nicevian_resources
-		x = 25
+		x = 29
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -607,7 +729,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_imperial_army
 		icon = the_imperial_army
-		x = 27
+		x = 31
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -623,7 +745,7 @@ focus_tree = {
 	focus = {
 		id = CWE_technology_reclamation
 		icon = technology_reclamation
-		x = 27
+		x = 31
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -639,7 +761,7 @@ focus_tree = {
 	focus = {
 		id = CWE_victory_through_tradition
 		icon = victory_through_tradition
-		x = 26
+		x = 30
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
@@ -655,7 +777,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_hands_of_callahan
 		icon = the_hands_of_callahan
-		x = 26
+		x = 30
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -671,7 +793,7 @@ focus_tree = {
 	focus = {
 		id = CWE_southwestern_protectorate_state
 		icon = southwestern_protectorate_state
-		x = 25
+		x = 29
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -687,7 +809,7 @@ focus_tree = {
 	focus = {
 		id = CWE_southeastern_protectorate_state
 		icon = southeastern_protectorate_state
-		x = 27
+		x = 31
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -703,7 +825,7 @@ focus_tree = {
 	focus = {
 		id = CWE_reaffirm_the_nevish_alliance
 		icon = reaffirm_the_nevish_alliance
-		x = 26
+		x = 30
 		y = 8
 		cost = 5
 		available_if_capitulated = yes
@@ -720,7 +842,7 @@ focus_tree = {
 	focus = {
 		id = CWE_at_the_gates_of_demokratos
 		icon = at_the_gates_of_demokratos
-		x = 26
+		x = 30
 		y = 9
 		cost = 5
 		available_if_capitulated = yes
@@ -736,7 +858,7 @@ focus_tree = {
 	focus = {
 		id = CWE_shielded_by_the_mountains
 		icon = shielded_by_the_mountains
-		x = 24
+		x = 28
 		y = 8
 		cost = 5
 		available_if_capitulated = yes
@@ -752,7 +874,7 @@ focus_tree = {
 	focus = {
 		id = CWE_his_fury_in_our_voice
 		icon = his_fury_in_our_voice
-		x = 24
+		x = 28
 		y = 9
 		cost = 5
 		available_if_capitulated = yes
@@ -768,7 +890,7 @@ focus_tree = {
 	focus = {
 		id = CWE_heritage_of_victory
 		icon = heritage_of_victory
-		x = 25
+		x = 29
 		y = 10
 		cost = 5
 		available_if_capitulated = yes
@@ -787,7 +909,7 @@ focus_tree = {
 	focus = {
 		id = CWE_empower_the_war_council
 		icon = empower_the_war_council
-		x = 36
+		x = 40
 		y = 0
 		cost = 5
 		available_if_capitulated = yes
@@ -802,7 +924,7 @@ focus_tree = {
 	focus = {
 		id = CWE_militaristic_transformation
 		icon = militaristic_transformation
-		x = 36
+		x = 40
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
@@ -818,7 +940,7 @@ focus_tree = {
 	focus = {
 		id = CWE_armored_car_battalions
 		icon = armored_car_battalions
-		x = 34
+		x = 38
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
@@ -834,7 +956,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_niska
 		icon = the_niska
-		x = 34
+		x = 38
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -850,7 +972,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_devitt
 		icon = the_devitt
-		x = 34
+		x = 38
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -866,7 +988,7 @@ focus_tree = {
 	focus = {
 		id = CWE_integrate_militias
 		icon = integrate_militias
-		x = 36
+		x = 40
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
@@ -882,7 +1004,7 @@ focus_tree = {
 	focus = {
 		id = CWE_infantry_innovations
 		icon = infantry_innovations
-		x = 36
+		x = 40
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -898,7 +1020,7 @@ focus_tree = {
 	focus = {
 		id = CWE_warden_shock_army
 		icon = warden_shock_army
-		x = 36
+		x = 40
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -914,7 +1036,7 @@ focus_tree = {
 	focus = {
 		id = CWE_restructured_command
 		icon = restructured_command
-		x = 38
+		x = 42
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
@@ -930,7 +1052,7 @@ focus_tree = {
 	focus = {
 		id = CWE_establish_warden_officer_academy
 		icon = establish_warden_officer_academy
-		x = 38
+		x = 42
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -946,7 +1068,7 @@ focus_tree = {
 	focus = {
 		id = CWE_command_protocols
 		icon = command_protocols
-		x = 38
+		x = 42
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -962,7 +1084,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_warden_military
 		icon = the_warden_military
-		x = 36
+		x = 40
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
@@ -978,7 +1100,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_flood
 		icon = the_flood
-		x = 34
+		x = 38
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -995,7 +1117,7 @@ focus_tree = {
 	focus = {
 		id = CWE_warden_artillery_batteries
 		icon = warden_artillery_batteries
-		x = 36
+		x = 40
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -1011,7 +1133,7 @@ focus_tree = {
 	focus = {
 		id = CWE_combined_arms_doctrine
 		icon = combined_arms_doctrine
-		x = 38
+		x = 42
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -1028,7 +1150,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_silverhand
 		icon = the_silverhand
-		x = 34
+		x = 38
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -1044,7 +1166,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_dread_korps
 		icon = the_dread_korps
-		x = 36
+		x = 40
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -1060,7 +1182,7 @@ focus_tree = {
 	focus = {
 		id = CWE_final_offensive_doctrine
 		icon = final_offensive_doctrine
-		x = 38
+		x = 42
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -1076,7 +1198,7 @@ focus_tree = {
 	focus = {
 		id = CWE_guardians_of_the_north
 		icon = guardians_of_the_north
-		x = 36
+		x = 40
 		y = 8
 		cost = 5
 		available_if_capitulated = yes
