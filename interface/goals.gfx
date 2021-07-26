@@ -59,7 +59,7 @@ spriteTypes = {
 	name = "GFX_goal_establish_mesean_ports"
 	texturefile = "gfx/interface/goals/focus_MCA_establish_mesean_ports.dds"			
 	}
-	
+
 	SpriteType = {
 	name = "GFX_goal_establish_trade_comitee"
 	texturefile = "gfx/interface/goals/focus_MCA_establish_trade_comitee.dds"			
@@ -77,7 +77,7 @@ spriteTypes = {
 	
 	SpriteType = {
 	name = "GFX_goal_fortify_the_bulwark"
-	texturefile = "gfx/interface/goals/focus_MCA_fortify_the_bulwark.dds"			
+	texturefile = "gfx/interface/goals/fortify_the_bulwark.png"			
 	}
 	
 	SpriteType = {
@@ -2504,5 +2504,76 @@ spriteTypes = {
 		name = "no_compromise" 
 		texturefile = "gfx/interface/goals/no_compromise.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_MCA_revolutions_dawn"
+		texturefile = "gfx/interface/goals/revolutions_dawn.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MCA_legionary_officers_cabal-93450"
+		texturefile = "gfx/interface/goals/legionary_officers_cabal.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_reassess_colonial_rights"
+		texturefile = "gfx/interface/goals/reassess_colonial_rights.png"
+	}
+
+	SpriteType = {
+		name = "GFX_MCA_a_change_in_course-93433"
+		texturefile = "gfx/interface/goals/a_change_in_course.png"
+	}
+
+	SpriteType = {
+		name = "GFX_select_a_new_caesar"
+		texturefile = "gfx/interface/goals/select_a_new_caesar.png"
+	}
+
+	SpriteType = {
+		name = "GFX_secret_velian_arms_plants"
+		texturefile = "gfx/interface/goals/secret_velian_arms_plants.png"
+	}
+
+	SpriteType = {
+		name = "GFX_legion_of_liberty"
+		texturefile = "gfx/interface/goals/legion_of_liberty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_legionary_batteries"
+		texturefile = "gfx/interface/goals/LegionaryBatteries.png"
+	}
+
+	SpriteType = {
+		name = "GFX_legionis_aetherium"
+		texturefile = "gfx/interface/goals/legionis_aetherium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_raid_directorate"
+		texturefile = "gfx/interface/goals/RAID_Directorate.png"
+	}
+
+	SpriteType = {
+		name = "GFX_fishermans_row_naval_bases"
+		texturefile = "gfx/interface/goals/fishermans_row_naval_bases.png"
+	}
+
+	SpriteType = {
+		name = "GFX_grand_colonial_navy"
+		texturefile = "gfx/interface/goals/grand_colonial_navy.png"
+	}
+
+	SpriteType = {
+		name = "GFX_godscroft_naval_bases"
+		texturefile = "gfx/interface/goals/godscroft_naval_bases.png"
+	}
+
+	SpriteType = {
+		name = "GFX_orebreaker_isle_naval_bases"
+		texturefile = "gfx/interface/goals/orebreaker_isle_naval_bases.png"
+	}
+
  
 }

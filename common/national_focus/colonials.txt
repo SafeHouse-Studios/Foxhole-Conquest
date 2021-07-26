@@ -695,7 +695,7 @@ focus_tree = {
 	#Focus for Fortify The Bulwark
 	focus = {
 		id = MCA_fortify_the_bulwark
-		icon = fortify_the_bulwark
+		icon = GFX_goal_fortify_the_bulwark
 		x = 7
 		y = 6
 		cost = 7
@@ -1280,7 +1280,7 @@ focus_tree = {
 	#Focus for Revolution's Dawn
 	focus = {
 		id = MCA_revolutions_dawn
-		icon = MCA_revolutions_dawn
+		icon = GFX_MCA_revolutions_dawn
 		x = 40
 		y = 9
 		cost = 7
@@ -1349,7 +1349,7 @@ focus_tree = {
 	#Focus for Reassess Colonial Rights
 	focus = {
 		id = MCA_reassess_colonial_rights
-		icon = reassess_colonial_rights
+		icon = GFX_reassess_colonial_rights
 		x = 28
 		y = 3
 		cost = 7
@@ -1475,7 +1475,7 @@ focus_tree = {
 	#Focus for Secret Velian Arms Plants
 	focus = {
 		id = MCA_secret_velian_arms_plants
-		icon = GFX_goal_unknown
+		icon = GFX_secret_velian_arms_plants
 		x = 25
 		y = 9
 		cost = 7
@@ -1493,7 +1493,7 @@ focus_tree = {
 	#Focus for Select A New Caesar
 	focus = {
 		id = MCA_select_a_new_caesar
-		icon = GFX_goal_unknown
+		icon = GFX_select_a_new_caesar
 		x = 27
 		y = 9
 		cost = 7
@@ -1923,7 +1923,7 @@ focus_tree = {
 	#Focus for Legion Of Liberty
 	focus = {
 		id = MCA_legion_of_liberty
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_legion_of_liberty
 		x = 35
 		y = 11
 		cost = 7
@@ -2355,7 +2355,7 @@ focus_tree = {
 		#Focus for Legionaries Batteries Note: need to add 3 Ballistarius with Veterean Veterancy.
 		focus = {
 			id = MCA_legionaries_batteries
-			icon = GFX_goal_unknown
+			icon = GFX_legionary_batteries
 			x = 52
 			y = 5
 			cost = 7
@@ -2810,7 +2810,7 @@ focus_tree = {
 		#Focus for Legionis Aetherium
 		focus = {
 			id = MCA_legionis_aetherium
-			icon = GFX_goal_unknown
+			icon = GFX_legionis_aetherium
 			x = 56
 			y = 5
 			cost = 7
@@ -2871,7 +2871,7 @@ focus_tree = {
 		#Focus for RAID Directorate
 		focus = {
 			id = MCA_raid_directorate
-			icon = GFX_goal_unknown
+			icon = GFX_raid_directorate
 			x = 56
 			y = 7
 			cost = 7
@@ -3048,7 +3048,7 @@ focus_tree = {
 		#Focus for Fisherman’s Row Naval Bases
 		focus = {
 			id = MCA_fishermans_row_naval_bases
-			icon = GFX_goal_unknown
+			icon = GFX_fishermans_row_naval_bases
 			x = 64
 			y = 4
 			cost = 7
@@ -3084,7 +3084,7 @@ focus_tree = {
 		#Focus for Orebreaker Isle Naval Bases
 		focus = {
 			id = MCA_orebreaker_isle_naval_bases
-			icon = GFX_goal_unknown
+			icon = GFX_orebreaker_isle_naval_bases
 			x = 62
 			y = 6
 			cost = 7
@@ -3103,7 +3103,7 @@ focus_tree = {
 		#Focus for Godscroft Naval Bases
 		focus = {
 			id = MCA_godscroft_naval_bases
-			icon = GFX_goal_unknown
+			icon = GFX_godscroft_naval_bases
 			x = 68
 			y = 6
 			cost = 7
@@ -3141,7 +3141,7 @@ focus_tree = {
 		#Focus for Grand Colonial Navy
 		focus = {
 			id = MCA_grand_colonial_navy
-			icon = GFX_goal_unknown
+			icon = GFX_grand_colonial_navy
 			x = 65
 			y = 6
 			cost = 7
