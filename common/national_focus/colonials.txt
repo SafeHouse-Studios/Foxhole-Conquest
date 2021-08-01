@@ -861,7 +861,7 @@ focus_tree = {
 	#Focus for Balanced Development
 	focus = {
 		id = MCA_balanced_development
-		icon = GFX_goal_unknown
+		icon = GFX_balanced_development
 		x = 20
 		y = 3
 		cost = 7
@@ -3066,7 +3066,7 @@ focus_tree = {
 		#Focus for Tempest Isle Naval Bases
 		focus = {
 			id = MCA_tempest_isle_naval_bases
-			icon = GFX_goal_unknown
+			icon = GFX_tempest_isle_naval_bases
 			x = 66
 			y = 4
 			cost = 7

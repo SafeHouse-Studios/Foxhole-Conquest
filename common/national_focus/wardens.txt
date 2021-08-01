@@ -95,7 +95,7 @@ focus_tree = {
      #Focus for Revive The Ancient Capital
 	focus = {
 		id = CWE_revive_the_ancient_capital
-		icon = revive_the_ancient_capital
+		icon = GFX_revive_the_ancient_capital
 		x = 10
 		y = 5
 		cost = 5
@@ -112,7 +112,7 @@ focus_tree = {
      #Focus for Reoccupy The Ward
 	focus = {
 		id = CWE_reoccupy_the_ward
-		icon = reoccupy_the_ward
+		icon = GFX_reoccupy_the_ward
 		x = 10
 		y = 6
 		cost = 5
@@ -129,7 +129,7 @@ focus_tree = {
     #Focus for The Domain Of Sunhaven
 	focus = {
 		id = CWE_the_domain_of_sunhaven
-		icon = the_domain_of_sunhaven
+		icon = GFX_the_domain_of_sunhaven
 		x = 10
 		y = 7
 		cost = 5
