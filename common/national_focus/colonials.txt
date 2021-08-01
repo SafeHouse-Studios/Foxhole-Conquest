@@ -1589,7 +1589,7 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Prepare Fascist Assault Divisions
+	#Focus for Prepare Fascist Assault Divisions 
 	focus = {
 		id = MCA_prepare_fascist_assault_divisions
 		icon = GFX_goal_unknown
@@ -2881,7 +2881,10 @@ focus_tree = {
 				factor = 1
 			}
 			completion_reward = {
-				add_ideas = MCA_mesean_air_service_idea
+				swap_ideas = {
+					add_idea = MCA_mesean_air_service_2_idea
+					remove_idea = MCA_mesean_air_service_idea
+					}
 				527 = {
                     limit = { ROOT = { has_full_control_of_state = PREV } }
                     prioritize = { 46 }
