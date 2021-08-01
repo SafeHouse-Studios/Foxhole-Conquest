@@ -550,6 +550,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_divine_right }
+		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -660,6 +661,161 @@ focus_tree = {
 		}
 	}
 
+	#Focus for Secure Colonial Support
+	focus = {
+		id = CWE_secure_colonial_support
+		icon = GFX_secure_colonial_support
+		x = 23
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_military_support }
+		mutually_exclusive = { focus = CWE_continue_the_southern_crusade }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for The Greater Evil
+	focus = {
+		id = CWE_the_greater_evil
+		icon = GFX_the_greater_evil
+		x = 23
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_colonial_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Continue the Southern Crusade
+	focus = {
+		id = CWE_continue_the_southern_crusade
+		icon = GFX_continue_the_southern_crusade
+		x = 25
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_military_support }
+		mutually_exclusive = { focus = CWE_secure_colonial_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Two Front Strife
+	focus = {
+		id = CWE_the_two_front_strife
+		icon = GFX_the_two_front_strife
+		x = 25
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_continue_the_southern_crusade }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Underground Industry
+	focus = {
+		id = CWE_underground_industry
+		icon = GFX_underground_industry
+		x = 23
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The People's Blade
+	focus = {
+		id = CWE_the_peoples_blade
+		icon = GFX_the_peoples_blade
+		x = 25
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Lighting of the Torch
+	focus = {
+		id = CWE_lighting_of_the_torch
+		icon = GFX_lighting_of_the_torch
+		x = 24
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_peoples_blade focus = CWE_underground_industry }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Death to the False Emperor
+	focus = {
+		id = CWE_death_to_the_false_emperor
+		icon = GFX_death_to_the_false_emperor
+		x = 24
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_lighting_of_the_torch }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Republic of Caovia
+	focus = {
+		id = CWE_the_republic_of_caovia
+		icon = GFX_the_republic_of_caovia
+		x = 24
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_death_to_the_false_emperor }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
 	#Focus for The Divine Right
 	focus = {
 		id = CWE_the_divine_right
@@ -670,6 +826,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_imperial_truth }
+		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -677,6 +834,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
 	#Focus for Maintain Royal Authority
 	focus = {
 		id = CWE_maintain_royal_authority
@@ -902,6 +1060,44 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	
+	#Focus for Embrace Caovish Populism
+	focus = {
+		id = CWE_embrace_caovish_populism
+		icon = GFX_embrace_caovish_populism
+		x = 35
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_imperial_truth }
+		mutually_exclusive = { focus = CWE_the_divine_right }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for Question The Regime
+	focus = {
+		id = CWE_question_the_regime
+		icon = GFX_question_the_regime
+		x = 35
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_embrace_caovish_populism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
 	
 	# RESEARCH --------------- RESEARCH ---------------- RESEARCH
 
