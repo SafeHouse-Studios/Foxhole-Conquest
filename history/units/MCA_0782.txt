@@ -289,16 +289,235 @@
 #}
 
 units = {
-	division= {
+	###Jade Cove Units###
+	division = {
 		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-			}
+			is_ordered_name = yes
+			ordered_name = 1
 		}
-		location = 3050
+		location = 3958
 		division_template = "Infantry Division"
-
 	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 1
+		}
+		location = 3958
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 1
+		}
+		location = 3958
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 1
+		}
+		location = 3958
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 1
+		}
+		location = 3958
+		division_template = "Infantry Division"
+	}
+	
+	###Eidolo Units###
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 2
+		}
+		location = 1489
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 2
+		}
+		location = 1489
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 2
+		}
+		location = 1489
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 2
+		}
+		location = 1489
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 2
+		}
+		location = 1489
+		division_template = "Infantry Division"
+	}
+	
+	###Feirmor Units###
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 3
+		}
+		location = 6263
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 3
+		}
+		location = 6263
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 3
+		}
+		location = 6263
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 3
+		}
+		location = 6263
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 3
+		}
+		location = 6263
+		division_template = "Infantry Division"
+	}
+	
+	###The Salt Farms Units###
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 4
+		}
+		location = 9255
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 4
+		}
+		location = 9255
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 4
+		}
+		location = 9255
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 4
+		}
+		location = 9255
+		division_template = "Infantry Division"
+	}
+	
+	###The Baths Units###
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 5
+		}
+		location = 9785
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 5
+		}
+		location = 9785
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 5
+		}
+		location = 9785
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 5
+		}
+		location = 9785
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 5
+		}
+		location = 9785
+		division_template = "Infantry Division"
+	}
+	
+	###The Grave of Rastus Units###
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 6
+		}
+		location = 10402
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 6
+		}
+		location = 10402
+		division_template = "Infantry Division"
+	}
+	division = {
+		division_name = {
+			is_ordered_name = yes
+			ordered_name = 6
+		}
+		location = 10402
+		division_template = "Infantry Division"
+	}
+	
+	
 	
 	# Navy Bois
 	fleet = {
@@ -311,6 +530,7 @@ units = {
 			ship = { name = "CN Sisher II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MCA version_name = "Swimmer Class" } } }
 		}				
 	}
+}
 #########################
 ## STARTING PRODUCTION ##
 #########################

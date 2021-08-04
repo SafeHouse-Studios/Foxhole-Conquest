@@ -12,7 +12,7 @@ state={
 		add_core_of = MCA
 		
 		victory_points = {
-            9371 40
+            1489 40
 		}
 		
 		buildings = {

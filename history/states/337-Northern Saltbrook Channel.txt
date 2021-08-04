@@ -12,7 +12,7 @@ state={
 		add_core_of = CWE
 		
 		victory_points = {
-			2282 40
+			4915 40
 		}
 		
 		buildings = {
