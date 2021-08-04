@@ -1526,6 +1526,34 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			division_template = {	
+				name = "Praetorian Guard"
+				division_names_group = MCA_Inf_01
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+		
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+					artillery_brigade = { x = 2 y = 2 }
+				}
+	
+				support = {
+					mot_recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					artillery = { x = 0 y = 2 }
+					anti_tank = { x = 0 y = 3 }
+					logistics_company = { x = 0 y = 4 }
+				}
+			}
+		} 
 	}
 
 	#Focus for Refuse Colonial Representation
@@ -1607,6 +1635,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			
+		} 
 	}
 
 	#Focus for Suppress The Press
@@ -1823,6 +1854,32 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			division_template = {	
+				name = "Republican Guard"
+				division_names_group = MCA_Inf_01
+
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+		
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+					artillery_brigade = { x = 2 y = 2 }
+				}
+	
+				support = {
+					engineer = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					mot_recon = { x = 0 y = 2 }
+				}
+			}	
 		}
 	}
 
@@ -2349,6 +2406,38 @@ focus_tree = {
 					uses = 1
 					category = Artillery
 				}
+				division_template = {	
+					name = "Ballistarius Cohort"
+					division_names_group = MCA_Inf_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+						
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+						
+						infantry = { x = 2 y = 0 }
+						
+						artillery_brigade = { x = 2 y = 1 }
+						artillery_brigade = { x = 2 y = 2 }
+						artillery_brigade = { x = 2 y = 3 }
+						artillery_brigade = { x = 2 y = 4 }
+						artillery_brigade = { x = 3 y = 0 }
+						artillery_brigade = { x = 3 y = 1 }
+					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						mot_recon = { x = 0 y = 2 }
+					}
+				}
 			}
 		}
 	
@@ -2445,8 +2534,7 @@ focus_tree = {
 		}
 	
 		#Focus for Form The 404th 
-
-		focus = {
+			focus = {
 			id = MCA_form_the_404th
 			icon = GFX_goal_unknown
 			x = 47
@@ -2458,6 +2546,32 @@ focus_tree = {
 				factor = 1
 			}
 			completion_reward = {
+				division_template = {	
+					name = "404th Motorized"
+					division_names_group = MCA_Inf_01
+
+					regiments = {
+						motorized = { x = 0 y = 0 }
+						motorized = { x = 0 y = 1 }
+						motorized = { x = 0 y = 2 }
+		
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+		
+						motorized = { x = 2 y = 0 }
+		
+						mot_artillery_brigade = { x = 2 y = 1 }
+						mot_artillery_brigade = { x = 2 y = 2 }
+					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						mot_recon = { x = 0 y = 2 }
+					}
+				}
+				
 				527 = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 46 }
@@ -2590,7 +2704,30 @@ focus_tree = {
 					amount = 200
 					producer = MCA
 				}
+				division_template = {	
+					name = "Mechanized Armor"
+					division_names_group = MCA_Inf_01
 
+					regiments = {
+						mechanized = { x = 0 y = 0 }
+						mechanized = { x = 0 y = 1 }
+						mechanized = { x = 0 y = 2 }
+						mot_artillery_brigade = { x = 0 y = 3 }
+		
+						mechanized = { x = 1 y = 0 }
+						mechanized = { x = 1 y = 1 }
+						mechanized = { x = 1 y = 2 }
+						mot_artillery_brigade = { x = 1 y = 3 }
+		
+						light_armor = { x = 2 y = 0 }
+					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						light_tank_recon = {x = 0 y = 2 }
+					}
+				}
 			}
 		}
 	
@@ -2649,6 +2786,42 @@ focus_tree = {
 				factor = 1
 			}
 			completion_reward = {
+				division_template = {	
+					name = "Swords of Maro"
+					division_names_group = MCA_Inf_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+		
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+		
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
+		
+						heavy_armor = { x = 3 y = 0 }
+						heavy_armor = { x = 3 y = 1 }
+						heavy_armor = { x = 3 y = 2 }
+		
+						artillery_brigade = { x = 4 y = 0 }
+						artillery_brigade = { x = 4 y = 1 }
+					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+					}
+				}
+				
 				527 = { 
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				prioritize = { 46 }
@@ -2884,7 +3057,37 @@ focus_tree = {
 				swap_ideas = {
 					add_idea = MCA_mesean_air_service_2_idea
 					remove_idea = MCA_mesean_air_service_idea
+				}
+				
+				division_template = {	
+					name = "RAID Directorate"
+					division_names_group = MCA_Inf_01
+
+					regiments = {
+						paratrooper = { x = 0 y = 0 }
+						paratrooper = { x = 0 y = 1 }
+		
+						paratrooper = { x = 1 y = 0 }
+						paratrooper = { x = 1 y = 1 }
+		
+						paratrooper = { x = 2 y = 0 }
+						paratrooper = { x = 2 y = 1 }
+		
+						paratrooper = { x = 3 y = 0 }
+						paratrooper = { x = 3 y = 1 }
+		
+						paratrooper = { x = 4 y = 0 }
+						paratrooper = { x = 4 y = 1 }
 					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						recon = { x = 0 y = 2 }
+						logistics_company = { x = 0 y = 3 }
+					}
+				}
+				
 				527 = {
                     limit = { ROOT = { has_full_control_of_state = PREV } }
                     prioritize = { 46 }
