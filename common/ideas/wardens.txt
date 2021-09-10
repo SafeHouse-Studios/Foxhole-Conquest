@@ -148,11 +148,11 @@ ideas = {
 			traits = { fascist_demagogue }
 			
 			on_add = {
-
+				
 			}
 
 			do_effect = {
-
+				
 			}
 
 			ai_will_do = {
@@ -232,7 +232,7 @@ ideas = {
 	theorist = {
 		
 	}	
-		
+
 	# MILITARY
 	army_chief = {
 		
@@ -240,10 +240,14 @@ ideas = {
 	
 	air_chief = {
 		
-		
 	}
 	
 	navy_chief = { #CHIEF OF NAVY
 		
 	}
+	
+	high_command = {
+		
+	}
 }
+
