@@ -8,14 +8,14 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = city
 	history = {
-		owner = CWE
-		add_core_of = CWE
+		owner = MCA
+		add_core_of = MCA
 		
 		0783.1.1 = {
 			owner = BRT
 			controller = BRT
 			add_core_of = BRT
-			remove_core_of = CWE
+			remove_core_of = MCA
 		}
 		
 		victory_points = {
