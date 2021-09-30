@@ -1886,7 +1886,7 @@ focus_tree = {
 	#Focus for Establish NorthWestern Colonies
 	focus = {
 		id = MCA_establish_northwestern_colonies
-		icon = GFX_MCA_establish_northwestern_colonies-93429
+		icon = GFX_establish_northwestern_colonies
 		x = 34
 		y = 8
 		cost = 7
@@ -1901,7 +1901,7 @@ focus_tree = {
 	#Focus for Establish NorthEastern Colonies
 	focus = {
 		id = MCA_establish_northeastern_colonies
-		icon = GFX_MCA_establish_northeastern_colonies-93430
+		icon = GFX_establish_northeastern_colonies
 		x = 36
 		y = 8
 		cost = 7
