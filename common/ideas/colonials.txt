@@ -19,7 +19,7 @@ ideas = {
 			}
 
 		}
-		MCA_trade_Committe_veli_idea = {MCA_trade_Committe_Mesean_idea
+		MCA_trade_Committe_veli_idea = {
 			
 			allowed = {
 				always = yes
@@ -88,7 +88,7 @@ ideas = {
 				stability_factor = 0.10
 			}
 		}
-		MCA_convert_farmland_to_industry_idea = {
+		MCA_therizian_arms_idea = {
 			
 			allowed = {
 				always = yes
@@ -103,6 +103,58 @@ ideas = {
 			modifier = {
 				stability_factor = -0.10
 				production_factory_max_efficiency_factor = +0.15
+			}
+		}
+		MCA_dimian_industry_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = -0.20
+			}
+		}
+		MCA_dimian_industry_two_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.20
+			}
+		}
+		MCA_the_great_forge_of_the_south_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				stability_factor = 0.05
 			}
 		}
 		MCA_senate_divided_idea = {
@@ -338,6 +390,10 @@ ideas = {
 			}
 			
 			traits = { captain_of_industry }
+			
+			available = {
+				has_completed_focus = MCA_disregard_labor_protests
+			}
 			
 			on_add = {
 
