@@ -1,0 +1,527 @@
+ideas = {
+
+	country = {
+		MCA_trade_Committe_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05	
+				production_speed_infrastructure_factor = 0.05
+			}
+
+		}
+		MCA_trade_Committe_veli_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		MCA_trade_Committe_Mesean_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		MCA_to_feed_the_legion_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.05
+				army_org_regain = 0.05
+			}
+		}
+		MCA_the_colonial_breadbasket_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = -0.10
+				army_org_regain = 0.10
+				stability_factor = 0.10
+			}
+		}
+		MCA_therizian_arms_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = +0.15
+			}
+		}
+		MCA_dimian_industry_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = -0.20
+			}
+		}
+		MCA_dimian_industry_two_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.20
+			}
+		}
+		MCA_the_great_forge_of_the_south_idea = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				stability_factor = 0.05
+			}
+		}
+		MCA_senate_divided_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.10
+				war_support_factor = -0.05
+			}
+
+		}
+		MCA_nobility_purge_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				communism_drift = 0.2
+			}
+
+		}
+		MCA_war_committee_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_factor = -0.05
+				army_org_factor = 0.05
+				add_army_experience = 25
+			}
+
+		}
+		MCA_legion_command_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain_mult = 0.25
+				promote_cost_factor = -0.30
+			}
+
+		}
+		MCA_legion_air_command_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				air_superiority_efficiency = 0.05
+				experience_gain_air_factor = 0.25
+			}
+
+		}
+		MCA_mesean_air_service_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.1
+			}
+		}
+		MCA_mesean_air_service_2_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.2
+			}
+		}
+	}
+	
+	political_advisor = {
+		grom_communist_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { communist_revolutionary }
+			
+			on_add = {
+				
+			}
+
+			do_effect = {
+				
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		aviary_chang_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { technocrat }
+			
+			on_add = {
+				
+			}
+
+			do_effect = {
+				
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		the_crab_fascist_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { fascist_demagogue }
+			
+			on_add = {
+				
+			}
+
+			do_effect = {
+				
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		simplicity_democratic_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { democratic_reformer }
+			
+			on_add = {
+				
+			}
+
+			do_effect = {
+				
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		eggy_boi_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { quartermaster_general }
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		turtleandrabbit_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { captain_of_industry }
+			
+			available = {
+				has_completed_focus = MCA_disregard_labor_protests
+			}
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		terran_marine_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			traits = { ideological_crusader }
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		mymanmarx_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { propaganda_expert popular_figurehead }
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		themasterspy_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { silent_workhorse }
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		shun_kazama_traditional_advisor = {
+			allowed = {
+				original_tag = MCA
+			}
+			
+			traits = { traditionalist_theorist }
+			
+			on_add = {
+
+			}
+
+			do_effect = {
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		
+		designer = yes
+	}
+	naval_manufacturer = { 
+		
+		designer = yes	
+	}
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	}
+	industrial_concern = {
+		
+		designer = yes
+	}
+	materiel_manufacturer = {
+		
+		designer = yes
+	}
+	theorist = {
+		
+	}	
+	
+	# MILITARY
+	army_chief = {
+		
+	}
+	air_chief = {
+		
+		
+	}
+	navy_chief = { #CHIEF OF NAVY
+		
+	}
+}

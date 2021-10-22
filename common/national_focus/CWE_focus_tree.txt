@@ -1,0 +1,2212 @@
+focus_tree = {
+	id = 2
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CWE
+		}
+	}
+		# INDUSTRIAL ------------ INDUSTRIAL ----------- INDUSTRIAL
+	#Focus for The Council On Industrial Development
+	focus = {
+		id = CWE_the_council_on_industrial_development
+		icon = the_council_on_industrial_development
+		x = 10
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Whedon's Row
+	focus = {
+		id = CWE_the_port_of_whedons_row
+		icon = the_port_of_whedons_row
+		x = 10
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for Repair Central Infrastructure
+	focus = {
+		id = CWE_repair_central_infastructure
+		icon = repair_central_infastructure
+		x = 10
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_whedons_row }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for The Elksford Rail Line
+	focus = {
+		id = CWE_the_elksford_rail_line
+		icon = the_elksford_rail_line
+		x = 10
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_repair_central_infastructure }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Create The Lochan Birth Rail Hub
+	focus = {
+		id = CWE_create_the_lochan_birth_rail_hub
+		icon = create_the_lochan_birth_rail_hub
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_elksford_rail_line }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Revive The Ancient Capital
+	focus = {
+		id = CWE_revive_the_ancient_capital
+		icon = GFX_revive_the_ancient_capital
+		x = 10
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_create_the_lochan_birth_rail_hub }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+     #Focus for Reoccupy The Ward
+	focus = {
+		id = CWE_reoccupy_the_ward
+		icon = GFX_reoccupy_the_ward
+		x = 10
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_revive_the_ancient_capital }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+    #Focus for The Domain Of Sunhaven
+	focus = {
+		id = CWE_the_domain_of_sunhaven
+		icon = GFX_the_domain_of_sunhaven
+		x = 10
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_reoccupy_the_ward }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Ogmaran
+	focus = {
+		id = CWE_the_port_of_ogmaran
+		icon = the_port_of_ogmaran
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Buckler Sound
+	focus = {
+		id = CWE_port_of_buckler_sound
+		icon = port_of_buckler_sound
+		x = 8
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_ogmaran }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Skelter Course
+	focus = {
+		id = CWE_skelter_course
+		icon = skelter_course
+		x = 8
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_port_of_buckler_sound }
+		mutually_exclusive = { focus = CWE_facilitate_heacy_arms_plants }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Forward Western Factories
+	focus = {
+		id = CWE_forward_western_factories
+		icon = forward_western_factories
+		x = 6
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_ogmaran }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Facilitate Heavy Arms Plants
+	focus = {
+		id = CWE_facilitate_heacy_arms_plants
+		icon = facilitate_heacy_arms_plants
+		x = 6
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forward_western_factories }
+		mutually_exclusive = { focus = CWE_skelter_course }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Build the Ulster Dam
+	focus = {
+		id = CWE_build_the_ulster_dam
+		icon = build_the_ulster_dam
+		x = 7
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_facilitate_heacy_arms_plants focus = CWE_skelter_course }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Farranac Industrial Concern
+	focus = {
+		id = CWE_farranac_industrial_concern
+		icon = farranac_industrial_concern
+		x = 7
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_build_the_ulster_dam }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Develop Nicevian Oil Fields
+	focus = {
+		id = CWE_develop_nicevian_oil_fields
+		icon = develop_nicevian_oil_fields
+		x = 3
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Develop Snowfal Refineries
+	focus = {
+		id = CWE_develop_snowfal_refineries
+		icon = develop_snowfal_refineries
+		x = 3
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_nicevian_oil_fields }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Pace Extraction
+	focus = {
+		id = CWE_pace_extraction
+		icon = pace_extraction
+		x = 4
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_snowfal_refineries }
+		mutually_exclusive = { focus = CWE_increase_labor_quotas }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Increase Labor Quotas
+	focus = {
+		id = CWE_increase_labor_quotas
+		icon = increase_labor_quotas
+		x = 2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_snowfal_refineries }
+		mutually_exclusive = { focus = CWE_pace_extraction }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Port of Viper Pit
+	focus = {
+		id = CWE_the_port_of_viper_pit
+		icon = the_port_of_viper_pit
+		x = 12
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Rime
+	focus = {
+		id = CWE_port_of_rime
+		icon = port_of_rime
+		x = 12
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_port_of_viper_pit }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Port of Axehead
+	focus = {
+		id = CWE_port_of_axehead
+		icon = port_of_axehead
+		x = 12
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_port_of_rime }
+		mutually_exclusive = { focus = CWE_focus_land_infastructure_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Forward Eastern Factories
+	focus = {
+		id = CWE_forward_eastern_factories
+		icon = forward_eastern_factories
+		x = 14
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus =  CWE_the_port_of_viper_pit }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Focus Land Infrastructure Development
+	focus = {
+		id = CWE_focus_land_infastructure_development
+		icon = focus_land_infastructure_development
+		x = 14
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forward_eastern_factories }
+		mutually_exclusive = { focus = CWE_port_of_axehead }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Smokestacks of Malden's Veil
+	focus = {
+		id = CWE_smokestacks_of_maldens_veil
+		icon = smokestacks_of_maldens_veil
+		x = 13
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_focus_land_infastructure_development focus = CWE_port_of_axehead }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Endless Foundries
+	focus = {
+		id = CWE_endless_foundries
+		icon = endless_foundries
+		x = 13
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_smokestacks_of_maldens_veil }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Develop Soravian Aluminium Mines
+	focus = {
+		id = CWE_develop_soravian_aluminium_mines
+		icon = develop_soravian_aluminium_mines
+		x = 17
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_council_on_industrial_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Forges of Red Chapel
+	focus = {
+		id = CWE_forges_of_red_chapel
+		icon = forges_of_red_chapel
+		x = 17
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_soravian_aluminium_mines }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Rapid Development
+	focus = {
+		id = CWE_rapid_development
+		icon = rapid_development
+		x = 16
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forges_of_red_chapel }
+		mutually_exclusive = { focus = CWE_balanced_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Balanced Development
+	focus = {
+		id = CWE_balanced_development
+		icon = balanced_development
+		x = 18
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_forges_of_red_chapel }
+		mutually_exclusive = { focus = CWE_rapid_development }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	# POLITICAL --------------- POLITICAL ---------------- POLITICAL
+
+	#Focus for The State of the Empire
+	focus = {
+		id = CWE_the_state_of_the_empire
+		icon = the_state_of_the_empire
+		x = 30
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Imperial Truth
+	focus = {
+		id = CWE_the_imperial_truth
+		icon = the_imperial_truth
+		x = 24
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_divine_right }
+		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Depower the Council
+	focus = {
+		id = CWE_depower_the_council
+		icon = the_depower_the_council
+		x = 24
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_imperial_truth }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Soravian Support
+	focus = {
+		id = CWE_secure_soravian_support
+		icon = secure_soravian_support
+		x = 22
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Caovish Democratic League
+	focus = {
+		id = CWE_the_caovish_democratic_league
+		icon = the_caovish_democratic_league
+		x = 24
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Nicevin Support
+	focus = {
+		id = CWE_secure_nicevin_support
+		icon = secure_nicevin_support
+		x = 26
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_depower_the_council }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Resistance
+	focus = {
+		id = CWE_the_resistance
+		icon = the_resistance
+		x = 24
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_nicevin_support focus = CWE_the_caovish_democratic_league focus = CWE_secure_soravian_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Military Support
+	focus = {
+		id = CWE_secure_military_support
+		icon = secure_military_support
+		x = 24
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_resistance }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Secure Colonial Support
+	focus = {
+		id = CWE_secure_colonial_support
+		icon = GFX_secure_colonial_support
+		x = 23
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_military_support }
+		mutually_exclusive = { focus = CWE_continue_the_southern_crusade }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for The Greater Evil
+	focus = {
+		id = CWE_the_greater_evil
+		icon = GFX_the_greater_evil
+		x = 23
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_colonial_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Continue the Southern Crusade
+	focus = {
+		id = CWE_continue_the_southern_crusade
+		icon = GFX_continue_the_southern_crusade
+		x = 25
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_secure_military_support }
+		mutually_exclusive = { focus = CWE_secure_colonial_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Two Front Strife
+	focus = {
+		id = CWE_the_two_front_strife
+		icon = GFX_the_two_front_strife
+		x = 25
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_continue_the_southern_crusade }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Underground Industry
+	focus = {
+		id = CWE_underground_industry
+		icon = GFX_underground_industry
+		x = 23
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The People's Blade
+	focus = {
+		id = CWE_the_peoples_blade
+		icon = GFX_the_peoples_blade
+		x = 25
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Lighting of the Torch
+	focus = {
+		id = CWE_lighting_of_the_torch
+		icon = GFX_lighting_of_the_torch
+		x = 24
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_peoples_blade focus = CWE_underground_industry }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Death to the False Emperor
+	focus = {
+		id = CWE_death_to_the_false_emperor
+		icon = GFX_death_to_the_false_emperor
+		x = 24
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_lighting_of_the_torch }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Republic of Caovia
+	focus = {
+		id = CWE_the_republic_of_caovia
+		icon = GFX_the_republic_of_caovia
+		x = 24
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_death_to_the_false_emperor }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Divine Right
+	focus = {
+		id = CWE_the_divine_right
+		icon = the_divine_right
+		x = 30
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_imperial_truth }
+		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Maintain Royal Authority
+	focus = {
+		id = CWE_maintain_royal_authority
+		icon = maintain_royal_authority
+		x = 30
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_divine_right }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Coerce Soravian Involvement
+	focus = {
+		id = CWE_coerce_soravian_involvement
+		icon = coerce_soravian_involvement
+		x = 29
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_maintain_royal_authority }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Develop Nicevian Resources
+	focus = {
+		id = CWE_develop_nicevian_resources
+		icon = develop_nicevian_resources
+		x = 29
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_coerce_soravian_involvement }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Imperial Army
+	focus = {
+		id = CWE_the_imperial_army
+		icon = the_imperial_army
+		x = 31
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_maintain_royal_authority }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Technology Reclamation
+	focus = {
+		id = CWE_technology_reclamation
+		icon = technology_reclamation
+		x = 31
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_imperial_army }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Victory Through Tradition
+	focus = {
+		id = CWE_victory_through_tradition
+		icon = victory_through_tradition
+		x = 30
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_develop_nicevian_resources focus = CWE_technology_reclamation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Hands Of Callahan
+	focus = {
+		id = CWE_the_hands_of_callahan
+		icon = the_hands_of_callahan
+		x = 30
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_victory_through_tradition }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Southwestern Protectorate State
+	focus = {
+		id = CWE_southwestern_protectorate_state
+		icon = southwestern_protectorate_state
+		x = 29
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_hands_of_callahan }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Southeastern Protectorate State
+	focus = {
+		id = CWE_southeastern_protectorate_state
+		icon = southeastern_protectorate_state
+		x = 31
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_hands_of_callahan }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Reaffirm the Nevish Alliance
+	focus = {
+		id = CWE_reaffirm_the_nevish_alliance
+		icon = reaffirm_the_nevish_alliance
+		x = 30
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_southeastern_protectorate_state }
+		prerequisite = { focus = CWE_southwestern_protectorate_state }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for At The Gates of Demokratos
+	focus = {
+		id = CWE_at_the_gates_of_demokratos
+		icon = at_the_gates_of_demokratos
+		x = 30
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_reaffirm_the_nevish_alliance }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Shielded by The Mountains
+	focus = {
+		id = CWE_shielded_by_the_mountains
+		icon = shielded_by_the_mountains
+		x = 28
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = { always = false }
+		completion_reward = {
+		}
+	}
+	#Focus for His Fury In Our Voice
+	focus = {
+		id = CWE_his_fury_in_our_voice
+		icon = his_fury_in_our_voice
+		x = 28
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_shielded_by_the_mountains }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Heritage of Victory
+	focus = {
+		id = CWE_heritage_of_victory
+		icon = heritage_of_victory
+		x = 29
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_his_fury_in_our_voice focus = CWE_at_the_gates_of_demokratos}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	
+	#Focus for Embrace Caovish Populism
+	focus = {
+		id = CWE_embrace_caovish_populism
+		icon = GFX_embrace_caovish_populism
+		x = 37
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_state_of_the_empire }
+		mutually_exclusive = { focus = CWE_the_imperial_truth }
+		mutually_exclusive = { focus = CWE_the_divine_right }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for Question The Regime
+	focus = {
+		id = CWE_question_the_regime
+		icon = GFX_question_the_regime
+		x = 37
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_embrace_caovish_populism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Destabilize the Council
+	focus = {
+		id = CWE_destabilize_the_council
+		icon = GFX_destabilize_the_council
+		x = 36
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_question_the_regime }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Prosecute the Noble Class
+	focus = {
+		id = CWE_prosecute_the_noble_class
+		icon = GFX_prosecute_the_noble_class
+		x = 38
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_question_the_regime }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The People's Party
+	focus = {
+		id = CWE_the_peoples_party
+		icon = GFX_the_peoples_party
+		x = 37
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_destabilize_the_council }
+		prerequisite = { focus = CWE_prosecute_the_noble_class }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Shift the Paradigm
+	focus = {
+		id = CWE_shift_the_paradigm
+		icon = GFX_shift_the_paradigm
+		x = 36
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_peoples_party }
+		mutually_exclusive = { focus = CWE_the_labor_party }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Caovish Fascist Movement
+	focus = {
+		id = CWE_caovish_fascist_movement
+		icon = GFX_caovish_fascist_movement
+		x = 36
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_shift_the_paradigm }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Impose Authoritarian Council Members
+	focus = {
+		id = CWE_impose_authoritarian_council_members
+		icon = GFX_impose_authoritarian_council_members
+		x = 36
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_caovish_fascist_movement }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for From the Seven Sisters
+	focus = {
+		id = CWE_from_the_seven_sisters
+		icon = GFX_from_the_seven_sisters
+		x = 34
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_impose_authoritarian_council_members }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Subjugate Protectorates
+	focus = {
+		id = CWE_subjugate_protectorates
+		icon = GFX_subjugate_protectorates
+		x = 34
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_from_the_seven_sisters }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Nevish Fascist Party
+	focus = {
+		id = CWE_the_nevish_fascist_party
+		icon = GFX_the_nevish_fascist_party
+		x = 33
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_subjugate_protectorates }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Denounce the Emperor
+	focus = {
+		id = CWE_denounce_the_emperor
+		icon = GFX_denounce_the_emperor
+		x = 36
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_impose_authoritarian_council_members }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Kirknell Authority
+	focus = {
+		id = CWE_the_kirknell_authority
+		icon = GFX_the_kirknell_authority
+		x = 36
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_denounce_the_emperor }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for Slay the Eagle
+	focus = {
+		id = CWE_slay_the_eagle
+		icon = GFX_slay_the_eagle
+		x = 35
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_kirknell_authority focus = CWE_subjugate_protectorates }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for The Viper strikes southward
+	focus = {
+		id = CWE_the_viper_strikes_Southward
+		icon = GFX_the_viper_strikes_Southward
+		x = 35
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_slay_the_eagle }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+		
+	#Focus for Repair the nation
+	focus = {
+		id = CWE_repair_the_nation
+		icon = GFX_repair_the_nation
+		x = 37
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_slay_the_eagle focus = CWE_the_great_struggle }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	
+	#Focus for The Labor Party
+	focus = {
+		id = CWE_the_labor_party
+		icon = GFX_the_labor_party
+		x = 38
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_peoples_party }
+		mutually_exclusive = { focus = CWE_shift_the_paradigm }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for United Workers of Caovia
+	focus = {
+		id = CWE_united_workers_of_caovia
+		icon = GFX_united_workers_of_caovia
+		x = 38
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_labor_party }
+		mutually_exclusive = { focus = CWE_united_workers_of_the_protectorates}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for United Workers of The Protectorates
+	focus = {
+		id = CWE_united_workers_of_the_protectorates
+		icon = GFX_united_workers_of_the_protectorates
+		x = 40
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_labor_party }
+		mutually_exclusive = { focus = CWE_united_workers_of_caovia }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Labor Wardens
+	focus = {
+		id = CWE_the_labor_wardens
+		icon = GFX_the_labor_wardens
+		x = 39
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_united_workers_of_the_protectorates focus = CWE_united_workers_of_caovia }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+
+	#Focus for Prepare the Red Guard
+	focus = {
+		id = CWE_prepare_the_red_guard
+		icon = GFX_prepare_the_red_guard
+		x = 38
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {focus = CWE_the_labor_wardens }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Prepare Weapon Caches
+	focus = {
+		id = CWE_prepare_weapon_caches
+		icon = GFX_prepare_weapon_caches
+		x = 40
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {focus = CWE_the_labor_wardens }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Revolutionary Spirit
+	focus = {
+		id = CWE_revolutionary_spirit
+		icon = GFX_revolutionary_spirit
+		x = 39
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {focus = CWE_prepare_weapon_caches focus = CWE_prepare_the_red_guard }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for The Great Struggle
+	focus = {
+		id = CWE_the_great_struggle
+		icon = GFX_the_great_struggle
+		x = 39
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {focus = CWE_revolutionary_spirit }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Export the Revolution
+	focus = {
+		id = CWE_export_the_revolution
+		icon = GFX_export_the_revolution
+		x = 39
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {focus = CWE_the_great_struggle }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+
+
+
+	
+	# RESEARCH --------------- RESEARCH ---------------- RESEARCH
+
+	#Focus for Empower the War Council
+	focus = {
+		id = CWE_empower_the_war_council
+		icon = empower_the_war_council
+		x = 47
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+	#Focus for Militaristic Transformation
+	focus = {
+		id = CWE_militaristic_transformation
+		icon = militaristic_transformation
+		x = 45
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_empower_the_war_council }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Armored Car Battalions
+	focus = {
+		id = CWE_armored_car_battalions
+		icon = armored_car_battalions
+		x = 43
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Niska
+	focus = {
+		id = CWE_the_niska
+		icon = the_niska
+		x = 43
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_armored_car_battalions }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Devitt
+	focus = {
+		id = CWE_the_devitt
+		icon = the_devitt
+		x = 43
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_niska }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Integrate Militias
+	focus = {
+		id = CWE_integrate_militias
+		icon = integrate_militias
+		x = 45
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Infantry Innovations
+	focus = {
+		id = CWE_infantry_innovations
+		icon = infantry_innovations
+		x = 45
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_integrate_militias }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Warden Shock Army
+	focus = {
+		id = CWE_warden_shock_army
+		icon = warden_shock_army
+		x = 45
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_infantry_innovations }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Restructured Command
+	focus = {
+		id = CWE_restructured_command
+		icon = restructured_command
+		x = 47
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_militaristic_transformation }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Establish Warden Officer Academy
+	focus = {
+		id = CWE_establish_warden_officer_academy
+		icon = establish_warden_officer_academy
+		x = 47
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_restructured_command }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Command Protocols
+	focus = {
+		id = CWE_command_protocols
+		icon = command_protocols
+		x = 47
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_establish_warden_officer_academy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Warden Military
+	focus = {
+		id = CWE_the_warden_military
+		icon = the_warden_military
+		x = 45
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_command_protocols focus = CWE_warden_shock_army focus = CWE_the_devitt }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Flood
+	focus = {
+		id = CWE_the_flood
+		icon = the_flood
+		x = 43
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		prerequisite = { focus = CWE_the_devitt }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Warden Artillery Batteries
+	focus = {
+		id = CWE_warden_artillery_batteries
+		icon = warden_artillery_batteries
+		x = 45
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Combined Arms Doctrine
+	focus = {
+		id = CWE_combined_arms_doctrine
+		icon = combined_arms_doctrine
+		x = 47
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_military }
+		prerequisite = { focus = CWE_command_protocols }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Silverhand
+	focus = {
+		id = CWE_the_silverhand
+		icon = the_silverhand
+		x = 43
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_flood }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Dread Korps
+	focus = {
+		id = CWE_the_dread_korps
+		icon = the_dread_korps
+		x = 45
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_warden_artillery_batteries }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Final Offensive Doctrine
+	focus = {
+		id = CWE_final_offensive_doctrine
+		icon = final_offensive_doctrine
+		x = 47
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_combined_arms_doctrine }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Guardians of The North
+	focus = {
+		id = CWE_guardians_of_the_north
+		icon = guardians_of_the_north
+		x = 45
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_final_offensive_doctrine }
+		prerequisite = { focus = CWE_the_dread_korps }
+		prerequisite = { focus = CWE_the_silverhand }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+	#Focus for Warden Aviation Initiative
+	focus = {
+		id = CWE_warden_aviation_initiative
+		icon = GFX_warden_aviation_initiative
+		x = 49
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_empower_the_war_council }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Eagle's Beak
+	focus = {
+		id = CWE_the_eagles_beak
+		icon = GFX_the_eagles_beak
+		x = 49
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_warden_aviation_initiative }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Fighter Focus
+	focus = {
+		id = CWE_fighter_focus
+		icon = GFX_fighter_focus
+		x = 49
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_eagles_beak }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Eagle's Talon
+	focus = {
+		id = CWE_the_eagles_talon
+		icon = GFX_the_eagles_talon
+		x = 51
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_warden_aviation_initiative }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for The Manticore
+	focus = {
+		id = CWE_the_manticore
+		icon = GFX_the_manticore
+		x = 51
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_eagles_talon }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Form Squadron Command
+	focus = {
+		id = CWE_form_squadron_command
+		icon = GFX_form_squadron_command
+		x = 50
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_manticore focus = CWE_fighter_focus }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Heavy Bomber Development
+	focus = {
+		id = CWE_heavy_bomber_development
+		icon = GFX_heavy_bomber_development
+		x = 49
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_form_squadron_command }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Naval Bomber Development
+	focus = {
+		id = CWE_naval_bomber_development
+		icon = GFX_naval_bomber_development
+		x = 51
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_form_squadron_command }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Skyborne Battalions
+	focus = {
+		id = CWE_skyborne_battalions
+		icon = GFX_skyborne_battalions
+		x = 50
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_naval_bomber_development }
+		prerequisite = { focus = CWE_heavy_bomber_development }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+
+#Naval Technology
+
+#Focus for Caovish Naval Legacy
+	focus = {
+		id = CWE_caovish_naval_legacy
+		icon = GFX_caovish_naval_legacy
+		x = 55
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Replace Traditional Naval Doctrine
+	focus = {
+		id = CWE_replace_traditional_naval_doctrine
+		icon = GFX_replace_traditional_naval_doctrine
+		x = 55
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_caovish_naval_legacy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Reinforce Ports of the Aging Ocean
+	focus = {
+		id = CWE_reinforce_ports_of_the_aging_ocean
+		icon = GFX_reinforce_ports_of_the_aging_ocean
+		x = 53
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Reinforce Ports of the Endless Sea
+	focus = {
+		id = CWE_reinforce_ports_of_the_endless_sea
+		icon = GFX_reinforce_ports_of_the_endless_sea
+		x = 53
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_reinforce_ports_of_the_aging_ocean }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+
+#Focus for Capital Ship Focus
+	focus = {
+		id = CWE_capital_ship_focus
+		icon = GFX_capital_ship_focus
+		x = 55
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
+		mutually_exclusive = { focus = CWE_destroyer_focus }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Dreadnought Development / Dreadnaught Development
+	focus = {
+		id = CWE_dreadnought_development
+		icon = GFX_dreadnought_development
+		x = 55
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_capital_ship_focus }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+
+#Focus for Destroyer Focus
+	focus = {
+		id = CWE_destroyer_focus
+		icon = GFX_destroyer_focus
+		x = 57
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
+		mutually_exclusive = { focus = CWE_capital_ship_focus }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for The Ronan
+	focus = {
+		id = CWE_the_ronan
+		icon = GFX_the_ronan
+		x = 57
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_destroyer_focus }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+
+#Focus for Warm Water Ports
+	focus = {
+		id = CWE_warm_water_ports
+		icon = GFX_warm_water_ports
+		x = 53
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Wolf Packs
+	focus = {
+		id = CWE_wolf_packs
+		icon = GFX_wolf_packs
+		x = 55
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for The Meterora
+	focus = {
+		id = CWE_the_meterora
+		icon = GFX_the_meterora
+		x = 57
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+
+#Focus for Induct Nievish Admiralty
+	focus = {
+		id = CWE_induct_nievish_admiralty
+		icon = GFX_induct_nievish_admiralty
+		x = 54
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_wolf_packs focus = CWE_warm_water_ports }
+		mutually_exclusive = { focus = CWE_maintain_the_traditional_caovish_admiralty }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Maintain the Traditional Caovish Admiralty
+	focus = {
+		id = CWE_maintain_the_traditional_caovish_admiralty
+		icon = GFX_maintain_the_traditional_caovish_admiralty
+		x = 56
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_wolf_packs focus = CWE_the_meterora }
+		mutually_exclusive = { focus = CWE_induct_nievish_admiralty }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for The Warden Navy
+	focus = {
+		id = CWE_the_warden_navy
+		icon = GFX_the_warden_navy
+		x = 55
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_maintain_the_traditional_caovish_admiralty focus = CWE_induct_nievish_admiralty }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+#Focus for Naval Supremacy
+	focus = {
+		id = CWE_naval_supremacy
+		icon = GFX_naval_supremacy
+		x = 55
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = CWE_the_warden_navy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { 
+		}
+	}
+
+
+
+
+#End of focuses 
+ }
