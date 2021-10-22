@@ -1,0 +1,15 @@
+﻿add_namespace = colonies
+
+# Event starting Prospecting
+country_event = {
+	id = colonies.1
+	title = colonies.1.t
+	desc = colonies.1.d
+
+	is_triggered_only = yes
+	
+	#Resource Prospecting
+	option = {
+		name = colonies.1.a
+	}
+}

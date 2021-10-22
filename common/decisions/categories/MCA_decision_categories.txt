@@ -1,0 +1,11 @@
+find_resources = {
+	icon = steel
+	
+	allowed = {
+		original_tag = MCA
+	}
+
+	visible = {
+		has_completed_focus = MCA_develop_the_colonies
+	}
+}
