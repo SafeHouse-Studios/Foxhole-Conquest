@@ -191,6 +191,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			country_event = { id = colonies.4 }
 		}
 	}
 
@@ -511,7 +512,13 @@ focus_tree = {
 		prerequisite = { focus = MCA_construct_new_ordnance_plants }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		available = {
-			date > 790.06.01
+			date > 786.01.01
+			285 = {
+				controller = CWE
+			}
+			102 = {
+				controller = CWE
+			}
 		} 
 		ai_will_do = {
 			factor = 1
@@ -654,6 +661,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			country_event = { id = colonies.3 }
 		}
 	}
 
@@ -948,6 +956,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			country_event = { id = colonies.2 }
 		}
 	}
 

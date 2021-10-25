@@ -1,6 +1,6 @@
 ﻿add_namespace = colonies
 
-# Event starting Prospecting
+# Event Devlop the Colonies
 country_event = {
 	id = colonies.1
 	title = colonies.1.t
@@ -11,5 +11,47 @@ country_event = {
 	#Resource Prospecting
 	option = {
 		name = colonies.1.a
+	}
+}
+
+# Event Senate Approves Kraunian 
+country_event = {
+	id = colonies.2
+	title = colonies.2.t
+	desc = colonies.2.d
+
+	is_triggered_only = yes
+	
+	#Resource Prospecting
+	option = {
+		name = colonies.2.a
+	}
+}
+
+# Event Senate Approves Dimian
+country_event = {
+	id = colonies.3
+	title = colonies.3.t
+	desc = colonies.3.d
+
+	is_triggered_only = yes
+	
+	#Resource Prospecting
+	option = {
+		name = colonies.3.a
+	}
+}
+
+# Event Senate Approves Therizian Development Plan 
+country_event = {
+	id = colonies.4
+	title = colonies.4.t
+	desc = colonies.4.d
+
+	is_triggered_only = yes
+	
+	#Resource Prospecting
+	option = {
+		name = colonies.4.a
 	}
 }

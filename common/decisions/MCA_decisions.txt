@@ -2,6 +2,7 @@ find_resources = {
 	
 	resource_prospect_dimiourg = {
 		icon = steel
+		desc = "resource_prospect_dimiourg_DESC"
 
 		allowed = {
 			
@@ -38,6 +39,7 @@ find_resources = {
 	}
 	resource_prospect_kraunia = {
 		icon = oil
+		desc = "resource_prospect_kraunia_DESC"
 
 		allowed = {
 			
@@ -73,7 +75,8 @@ find_resources = {
 		}
 	}
 	resource_prospect_therizo = {
-		icon = aluminum
+		icon = aluminium
+		desc = "resource_prospect_therizo_DESC"
 
 		allowed = {
 			
@@ -102,7 +105,7 @@ find_resources = {
 		remove_effect = { 
 			526 = {
 				add_resource = {
-					type = aluminum
+					type = aluminium
 					amount = 5
 				}
 			}
