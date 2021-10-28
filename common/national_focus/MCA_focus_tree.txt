@@ -513,11 +513,13 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		available = {
 			date > 786.01.01
-			285 = {
-				controller = CWE
-			}
-			102 = {
-				controller = CWE
+			OR ={
+				102 = {
+					is_controlled_by = CWE
+				}
+				285 = {
+					is_controlled_by = CWE
+				}
 			}
 		} 
 		ai_will_do = {
