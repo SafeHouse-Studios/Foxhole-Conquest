@@ -148,6 +148,15 @@ create_field_marshal = {
 	skill = 1
 }
 
+***Testing Open***
+#create_corps_commander = {
+#	name = "BK"
+#	gfx = "Portait_CWE_BK.dds"
+#	traits = { trait_reckless panzer_leader armor_officer combined_arms_expert }
+#	skill = 1
+#}
+***Testing Closed***
+
 create_corps_commander = {
 	name = "Trekker"
 	gfx = "Portait_CWE_Trekker.dds"
