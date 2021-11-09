@@ -21,6 +21,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Council_On_Industrial_Development
+			}
 		}
 	}
 
@@ -38,6 +41,22 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			244 = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+
+					}
+
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+
+					}
+
+			}
 		}
 	}
 
@@ -55,6 +74,148 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			436 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			422 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+
+			165 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			432 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			164 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			440 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			351 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			402 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			408 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			157 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			148 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			145 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			163 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+
 		}
 	}
 
@@ -72,6 +233,96 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			486 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			488 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			486 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			484 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			483 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			483 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			489 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			492 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			487 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
 		}
 	}
 
@@ -89,6 +340,78 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			164 = {
+				add_building_constriction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+
+				}
+
+			}
+
+			436 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			421 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			422 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+
+			165 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			432 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+			164 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+
+				}
+
+			}
+
+
 		}
 	}
 
@@ -134,7 +457,8 @@ focus_tree = {
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_reoccupy_the_ward }
+		prerequisite = { focus = CWE_reoccupy_the_ward 
+						 date < 785.01.01}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -312,7 +636,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
+		completion_reward = {add_ideas ={
+		Pace_Extraction
+			}
 		}
 	}
 
@@ -331,6 +657,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Increased_Labor_Quotas
+			}
 		}
 	}
 
@@ -573,6 +902,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Weakened_Council
+			}
 		}
 	}
 
@@ -728,6 +1060,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Two_Front_Strife
+			}
 		}
 	}
 
@@ -762,6 +1097,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Blade_of_the_people
+			}
 		}
 	}
 
@@ -796,6 +1134,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Death_to_the_False_Emperor
+			}
 		}
 	}
 
@@ -813,6 +1154,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Cavoian_Reublic
+			}
 		}
 	}
 
@@ -913,6 +1257,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_timed_idea = {
+		idea = Technology_Reclamation
+		days = 300
+			}
 		}
 	}
 	#Focus for Victory Through Tradition
@@ -1010,6 +1358,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_timed_idea = {
+		idea = Last_Offensive
+		days = 50
+			}
 		}
 	}
 	#Focus for Shielded by The Mountains
@@ -1042,6 +1394,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		His_Fury_Our_Voice
+			}
 		}
 	}
 	#Focus for Heritage of Victory
@@ -1058,6 +1413,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Victorious_Heritage
+			}
 		}
 	}
 
@@ -1095,6 +1453,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_timed_idea = {
+		idea = Questioning_the_Regime
+		days = 150
+			}
 		}
 	}
 
@@ -1514,6 +1876,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+		add_ideas ={
+		Empowered_War_Council
+			}
 		}
 	}
 	#Focus for Militaristic Transformation
@@ -1594,6 +1959,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Integrated_Militias
+			}
 		}
 	}
 	#Focus for Infantry Innovations
@@ -1674,6 +2042,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Command_Protocols
+			}		
 		}
 	}
 	#Focus for The Warden Military
@@ -1788,6 +2159,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Final_Offensive
+			}
 		}
 	}
 	#Focus for Guardians of The North
@@ -1806,6 +2180,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Northern_Guardians
+			}
 		}
 	}
 
@@ -1952,6 +2329,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_ideas ={
+		Skyborne_Battalions
+			}
 		}
 	}
 
@@ -1970,6 +2350,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+		add_ideas ={
+		Caovish_Naval_Legacy
+			}
 		}
 	}
 #Focus for Replace Traditional Naval Doctrine
@@ -2119,6 +2502,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+		add_ideas ={
+		Wolf_Packs
+			}
 		}
 	}
 #Focus for The Meterora
@@ -2153,6 +2539,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+		add_ideas ={
+		Mixed_Admiralty
+			}
 		}
 	}
 #Focus for Maintain the Traditional Caovish Admiralty
@@ -2170,6 +2559,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+		add_ideas ={
+		Traditional_Admiralty
+			}
 		}
 	}
 #Focus for The Warden Navy
@@ -2210,3 +2602,5 @@ focus_tree = {
 
 #End of focuses 
  }
+
+
