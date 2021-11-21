@@ -103,7 +103,7 @@ focus_tree = {
 				}
 
 			}
-
+ 	
 
 			165 = {
 				add_building_construction = {
@@ -227,8 +227,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_repair_central_infastructure }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = CWE_repair_central_infastructure }		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -429,6 +428,206 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+
+			415 = {
+
+				add_building_construction = {
+
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7594
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 150
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7582
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 1423
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 1639
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7605
+					level = 2
+				}
+			}
+
+			415 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 5556
+					level = 2
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7622
+					level = 2
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7617
+					level = 2
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7629
+					level = 2
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 4566
+					level = 2
+				}
+			}
+
+			416 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 4136
+					level = 2
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7457
+					level = 2
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7421
+					level = 2
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 7412
+					level = 2
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 5409
+					level = 2
+				}
+			}
+
+			427 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 4681
+					level = 2
+				}
+			}
 		}
 	}
 
@@ -446,6 +645,76 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+
+			124 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 2269
+					level = 2
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 3926
+					level = 2
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 5429
+					level = 2
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 8412
+					level = 2
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = bunker
+					province = 5956
+					level = 2
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			124 = {
+
+				add_building_construction = {
+
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -459,7 +728,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reoccupy_the_ward 
 						 date < 785.01.01}
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		search_filters = { FOCUS_FILTER_INDUSTRY } ##### WAITING RESPONSE
 		ai_will_do = {
 			factor = 1
 		}
@@ -481,6 +750,107 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		
+			460 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+
+				460 = {
+
+				add_building_construction = {
+
+					type = dockyard
+					level = 2
+					instant_build = yes
+
+				}
+			}	
+
+			465 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			470 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			478 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			473 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			476 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			477 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			475 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			474 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -498,6 +868,95 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			393 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			393 = {
+
+				add_building_construction = {
+
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			392 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			391 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			390 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			394 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			405 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			395 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			398 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
