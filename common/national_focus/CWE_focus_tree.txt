@@ -2276,6 +2276,10 @@ focus_tree = {
 		x = 31
 		y = 7
 		cost = 5
+		available = {
+			controls_state = 336
+			controls_state = 337
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_hands_of_callahan }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2292,6 +2296,10 @@ focus_tree = {
 		x = 30
 		y = 8
 		cost = 5
+		available = {
+			controls_state = 556
+			controls_state = 562
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_southeastern_protectorate_state }
 		prerequisite = { focus = CWE_southwestern_protectorate_state }
@@ -2300,6 +2308,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_war_support = 0.15
 		}
 	}
 	#Focus for At The Gates of Demokratos
@@ -2309,6 +2318,10 @@ focus_tree = {
 		x = 30
 		y = 9
 		cost = 5
+		available = {
+			controls_state = 204
+			controls_state = 242
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reaffirm_the_nevish_alliance }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2316,9 +2329,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_timed_idea = {
-		idea = Last_Offensive
-		days = 50
+			add_timed_idea = {
+				idea = Last_Offensive
+				days = 50
 			}
 		}
 	}
@@ -2329,13 +2342,34 @@ focus_tree = {
 		x = 28
 		y = 8
 		cost = 5
+		available = {
+			NOT = { controls_state = 124 }
+			OR = {
+				NOT = { 
+					controls_state = 393
+					controls_state = 164
+					controls_state = 495
+				}
+			}
+		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
-		available = { always = false }
 		completion_reward = {
+			483 = {
+				add_building_construction = {
+					type = bunker
+					province = 6654
+					level = 2
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6668
+					level = 2
+				}
+			} 
 		}
 	}
 	#Focus for His Fury In Our Voice
@@ -2345,6 +2379,14 @@ focus_tree = {
 		x = 28
 		y = 9
 		cost = 5
+		available = {
+			OR = {
+				NOT = { 
+					controls_state = 460
+					controls_state = 453
+				}
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_shielded_by_the_mountains }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2352,9 +2394,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		His_Fury_Our_Voice
+			add_ideas ={
+				His_Fury_Our_Voice
 			}
+			add_war_support = 0.1
 		}
 	}
 	#Focus for Heritage of Victory
@@ -2364,6 +2407,9 @@ focus_tree = {
 		x = 29
 		y = 10
 		cost = 5
+		available = {
+			date > 0786.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_his_fury_in_our_voice focus = CWE_at_the_gates_of_demokratos}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2371,8 +2417,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Victorious_Heritage
+			add_ideas ={
+				Victorious_Heritage
 			}
 		}
 	}
@@ -2394,6 +2440,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+
 		}
 	}
 	
@@ -2411,9 +2467,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_timed_idea = {
-		idea = Questioning_the_Regime
-		days = 150
+			add_timed_idea = {
+				idea = Questioning_the_Regime
+				days = 150
 			}
 		}
 	}
@@ -2425,6 +2481,9 @@ focus_tree = {
 		x = 36
 		y = 3
 		cost = 5
+		available ={ 
+			has_government = neutrality
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_question_the_regime }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2432,6 +2491,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_stability = -0.1
 		}
 	}
 
@@ -2442,6 +2511,9 @@ focus_tree = {
 		x = 38
 		y = 3
 		cost = 5
+		available ={ 
+			has_government = neutrality
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_question_the_regime }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2449,6 +2521,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.1
+			}
+			add_stability = -0.05
+			add_war_support = -0.05
 		}
 	}
 
@@ -2459,6 +2537,9 @@ focus_tree = {
 		x = 37
 		y = 4
 		cost = 5
+		available ={ 
+			neutrality < 0.5
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_destabilize_the_council }
 		prerequisite = { focus = CWE_prosecute_the_noble_class }
@@ -2467,6 +2548,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_timed_idea = {
+				idea = the_Peoples_Party
+				days = 150
+			}
 		}
 	}
 
@@ -2485,6 +2570,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = the_Peoples_Party
+				add_idea = Fascist_Shift
+			}
 		}
 	}
 
@@ -2502,6 +2591,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			set_party_name = { 
+				ideology = fascism 
+				long_name = "Caoivish Fascist Movement"
+				name = "CFM"
+			}
 		}
 	}
 
@@ -2512,6 +2607,9 @@ focus_tree = {
 		x = 36
 		y = 7
 		cost = 5
+		available = {
+			fascism > 0.3
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_caovish_fascist_movement }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2519,6 +2617,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -2546,6 +2648,12 @@ focus_tree = {
 		x = 34
 		y = 9
 		cost = 5
+		available = {
+			fascism > 0.4
+			controls_state = 556
+			controls_state = 562
+			NOT = { has_war_with = CWE }
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_from_the_seven_sisters }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2563,6 +2671,10 @@ focus_tree = {
 		x = 33
 		y = 10
 		cost = 5
+		available = {
+			fascism > 0.5
+			controls_state = 556
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_subjugate_protectorates }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2604,6 +2716,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			453 = { 
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -2614,6 +2734,10 @@ focus_tree = {
 		x = 35
 		y = 10
 		cost = 5
+		available = {
+			fascism > 0.6
+			date > 785.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_kirknell_authority focus = CWE_subjugate_protectorates }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2631,6 +2755,10 @@ focus_tree = {
 		x = 35
 		y = 11
 		cost = 5
+		available = {
+			NOT = { has_war_with = CWE }
+			date > 786.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_slay_the_eagle }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2648,6 +2776,9 @@ focus_tree = {
 		x = 37
 		y = 11
 		cost = 5
+		available = {
+			NOT = { has_war_with = CWE }
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_slay_the_eagle focus = CWE_the_great_struggle }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2655,6 +2786,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_timed_idea = {
+				idea = Rebuild_the_Nation
+				days = 350
+			}
 		}
 	}
 	
@@ -2673,6 +2808,17 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			set_party_name = { 
+				ideology = communism
+				long_name = "Labor Party"
+				name = "LP"
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			
 		}
 	}
 
@@ -2701,6 +2847,10 @@ focus_tree = {
 		x = 40
 		y = 6
 		cost = 5
+		available = {
+			controls_state = 556
+			controls_state = 562
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_labor_party }
 		mutually_exclusive = { focus = CWE_united_workers_of_caovia }
@@ -2726,6 +2876,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
 		}
 	}
 
@@ -2737,6 +2892,9 @@ focus_tree = {
 		x = 38
 		y = 8
 		cost = 5
+		available = {
+			communism > 0.4
+		}
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_the_labor_wardens }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2778,6 +2936,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -2788,6 +2951,10 @@ focus_tree = {
 		x = 39
 		y = 10
 		cost = 5
+		available = {
+			communism > 0.6
+			date > 785.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_revolutionary_spirit }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2805,6 +2972,10 @@ focus_tree = {
 		x = 39
 		y = 11
 		cost = 5
+		available = {
+			NOT = { has_war_with = CWE }
+			date > 786.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_the_great_struggle }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
