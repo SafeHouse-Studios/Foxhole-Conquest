@@ -1707,7 +1707,7 @@ focus_tree = {
 	#Focus for The State of the Empire
 	focus = {
 		id = CWE_the_state_of_the_empire
-		icon = the_state_of_the_empire
+		icon = GFX_focus_up_joan_of_arc
 		x = 30
 		y = 0
 		cost = 5
@@ -1724,7 +1724,7 @@ focus_tree = {
 	#Focus for The Imperial Truth
 	focus = {
 		id = CWE_the_imperial_truth
-		icon = the_imperial_truth
+		icon = GFX_goal_generic_propaganda
 		x = 24
 		y = 1
 		cost = 5
@@ -1748,7 +1748,7 @@ focus_tree = {
 	#Focus for Depower the Council
 	focus = {
 		id = CWE_depower_the_council
-		icon = the_depower_the_council
+		icon = GFX_focus_BUL_form_a_regency_council
 		x = 24
 		y = 2
 		cost = 5
@@ -1768,7 +1768,7 @@ focus_tree = {
 	#Focus for Secure Soravian Support
 	focus = {
 		id = CWE_secure_soravian_support
-		icon = secure_soravian_support
+		icon = GFX_goal_generic_improve_relations
 		x = 22
 		y = 3
 		cost = 5
@@ -1790,7 +1790,7 @@ focus_tree = {
 	#Focus for The Caovish Democratic League
 	focus = {
 		id = CWE_the_caovish_democratic_league
-		icon = the_caovish_democratic_league
+		icon = GFX_goal_support_democracy
 		x = 24
 		y = 3
 		cost = 5
@@ -1811,7 +1811,7 @@ focus_tree = {
 	#Focus for Secure Nicevin Support
 	focus = {
 		id = CWE_secure_nicevin_support
-		icon = secure_nicevin_support
+		icon = GFX_goal_generic_improve_relations
 		x = 26
 		y = 3
 		cost = 5
@@ -1832,7 +1832,7 @@ focus_tree = {
 	#Focus for The Resistance
 	focus = {
 		id = CWE_the_resistance
-		icon = the_resistance
+		icon = GFX_focus_secret_rearmament
 		x = 24
 		y = 4
 		cost = 5
@@ -1852,7 +1852,7 @@ focus_tree = {
 	#Focus for Secure Military Support
 	focus = {
 		id = CWE_secure_military_support
-		icon = secure_military_support
+		icon = GFX_goal_generic_military_sphere
 		x = 24
 		y = 5
 		cost = 5
@@ -1869,7 +1869,7 @@ focus_tree = {
 	#Focus for Secure Colonial Support
 	focus = {
 		id = CWE_secure_colonial_support
-		icon = GFX_secure_colonial_support
+		icon = GFX_goal_generic_forceful_treaty
 		x = 23
 		y = 6
 		cost = 5
@@ -1887,7 +1887,7 @@ focus_tree = {
 	#Focus for The Greater Evil
 	focus = {
 		id = CWE_the_greater_evil
-		icon = GFX_the_greater_evil
+		icon = GFX_goal_generic_dangerous_deal
 		x = 23
 		y = 7
 		cost = 5
@@ -1904,7 +1904,7 @@ focus_tree = {
 	#Focus for Continue the Southern Crusade
 	focus = {
 		id = CWE_continue_the_southern_crusade
-		icon = GFX_continue_the_southern_crusade
+		icon = GFX_focus_jap_strike_south
 		x = 25
 		y = 6
 		cost = 5
@@ -1925,7 +1925,7 @@ focus_tree = {
 	#Focus for The Two Front Strife
 	focus = {
 		id = CWE_the_two_front_strife
-		icon = GFX_the_two_front_strife
+		icon = GFX_focus_generic_provoke_border_clashes
 		x = 25
 		y = 7
 		cost = 5
@@ -1945,7 +1945,7 @@ focus_tree = {
 	#Focus for Underground Industry
 	focus = {
 		id = CWE_underground_industry
-		icon = GFX_underground_industry
+		icon = GFX_focus_generic_industry_1
 		x = 23
 		y = 8
 		cost = 5
@@ -1962,7 +1962,7 @@ focus_tree = {
 	#Focus for The People's Blade
 	focus = {
 		id = CWE_the_peoples_blade
-		icon = GFX_the_peoples_blade
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = 25
 		y = 8
 		cost = 5
@@ -1973,8 +1973,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Blade_of_the_people
+			add_ideas ={
+				Blade_of_the_people
 			}
 		}
 	}
@@ -1982,7 +1982,7 @@ focus_tree = {
 	#Focus for Lighting of the Torch
 	focus = {
 		id = CWE_lighting_of_the_torch
-		icon = GFX_lighting_of_the_torch
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 24
 		y = 9
 		cost = 5
@@ -2003,7 +2003,7 @@ focus_tree = {
 	#Focus for Death to the False Emperor
 	focus = {
 		id = CWE_death_to_the_false_emperor
-		icon = GFX_death_to_the_false_emperor
+		icon = GFX_focus_rom_abdicate
 		x = 24
 		y = 10
 		cost = 5
@@ -2026,7 +2026,7 @@ focus_tree = {
 	#Focus for The Republic of Caovia
 	focus = {
 		id = CWE_the_republic_of_caovia
-		icon = GFX_the_republic_of_caovia
+		icon = GFX_goal_support_democracy
 		x = 24
 		y = 11
 		cost = 5
@@ -2050,7 +2050,7 @@ focus_tree = {
 	#Focus for The Divine Right
 	focus = {
 		id = CWE_the_divine_right
-		icon = the_divine_right
+		icon = GFX_focus_generic_monarchy_2
 		x = 30
 		y = 1
 		cost = 5
@@ -2075,7 +2075,7 @@ focus_tree = {
 	#Focus for Maintain Royal Authority
 	focus = {
 		id = CWE_maintain_royal_authority
-		icon = maintain_royal_authority
+		icon = GFX_focus_rom_royal_dictatorship
 		x = 30
 		y = 2
 		cost = 5
@@ -2097,7 +2097,7 @@ focus_tree = {
 	#Focus for Coerce Soravian Involvement
 	focus = {
 		id = CWE_coerce_soravian_involvement
-		icon = coerce_soravian_involvement
+		icon = GFX_focus_generic_manpower
 		x = 29
 		y = 3
 		cost = 5
@@ -2116,7 +2116,7 @@ focus_tree = {
 	#Focus for Develop Nicevian Resources
 	focus = {
 		id = CWE_develop_nicevian_resources
-		icon = develop_nicevian_resources
+		icon = GFX_goal_generic_oil_refinery
 		x = 29
 		y = 4
 		cost = 5
@@ -2156,7 +2156,7 @@ focus_tree = {
 	#Focus for The Imperial Army
 	focus = {
 		id = CWE_the_imperial_army
-		icon = the_imperial_army
+		icon = GFX_focus_research
 		x = 31
 		y = 3
 		cost = 5
@@ -2173,7 +2173,7 @@ focus_tree = {
 	#Focus for Technology Reclamation
 	focus = {
 		id = CWE_technology_reclamation
-		icon = technology_reclamation
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 31
 		y = 4
 		cost = 5
@@ -2193,7 +2193,7 @@ focus_tree = {
 	#Focus for Victory Through Tradition
 	focus = {
 		id = CWE_victory_through_tradition
-		icon = victory_through_tradition
+		icon = GFX_focus_generic_monarchy_1
 		x = 30
 		y = 5
 		cost = 5
@@ -2218,7 +2218,7 @@ focus_tree = {
 	#Focus for The Hands Of Callahan
 	focus = {
 		id = CWE_the_hands_of_callahan
-		icon = the_hands_of_callahan
+		icon = GFX_focus_generic_little_entente
 		x = 30
 		y = 6
 		cost = 5
@@ -2239,7 +2239,7 @@ focus_tree = {
 	#Focus for Southwestern Protectorate State
 	focus = {
 		id = CWE_southwestern_protectorate_state
-		icon = southwestern_protectorate_state
+		icon = GFX_focus_generic_self_management
 		x = 29
 		y = 7
 		cost = 5
@@ -2272,7 +2272,7 @@ focus_tree = {
 	#Focus for Southeastern Protectorate State
 	focus = {
 		id = CWE_southeastern_protectorate_state
-		icon = southeastern_protectorate_state
+		icon = GFX_focus_generic_self_management
 		x = 31
 		y = 7
 		cost = 5
@@ -2292,7 +2292,7 @@ focus_tree = {
 	#Focus for Reaffirm the Nevish Alliance
 	focus = {
 		id = CWE_reaffirm_the_nevish_alliance
-		icon = reaffirm_the_nevish_alliance
+		icon = GFX_focus_generic_manpower
 		x = 30
 		y = 8
 		cost = 5
@@ -2314,7 +2314,7 @@ focus_tree = {
 	#Focus for At The Gates of Demokratos
 	focus = {
 		id = CWE_at_the_gates_of_demokratos
-		icon = at_the_gates_of_demokratos
+		icon = GFX_focus_generic_provoke_border_clashes
 		x = 30
 		y = 9
 		cost = 5
@@ -2338,7 +2338,7 @@ focus_tree = {
 	#Focus for Shielded by The Mountains
 	focus = {
 		id = CWE_shielded_by_the_mountains
-		icon = shielded_by_the_mountains
+		icon = GFX_focus_GRE_a_land_of_mountains
 		x = 28
 		y = 8
 		cost = 5
@@ -2375,7 +2375,7 @@ focus_tree = {
 	#Focus for His Fury In Our Voice
 	focus = {
 		id = CWE_his_fury_in_our_voice
-		icon = his_fury_in_our_voice
+		icon = GFX_focus_generic_home_defense
 		x = 28
 		y = 9
 		cost = 5
@@ -2403,7 +2403,7 @@ focus_tree = {
 	#Focus for Heritage of Victory
 	focus = {
 		id = CWE_heritage_of_victory
-		icon = heritage_of_victory
+		icon = GFX_goal_generic_attack_allies
 		x = 29
 		y = 10
 		cost = 5
