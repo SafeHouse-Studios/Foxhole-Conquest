@@ -1,4 +1,5 @@
 version="1.10"
+picture="thumbnail.png"
 tags={
 	"Alternative History"
 	"Balance"
