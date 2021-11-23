@@ -1717,6 +1717,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 
@@ -1736,6 +1737,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -1753,8 +1759,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Weakened_Council
+			add_ideas = {
+			CWE_weakened_council
 			}
 		}
 	}
@@ -1766,6 +1772,9 @@ focus_tree = {
 		x = 22
 		y = 3
 		cost = 5
+		available = {
+			controls_state = 562
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_depower_the_council }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1773,6 +1782,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
+			# Upon civil war start, player will control Soravian provinces.
 		}
 	}
 
@@ -1790,6 +1801,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = CWE_weakened_council
+				add_idea = CWE_caovish_democratic_league
+			}
 		}
 	}
 
@@ -1800,6 +1815,9 @@ focus_tree = {
 		x = 26
 		y = 3
 		cost = 5
+		available = {
+			controls_state = 556
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_depower_the_council }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1807,6 +1825,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 
@@ -1817,6 +1836,9 @@ focus_tree = {
 		x = 24
 		y = 4
 		cost = 5
+		available = {
+			democratic > 0.3
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_secure_nicevin_support focus = CWE_the_caovish_democratic_league focus = CWE_secure_soravian_support }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1886,6 +1908,9 @@ focus_tree = {
 		x = 25
 		y = 6
 		cost = 5
+		available = {
+			has_war_support > 0.8
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_secure_military_support }
 		mutually_exclusive = { focus = CWE_secure_colonial_support }
@@ -1961,6 +1986,10 @@ focus_tree = {
 		x = 24
 		y = 9
 		cost = 5
+		available = {
+			democratic > 0.6
+			date > 0785.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_peoples_blade focus = CWE_underground_industry }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1984,9 +2013,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		bypass = { 
+			NOT = { has_war_with = CWE }
+		}
 		completion_reward = {
-		add_ideas ={
-		Death_to_the_False_Emperor
+			add_ideas ={
+				Death_to_the_False_Emperor
 			}
 		}
 	}
@@ -1998,6 +2030,10 @@ focus_tree = {
 		x = 24
 		y = 11
 		cost = 5
+		available = {
+			NOT = { has_war_with = CWE }
+			date > 0786.01.01
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_death_to_the_false_emperor }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2005,8 +2041,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Cavoian_Reublic
+			add_ideas ={
+				Cavoian_Reublic
 			}
 		}
 	}
@@ -2027,6 +2063,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			conscription_factor = 0.3
+			# every_owned_state = { conscription = 0.3 }
 		}
 	}
 
@@ -2044,6 +2086,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			add_stability = 0.1
+			add_political_power = 150
 		}
 	}
 	#Focus for Coerce Soravian Involvement
@@ -2053,6 +2101,9 @@ focus_tree = {
 		x = 29
 		y = 3
 		cost = 5
+		available = {
+			controls_state = 562
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_maintain_royal_authority }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2069,6 +2120,9 @@ focus_tree = {
 		x = 29
 		y = 4
 		cost = 5
+		available = {
+			controls_state = 556
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_coerce_soravian_involvement }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2076,6 +2130,27 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 10
+				state = 556
+			}
+			add_resource = {
+				type = oil
+				amount = 8
+				state = 557
+			}
+			add_resource = {
+				type = oil
+				amount = 4
+				state = 558
+			}
+			add_resource = {
+				type = oil
+				amount = 3
+				state = 559
+			}
+
 		}
 	}
 	#Focus for The Imperial Army
@@ -2092,6 +2167,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	#Focus for Technology Reclamation
@@ -2121,6 +2197,9 @@ focus_tree = {
 		x = 30
 		y = 5
 		cost = 5
+		available = {
+			neutrality > 0.5
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_develop_nicevian_resources focus = CWE_technology_reclamation }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2128,6 +2207,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			add_stability = 0.15
+			add_political_power = 150
 		}
 	}
 	#Focus for The Hands Of Callahan
@@ -2137,6 +2222,10 @@ focus_tree = {
 		x = 30
 		y = 6
 		cost = 5
+		available ={
+			neutrality > 0.7
+			has_war_support > 0.7
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_victory_through_tradition }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2144,6 +2233,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+
 		}
 	}
 	#Focus for Southwestern Protectorate State
@@ -2153,6 +2243,10 @@ focus_tree = {
 		x = 29
 		y = 7
 		cost = 5
+		available = {
+			controls_state = 2
+			controls_state = 19
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_hands_of_callahan }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2160,6 +2254,19 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_state_core = 2
+			add_state_core = 19
+			add_state_core = 12
+			add_state_core = 13
+			add_state_core = 14
+			add_state_core = 63
+			add_state_core = 64
+			add_state_core = 65
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 68
+			add_state_core = 69
+			add_state_core = 70
 		}
 	}
 	#Focus for Southeastern Protectorate State
