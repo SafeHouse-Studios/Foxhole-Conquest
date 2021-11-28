@@ -73,6 +73,12 @@ set_popularities = {
 	fascism = 5
 }
 
+add_ideas = {
+	CWE_major_trade_hub_idea
+	CWE_local_terrain_knowledge_idea
+	CWE_coalition_system_idea
+}
+
 create_country_leader = {
 	
 	name = "Emperor Ian Callahan"
