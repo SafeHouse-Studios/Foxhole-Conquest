@@ -1,0 +1,4 @@
+continents = {
+	caoiva
+	veli
+}
