@@ -209,7 +209,7 @@ ideas = {
 			modifier = {
 				training_time_factor = -0.05
 				army_org_factor = 0.05
-				add_army_experience = 25
+				# army_experience = 25                   --- Adding army experience is not a modifier, it needs to be within an event.
 			}
 
 		}

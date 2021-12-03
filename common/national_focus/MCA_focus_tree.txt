@@ -771,7 +771,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward - {
+		completion_reward = {
 			547 = {
 				add_building_construction = {
 					type = arms_factory
@@ -2361,40 +2361,40 @@ focus_tree = {
 				
 				527 = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 46 }
 					create_unit = {
 					division = "name = \"404th Motorized Division\" division_template = \"404th Motorized\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 				}
 			}
@@ -2611,28 +2611,28 @@ focus_tree = {
 				
 				527 = { 
 				limit = { ROOT = { has_full_control_of_state = PREV } }
-				prioritize = { 46 }
 				create_unit = {
 					division = "name = \"Swords of Maro Division\" division_template = \"Swords of Maro\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 				limit = { ROOT = { has_full_control_of_state = PREV } }
-				prioritize = { 46 }
 				create_unit = {
 					division = "name = \"Swords of Maro Division\" division_template = \"Swords of Maro\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 				limit = { ROOT = { has_full_control_of_state = PREV } }
-				prioritize = { 46 }
 				create_unit = {
 					division = "name = \"Swords of Maro Division\" division_template = \"Swords of Maro\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 				limit = { ROOT = { has_full_control_of_state = PREV } }
-				prioritize = { 46 }
 				create_unit = {
 					division = "name = \"Swords of Maro Division\" division_template = \"Swords of Maro\" start_experience_factor = 3.0" 
 					owner = MCA
+					prioritize_location =  46
 					}
 				}
 			}
@@ -2877,34 +2877,34 @@ focus_tree = {
 				
 				527 = {
                     limit = { ROOT = { has_full_control_of_state = PREV } }
-                    prioritize = { 46 }
                     create_unit = {
                         division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
                         owner = MCA
+						prioritize_location =  46
                     }
 					limit = { ROOT = { has_full_control_of_state = PREV } }
-                    prioritize = { 46 }
+                     create_unit = {
+                        division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
+                        owner = MCA
+						prioritize_location =  46
+                    }
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+                     create_unit = {
+                        division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
+                        owner = MCA
+						prioritize_location =  46
+                    }
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+                     create_unit = {
+                        division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
+                        owner = MCA
+						prioritize_location =  46
+                    }
+					limit = { ROOT = { has_full_control_of_state = PREV } }
                     create_unit = {
                         division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
                         owner = MCA
-                    }
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-                    prioritize = { 46 }
-                    create_unit = {
-                        division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
-                        owner = MCA
-                    }
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-                    prioritize = { 46 }
-                    create_unit = {
-                        division = "name = \"RAID Directorate Division\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
-                        owner = MCA
-                    }
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-                    prioritize = { 46 }
-                    create_unit = {
-                        division = "name = \"RAID Directorate\" division_template = \"RAID Directorate\" start_experience_factor = 3.0" 
-                        owner = MCA
+						prioritize_location =  46 
                     }
                 }
 			}
@@ -3168,7 +3168,4 @@ focus_tree = {
 		}
 	
 	#End of focuses 
-	 }
-
-#End of focuses 
- }
+}
