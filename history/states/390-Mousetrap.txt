@@ -1,0 +1,10 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		888 1122 8272 9760 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
