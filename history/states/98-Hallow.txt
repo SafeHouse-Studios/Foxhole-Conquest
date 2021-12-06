@@ -6,7 +6,22 @@ state={
 	}
 	manpower=1000
 
-	state_category = town
+	state_category = megalopolis
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	history = {
+		owner = MCA
+		
+		victory_points = { 10850 40 }
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 3
+
+			10850 = {
+				naval_base = 5
+			}
+		}
 }

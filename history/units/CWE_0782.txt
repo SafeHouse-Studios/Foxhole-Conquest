@@ -25,16 +25,16 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2002
+		location = 7647
 		division_template = "Infantry Division"
 
 	}
 	fleet = {
 		name = "Warden Navy"
-		naval_base = 8066
+		naval_base = 7647
 		task_force = {				
 			name = "Oarbreaker's Guard"			
-			location = 8066
+			location = 7647
 			ship = { name = "WN Oar I" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CWE version_name = "Swimmer Class" } } }
 			ship = { name = "WN Oar II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CWE version_name = "Swimmer Class" } } }
 		}				

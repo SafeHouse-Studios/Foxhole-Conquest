@@ -1,0 +1,15 @@
+characters = {
+	MCA_colonial_senate = {
+		name = "Colonial Senate" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
