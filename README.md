@@ -39,14 +39,16 @@ Also open this file in the text editor.
 You need to paste the following code into the correct place in the document:
 
 
-```replace_path="map/strategicregions"
+```
+replace_path="map/strategicregions"
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="gfx/loadingscreens"
 ```
 The end result should look like this (although there may be changes over time):
 
-```version="1.11"
+```
+version="1.11"
 tags={
 	"Alternative History"
 	"Balance"
