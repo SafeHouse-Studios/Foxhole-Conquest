@@ -8,4 +8,8 @@ state={
 
 	state_category = town
 	buildings_max_level_factor=1.000
+	history = {
+		owner = CWE
+		
+	}
 }

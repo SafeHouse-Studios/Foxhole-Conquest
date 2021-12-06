@@ -13,6 +13,7 @@ state={
 		owner = CWE
 		
 		victory_points = {
-			10252
+			10252 5
 		}
+	}
 }

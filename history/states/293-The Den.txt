@@ -25,4 +25,5 @@ state={
 				naval_base = 5
 			}
 		}
+	}
 }
