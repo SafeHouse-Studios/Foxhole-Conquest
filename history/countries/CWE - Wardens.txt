@@ -1,6 +1,6 @@
-﻿capital = 244
+﻿capital = 293
 
-oob = "CWE_0782"
+#oob = "CWE_0782"
 
 # Starting tech
 set_technology = {
