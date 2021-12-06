@@ -395,7 +395,7 @@
  STATE_394:0 "Unknown East Isles"
  STATE_395:0 "Unknown East"
  STATE_396:0 "Forbidden Southwest"
- STATE_397:0 "Unkown Southwestern Lands"
+ STATE_397:1 "Unknown Southwestern Lands"
  STATE_398:0 "Forbidden Southeast"
  STATE_399:0 "Forbidden Islands"
  STATE_400:0 "Forbidden Northwest"
