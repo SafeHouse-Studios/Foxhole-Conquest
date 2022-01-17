@@ -1,5 +1,57 @@
 spriteTypes = {	
 	#### Colonial focus icons
+
+	SpriteType = {
+	name = "GFX_focus_dawn_of_velian_imperium"
+	texturefile = "gfx/interface/goals/focus_dawn_of_velian_imperium.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_form_the_praetorian_guard"
+	texturefile = "gfx/interface/goals/focus_form_the_praetorian_guard.dds"			
+	}
+
+
+	SpriteType = {
+	name = "GFX_focus_mesean_fascist_movement"
+	texturefile = "gfx/interface/goals/focus_mesean_fascist_movement.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_embrace_dimian_industrialism"
+	texturefile = "gfx/interface/goals/focus_embrace_dimian_industrialism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_rebuild_the_nation"
+	texturefile = "gfx/interface/goals/focus_rebuild_the_nation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_fund_caovish_republican_partisans"
+	texturefile = "gfx/interface/goals/focus_fund_caovish_republican_partisans.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_embrace_populism"
+	texturefile = "gfx/interface/goals/focus_embrace_populism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_the_aquilia_party"
+	texturefile = "gfx/interface/goals/focus_the_aquilia_party.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_slay_mesean_bear"
+	texturefile = "gfx/interface/goals/focus_slay_mesean_bear.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_colonial_breadbasket"
+	texturefile = "gfx/interface/goals/focus_colonial_breadbasket.dds"			
+	}
+
 	SpriteType = {
 	name = "GFX_goal_balanced_development"
 	texturefile = "gfx/interface/goals/focus_MCA_balanced_development.dds"			

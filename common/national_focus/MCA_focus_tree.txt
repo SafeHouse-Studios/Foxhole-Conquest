@@ -348,7 +348,7 @@ focus_tree = {
 	#Focus for The Colonial Breadbasket
 	focus = {
 		id = MCA_the_colonial_breadbasket
-		icon = the_colonial_breadbasket
+		icon = GFX_focus_colonial_breadbasket
 		x = 12
 		y = 6
 		cost = 7
@@ -760,7 +760,7 @@ focus_tree = {
 	#Focus for Embrace Dimian Industrialism
 	focus = {
 		id = MCA_embrace_dimian_industrialism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_embrace_dimian_industrialism
 		x = 18
 		y = 3
 		cost = 7
@@ -1002,7 +1002,7 @@ focus_tree = {
 	#Focus for Dawn Of The Velian Imperium
 	focus = {
 		id = MCA_dawn_of_the_velian_imperium
-		icon = GFX_goal_unknown
+		icon = GFX_focus_dawn_of_velian_imperium
 		x = 26
 		y = 10
 		cost = 7
@@ -1022,7 +1022,7 @@ focus_tree = {
 	#Focus for Slay The Mesean Bear
 	focus = {
 		id = MCA_slay_the_mesean_bear
-		icon = GFX_goal_unknown
+		icon = GFX_focus_slay_mesean_bear
 		x = 26
 		y = 11
 		cost = 7
@@ -1217,7 +1217,7 @@ focus_tree = {
 	#Focus for The Aquilia Party
 	focus = {
 		id = MCA_the_aquilia_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_the_aquilia_party
 		x = 27
 		y = 7
 		cost = 7
@@ -1298,7 +1298,7 @@ focus_tree = {
 	#Focus for Form The Praetorian Guard
 	focus = {
 		id = MCA_form_the_praetorian_guard
-		icon = GFX_goal_unknown
+		icon = GFX_focus_form_the_praetorian_guard
 		x = 23
 		y = 10
 		cost = 7
@@ -1362,7 +1362,7 @@ focus_tree = {
 	#Focus for Mesean Fascist Movement
 	focus = {
 		id = MCA_mesean_fascist_movement
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mesean_fascist_movement
 		x = 29
 		y = 7
 		cost = 7
@@ -1392,7 +1392,7 @@ focus_tree = {
 	#Focus for Embrace Populism
 	focus = {
 		id = MCA_embrace_populism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_embrace_populism
 		x = 31
 		y = 8
 		cost = 7
@@ -1498,7 +1498,7 @@ focus_tree = {
 	#Focus for Rebuild The Nation
 	focus = {
 		id = MCA_rebuild_the_nation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuild_the_nation
 		x = 28
 		y = 12
 		cost = 7
@@ -1584,7 +1584,7 @@ focus_tree = {
 	#Focus for Fund Caovish Republican Partisans
 	focus = {
 		id = MCA_fund_caovish_republican_partisans
-		icon = GFX_MCA_fund_caovish_republican_partisans-93420
+		icon = GFX_focus_fund_caovish_republican_partisans
 		x = 33
 		y = 5
 		cost = 7
