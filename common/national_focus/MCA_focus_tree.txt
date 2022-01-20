@@ -28,7 +28,7 @@ focus_tree = {
 	#Focus for Fund the Damokratos Rail Line
 	focus = {
 		id = MCA_fund_the_damokratos_rail_line
-		icon = fund_the_damokratos_rail_line
+		icon = GFX_focus_fund_damokratos_rail_line
 		x = 6
 		y = 1
 		cost = 7
@@ -266,7 +266,7 @@ focus_tree = {
 	#Focus for Embrace Therizian Agrarianism
 	focus = {
 		id = MCA_embrace_therizian_agrarianism
-		icon = embrace_therizian_agrarianism
+		icon = GFX_focus_embrace_therizian_agrarianism
 		x = 12
 		y = 4
 		cost = 7
@@ -291,7 +291,7 @@ focus_tree = {
 	#Focus for Invest In Therizian Industry
 	focus = {
 		id = MCA_invest_in_therizian_industry
-		icon = invest_in_therizian_industry
+		icon = GFX_focus_invest_in_therizian_industry
 		x = 16
 		y = 4
 		cost = 7
@@ -317,10 +317,10 @@ focus_tree = {
 		}
 	}
 
-	#Focus for to feed the legion
+	#Focus for To Feed the Legion
 	focus = {
 		id = MCA_to_feed_the_legion
-		icon = to_feed_the_legion
+		icon = GFX_focus_to_feed_the_legion
 		x = 12
 		y = 5
 		cost = 7
@@ -370,7 +370,7 @@ focus_tree = {
 	#Focus for Focus Mesean Industry
 	focus = {
 		id = MCA_focus_mesean_industry
-		icon = focus_mesean_industry
+		icon = GFX_focus_focus_mesean_industry
 		x = 9
 		y = 4
 		cost = 7
@@ -401,7 +401,7 @@ focus_tree = {
 	#Focus for Construct New Ordnance Plants
 	focus = {
 		id = MCA_construct_new_ordnance_plants
-		icon = construct_new_ordnance_plants
+		icon = GFX_focus_construct_new_ordnance_plants
 		x = 7
 		y = 5
 		cost = 7
@@ -431,7 +431,7 @@ focus_tree = {
 	#Focus for Invest In Velian Lumber Trade
 	focus = {
 		id = MCA_invest_in_velian_lumber_trade
-		icon = invest_in_velian_lumber_trade
+		icon = focus_invest_in_velian_lumber_trade
 		x = 5
 		y = 4
 		cost = 7
@@ -596,7 +596,7 @@ focus_tree = {
 	#Focus for Facilitate Therizian Arms Plants
 	focus = {
 		id = MCA_facilitate_therizian_arms_plants
-		icon = facilitate_therizian_arms_plants
+		icon = GFX_focus_facilitate_therizian_arms_plants
 		x = 16
 		y = 5
 		cost = 7
@@ -701,7 +701,7 @@ focus_tree = {
 	#Focus for Prosperous Republic
 	focus = {
 		id = MCA_prosperous_republic
-		icon = prosperous_republic
+		icon = GFX_focus_prosperous_republic
 		x = 20
 		y = 4
 		cost = 7
@@ -785,7 +785,7 @@ focus_tree = {
 	#Focus for Disregard Labor Protests
 	focus = {
 		id = MCA_disregard_labor_protests
-		icon = Disregard_labour_Protests
+		icon = GFX_focus_disregard_labour_protests
 		x = 18
 		y = 4
 		cost = 7
@@ -814,7 +814,7 @@ focus_tree = {
 	#Focus for A Sky Of Smokestacks
 	focus = {
 		id = MCA_a_sky_of_smokestacks
-		icon = GFX_focus_generic_industry_2
+		icon = GFX_focus_a_sky_of_smokestacks
 		x = 18
 		y = 5
 		cost = 7
@@ -846,7 +846,7 @@ focus_tree = {
 	#Focus for Import Therizan Grain
 	focus = {
 		id = MCA_import_therizan_grain
-		icon = GFX_goal_unknown
+		icon = GFX_focus_import_therizan_grain
 		x = 18
 		y = 6
 		cost = 7
@@ -1100,7 +1100,7 @@ focus_tree = {
 	#Focus for A Failing Senate
 	focus = {
 		id = MCA_a_failing_senate
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_a_failing_senate
 		x = 28
 		y = 2
 		cost = 7
@@ -1232,7 +1232,7 @@ focus_tree = {
 	#Focus for Appeal To Velian Imperators
 	focus = {
 		id = MCA_appeal_to_velian_imperators
-		icon = GFX_goal_unknown
+		icon = GFX_focus_appeal_to_velian_imperators
 		x = 27
 		y = 8
 		cost = 7
@@ -1247,7 +1247,7 @@ focus_tree = {
 	#Focus for Reconciliation With The Colonies
 	focus = {
 		id = MCA_reconciliation_with_the_colonies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_reconciliation_with_the_colonies
 		x = 25
 		y = 8
 		cost = 7
@@ -1346,7 +1346,7 @@ focus_tree = {
 	#Focus for Refuse Colonial Representation
 	focus = {
 		id = MCA_refuse_colonial_representation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_refuse_colonial_representation
 		x = 29
 		y = 6
 		cost = 7
@@ -1377,7 +1377,7 @@ focus_tree = {
 	#Focus for Appeal To Velian Senators
 	focus = {
 		id = MCA_appeal_to_velian_senators
-		icon = GFX_goal_unknown
+		icon = GFX_focus_appeal_to_velian_senators
 		x = 29
 		y = 8
 		cost = 7
@@ -1516,7 +1516,7 @@ focus_tree = {
 	#Focus for A Senate Divided
 	focus = {
 		id = MCA_a_senate_divided
-		icon = a_senate_divided
+		icon = GFX_focus_a_senate_divided
 		x = 34
 		y = 0
 		cost = 7
@@ -1554,7 +1554,7 @@ focus_tree = {
 	#Focus for Maintain The Status Quo
 	focus = {
 		id = MCA_maintain_the_status_quo
-		icon = GFX_MCA_maintain_the_status_quo-93422
+		icon = GFX_focus_maintain_the_status_quo
 		x = 34
 		y = 3
 		cost = 7
@@ -1569,7 +1569,7 @@ focus_tree = {
 	#Focus for Sow The Seeds of Caovish Democracy
 	focus = {
 		id = MCA_sow_the_seeds_of_caovish_democracy
-		icon = GFX_MCA_sow_the_seeds_of_caovish_democracy-93428
+		icon = GFX_focus_sow_the_seeds_of_caovish_democracy
 		x = 33
 		y = 4
 		cost = 7
@@ -1632,7 +1632,7 @@ focus_tree = {
 	#Focus for Form The Republican Guard
 	focus = {
 		id = MCA_form_the_republican_guard
-		icon = GFX_MCA_form_the_republican_guard-93431
+		icon = GFX_focus_form_the_republican_guard
 		x = 34
 		y = 7
 		cost = 7
@@ -1982,7 +1982,7 @@ focus_tree = {
 	#Focus for Contact Caovish Diplomats
 	focus = {
 		id = MCA_contact_caovish_diplomats
-		icon = GFX_goal_unknown
+		icon = GFX_focus_contact_caovish_diplomats
 		x = 39
 		y = 6
 		cost = 7
