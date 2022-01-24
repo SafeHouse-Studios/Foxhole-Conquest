@@ -1037,7 +1037,7 @@ focus_tree = {
 	#Focus for Veli Invicta
 	focus = {
 		id = MCA_veli_invicta
-		icon = GFX_goal_unknown
+		icon = GFX_focus_veli_invicta
 		x = 26
 		y = 13
 		cost = 7
@@ -1407,7 +1407,7 @@ focus_tree = {
 	#Focus for Prepare Fascist Assault Divisions 
 	focus = {
 		id = MCA_prepare_fascist_assault_divisions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_prepare_fascist_assault_divisions
 		x = 29
 		y = 9
 		cost = 7
@@ -1430,7 +1430,7 @@ focus_tree = {
 	#Focus for Suppress The Press
 	focus = {
 		id = MCA_suppress_the_press
-		icon = GFX_goal_unknown
+		icon = GFX_focus_suppress_the_press
 		x = 31
 		y = 9
 		cost = 7
@@ -1450,7 +1450,7 @@ focus_tree = {
 	#Focus for Disband The Senate
 	focus = {
 		id = MCA_disband_the_senate
-		icon = GFX_goal_unknown
+		icon = GFX_focus_disband_the_senate
 		x = 30
 		y = 10
 		cost = 7
@@ -1468,7 +1468,7 @@ focus_tree = {
 	#Focus for Subjugate Colonies
 	focus = {
 		id = MCA_subjugate_colonies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_subjugate_colonies
 		x = 30
 		y = 11
 		cost = 7
@@ -1483,7 +1483,7 @@ focus_tree = {
 	#Focus for The Veli-Mesean State
 	focus = {
 		id = MCA_the_velimesean_state
-		icon = GFX_goal_unknown
+		icon = GFX_focus_the_velimesean_state
 		x = 30
 		y = 13
 		cost = 7

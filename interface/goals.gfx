@@ -2,6 +2,36 @@ spriteTypes = {
 	#### Colonial focus icons
 
 	SpriteType = {
+	name = "GFX_focus_the_velimesean_state"
+	texturefile = "gfx/interface/goals/focus_the_velimesean_state.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_veli_invicta"
+	texturefile = "gfx/interface/goals/focus_veli_invicta.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_subjugate_colonies"
+	texturefile = "gfx/interface/goals/focus_subjugate_colonies.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_disband_the_senate"
+	texturefile = "gfx/interface/goals/focus_disband_the_senate.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_suppress_the_press"
+	texturefile = "gfx/interface/goals/focus_suppress_the_press.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_prepare_fascist_assault_divisions"
+	texturefile = "gfx/interface/goals/focus_prepare_fascist_assault_divisions.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_a_sky_of_smokestacks"
 	texturefile = "gfx/interface/goals/focus_a_sky_of_smokestacks.dds"			
 	}
