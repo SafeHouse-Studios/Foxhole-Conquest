@@ -2,6 +2,11 @@ spriteTypes = {
 	#### Colonial focus icons
 
 	SpriteType = {
+	name = "GFX_focus_the_great_commune"
+	texturefile = "gfx/interface/goals/focus_the_great_commune.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_sapper_cohorts"
 	texturefile = "gfx/interface/goals/focus_sapper_cohorts.dds"			
 	}

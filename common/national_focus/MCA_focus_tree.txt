@@ -1052,7 +1052,7 @@ focus_tree = {
 	#Focus for The Great Commune
 	focus = {
 		id = MCA_the_great_commune
-		icon = GFX_goal_unknown
+		icon = GFX_focus_the_great_commune
 		x = 40
 		y = 11
 		cost = 7
