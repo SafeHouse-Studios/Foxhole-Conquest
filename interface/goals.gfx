@@ -2,6 +2,36 @@ spriteTypes = {
 	#### Colonial focus icons
 
 	SpriteType = {
+	name = "GFX_focus_sapper_cohorts"
+	texturefile = "gfx/interface/goals/focus_sapper_cohorts.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_motorized_cohorts"
+	texturefile = "gfx/interface/goals/focus_motorized_cohorts.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_legion_reforms"
+	texturefile = "gfx/interface/goals/focus_legion_reforms.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_form_the_404th"
+	texturefile = "gfx/interface/goals/focus_form_the_404th.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_establish_the_war_committee"
+	texturefile = "gfx/interface/goals/focus_establish_the_war_committee.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_convert_farmland_to_industry"
+	texturefile = "gfx/interface/goals/focus_convert_farmland_to_industry.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_focus_the_velimesean_state"
 	texturefile = "gfx/interface/goals/focus_the_velimesean_state.dds"			
 	}
