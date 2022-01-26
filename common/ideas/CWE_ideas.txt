@@ -25,6 +25,26 @@ ideas = {
 
 		}
 
+		CWE_caovish_democratic_league_idea = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.2
+			}
+
+		}
+
 		CWE_local_terrain_knowledge_idea = {
 			
 			allowed = {
@@ -87,7 +107,7 @@ ideas = {
 
 		}
 
-		CWE_the_domain_of_sunhaven = {
+		CWE_the_domain_of_sunhaven_idea = {
 			
 			allowed = {
 				original_tag = CWE
@@ -105,6 +125,26 @@ ideas = {
 				
 			}
 
+		}
+
+		CWE_weakened_council_idea = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				democratic_drift = 0.2
+			}
 		}
 
 		CWE_increased_labor_quotas_idea = {
