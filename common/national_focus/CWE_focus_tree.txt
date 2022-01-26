@@ -22,7 +22,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_ideas ={
-		Council_On_Industrial_Development
+		CWE_council_on_industrial_development_idea
 			}
 		}
 	}
@@ -1418,7 +1418,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {add_ideas ={
-		Pace_Extraction
+		CWE_pace_extraction_idea
 			}
 		}
 	}
@@ -1439,7 +1439,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_ideas ={
-		Increased_Labor_Quotas
+		CWE_increased_labor_quotas_idea
 			}
 		}
 	}
@@ -1759,9 +1759,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {
-			CWE_weakened_council
-			}
+			add_timed_idea = { idea = CWE_weakened_council_idea days = 100 }
+
 		}
 	}
 
@@ -1801,9 +1800,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = CWE_weakened_council
-				add_idea = CWE_caovish_democratic_league
+				remove_idea = CWE_weakened_council_idea
+				add_timed_idea = {
+					idea = CWE_caovish_democratic_league_idea
+					days = 100
 			}
 		}
 	}
@@ -3731,5 +3731,3 @@ focus_tree = {
 
 #End of focuses 
  }
-
-
