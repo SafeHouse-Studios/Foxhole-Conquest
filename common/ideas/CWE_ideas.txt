@@ -1,4 +1,318 @@
 ideas = {
+
+	country = {
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+			cancel = {
+				date > 0784.01.01
+			}
+
+		}
+
+		CWE_caovish_democratic_league_idea = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.2
+			}
+
+		}
+
+		CWE_local_terrain_knowledge_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				terrain_penalty_reduction = 0.05
+			}
+
+		}
+
+		CWE_coalition_system_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.05
+			}
+			
+
+		}
+
+		CWE_council_on_industrial_development_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05 
+			}
+
+		}
+
+		CWE_the_domain_of_sunhaven_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+
+		}
+
+		CWE_weakened_council_idea = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				democratic_drift = 0.2
+			}
+		}
+
+		CWE_increased_labor_quotas_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.1
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+
+		}
+
+		CWE_pace_extraction_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.1
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+
+	}
+	
 	political_advisor = {
 		papatrotsky_communist_advisor = {
 			allowed = {
