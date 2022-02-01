@@ -297,6 +297,33 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"			
 	}
 	
+	#### Warden focus icons
+	
+	SpriteType = {
+	name = "GFX_focus_empower_the_war_council"
+	texturefile = "gfx/interface/goals/empower_legates.tga"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_militaristic_transformation"
+	texturefile = "gfx/interface/goals/goal_generic_army_doctrines.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_armored_car_battalions"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_niska"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_devitt"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {

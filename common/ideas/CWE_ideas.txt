@@ -191,7 +191,7 @@ ideas = {
 
 		}
 
-		CWE_major_trade_hub_idea = {
+		CWE_empowered_war_council_idea = {
 			
 			allowed = {
 				original_tag = CWE
@@ -206,7 +206,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_cost_for_target_factor = -0.5
+				army_org_factor = 0.05
+				war_support_factor = 0.05
 			}
 
 		}

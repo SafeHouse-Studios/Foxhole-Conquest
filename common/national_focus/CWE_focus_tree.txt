@@ -2995,7 +2995,7 @@ focus_tree = {
 	#Focus for Empower the War Council
 	focus = {
 		id = CWE_empower_the_war_council
-		icon = empower_the_war_council
+		icon = GFX_focus_empower_the_war_council
 		x = 47
 		y = 0
 		cost = 5
@@ -3005,15 +3005,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
-		add_ideas ={
-		Empowered_War_Council
-			}
+		army_experience = 25
+		add_ideas =
+		CWE_empowered_war_council_idea
 		}
 	}
 	#Focus for Militaristic Transformation
 	focus = {
 		id = CWE_militaristic_transformation
-		icon = militaristic_transformation
+		icon = GFX_focus_militaristic_transformation
 		x = 45
 		y = 1
 		cost = 5
@@ -3024,12 +3024,19 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_doctrine_cost_reduction = {
+		name = land_doc_bonus
+		cost_reduction = 0.5
+		uses = 2
+		category = land_doctrine
+		}
+		army_experience = 20
 		}
 	}
 	#Focus for Armored Car Battalions
 	focus = {
 		id = CWE_armored_car_battalions
-		icon = armored_car_battalions
+		icon = GFX_focus_armored_car_battalions
 		x = 43
 		y = 2
 		cost = 5
@@ -3045,7 +3052,7 @@ focus_tree = {
 	#Focus for The Niska
 	focus = {
 		id = CWE_the_niska
-		icon = the_niska
+		icon = GFX_focus_the_niska
 		x = 43
 		y = 3
 		cost = 5
@@ -3061,7 +3068,7 @@ focus_tree = {
 	#Focus for The Devitt
 	focus = {
 		id = CWE_the_devitt
-		icon = the_devitt
+		icon = GFX_focus_the_devitt
 		x = 43
 		y = 4
 		cost = 5
