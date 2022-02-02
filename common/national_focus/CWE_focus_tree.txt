@@ -3074,6 +3074,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_niska }
+		available = { date > 784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -3084,7 +3085,7 @@ focus_tree = {
 	#Focus for Integrate Militias
 	focus = {
 		id = CWE_integrate_militias
-		icon = integrate_militias
+		icon = GFX_integrate_militias
 		x = 45
 		y = 2
 		cost = 5
@@ -3095,15 +3096,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Integrated_Militias
+		add_timed_idea = {
+		idea = CWE_integrated_militias days = 300
 			}
 		}
 	}
 	#Focus for Infantry Innovations
 	focus = {
 		id = CWE_infantry_innovations
-		icon = infantry_innovations
+		icon = GFX_infantry_innovations
 		x = 45
 		y = 3
 		cost = 5
@@ -3114,28 +3115,48 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		army_experience = 15
+		add_doctrine_cost_reduction = {
+		name = land_doc_bonus
+		cost_reduction = 0.3
+		uses = 1
+		category = land_doctrine
+		}
+		add_tech_bonus = {
+	name = infantry_weapons_tree
+	bonus = 0.3
+	uses = 1
+	technology = infantry_weapons
+}
 		}
 	}
 	#Focus for Warden Shock Army
 	focus = {
 		id = CWE_warden_shock_army
-		icon = warden_shock_army
+		icon = GFX_warden_shock_army
 		x = 45
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_infantry_innovations }
+		available = { date > 784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
+		add_doctrine_cost_reduction = {
+		name = land_doc_bonus
+		cost_reduction = 0.3
+		uses = 1
+		category = land_doctrine
+		}
 		}
 	}
 	#Focus for Restructured Command
 	focus = {
 		id = CWE_restructured_command
-		icon = restructured_command
+		icon = GFX_restructured_command
 		x = 47
 		y = 2
 		cost = 5
@@ -3146,12 +3167,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_war_support = 0.05
+		army_experience = 10
+		add_command_power = 20
 		}
 	}
 	#Focus for Establish Warden Officer Academy
 	focus = {
 		id = CWE_establish_warden_officer_academy
-		icon = establish_warden_officer_academy
+		icon = GFX_establish_warden_officer_academy
 		x = 47
 		y = 3
 		cost = 5
@@ -3162,31 +3186,39 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_research_slot = 1
 		}
 	}
 	#Focus for Command Protocols
 	focus = {
 		id = CWE_command_protocols
-		icon = command_protocols
+		icon = GFX_command_protocols
 		x = 47
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_establish_warden_officer_academy }
+		available = { date > 784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_popularity = {
+	ideology = neutrality
+	popularity = 0.20
+}
 		add_ideas ={
-		Command_Protocols
+		CWE_command_protocols
 			}		
 		}
 	}
 	#Focus for The Warden Military
 	focus = {
 		id = CWE_the_warden_military
-		icon = the_warden_military
+		icon = GFX_the_warden_military
 		x = 45
 		y = 5
 		cost = 5
@@ -3197,12 +3229,19 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+				add_doctrine_cost_reduction = {
+		name = land_doc_bonus
+		cost_reduction = 0.3
+		uses = 1
+		category = land_doctrine
+		}
+		add_political_power = 150
 		}
 	}
 	#Focus for The Flood
 	focus = {
 		id = CWE_the_flood
-		icon = the_flood
+		icon = GFX_focus_the_flood
 		x = 43
 		y = 6
 		cost = 5
@@ -3252,7 +3291,7 @@ focus_tree = {
 	#Focus for The Silverhand
 	focus = {
 		id = CWE_the_silverhand
-		icon = the_silverhand
+		icon = GFX_focus_the_silverhand
 		x = 43
 		y = 7
 		cost = 5

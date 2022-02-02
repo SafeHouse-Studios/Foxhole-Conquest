@@ -324,6 +324,51 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
 	}
 	
+	SpriteType = {
+	name = "GFX_integrate_militias"
+	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_infantry_innovations"
+	texturefile = "gfx/interface/goals/goal_generic_small_arms.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_warden_shock_army"
+	texturefile = "gfx/interface/goals/empower_legates.tga"
+	}
+	
+	SpriteType = {
+	name = "GFX_restructured_command"
+	texturefile = "gfx/interface/goals/form_the_republican_guard.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_establish_warden_officer_academy"
+	texturefile = "gfx/interface/goals/goal_generic_scientific_exchange.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_command_protocols"
+	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_warden_military"
+	texturefile = "gfx/interface/goals/focus_contact_caovish_diplomats.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_flood"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_silverhand"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {

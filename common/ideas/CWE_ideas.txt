@@ -212,7 +212,7 @@ ideas = {
 
 		}
 
-		CWE_major_trade_hub_idea = {
+		CWE_integrated_militias = {
 			
 			allowed = {
 				original_tag = CWE
@@ -227,12 +227,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_cost_for_target_factor = -0.5
+				army_org_factor = -0.05
+				land_reinforce_rate = 0.1
+				conscription_factor = 0.1
 			}
 
 		}
 
-		CWE_major_trade_hub_idea = {
+		CWE_command_protocols = {
 			
 			allowed = {
 				original_tag = CWE
@@ -247,7 +249,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_cost_for_target_factor = -0.5
+				army_org_factor = 0.05
+				political_power_factor = 0.1
 			}
 
 		}
