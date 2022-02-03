@@ -255,7 +255,7 @@ ideas = {
 
 		}
 
-		CWE_major_trade_hub_idea = {
+		CWE_final_offensive_doctrine = {
 			
 			allowed = {
 				original_tag = CWE
@@ -270,12 +270,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_cost_for_target_factor = -0.5
+				army_attack_factor = 0.3
+				army_speed_factor = 0.2
+				army_defence_factor = -0.15
 			}
 
 		}
 
-		CWE_major_trade_hub_idea = {
+		CWE_northern_guardians { = 
 			
 			allowed = {
 				original_tag = CWE
@@ -290,7 +292,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_cost_for_target_factor = -0.5
+				army_core_defence_factor = 0.2
+				acclimatization_cold_climate_gain_factor = 0.5
 			}
 
 		}

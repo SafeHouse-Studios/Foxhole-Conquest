@@ -3459,26 +3459,27 @@ focus_tree = {
 	#Focus for Final Offensive Doctrine
 	focus = {
 		id = CWE_final_offensive_doctrine
-		icon = final_offensive_doctrine
+		icon = GFX_final_offensive_doctrine
 		x = 47
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_combined_arms_doctrine }
+		available = { date > 785.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas ={
-		Final_Offensive
+		add_timed_idea = {
+		idea = CWE_final_offensive_doctrine days = 150
 			}
 		}
 	}
 	#Focus for Guardians of The North
 	focus = {
 		id = CWE_guardians_of_the_north
-		icon = guardians_of_the_north
+		icon = GFX_guardians_of_the_north
 		x = 45
 		y = 8
 		cost = 5
@@ -3492,7 +3493,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_ideas ={
-		Northern_Guardians
+		CWE_northern_guardians
 			}
 		}
 	}

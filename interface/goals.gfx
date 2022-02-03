@@ -384,6 +384,16 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_generic_commonwealth_build_infantry.dds"
 	}
 	
+	SpriteType = {
+	name = "GFX_final_offensive_doctrine"
+	texturefile = "gfx/interface/goals/goal_generic_occypy_states_ongoing_war.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_guardians_of_the_north"
+	texturefile = "gfx/interface/goals/goal_generic_position_armies.dds"
+	}
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {
