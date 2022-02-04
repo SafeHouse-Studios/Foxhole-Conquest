@@ -277,7 +277,7 @@ ideas = {
 
 		}
 
-		CWE_northern_guardians { = 
+		CWE_northern_guardians = {
 			
 			allowed = {
 				original_tag = CWE
@@ -294,6 +294,26 @@ ideas = {
 			modifier = {
 				army_core_defence_factor = 0.2
 				acclimatization_cold_climate_gain_factor = 0.5
+			}
+
+		}
+		
+		CWE_skyborne_battalions = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.25
 			}
 
 		}
@@ -317,6 +337,8 @@ ideas = {
 			}
 
 		}
+		
+		
 
 	}
 	

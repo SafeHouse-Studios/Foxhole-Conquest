@@ -394,6 +394,50 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_generic_position_armies.dds"
 	}
 	
+	SpriteType = {
+	name = "GFX_warden_aviation_initiative"
+	texturefile = "gfx/interface/goals/goal_generic_build_airforce.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_eagles_beak"
+	texturefile = "gfx/interface/goals/goal_generic_air_fighter.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_fighter_focus"
+	texturefile = "gfx/interface/goals/goal_generic_air_fighter2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_eagles_talon"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_manticore"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_form_squadron_command"
+	texturefile = "gfx/interface/goals/goal_generic_air_doctrine.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_heavy_bomber_development"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_naval_bomber_development"
+	texturefile = "gfx/interface/goals/goal_generic_air_naval_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_skyborne_battalions"
+	texturefile = "gfx/interface/goals/goal_generic_CAS.dds"
+	}
 	#### Generic continuous goal icons
 
 	SpriteType = {
