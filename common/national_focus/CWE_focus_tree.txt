@@ -3496,6 +3496,9 @@ focus_tree = {
 		add_ideas ={
 		CWE_northern_guardians
 			}
+			add_ideas ={
+		extensive_conscription
+			}
 		}
 	}
 
