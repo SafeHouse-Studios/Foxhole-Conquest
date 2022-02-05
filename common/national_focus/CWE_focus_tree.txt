@@ -3149,7 +3149,7 @@ focus_tree = {
 		name = land_doc_bonus
 		cost_reduction = 0.3
 		uses = 1
-		category = land_doctrine
+		category = cat_mass_assault
 		}
 		}
 	}
@@ -3304,7 +3304,9 @@ focus_tree = {
 				add_tech_bonus = {
 					bonus = 0.5
 					uses = 1
+					category = heavy_air
 					category = medium_air
+					category = light_air
 				}
 				add_doctrine_cost_reduction = {
 		name = land_doc_bonus
@@ -3346,7 +3348,7 @@ focus_tree = {
 		completion_reward = {
 		division_template = {	
 					name = "82nd Dread Korps"
-					division_names_group = 
+					division_names_group = MCA_INF_01
 
 					regiments = {
 						infantry = { x = 0 y = 0 }
@@ -3365,11 +3367,10 @@ focus_tree = {
 						artillery_brigade = { x = 2 y = 1 }
 						artillery_brigade = { x = 2 y = 2 }
 						artillery_brigade = { x = 2 y = 3 }
-						artillery_brigade = { x = 2 y = 3 }
+						artillery_brigade = { x = 2 y = 4 }
 		
-						medium_spg = { x = 3 y = 0 }
-						medium_spg = { x = 3 y = 1 }
-						medium_spg = { x = 3 y = 2 }
+						medium_sp_artillery_brigade = { x = 3 y = 0 }
+						medium_sp_artillery_brigade = { x = 3 y = 1 }
 
 					}
 	
