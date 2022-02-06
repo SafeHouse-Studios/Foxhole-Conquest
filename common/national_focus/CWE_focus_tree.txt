@@ -41,7 +41,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			244 = {
+			293 = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 3
@@ -74,7 +74,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			436 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -84,7 +84,7 @@ focus_tree = {
 
 			}
 
-			421 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -94,7 +94,7 @@ focus_tree = {
 
 			}
 
-			422 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -105,7 +105,7 @@ focus_tree = {
 			}
  	
 
-			165 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -115,7 +115,7 @@ focus_tree = {
 
 			}
 
-			432 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -125,7 +125,7 @@ focus_tree = {
 
 			}
 
-			164 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -135,7 +135,7 @@ focus_tree = {
 
 			}
 
-			440 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -145,7 +145,7 @@ focus_tree = {
 
 			}
 
-			351 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -155,7 +155,7 @@ focus_tree = {
 
 			}
 
-			402 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -165,7 +165,7 @@ focus_tree = {
 
 			}
 
-			408 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -175,7 +175,7 @@ focus_tree = {
 
 			}
 
-			157 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -185,7 +185,7 @@ focus_tree = {
 
 			}
 
-			148 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -195,7 +195,7 @@ focus_tree = {
 
 			}
 
-			145 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -205,7 +205,7 @@ focus_tree = {
 
 			}
 
-			163 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -232,7 +232,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			486 = {
+			293 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -242,7 +242,7 @@ focus_tree = {
 
 			}
 
-			488 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -252,7 +252,7 @@ focus_tree = {
 
 			}
 
-			486 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -262,7 +262,7 @@ focus_tree = {
 
 			}
 
-			484 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -272,7 +272,7 @@ focus_tree = {
 
 			}
 
-			483 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -282,7 +282,7 @@ focus_tree = {
 
 			}
 
-			483 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -292,7 +292,7 @@ focus_tree = {
 
 			}
 
-			489 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -302,7 +302,7 @@ focus_tree = {
 
 			}
 
-			492 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -312,7 +312,7 @@ focus_tree = {
 
 			}
 
-			487 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -339,7 +339,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			164 = {
+			293 = {
 				add_building_constriction = {
 					type = industrial_complex
 					level = 3
@@ -349,7 +349,7 @@ focus_tree = {
 
 			}
 
-			436 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -359,7 +359,7 @@ focus_tree = {
 
 			}
 
-			421 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -369,7 +369,7 @@ focus_tree = {
 
 			}
 
-			422 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -380,7 +380,7 @@ focus_tree = {
 			}
 
 
-			165 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -390,7 +390,7 @@ focus_tree = {
 
 			}
 
-			432 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -400,7 +400,7 @@ focus_tree = {
 
 			}
 
-			164 = {
+			293 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -429,7 +429,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -439,77 +439,77 @@ focus_tree = {
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7594
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 150
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7582
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 1423
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 1639
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7605
+					province = 7647
 					level = 2
 				}
 			}
 
-			415 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 5556
+					province = 7647
 					level = 2
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -519,57 +519,57 @@ focus_tree = {
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7622
+					province = 7647
 					level = 2
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7617
+					province = 7647
 					level = 2
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7629
+					province = 7647
 					level = 2
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 4566
+					province = 7647
 					level = 2
 				}
 			}
 
-			416 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 4136
+					province = 7647
 					level = 2
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -579,52 +579,52 @@ focus_tree = {
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7457
+					province = 7647
 					level = 2
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7421
+					province = 7647
 					level = 2
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7412
+					province = 7647
 					level = 2
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 5409
+					province = 7647
 					level = 2
 				}
 			}
 
-			427 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 4681
+					province = 7647
 					level = 2
 				}
 			}
@@ -646,57 +646,57 @@ focus_tree = {
 		}
 		completion_reward = {
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 2269
+					province = 7647
 					level = 2
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 3926
+					province = 7647
 					level = 2
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 5429
+					province = 7647
 					level = 2
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 8412
+					province = 7647
 					level = 2
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 5956
+					province = 7647
 					level = 2
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -706,7 +706,7 @@ focus_tree = {
 				}
 			}
 
-			124 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -751,7 +751,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		
-			460 = {
+			374 = {
 
 				add_building_construction = {
 
@@ -761,7 +761,7 @@ focus_tree = {
 				}
 			}
 
-				460 = {
+				374 = {
 
 				add_building_construction = {
 
@@ -772,7 +772,7 @@ focus_tree = {
 				}
 			}	
 
-			465 = {
+			373 = {
 
 				add_building_construction = {
 
@@ -782,67 +782,7 @@ focus_tree = {
 				}
 			}
 
-			470 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			478 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			473 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			476 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			477 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			475 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			474 = {
+			376 = {
 
 				add_building_construction = {
 
@@ -868,7 +808,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			393 = {
+			278 = {
 
 				add_building_construction = {
 
@@ -878,7 +818,7 @@ focus_tree = {
 				}
 			}
 
-			393 = {
+			278 = {
 
 				add_building_construction = {
 
@@ -889,66 +829,6 @@ focus_tree = {
 			}
 
 			392 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			391 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			390 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			394 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			405 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			395 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			398 = {
 
 				add_building_construction = {
 
@@ -976,7 +856,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-			32 = {
+			259 = {
 
 				add_building_construction = {
 
@@ -986,62 +866,12 @@ focus_tree = {
 				}
 			}
 
-			32 = {
+			259 = {
 
 				add_building_construction = {
 
 					type = dockyard
 					level = 2
-					instant_build = yes
-				}
-			}
-
-			22 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			42 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			44 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			45 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			36 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
 					instant_build = yes
 				}
 			}
@@ -1063,7 +893,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		16 = {
+		293 = {
 
 				add_building_construction = {
 
@@ -1073,7 +903,7 @@ focus_tree = {
 				}
 			}
 
-			17 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1083,7 +913,7 @@ focus_tree = {
 				}
 			}
 
-			1 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1111,7 +941,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		460 = {
+		293 = {
 
 				add_building_construction = {
 
@@ -1121,7 +951,7 @@ focus_tree = {
 				}
 			}
 
-			465 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1131,7 +961,7 @@ focus_tree = {
 				}
 			}
 
-			470 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1141,7 +971,7 @@ focus_tree = {
 				}
 			}
 
-			478 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1151,7 +981,7 @@ focus_tree = {
 				}
 			}
 
-			473 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1161,7 +991,7 @@ focus_tree = {
 				}
 			}
 
-			476 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1171,7 +1001,7 @@ focus_tree = {
 				}
 			}
 
-			477 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1181,7 +1011,7 @@ focus_tree = {
 				}
 			}
 
-			475 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1191,7 +1021,7 @@ focus_tree = {
 				}
 			}
 
-			474 = {
+			293 = {
 
 				add_building_construction = {
 
@@ -1218,7 +1048,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		157 = {
+		358 = {
 
 				add_building_construction = {
 
@@ -1228,7 +1058,7 @@ focus_tree = {
 				}
 			}
 
-			157 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1238,7 +1068,7 @@ focus_tree = {
 				}
 			}
 
-			448 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1248,7 +1078,7 @@ focus_tree = {
 				}
 			}
 
-			442 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1258,7 +1088,7 @@ focus_tree = {
 				}
 			}
 
-			350 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1268,7 +1098,7 @@ focus_tree = {
 				}
 			}
 
-			440 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1278,7 +1108,7 @@ focus_tree = {
 				}
 			}
 
-			445 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1305,7 +1135,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		16 = {
+		2 = {
 
 				add_building_construction = {
 
@@ -1315,7 +1145,7 @@ focus_tree = {
 				}
 			}
 
-			17 = {
+			3 = {
 
 				add_building_construction = {
 
@@ -1325,7 +1155,7 @@ focus_tree = {
 				}
 			}
 
-			1 = {
+			4 = {
 
 				add_building_construction = {
 
@@ -1335,7 +1165,7 @@ focus_tree = {
 				}
 			}
 
-			8 = {
+			5 = {
 
 				add_building_construction = {
 
@@ -1345,7 +1175,7 @@ focus_tree = {
 				}
 			}
 
-			6 = {
+			2 = {
 
 				add_building_construction = {
 
@@ -1355,7 +1185,7 @@ focus_tree = {
 				}
 			}
 
-			15 = {
+			2 = {
 
 				add_building_construction = {
 
@@ -1459,7 +1289,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		453 = {
+		339 = {
 
 				add_building_construction = {
 
@@ -1469,7 +1299,7 @@ focus_tree = {
 				}
 			}
 
-			453 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1479,7 +1309,7 @@ focus_tree = {
 				}
 			}
 
-			459 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1489,7 +1319,7 @@ focus_tree = {
 				}
 			}
 
-			452 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1499,7 +1329,7 @@ focus_tree = {
 				}
 			}
 
-			451 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1509,7 +1339,7 @@ focus_tree = {
 				}
 			}
 
-			464 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1519,7 +1349,7 @@ focus_tree = {
 				}
 			}
 
-			462 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1772,7 +1602,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-			controls_state = 562
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_depower_the_council }
@@ -1816,7 +1646,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-			controls_state = 556
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_depower_the_council }
@@ -2102,7 +1932,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-			controls_state = 562
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_maintain_royal_authority }
@@ -2121,7 +1951,7 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available = {
-			controls_state = 556
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_coerce_soravian_involvement }
@@ -2133,22 +1963,22 @@ focus_tree = {
 			add_resource = {
 				type = oil
 				amount = 10
-				state = 556
+				state = 293
 			}
 			add_resource = {
 				type = oil
 				amount = 8
-				state = 557
+				state = 293
 			}
 			add_resource = {
 				type = oil
 				amount = 4
-				state = 558
+				state = 293
 			}
 			add_resource = {
 				type = oil
 				amount = 3
-				state = 559
+				state = 293
 			}
 
 		}
@@ -2244,8 +2074,7 @@ focus_tree = {
 		y = 7
 		cost = 5
 		available = {
-			controls_state = 2
-			controls_state = 19
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_hands_of_callahan }
@@ -2254,19 +2083,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_state_core = 2
-			add_state_core = 19
-			add_state_core = 12
-			add_state_core = 13
-			add_state_core = 14
-			add_state_core = 63
-			add_state_core = 64
-			add_state_core = 65
-			add_state_core = 66
-			add_state_core = 67
-			add_state_core = 68
-			add_state_core = 69
-			add_state_core = 70
+			add_state_core = 293
 		}
 	}
 	#Focus for Southeastern Protectorate State
@@ -2277,8 +2094,7 @@ focus_tree = {
 		y = 7
 		cost = 5
 		available = {
-			controls_state = 336
-			controls_state = 337
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_hands_of_callahan }
@@ -2297,8 +2113,7 @@ focus_tree = {
 		y = 8
 		cost = 5
 		available = {
-			controls_state = 556
-			controls_state = 562
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_southeastern_protectorate_state }
@@ -2319,8 +2134,7 @@ focus_tree = {
 		y = 9
 		cost = 5
 		available = {
-			controls_state = 204
-			controls_state = 242
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reaffirm_the_nevish_alliance }
@@ -2343,12 +2157,12 @@ focus_tree = {
 		y = 8
 		cost = 5
 		available = {
-			NOT = { controls_state = 124 }
+			NOT = { controls_state = 293 }
 			OR = {
 				NOT = { 
-					controls_state = 393
-					controls_state = 164
-					controls_state = 495
+					controls_state = 293
+					controls_state = 293
+					controls_state = 293
 				}
 			}
 		}
@@ -2358,15 +2172,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			483 = {
+			293 = {
 				add_building_construction = {
 					type = bunker
-					province = 6654
+					province = 7647
 					level = 2
 				}
 				add_building_construction = {
 					type = bunker
-					province = 6668
+					province = 4799
 					level = 2
 				}
 			} 
@@ -2382,8 +2196,8 @@ focus_tree = {
 		available = {
 			OR = {
 				NOT = { 
-					controls_state = 460
-					controls_state = 453
+					controls_state = 293
+					controls_state = 293
 				}
 			}
 		}
@@ -2650,8 +2464,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			fascism > 0.4
-			controls_state = 556
-			controls_state = 562
+			controls_state = 293
+			controls_state = 293
 			NOT = { has_war_with = CWE }
 		}
 		available_if_capitulated = yes
@@ -2673,7 +2487,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			fascism > 0.5
-			controls_state = 556
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_subjugate_protectorates }
@@ -2717,7 +2531,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 150
-			453 = { 
+			293 = { 
 				add_building_construction = {
 					type = arms_factory
 					level = 4
@@ -2848,8 +2662,8 @@ focus_tree = {
 		y = 6
 		cost = 5
 		available = {
-			controls_state = 556
-			controls_state = 562
+			controls_state = 293
+			controls_state = 293
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_labor_party }
@@ -3381,78 +3195,78 @@ focus_tree = {
 					}
 				}
 				
-				101 = { 
+				293 = { 
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
+					}
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
-					prioritize_location =  3107
+					prioritize_location =  7647
 					}
 				}
 		}

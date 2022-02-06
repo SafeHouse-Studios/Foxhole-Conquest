@@ -1998,7 +1998,7 @@ focus_tree = {
 	#Focus for A Deal With The Devil
 	focus = {
 		id = MCA_a_deal_with_the_devil
-		icon = GFX_goal_unknown
+		icon = GFX_focus_deal_with_the_devil
 		x = 39
 		y = 7
 		cost = 7
