@@ -2861,6 +2861,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		
 		}
 	}
 	#Focus for The Niska
@@ -2877,6 +2878,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = cat_mechanized_equipment
+				}
 		}
 	}
 	#Focus for The Devitt
@@ -2894,6 +2900,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = cat_light_armor
+				}
 		}
 	}
 	#Focus for Integrate Militias
@@ -3067,6 +3078,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = cat_heavy_armor
+				}
 		}
 	}
 	#Focus for Warden Artillery Batteries
@@ -3144,6 +3160,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					category = cat_medium_armor
+				}
 		}
 	}
 	#Focus for The Dread Korps
