@@ -7,6 +7,30 @@ bookmarks = {
 		default_country = "MCA"
 		default = yes
 		
+		MCA = {
+			history = MCA_BLITZKRIEG_LOC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		
+		CWE = {
+			history = CWE_BLITZKRIEG_LOC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"---"={
+			history = "OTHER_BLITZKRIEG_LOC"
+		}
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
