@@ -1,2 +1,25 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+9832;2365;sea;12533;-1;-1;-1;-1;;Scryingbelt-Mislte Shrine in Nevish Line
+873;9972;sea;12313;-1;-1;-1;-1;;Princetal-Mislte Shrine in Nevish Line
+4380;3464;sea;12267;-1;-1;-1;-1;;Gold-Reliqua in Oarbreaker
+2718;823;sea;12102;-1;-1;-1;-1;;Reliqua-the ides in Oarbreaker
+10159;6563;sea;11801;-1;-1;-1;-1;;Skelter Course - Conclave in Oarbreaker
+4682;5316;sea;12441;-1;-1;-1;-1;;Ides - Base Akri in Oarbreaker
+7113;10216;sea;11801;-1;-1;-1;-1;;Conclave - Oasis in Oarbreaker
+831;592;sea;12126;-1;-1;-1;-1;;Oasis - Integrum in Oarbreaker
+752;10216;sea;12145;-1;-1;-1;-1;;Lionshead - Oasis in Oarbreaker
+10233;831;sea;12288;-1;-1;-1;-1;;Lionshead - Oasis in Oarbreaker
+10255;10270;sea;12288;-1;-1;-1;-1;;Lionshead - Black Well in Fishermens
+8369;6059;sea;12184;-1;-1;-1;-1;;Peripti Landing - Arcadia in Fishermens
+10289;7448;sea;12310;-1;-1;-1;-1;;three sisters - Hangmens in Fishermens
+5082;7917;sea;12489;-1;-1;-1;-1;;Arcadia - New Straya in Fishermens
+2368;11702;sea;12489;-1;-1;-1;-1;;Fort Ember - Satyr Stone in Fishermens
+6029;11702;sea;12489;-1;-1;-1;-1;;New Straya - Satyr Stone in Fishermens
+7182;11702;sea;12068;-1;-1;-1;-1;;Satyr Stone West - Satyr Stone in Fishermens
+7182;10334;sea;12068;-1;-1;-1;-1;;Satyr Stone West - Sanctuary in Fishermens
+7845;140;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 1 in Callums Cape
+7845;9718;sea;12533;-1;-1;-1;-1;;Callums Keep bridge 2 in Callums Cape
+7845;110;sea;12533;-1;-1;-1;-1;;Callums Keep bridge 3 in Callums Cape
+110;5779;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 4 in Callums Cape
+2149;7074;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 5 in Callums Cape
 -1;-1;;-1;-1;-1;-1;-1;-1
