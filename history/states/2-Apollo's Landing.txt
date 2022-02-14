@@ -1,0 +1,19 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		10237 10252 
+	}
+	manpower=1000
+
+	state_category = town
+	buildings_max_level_factor=1.000
+
+	history = {
+		owner = CWE
+		
+		victory_points = {
+			10252 5
+		}
+	}
+}

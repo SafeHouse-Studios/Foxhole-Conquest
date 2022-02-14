@@ -13,7 +13,7 @@ The invite will appear in the email you registered github with not in your githu
 4. Go to your Hearts of Iron IV launcher and on the left hand side, select "All installed mods". In the right hand corner, you should see an icon called, "Upload Mod", click that and then click "Create a Mod".
 Now fill in the required info:
     * a. Name = Foxhole Conquest: Dev Version
-    * b. Version = 1.10
+    * b. Version = 1.11
     * c. Directory = FoxholeConquestDevVersion (Cannot have any special cases and spaces)
     * d. Tags = (should have no effect on the mod but select all of consistency so we know if something goes wrong it isn’t that somehow).
     * e. Click Create Mod
@@ -33,23 +33,22 @@ Hit clone/download and get the files from github.
 7. Open the descriptor file that you have moved as well as the new one downloaded using your text editor (Notepad++ or other). Check for differences in the code (there may be changes as HoI:IV updates the descriptor files. If unsure check with a mod manager but the file should resemble the following step without the path replacements.
 
 8. One step back up in the folders at path:
-"C:\Users(username)\Documents\Paradox Interactive\Hearts of Iron IV\mod” 
+"C:\Users\(username)\Documents\Paradox Interactive\Hearts of Iron IV\mod” 
 You will find a newly created descriptor called: “FoxholeConquestDevVersion.mod”
 Also open this file in the text editor.
 You need to paste the following code into the correct place in the document:
 
 
-```replace_path="map/strategicregions"
-replace_path="map/supplyareas"
-replace_path="map/terrain"
-replace_path="history/countries"
+```
+replace_path="map/strategicregions"
 replace_path="history/states"
-replace_path="common/bookmarks"
+replace_path="history/countries"
 replace_path="gfx/loadingscreens"
 ```
 The end result should look like this (although there may be changes over time):
 
-```version="1.10"
+```
+version="1.11"
 tags={
 	"Alternative History"
 	"Balance"
@@ -68,15 +67,11 @@ tags={
 	"Map"
 }
 replace_path="map/strategicregions"
-replace_path="map/supplyareas"
-replace_path="map/terrain"
 replace_path="history/states"
 replace_path="history/countries"
-replace_path="common/bookmarks"
 replace_path="gfx/loadingscreens"
-replace_path="dlc/gfx/loadingscreens"
 name="Foxhole Conquest: Dev Version"
-supported_version="1.10.8"
+supported_version="1.11.*"
 path="C:/Users/PC/Documents/Paradox Interactive/Hearts of Iron IV/mod/FoxholeConquestDevVersion"
 ```
 9. Open the Debug Mode and test.

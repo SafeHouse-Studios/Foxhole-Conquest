@@ -1,0 +1,16 @@
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		1489 1974 2319 5162 7796 
+	}
+	manpower=1000
+
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = CWE
+		
+	}
+}

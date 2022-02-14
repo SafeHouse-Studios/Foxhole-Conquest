@@ -1,6 +1,6 @@
 ﻿add_namespace = colonies
 
-# Event Devlop the Colonies
+# Event Develop the Colonies
 country_event = {
 	id = colonies.1
 	title = colonies.1.t

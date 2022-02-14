@@ -1,0 +1,15 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		2074 11673 
+	}
+	manpower=1000
+
+	state_category = town
+	buildings_max_level_factor=1.000
+	history = {
+		owner = CWE
+		
+	}
+}

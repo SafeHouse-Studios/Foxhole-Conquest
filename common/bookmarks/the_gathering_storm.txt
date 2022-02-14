@@ -1,0 +1,39 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 0782.1.1.12
+		picture = "GFX_select_date_0782"
+		default_country = "MCA"
+		default = yes
+		
+		MCA = {
+			history = MCA_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		
+		CWE = {
+			history = CWE_GATHERING_STORM_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_LOC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

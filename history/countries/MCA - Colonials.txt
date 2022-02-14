@@ -1,6 +1,6 @@
-﻿capital = 527
+﻿capital = 98
 
-oob = "MCA_0782"
+#oob = "MCA_0782"
 
 # Starting tech
 set_technology = {

@@ -1,0 +1,16 @@
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		576 3951 5120 6360 6861 8202 10263 10305 
+	}
+	manpower=1000
+
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = MCA
+		
+	}
+}

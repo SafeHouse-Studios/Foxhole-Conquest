@@ -1,0 +1,16 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		2632 3176 3988 4563 4958 5520 7241 7653 8070 8418 10253 10267 10307 10355 10388 11688 
+	}
+	manpower=1000
+	impassable = yes
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = MCA
+		
+	}
+}

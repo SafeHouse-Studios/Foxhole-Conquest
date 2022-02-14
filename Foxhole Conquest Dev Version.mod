@@ -1,4 +1,4 @@
-version="1.10"
+version="1.11"
 picture="thumbnail.png"
 tags={
 	"Alternative History"
@@ -18,13 +18,9 @@ tags={
 	"Map"
 }
 replace_path="map/strategicregions"
-replace_path="map/supplyareas"
-replace_path="map/terrain"
 replace_path="history/states"
 replace_path="history/countries"
-replace_path="common/bookmarks"
 replace_path="gfx/loadingscreens"
-replace_path="dlc/gfx/loadingscreens"
 name="Foxhole Conquest: Dev Version"
-supported_version="1.10.8"
-path="C:/Users/YOURPCNAMEHERE/Documents/Paradox Interactive/Hearts of Iron IV/mod/FoxholeConquestDevVersion"
+supported_version="1.11.4"
+path="C:/Users/PC/Documents/Paradox Interactive/Hearts of Iron IV/mod/FoxholeConquestDevVersion"

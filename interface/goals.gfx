@@ -1,5 +1,182 @@
 spriteTypes = {	
 	#### Colonial focus icons
+
+	SpriteType = {
+	name = "GFX_focus_deal_with_the_devil"
+	texturefile = "gfx/interface/goals/focus_deal_with_the_devil.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_the_great_commune"
+	texturefile = "gfx/interface/goals/focus_the_great_commune.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_sapper_cohorts"
+	texturefile = "gfx/interface/goals/focus_sapper_cohorts.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_motorized_cohorts"
+	texturefile = "gfx/interface/goals/focus_motorized_cohorts.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_legion_reforms"
+	texturefile = "gfx/interface/goals/focus_legion_reforms.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_form_the_404th"
+	texturefile = "gfx/interface/goals/focus_form_the_404th.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_establish_the_war_committee"
+	texturefile = "gfx/interface/goals/focus_establish_the_war_committee.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_convert_farmland_to_industry"
+	texturefile = "gfx/interface/goals/focus_convert_farmland_to_industry.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_the_velimesean_state"
+	texturefile = "gfx/interface/goals/focus_the_velimesean_state.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_veli_invicta"
+	texturefile = "gfx/interface/goals/focus_veli_invicta.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_subjugate_colonies"
+	texturefile = "gfx/interface/goals/focus_subjugate_colonies.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_disband_the_senate"
+	texturefile = "gfx/interface/goals/focus_disband_the_senate.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_suppress_the_press"
+	texturefile = "gfx/interface/goals/focus_suppress_the_press.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_prepare_fascist_assault_divisions"
+	texturefile = "gfx/interface/goals/focus_prepare_fascist_assault_divisions.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_a_sky_of_smokestacks"
+	texturefile = "gfx/interface/goals/focus_a_sky_of_smokestacks.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_reconciliation_with_the_colonies"
+	texturefile = "gfx/interface/goals/focus_reconciliation_with_the_colonies.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_appeal_to_velian_imperators"
+	texturefile = "gfx/interface/goals/focus_appeal_to_velian_imperators.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_appeal_to_velian_senators"
+	texturefile = "gfx/interface/goals/focus_appeal_to_velian_senators.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_contact_caovish_diplomats"
+	texturefile = "gfx/interface/goals/focus_contact_caovish_diplomats.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_a_failing_senate"
+	texturefile = "gfx/interface/goals/focus_a_failing_senate.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_form_the_republican_guard"
+	texturefile = "gfx/interface/goals/focus_form_the_republican_guard.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_refuse_colonial_representation"
+	texturefile = "gfx/interface/goals/focus_refuse_colonial_representation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_sow_the_seeds_of_caovish_democracy"
+	texturefile = "gfx/interface/goals/focus_sow_the_seeds_of_caovish_democracy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_maintain_the_status_quo"
+	texturefile = "gfx/interface/goals/focus_maintain_the_status_quo.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_import_therizan_grain"
+	texturefile = "gfx/interface/goals/focus_import_therizan_grain.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_dawn_of_velian_imperium"
+	texturefile = "gfx/interface/goals/focus_dawn_of_velian_imperium.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_form_the_praetorian_guard"
+	texturefile = "gfx/interface/goals/focus_form_the_praetorian_guard.dds"			
+	}
+
+
+	SpriteType = {
+	name = "GFX_focus_mesean_fascist_movement"
+	texturefile = "gfx/interface/goals/focus_mesean_fascist_movement.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_embrace_dimian_industrialism"
+	texturefile = "gfx/interface/goals/focus_embrace_dimian_industrialism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_rebuild_the_nation"
+	texturefile = "gfx/interface/goals/focus_rebuild_the_nation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_fund_caovish_republican_partisans"
+	texturefile = "gfx/interface/goals/focus_fund_caovish_republican_partisans.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_embrace_populism"
+	texturefile = "gfx/interface/goals/focus_embrace_populism.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_the_aquilia_party"
+	texturefile = "gfx/interface/goals/focus_the_aquilia_party.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_slay_mesean_bear"
+	texturefile = "gfx/interface/goals/focus_slay_mesean_bear.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_colonial_breadbasket"
+	texturefile = "gfx/interface/goals/focus_colonial_breadbasket.dds"			
+	}
+
 	SpriteType = {
 	name = "GFX_goal_balanced_development"
 	texturefile = "gfx/interface/goals/focus_MCA_balanced_development.dds"			
@@ -16,8 +193,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_construct_new_ordnance_plants"
-	texturefile = "gfx/interface/goals/focus_MCA_construct_new_ordnance_plants.dds"			
+	name = "GFX_focus_construct_new_ordnance_plants"
+	texturefile = "gfx/interface/goals/focus_construct_new_ordnance_plants.dds"			
 	}
 	
 	SpriteType = {
@@ -56,13 +233,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_disregard_labour_protests"
-	texturefile = "gfx/interface/goals/focus_MCA_disregard_labour_protests.dds"			
+	name = "GFX_focus_disregard_labour_protests"
+	texturefile = "gfx/interface/goals/focus_disregard_labour_protests.dds"			
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_embrace_therizian_agarianism"
-	texturefile = "gfx/interface/goals/focus_MCA_embrace_therizian_agarianism.dds"			
+	name = "GFX_focus_embrace_therizian_agrarianism"
+	texturefile = "gfx/interface/goals/focus_embrace_therizian_agrarianism.dds"			
 	}
 	
 	SpriteType = {
@@ -76,13 +253,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_facilitate_therizian_arms_plants"
-	texturefile = "gfx/interface/goals/focus_MCA_facilitate_therizian_arms_plants.dds"			
+	name = "GFX_focus_facilitate_therizian_arms_plants"
+	texturefile = "gfx/interface/goals/focus_facilitate_therizian_arms_plants.dds"			
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_focus_mesean_industry"
-	texturefile = "gfx/interface/goals/focus_MCA_focus_mesean_industry.dds"			
+	name = "GFX_focus_focus_mesean_industry"
+	texturefile = "gfx/interface/goals/focus_focus_mesean_industry.dds"			
 	}
 	
 	SpriteType = {
@@ -91,23 +268,23 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_fund_demokratos_rail_line"
-	texturefile = "gfx/interface/goals/focus_MCA_fund_demokratos_rail_line.dds"			
+	name = "GFX_focus_fund_damokratos_rail_line"
+	texturefile = "gfx/interface/goals/focus_fund_damokratos_rail_line.dds"			
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_invest_in_therizian_industry"
-	texturefile = "gfx/interface/goals/focus_MCA_invest_in_therizian_industry.dds"			
+	name = "GFX_focus_invest_in_therizian_industry"
+	texturefile = "gfx/interface/goals/focus_invest_in_therizian_industry.dds"			
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_invest_in_velian_timber_trade"
-	texturefile = "gfx/interface/goals/focus_MCA_invest_in_velian_timber_trade.dds"			
+	name = "GFX_focus_invest_in_velian_lumber_trade"
+	texturefile = "gfx/interface/goals/focus_invest_in_velian_lumber_trade.dds"			
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_prosperous_republic"
-	texturefile = "gfx/interface/goals/focus_MCA_prosperous_republic.dds"			
+	name = "GFX_focus_prosperous_republic"
+	texturefile = "gfx/interface/goals/focus_prosperous_republic.dds"			
 	}
 	
 	SpriteType = {
@@ -121,10 +298,151 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_to_feed_the_legion"
-	texturefile = "gfx/interface/goals/focus_MCA_to_feed_the_legion.dds"			
+	name = "GFX_focus_to_feed_the_legion"
+	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"			
 	}
 	
+	#### Warden focus icons
+	
+	SpriteType = {
+	name = "GFX_focus_empower_the_war_council"
+	texturefile = "gfx/interface/goals/empower_legates.tga"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_militaristic_transformation"
+	texturefile = "gfx/interface/goals/goal_generic_army_doctrines.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_armored_car_battalions"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_niska"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_devitt"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_integrate_militias"
+	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_infantry_innovations"
+	texturefile = "gfx/interface/goals/goal_generic_small_arms.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_warden_shock_army"
+	texturefile = "gfx/interface/goals/empower_legates.tga"
+	}
+	
+	SpriteType = {
+	name = "GFX_restructured_command"
+	texturefile = "gfx/interface/goals/form_the_republican_guard.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_establish_warden_officer_academy"
+	texturefile = "gfx/interface/goals/goal_generic_scientific_exchange.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_command_protocols"
+	texturefile = "gfx/interface/goals/focus_to_feed_the_legion.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_warden_military"
+	texturefile = "gfx/interface/goals/focus_contact_caovish_diplomats.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_flood"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_the_silverhand"
+	texturefile = "gfx/interface/goals/goal_generic_army_tanks.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_warden_artillery_batteries"
+	texturefile = "gfx/interface/goals/goal_generic_army_artillery2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_combined_arms_doctrine"
+	texturefile = "gfx/interface/goals/goal_generic_army_doctrines.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_dread_korps"
+	texturefile = "gfx/interface/goals/focus_generic_commonwealth_build_infantry.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_final_offensive_doctrine"
+	texturefile = "gfx/interface/goals/goal_generic_occypy_states_ongoing_war.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_guardians_of_the_north"
+	texturefile = "gfx/interface/goals/goal_generic_position_armies.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_warden_aviation_initiative"
+	texturefile = "gfx/interface/goals/goal_generic_build_airforce.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_eagles_beak"
+	texturefile = "gfx/interface/goals/goal_generic_air_fighter.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_fighter_focus"
+	texturefile = "gfx/interface/goals/goal_generic_air_fighter2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_eagles_talon"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_the_manticore"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_form_squadron_command"
+	texturefile = "gfx/interface/goals/goal_generic_air_doctrine.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_heavy_bomber_development"
+	texturefile = "gfx/interface/goals/goal_generic_air_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_naval_bomber_development"
+	texturefile = "gfx/interface/goals/goal_generic_air_naval_bomber.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_skyborne_battalions"
+	texturefile = "gfx/interface/goals/goal_generic_CAS.dds"
+	}
 	#### Generic continuous goal icons
 
 	SpriteType = {
@@ -2486,8 +2804,8 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "a_senate_divided"
-		texturefile = "gfx/interface/goals/a_senate_divided.dds"
+		name = "GFX_focus_a_senate_divided"
+		texturefile = "gfx/interface/goals/focus_a_senate_divided.dds"
 	}
 
 	SpriteType = { 
