@@ -1,25 +1,63 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-9832;2365;sea;12533;-1;-1;-1;-1;;Scryingbelt-Mislte Shrine in Nevish Line
-873;9972;sea;12313;-1;-1;-1;-1;;Princetal-Mislte Shrine in Nevish Line
-4380;3464;sea;12267;-1;-1;-1;-1;;Gold-Reliqua in Oarbreaker
-2718;823;sea;12102;-1;-1;-1;-1;;Reliqua-the ides in Oarbreaker
-10159;6563;sea;11801;-1;-1;-1;-1;;Skelter Course - Conclave in Oarbreaker
-4682;5316;sea;12441;-1;-1;-1;-1;;Ides - Base Akri in Oarbreaker
-7113;10216;sea;11801;-1;-1;-1;-1;;Conclave - Oasis in Oarbreaker
-831;592;sea;12126;-1;-1;-1;-1;;Oasis - Integrum in Oarbreaker
-752;10216;sea;12145;-1;-1;-1;-1;;Lionshead - Oasis in Oarbreaker
-10233;831;sea;12288;-1;-1;-1;-1;;Lionshead - Oasis in Oarbreaker
-10255;10270;sea;12288;-1;-1;-1;-1;;Lionshead - Black Well in Fishermens
-8369;6059;sea;12184;-1;-1;-1;-1;;Peripti Landing - Arcadia in Fishermens
-10289;7448;sea;12310;-1;-1;-1;-1;;three sisters - Hangmens in Fishermens
-5082;7917;sea;12489;-1;-1;-1;-1;;Arcadia - New Straya in Fishermens
-2368;11702;sea;12489;-1;-1;-1;-1;;Fort Ember - Satyr Stone in Fishermens
-6029;11702;sea;12489;-1;-1;-1;-1;;New Straya - Satyr Stone in Fishermens
-7182;11702;sea;12068;-1;-1;-1;-1;;Satyr Stone West - Satyr Stone in Fishermens
-7182;10334;sea;12068;-1;-1;-1;-1;;Satyr Stone West - Sanctuary in Fishermens
-7845;140;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 1 in Callums Cape
-7845;9718;sea;12533;-1;-1;-1;-1;;Callums Keep bridge 2 in Callums Cape
-7845;110;sea;12533;-1;-1;-1;-1;;Callums Keep bridge 3 in Callums Cape
-110;5779;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 4 in Callums Cape
-2149;7074;sea;12281;-1;-1;-1;-1;;Callums Keep bridge 5 in Callums Cape
+
+9832;2365;sea;12533;-1;-1;-1;-1;; Scryingbelt-Mislte Shrine in Nevish Line
+873;9972;sea;12313;-1;-1;-1;-1;; Princetal-Mislte Shrine in Nevish Line
+
+4380;3464;sea;12267;-1;-1;-1;-1;; Gold-Reliqua in Oarbreaker
+2718;823;sea;12102;-1;-1;-1;-1;; Reliqua-the ides in Oarbreaker
+10159;6563;sea;11801;-1;-1;-1;-1;; Skelter Course - Conclave in Oarbreaker
+4682;5316;sea;12441;-1;-1;-1;-1;; Ides - Base Akri in Oarbreaker
+7113;10216;sea;11801;-1;-1;-1;-1;; Conclave - Oasis in Oarbreaker
+831;592;sea;12126;-1;-1;-1;-1;; Oasis - Integrum in Oarbreaker
+752;10216;sea;12145;-1;-1;-1;-1;; Lionshead - Oasis in Oarbreaker
+10233;831;sea;12288;-1;-1;-1;-1;; Lionshead - Oasis in Oarbreaker
+
+10255;10270;sea;12288;-1;-1;-1;-1;; Lionshead - Black Well in Fishermens
+8369;6059;sea;12184;-1;-1;-1;-1;; Peripti Landing - Arcadia in Fishermens
+10289;7448;sea;12310;-1;-1;-1;-1;; three sisters - Hangmens in Fishermens
+5082;7917;sea;12489;-1;-1;-1;-1;; Arcadia - New Straya in Fishermens
+2368;11702;sea;12489;-1;-1;-1;-1;; Fort Ember - Satyr Stone in Fishermens
+6029;11702;sea;12489;-1;-1;-1;-1;; New Straya - Satyr Stone in Fishermens
+7182;11702;sea;12068;-1;-1;-1;-1;; Satyr Stone West - Satyr Stone in Fishermens
+7182;10334;sea;12068;-1;-1;-1;-1;; Satyr Stone West - Sanctuary in Fishermens
+
+7845;140;sea;12281;-1;-1;-1;-1;; Callums Keep bridge 1 in Callums Cape
+7845;9718;sea;12533;-1;-1;-1;-1;; Callums Keep bridge 2 in Callums Cape
+7845;110;sea;12533;-1;-1;-1;-1;; Callums Keep bridge 3 in Callums Cape
+110;5779;sea;12281;-1;-1;-1;-1;; Callums Keep bridge 4 in Callums Cape
+2149;7074;sea;12281;-1;-1;-1;-1;; Callums Keep bridge 5 in Callums Cape
+
+9931;9967;sea;12280;-1;-1;-1;-1;; Dias - the Reach in Stonecradle 
+5093;1047;sea;12263;-1;-1;-1;-1;; Buckler sound - the cord in Stonecradle
+2147;6898;sea;12263;-1;-1;-1;-1;; Heirs Knife - the long fast in Stonecradle 
+5316;378;sea;12263;-1;-1;-1;-1;; Base Akri - The long fast in Stonecradle  
+
+3342;10191;sea;12005;-1;-1;-1;-1;; Spearhead - Bonehaft in Farranac Coast
+5500;10201;sea;12005;-1;-1;-1;-1;; Scrap of Ambrose - Bonehaft in Farranac Coast
+6779;11673;sea;12214;-1;-1;-1;-1;; Terra - small Island in Farranac Coast
+2074;11673;sea;12214;-1;-1;-1;-1;; Scythe - small Island in Farranac Coast
+10245;7302;sea;12214;-1;-1;-1;-1;; Huskhollow - Mara in Farranac Coast
+10245;10271;sea;12132;-1;-1;-1;-1;; Huskhollow - Winged Walk in Farranac Coast
+1520;10268;sea;12132;-1;-1;-1;-1;; Huskhollow - Pleading Wharf in Farranac Coast
+5490;10252;sea;12132;-1;-1;-1;-1;; Jade Cove bridge East in Farranac Coast
+1625;7895;sea;11966;-1;-1;-1;-1;; Alost Sot - Victa in Farranac Coast
+
+501;6673;sea;11966;-1;-1;-1;-1;; Sanctuary - Gallows in Westgate
+
+10488;3286;sea;12026;-1;-1;-1;-1;; Cometa - Electi in Ashfields
+10541;1298;sea;12141;-1;-1;-1;-1;; Ashfields - Mount Blackmoth in Ashfields
+530;8280;sea;12141;-1;-1;-1;-1;; Ashfields - Ashtown in Ashfields
+6886;7985;sea;12141;-1;-1;-1;-1;; Calamity - Tar Creek in Ashfields
+8089;4474;sea;12141;-1;-1;-1;-1;; Ashtown - Ashfort in Ashfields
+
+7020;5871;sea;12042;-1;-1;-1;-1;; Sotto Bank - Fort Blather in Speaking Woods
+6409;9736;sea;12042;-1;-1;-1;-1;; Sotto Bank - Borderlane in Speaking Woods
+
+6917;1950;sea;11977;-1;-1;-1;-1;; Reaching River - Ogmaran in Moors
+96;5668;sea;12161;-1;-1;-1;-1;; Reach - Spade in Moors
+
+7748;305;sea;11779;-1;-1;-1;-1;; Ulsterfalls bridge in Linn of Mercy
+7518;3021;sea;11779;-1;-1;-1;-1;; Ulster Falls - Lathair north in Linn of Mercy
+8340;3021;sea;11779;-1;-1;-1;-1;; Ulster Falls - Lathair south in Linn of Mercy
+10213;1467;sea;11779;-1;-1;-1;-1;; Fort Duncan - Outwich Ranch in Linn of Mercy
 -1;-1;;-1;-1;-1;-1;-1;-1
