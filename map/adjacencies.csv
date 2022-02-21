@@ -60,4 +60,141 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7518;3021;sea;11779;-1;-1;-1;-1;; Ulster Falls - Lathair north in Linn of Mercy
 8340;3021;sea;11779;-1;-1;-1;-1;; Ulster Falls - Lathair south in Linn of Mercy
 10213;1467;sea;11779;-1;-1;-1;-1;; Fort Duncan - Outwich Ranch in Linn of Mercy
+
+3752;6196;sea;12106;-1;-1;-1;-1;; Tomb of the First - Mercys Wish in Loch Mor
+4010;1033;sea;12106;-1;-1;-1;-1;; Market Road - Feirmor north bridge in Loch Mor
+820;7282;sea;12106;-1;-1;-1;-1;; Market Road - Feirmor south bridge in Loch Mor
+
+8144;7193;sea;12244;-1;-1;-1;-1;; Penance - Janus Field in Red River
+3565;10724;sea;12019;-1;-1;-1;-1;; Camp Upsilon - Minos in Red River
+4519;10724;sea;12019;-1;-1;-1;-1;; Fragment Knolls - Minos in Red River
+10694;2767;sea;12019;-1;-1;-1;-1;; Fort Matchwood - Cannonsmoke in Red River
+4460;10689;sea;11944;-1;-1;-1;-1;; Victoria Hill - Serpent Charm in Red River
+4977;6522;sea;11944;-1;-1;-1;-1;; Victoria Hill - The Stumble in Red River
+4977;10759;sea;11944;-1;-1;-1;-1;; Victoria Hill - Red Crossing in Red River
+3478;10740;sea;11944;-1;-1;-1;-1;; Red Crossing - Cannonsmoke in Red River
+
+4830;6628;sea;12459;-1;-1;-1;-1;; The Den - Cuttail Station in Basin Sionnach
+2872;6722;sea;12459;-1;-1;-1;-1;; Lamplight - Cuttail Station in Basin Sionnach
+
+6714;5079;sea;11779;-1;-1;-1;-1;; Solas Gorge - Scath Passings in Callahans Passage
+
+945;3635;sea;12296;-1;-1;-1;-1;; The Spine - Liberation Point in Deadlands
+3731;6183;sea;12296;-1;-1;-1;-1;; Callahans Boot - Abandoned Ward in Deadlands
+7685;4215;sea;12296;-1;-1;-1;-1;; Callahans Boot - the Pits in Deadlands
+6387;4215;sea;12399;-1;-1;-1;-1;; Brine Glen - the Pits in Deadlands
+6387;1968;sea;12399;-1;-1;-1;-1;; Brine Glen - the Saltmarch in Deadlands
+10279;7675;sea;12399;-1;-1;-1;-1;; Brine Glen - the Salt Farms in Deadlands
+1519;7675;sea;12399;-1;-1;-1;-1;; Brine Glen - the Salt Farms in Deadlands
+
+1519;1813;sea;12399;-1;-1;-1;-1;; Brine Glen - Vagrant Bastion in Umbral Wildwood
+10324;7909;sea;12327;-1;-1;-1;-1;; Vagrant Bastion - Stray in Umbral Wildwood
+1278;8194;sea;12327;-1;-1;-1;-1;; Thunderfoot - Clothos Refuge in Umbral Wildwood
+3260;2076;sea;12327;-1;-1;-1;-1;; Clothos Refuge - Stray in Umbral Wildwood
+10354;3767;sea;12327;-1;-1;-1;-1;; Clothos Refuge - Amethyst West in Umbral Wildwood 
+10377;3767;sea;12327;-1;-1;-1;-1;; Lachesis Tally - Amethyst East in Umbral Wildwood
+
+7460;7204;sea;11944;-1;-1;-1;-1;; Violethome - Fateless Grove in Great March
+7460;1100;sea;11944;-1;-1;-1;-1;; Violethome - Camp Senti in Great March
+10571;3631;sea;11944;-1;-1;-1;-1;; Leto - Camp Senti in Great March
+5473;2499;sea;11944;-1;-1;-1;-1;; The Swan - Shala Estate in Great March
+5473;1665;sea;11944;-1;-1;-1;-1;; The Swan - The White Wing in Great March
+
+10790;5757;sea;12170;-1;-1;-1;-1;; Sweethearth - Sourtooth in Kalokai
+6386;4324;sea;12170;-1;-1;-1;-1;; South March - Hallow in Kalokai
+10850;1524;sea;12170;-1;-1;-1;-1;; Hallow - Sweethearth in Kalokai
+10986;5615;sea;12170;-1;-1;-1;-1;; Baccae Ridge - Lost Greensward in Kalokai
+
+792;7379;sea;11770;-1;-1;-1;-1;; Hungry Wolf - Slipgate Outpost in Howl County
+8250;11636;sea;11770;-1;-1;-1;-1;; Slipgate Outpost - Checkpoint Titim in Howl County
+5255;11636;sea;11770;-1;-1;-1;-1;; Great Warden Dam - Checkpoint Titim in Howl County
+4625;9628;sea;11770;-1;-1;-1;-1;; Teller Farm - Littl Lamb in Howl County
+9642;1716;sea;11962;-1;-1;-1;-1;; Sickleshire - Fort Wndham in Howl County
+
+3473;6997;sea;12308;-1;-1;-1;-1;; Kirknell - Serenitys Blight north in Viper Pit
+2880;4423;sea;12049;-1;-1;-1;-1;; Kirknell - Serenitys Blight South in Viper Pit
+2080;7505;sea;12049;-1;-1;-1;-1;; Fort Viper - Fleck Crossing in Viper Pit
+
+6367;2904;sea;12250;-1;-1;-1;-1;; Maidens Veil - Checkpoint Bua in Marban Hollow
+10217;11671;sea;12250;-1;-1;-1;-1;; Spitrocks - Lockheed West in Marban Hollow
+11671;11672;sea;12250;-1;-1;-1;-1;; Lockheed West bridge - Lockheed Middle in Marban Hollow
+11672;4537;sea;12250;-1;-1;-1;-1;; Lockheed Middle - Lockheed East in Marban Hollow
+
+2882;4954;sea;11806;-1;-1;-1;-1;; Loggerhead - Saltcaps in The Drowned Vale
+6519;3288;sea;12399;-1;-1;-1;-1;; The Wash - Wisps Warning in The Drowned Vale
+2242;10297;sea;12311;-1;-1;-1;-1;; Wisps Warning - Bath in The Drowned Vale
+10286;10297;sea;12311;-1;-1;-1;-1;; Singing Serpents - Bath in The Drowned Vale
+7966;3069;sea;12330;-1;-1;-1;-1;; Bootnap - Singing Serpents in The Drowned Vale
+10313;4455;sea;12311;-1;-1;-1;-1;; The Wash - Bath in The Drowned Vale
+10319;4455;sea;12311;-1;-1;-1;-1;; Coaldrifter Stead - Bath in The Drowned Vale
+6369;10341;sea;12311;-1;-1;-1;-1;; Vessel - Splinter Pens in The Drowned Vale
+
+10409;2270;sea;12327;-1;-1;-1;-1;; Gorgon Grove - Savages in The Schackled Chasm
+3630;10398;sea;12327;-1;-1;-1;-1;; Savages - Grave of Rastus in The Schackled Chasm
+6518;5604;sea;12290;-1;-1;-1;-1;; Silk Farms - The Vanguard north in The Schackled Chasm
+6474;56;sea;12290;-1;-1;-1;-1;; Silk Farms - The Vanguard south in The Schackled Chasm
+2344;1509;sea;12497;-1;-1;-1;-1;; Vanguard - Simos Run in The Schackled Chasm
+
+586;10608;sea;12052;-1;-1;-1;-1;; Heir Apparent - Camp Omicron in Acrithia
+4951;6318;sea;12052;-1;-1;-1;-1;; Heir Apparent - Thetus Ring in Acrithia
+7708;2258;sea;12052;-1;-1;-1;-1;; Brinehold - Legion Ranch north in Acrithia
+10764;6871;sea;12052;-1;-1;-1;-1;; Brinehold - Nereid Keep south in Acrithia
+4413;6822;sea;11734;-1;-1;-1;-1;; Brinehold - Simos Run in Acrithia
+
+6454;8118;sea;12429;-1;-1;-1;-1;; The King north bridge in Clanshead Valley
+6454;294;sea;12429;-1;-1;-1;-1;; The King south bridge in Clanshead Valley
+2959;7266;sea;12429;-1;-1;-1;-1;; Pike - Fort Ester Wild in Clanshead Valley
+9834;62;sea;12429;-1;-1;-1;-1;; Fort Esterwind - Quietus in Clanshead Valley
+
+2360;10153;sea;12124;-1;-1;-1;-1;; Foxcatcher - Protos in Weathered Expanse
+
+7024;2042;sea;12429;-1;-1;-1;-1;; Foxcatcher - Vulpine Watch west in Endless Shore
+5946;2042;sea;12429;-1;-1;-1;-1;; Foxcatcher - Vulpine Watch east in Endless Shore
+10210;4753;sea;12199;-1;-1;-1;-1;; Sidhe Fall - The Evil Eye in Endless Shore
+10210;5790;sea;12199;-1;-1;-1;-1;; Sidhe Fall - Vulpine Watch in Endless Shore
+769;11674;sea;12018;-1;-1;-1;-1;; Dannan Ridge - middle Island in Endless Shore
+11674;3772;sea;12199;-1;-1;-1;-1;; middle Island - Tuatha Watchpost in Endless Shore
+7843;1223;sea;12199;-1;-1;-1;-1;; Saltbrook Bridges in Endless Shore
+4959;11676;sea;12199;-1;-1;-1;-1;; Wellchurch bridge in Endless Shore
+1223;8202;sea;12330;-1;-1;-1;-1;; Liegehearth - Iron Junction in Endless Shore
+10248;3467;sea;12199;-1;-1;-1;-1;; Wellchurch - The Overland in Endless Shore
+546;5013;sea;12199;-1;-1;-1;-1;; Tuatha Watchpost - Woodbind in Endless Shore
+
+7692;10361;sea;11844;-1;-1;-1;-1;; Homesick - Harpys Perch in Allods Bight
+10382;10361;sea;11844;-1;-1;-1;-1;; Mercys Wail - Harpys Perch in Allods Bight
+
+10504;4040;sea;11874;-1;-1;-1;-1;; Winding Bolas - Sever in Terminus
+4040;6031;sea;11874;-1;-1;-1;-1;; Sever - Bloody Palm Fort in Terminus
+
+6561;10144;sea;12018;-1;-1;-1;-1;; Protos - Axehead Fort in Godscroft
+3620;10144;sea;12018;-1;-1;-1;-1;; Skodio - Axehead Fort in Godscroft
+3620;270;sea;12018;-1;-1;-1;-1;; Skodio - Promithiens West in Godscroft
+6273;10171;sea;12018;-1;-1;-1;-1;; Skodio - Promithiens East in Godscroft
+8468;270;sea;12018;-1;-1;-1;-1;; Blackwatch - Promithiens in Godscroft
+10203;185;sea;11742;-1;-1;-1;-1;; Isawa - Promithiens in Godscroft
+11666;185;sea;11742;-1;-1;-1;-1;; Bagh Mor Observation Tower - Promithiens in Godscroft
+11666;8468;sea;11742;-1;-1;-1;-1;; Bagh Mor Observation Tower - Blackwatch in Godscroft
+2335;2936;sea;12329;-1;-1;-1;-1;; Anchor Beach - The Fleece Road in Godscroft
+
+6992;8028;sea;12329;-1;-1;-1;-1;; Alchimio Estate - Chicken Nugget Island in Tempest Islands
+5795;4662;sea;11933;-1;-1;-1;-1;; Chicken Nugget Island - Surge Gate in Tempest Islands
+5795;4360;sea;11933;-1;-1;-1;-1;; Chicken Nugget Island - The Rush in Tempest Islands
+10256;10269;sea;12329;-1;-1;-1;-1;; Lost Archial - Plana Fada in Tempest Islands
+4360;10269;sea;12329;-1;-1;-1;-1;; The Rush - Plana Fada in Tempest Islands
+4662;10298;sea;11933;-1;-1;-1;-1;; Surge Gate - Rush in Tempest Islands
+10298;10301;sea;12329;-1;-1;-1;-1;; Iris north in Tempest Islands
+6754;10301;sea;12329;-1;-1;-1;-1;; Iris South in Tempest Islands
+7712;7949;sea;12271;-1;-1;-1;-1;; Isle of Psyche - Surge Gate in Tempest Islands
+10339;7812;sea;11933;-1;-1;-1;-1;; Gale - Sclera in Tempest Islands
+10339;5540;sea;12095;-1;-1;-1;-1;; Gale - Gale in Tempest Islands
+10337;10363;sea;12344;-1;-1;-1;-1;; Isle of Psyche - Gale in Tempest Islands
+2620;3320;sea;12344;-1;-1;-1;-1;; Isle of Psyche - Eros Lagoon West in Tempest Islands
+10337;3320;sea;12344;-1;-1;-1;-1;; Isle of Psyche - Eros Lagoon East in Tempest Islands
+
+236;7507;sea;12492;-1;-1;-1;-1;; Tusk - Routed in The Fingers
+5445;2196;sea;12492;-1;-1;-1;-1;; Headmans Villa - Plankhouse in The Fingers
+10465;10487;sea;12095;-1;-1;-1;-1;; Plankhouse - Fort Barley in The Fingers
+7385;10436;sea;12095;-1;-1;-1;-1;; Routed - Fort Barley in The Fingers
+3698;8269;sea;12095;-1;-1;-1;-1;; Fort Barley - The Old Captain in The Fingers
+
 -1;-1;;-1;-1;-1;-1;-1;-1
