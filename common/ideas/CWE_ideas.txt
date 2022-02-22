@@ -325,6 +325,110 @@ ideas = {
 
 		}
 
+		CWE_caovish_naval_legacy = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = 0.25
+				industrial_capacity_dockyard = -0.1
+				production_speed_dockyard_factor = -0.1
+			}
+
+		}
+		
+		CWE_replaced_naval_doctrines = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = 0.5
+				industrial_capacity_dockyard = -0.1
+				production_speed_dockyard_factor = -0.1
+			}
+
+		}
+		
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+		
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+		
+		CWE_major_trade_hub_idea = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+		
 		CWE_major_trade_hub_idea = {
 			
 			allowed = {

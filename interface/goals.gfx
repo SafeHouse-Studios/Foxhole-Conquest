@@ -443,6 +443,17 @@ spriteTypes = {
 	name = "GFX_skyborne_battalions"
 	texturefile = "gfx/interface/goals/goal_generic_CAS.dds"
 	}
+	
+	SpriteType = {
+	name = "GFX_caovish_naval_legacy"
+	texturefile = "gfx/interface/goals/goal_generic_navy_doctrines_tactics.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_replace_traditional_naval_doctrine"
+	texturefile = "gfx/interface/goals/goal_generic_navy_doctrines_tactics.dds"
+	}
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {
