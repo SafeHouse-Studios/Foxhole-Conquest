@@ -72,17 +72,7 @@ set_popularities = {
 	fascism = 6
 }
 
-create_country_leader = {
-	
-	name = "Colonial Senate"
-	desc = "POLITICS_COLONIAL_SENATE_DESC"
-	picture = "Portrait_MCA_leader.tga"
-	expire = "0800.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+recruit_character = MCA_colonial_senate
 
 create_country_leader = {
 	name = "Colonial People's Leader"

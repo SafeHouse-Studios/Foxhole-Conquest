@@ -1,14 +1,15 @@
 characters = {
 	MCA_colonial_senate = {
 		name = "Colonial Senate" 
+		desc = "POLITICS_COLONIAL_SENATE_DESC"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/MCA/Portrait_MCA_leader.tga"
 			}
 		}
 		country_leader = {
 			ideology = conservatism
-			expire = "1950.1.1.1"
+			expire = "0800.1.1"
 			id = -1
 		}
 	}

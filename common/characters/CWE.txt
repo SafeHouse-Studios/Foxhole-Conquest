@@ -1,15 +1,33 @@
 characters = {
 	CWE_ian_callahan = {
-		name = "Ian Callahan" 
+		name = "Emperor Ian Callahan" 
+		desc = "POLITICS_IAN_CALLAHAN_DESC"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				large = "gfx/leaders/CWE/Portrait_CWE_callahan.tga"
 			}
 		}
 		country_leader = {
 			ideology = centrism
-			expire = "1950.1.1.1"
+			expire = "0800.1.1"
 			id = -1
 		}
 	}
+	
+	CWE_warden_general_secretary = {
+		name = "Warden General Secretary"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CWE/Portrait_CWE_leader.tga"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "0800.1.1"
+			id = -1
+		}
+	}
+	
+	
+	
 }

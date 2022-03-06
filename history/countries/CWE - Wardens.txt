@@ -73,33 +73,15 @@ set_popularities = {
 	fascism = 5
 }
 
+recruit_character = CWE_ian_callahan
+
 add_ideas = {
 	CWE_major_trade_hub_idea
 	CWE_local_terrain_knowledge_idea
 	CWE_coalition_system_idea
 }
 
-create_country_leader = {
-	
-	name = "Emperor Ian Callahan"
-	desc = "POLITICS_IAN_CALLAHAN_DESC"
-	picture = "Portrait_CWE_callahan.tga"
-	expire = "0800.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Warden General Secretary"
-	picture = "Portrait_CWE_leader.tga"
-	expire = "0800.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
 create_country_leader = {
 	name = "Warden Military Junta"
 	picture = "Portrait_CWE_leader.tga"
@@ -153,15 +135,6 @@ create_field_marshal = {
 	traits = { old_guard naval_invader }
 	skill = 1
 }
-
-###Testing Open***
-#create_corps_commander = {
-#	name = "BK"
-#	gfx = "Portait_CWE_BK.dds"
-#	traits = { trait_reckless panzer_leader armor_officer combined_arms_expert }
-#	skill = 1
-#}
-###Testing Closed***
 
 create_corps_commander = {
 	name = "Trekker"
