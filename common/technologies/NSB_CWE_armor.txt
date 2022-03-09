@@ -13,7 +13,7 @@ technologies = {
 	@792 = 20
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	mca_gwtank_chassis = { #Leichttraktor
+	gwtank_chassis = { #Leichttraktor
 
 		enable_equipments = {
 			light_tank_chassis_0
@@ -79,19 +79,19 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mca_basic_light_tank_chassis
+			leads_to_tech = basic_light_tank_chassis
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = mca_basic_heavy_tank_chassis
+			leads_to_tech = basic_heavy_tank_chassis
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
 		start_year = 764
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 2 y = 0 }
 		}
 
@@ -125,7 +125,7 @@ technologies = {
 		}
 	}
 
-	mca_basic_light_tank_chassis = { #Panzer I
+	basic_light_tank_chassis = { #Panzer I
 
 		enable_equipments = {
 			light_tank_chassis_1
@@ -161,18 +161,18 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mca_improved_light_tank_chassis
+			leads_to_tech = improved_light_tank_chassis
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = mca_basic_light_tank_chassis2
+			leads_to_tech = basic_light_tank_chassis2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
 		start_year = 780
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -5 y = 2 }
 		}
 
@@ -206,7 +206,7 @@ technologies = {
 		}
 	}
 
-	mca_basic_light_tank_chassis2 = { #Panzer I
+	basic_light_tank_chassis2 = { #Panzer I
 
 		enable_equipments = {
 			light_tank_artillery_chassis_1
@@ -244,7 +244,7 @@ technologies = {
 		research_cost = 2
 		start_year = 780
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -7 y = 4 }
 		}
 
@@ -262,19 +262,19 @@ technologies = {
 		}
 	}
 
-	mca_improved_light_tank_chassis = { #Hatchet
+	improved_light_tank_chassis = { #Hatchet
 
 		enable_equipments = {
 			light_tank_chassis_2
 		}
 
 		path = {
-			leads_to_tech = mca_advanced_light_tank_chassis
+			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = mca_basic_medium_tank_chassis
+			leads_to_tech = basic_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -282,7 +282,7 @@ technologies = {
 		start_year = 782
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -3 y = 4 }
 		}
 
@@ -321,13 +321,13 @@ technologies = {
 		}
 	}
 
-	mca_advanced_light_tank_chassis = { #Leopard
+	advanced_light_tank_chassis = { #Leopard
 
 		enable_equipments = {
 			light_tank_chassis_3
 		}
 		path = {
-			leads_to_tech = mca_advanced_light_tank_chassis2
+			leads_to_tech = advanced_light_tank_chassis2
 			research_cost_coeff = 1
 		}
 
@@ -335,7 +335,7 @@ technologies = {
 		start_year = 787
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -4 y = 8 }
 		}
 
@@ -368,7 +368,7 @@ technologies = {
 		}
 	}
 
-	mca_advanced_light_tank_chassis2 = { #Leopard
+	advanced_light_tank_chassis2 = { #Leopard
 
 		enable_equipments = {
 			light_tank_destroyer_chassis_3
@@ -378,7 +378,7 @@ technologies = {
 		start_year = 787
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -4 y = 10 }
 		}
 
@@ -411,7 +411,7 @@ technologies = {
 		}
 	}
 
-	mca_basic_medium_tank_chassis = { #Panzer III
+	basic_medium_tank_chassis = { #Panzer III
 
 		enable_equipments = {
 			medium_tank_chassis_1
@@ -448,7 +448,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mca_improved_medium_tank_chassis
+			leads_to_tech = improved_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -456,7 +456,7 @@ technologies = {
 		start_year = 782
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 2 y = 6 }
 		}
 
@@ -492,14 +492,14 @@ technologies = {
 
 
 
-	mca_improved_medium_tank_chassis = { #Panzer IV
+	improved_medium_tank_chassis = { #Panzer IV
 
 		enable_equipments = {
 			medium_tank_chassis_2
 		}
 
 		path = {
-			leads_to_tech = mca_advanced_medium_tank_chassis
+			leads_to_tech = advanced_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -507,7 +507,7 @@ technologies = {
 		start_year = 785
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 2 y = 10 }
 		}
 
@@ -545,7 +545,7 @@ technologies = {
 		}
 	}
 
-	mca_advanced_medium_tank_chassis = { #Panther
+	advanced_medium_tank_chassis = { #Panther
 
 		enable_equipments = {
 			medium_tank_destroyer_chassis_3
@@ -555,7 +555,7 @@ technologies = {
 		start_year = 789
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 2 y = 12 }
 		}
 
@@ -584,7 +584,7 @@ technologies = {
 		}
 	}
 
-	mca_basic_heavy_tank_chassis = { #Grosstraktor
+	basic_heavy_tank_chassis = { #Grosstraktor
 
 		enable_equipments = {
 			heavy_tank_chassis_1
@@ -621,7 +621,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mca_improved_heavy_tank_chassis
+			leads_to_tech = improved_heavy_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -629,7 +629,7 @@ technologies = {
 		start_year = 780
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 5 y = 4 }
 		}
 
@@ -658,14 +658,14 @@ technologies = {
 		}
 	}
 
-	mca_improved_heavy_tank_chassis = { #Tiger
+	improved_heavy_tank_chassis = { #Tiger
 
 		enable_equipments = {
 			heavy_tank_artillery_chassis_2
 		}
 
 		path = {
-			leads_to_tech = mca_advanced_heavy_tank_chassis
+			leads_to_tech = advanced_heavy_tank_chassis
 			research_cost_coeff = 1
 		}
 
@@ -673,7 +673,7 @@ technologies = {
 		start_year = 785
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 5 y = 8 }
 		}
 
@@ -702,7 +702,7 @@ technologies = {
 	}
 
 
-	mca_advanced_heavy_tank_chassis = { #King Tiger
+	advanced_heavy_tank_chassis = { #King Tiger
 
 		enable_equipments = {
 			heavy_tank_chassis_3
@@ -712,7 +712,7 @@ technologies = {
 		start_year = 789
 
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 5 y = 12 }
 		}
 
@@ -741,13 +741,13 @@ technologies = {
 		}
 	}
 
-	mca_armor_tech_1 = {
+	armor_tech_1 = {
 		enable_equipment_modules = {
 			tank_welded_armor
 		}
 
 		path = {
-			leads_to_tech = mca_armor_tech_2
+			leads_to_tech = armor_tech_2
 			research_cost_coeff = 1
 		}
 
@@ -759,7 +759,7 @@ technologies = {
 		research_cost = 1
 		start_year = 780
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 3 y = @782 }
 		}
 
@@ -796,13 +796,13 @@ technologies = {
 		}
 	}
 
-	mca_armor_tech_2 = {
+	armor_tech_2 = {
 
 		enable_equipment_modules = {
 			armor_skirts
 		}
 		path = {
-			leads_to_tech = mca_armor_tech_3
+			leads_to_tech = armor_tech_3
 			research_cost_coeff = 1
 		}
 
@@ -814,7 +814,7 @@ technologies = {
 		research_cost = 1
 		start_year = 782
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 3 y = @784 }
 		}
 
@@ -851,11 +851,11 @@ technologies = {
 		}
 	}
 
-	mca_armor_tech_3 = {
+	armor_tech_3 = {
 
 
 		path = {
-			leads_to_tech = mca_armor_tech_4
+			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
 		}
 
@@ -867,7 +867,7 @@ technologies = {
 		research_cost = 1
 		start_year = 787
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 3 y = @787 }
 		}
 
@@ -904,12 +904,12 @@ technologies = {
 		}
 	}
 
-	mca_armor_tech_4 = {
+	armor_tech_4 = {
 
 		research_cost = 1
 		start_year = 790
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = 3 y = @790 }
 		}
 
@@ -951,11 +951,11 @@ technologies = {
 		}
 	}
 
-	mca_engine_tech_1 = {
+	engine_tech_1 = {
 
 
 		path = {
-			leads_to_tech = mca_engine_tech_2
+			leads_to_tech = engine_tech_2
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -965,7 +965,7 @@ technologies = {
 		research_cost = 1
 		start_year = 780
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -1 y = @782 }
 		}
 
@@ -1002,11 +1002,11 @@ technologies = {
 		}
 	}
 
-	mca_engine_tech_2 = {
+	engine_tech_2 = {
 
 
 		path = {
-			leads_to_tech = mca_engine_tech_3
+			leads_to_tech = engine_tech_3
 			research_cost_coeff = 1
 		}
 
@@ -1018,7 +1018,7 @@ technologies = {
 		research_cost = 1
 		start_year = 782
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -1 y = @784 }
 		}
 
@@ -1055,11 +1055,11 @@ technologies = {
 		}
 	}
 
-	mca_engine_tech_3 = {
+	engine_tech_3 = {
 
 
 		path = {
-			leads_to_tech = mca_engine_tech_4
+			leads_to_tech = engine_tech_4
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -1069,7 +1069,7 @@ technologies = {
 		research_cost = 1
 		start_year = 787
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -1 y = @787 }
 		}
 
@@ -1106,12 +1106,12 @@ technologies = {
 		}
 	}
 
-	mca_engine_tech_4 = {
+	engine_tech_4 = {
 
 		research_cost = 1
 		start_year = 790
 		folder = {
-			name = nsb_mca_armour_folder
+			name = nsb_cwe_armour_folder
 			position = { x = -1 y = @790 }
 		}
 		on_research_complete = {
