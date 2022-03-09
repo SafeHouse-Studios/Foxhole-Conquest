@@ -4,7 +4,7 @@ characters = {
 		desc = "POLITICS_COLONIAL_SENATE_DESC"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MCA/Portrait_MCA_leader.tga"
+				large = "gfx/leaders/MCA/Portrait_MCA_senate.dds"
 			}
 		}
 		country_leader = {
