@@ -103,17 +103,77 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			NOT = {
-				has_dlc = "No Step Back"
+			AND = {
+				NOT = { 
+					original_tag = MCA
+					original_tag = CWE
+				}
+				NOT = {
+					has_dlc = "No Step Back"
+				}
+			}	
+		}	
+	}
+	mca_armour_folder = {
+		ledger = army
+		available = {
+			AND = {
+				OR = {
+				original_tag = MCA
+				}
+				NOT = {
+					has_dlc = "No Step Back"
+				}
 			}
+	    }
+	}
+	cwe_armour_folder = {
+		ledger = army
+		available = {
+			AND = {
+				OR = {
+				original_tag = CWE
+				}
+				NOT = {
+					has_dlc = "No Step Back"
+				}
+			}
+	    }
+	}
+	nsb_mca_armour_folder = {
+		ledger = army
+		available = {
+			AND = {
+				OR = {
+					original_tag = MCA
+				}
+				has_dlc = "No Step Back"
+            }
+		}
+	}
+	nsb_cwe_armour_folder = {
+		ledger = army
+		available = {
+			AND = {
+				OR = {
+					original_tag = CWE
+				}
+				has_dlc = "No Step Back"
+            }
 		}
 	}
 	nsb_armour_folder = {
 		ledger = army
 		available = {
-			has_dlc = "No Step Back"
-		}
-	}
+			AND = {
+				NOT = { 
+					original_tag = MCA
+					original_tag = CWE
+				}
+				has_dlc = "No Step Back"
+			}		
+		}	
+    }
 	artillery_folder = {
 		ledger = army
 	}
