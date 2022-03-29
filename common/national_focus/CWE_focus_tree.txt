@@ -849,7 +849,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_port_of_buckler_sound }
-		mutually_exclusive = { focus = CWE_facilitate_heacy_arms_plants }
+		mutually_exclusive = { focus = CWE_facilitate_heavy_arms_plants }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -927,8 +927,8 @@ focus_tree = {
 
 	#Focus for Facilitate Heavy Arms Plants
 	focus = {
-		id = CWE_facilitate_heacy_arms_plants
-		icon = facilitate_heacy_arms_plants
+		id = CWE_facilitate_heavy_arms_plants
+		icon = facilitate_heavy_arms_plants
 		x = 6
 		y = 3
 		cost = 5
@@ -1041,7 +1041,7 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_facilitate_heacy_arms_plants focus = CWE_skelter_course }
+		prerequisite = { focus = CWE_facilitate_heavy_arms_plants focus = CWE_skelter_course }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
