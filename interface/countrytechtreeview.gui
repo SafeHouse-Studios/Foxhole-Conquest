@@ -3790,6 +3790,14 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+
+			gridboxtype = {
+				name = "excavation1_tree"
+				position = { x = 950 y = 312 }
+				size = { width = 72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 			
 			iconType = {
 				name = "highlight_industry_2"
