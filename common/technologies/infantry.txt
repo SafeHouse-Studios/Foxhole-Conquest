@@ -1541,6 +1541,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_car
 		}
 		
 		ai_will_do = {
@@ -1588,6 +1589,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_car
 		}
 		
 		ai_will_do = {
@@ -1630,6 +1632,7 @@ technologies = {
 		categories = {
 			motorized_equipment
 			armor
+			cat_armored_car
 		}
 		
 		sub_technologies = {

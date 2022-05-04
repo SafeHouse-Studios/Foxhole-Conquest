@@ -14,11 +14,8 @@ CWE_revive_the_ancient_capital_desc:0 "It has been many years since the southern
 CWE_reoccupy_the_ward:0 "Reoccupy the Ward"
 CWE_reoccupy_the_ward_desc:0 "With the city of Sunhaven back in its owners' hands, we can finally begin rebuilding the buildings, and filling in the shell craters. Once more, Sunhaven will be a bustling metropolis!"
 CWE_the_domain_of_sunhaven:0 "The Domain Of Sunhaven"
-<<<<<<< Updated upstream
 CWE_the_domain_of_sunhaven_desc:0 "Though it has taken vast resources and manpower, we have restored the seat of our ancient capital back to its proper position. Already, our citizens cheer at this, for they know that with the crown jewel of the Empire in our hands once more, the war will soon be won. Perhaps the Velish would like to know how it feels to see their capital burned to the ground, aswell…?"
-=======
 CWE_the_domain_of_sunhaven_desc:0 "Though it has taken vast resources and manpower, we have restored the seat of our ancient capital back to its proper position. Already, our citizens cheer at this, for they know that with the crown jewel of the Empire in our hands once more, the war will soon be won. Perhaps it is time the Velians taste vengeful justice."
->>>>>>> Stashed changes
 CWE_the_port_of_ogmaran:0 "The Port of Ogmaran"
 CWE_the_port_of_ogmaran_desc:0 "One large oddity about Ogmaran is the fact that the city, despite its level of development, is located both on a fairly small river, as well as being rather far north. Regardless, the city has been an important part of Caovia for generations, and thus is a perfect target for infrastructural investment."
 CWE_port_of_buckler_sound:0 "Port of Buckler Sound"
@@ -263,5 +260,5 @@ CWE_the_warden_navy:0 "The Warden Navy"
 CWE_the_warden_navy_desc:0 "Every day, our ships win battle after battle against the Colonial threat. It has become clear that retaking the entirety of the seas will be an inevitability, and we hope the Colonials have realized such. It is, after all, a shame that their sunken wrecks pollute our sea, and their corpses sully our beautiful waters."
 CWE_naval_supremacy:0 "Naval Supremacy"
 CWE_naval_supremacy_desc:0 "As we have predicted, we have retaken the oceans from the Colonial menace! Our ships sail the waters with impunity, and the enemy would not so much as fish on the shoreline without suffering a retaliatory strike. The Colonials thought they could muscle into our ocean and take it from us, they were wrong."
-
-
+CWE_facilitate_heavy_arms_plants:0 "Facilitate Heavy Arms Plants"
+CWE_facilitate_heavy_arms_plants_desc:0 "As the war rages on, bigger and more complex weapons have been developed to deal with the ever-changing battlefield. Recently, it has gotten to the point where trying to produce such weapons is seriously hampering our ability to produce basic weapons in our factories, such as rifles and uniforms. These factories simply aren't built to handle the construction of large-caliber artillery shells and heavy machine guns. Our only option is to create specialized factories that can handle the intense complexity necessary for modern conflicts"

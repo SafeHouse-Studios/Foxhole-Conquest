@@ -82,8 +82,6 @@ ideas = {
 			modifier = {
 				special_forces_cap = 0.05
 			}
-			
-
 		}
 
 		CWE_council_on_industrial_development_idea = {
@@ -449,7 +447,43 @@ ideas = {
 
 		}
 		
-		
+		CWE_soravian_involvement = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+
+		CWE_technology_reclamation = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
 
 	}
 	

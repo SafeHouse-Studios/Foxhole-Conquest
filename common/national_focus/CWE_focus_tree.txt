@@ -340,7 +340,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			293 = {
-				add_building_constriction = {
+				add_building_constructiontion = {
 					type = industrial_complex
 					level = 3
 					instant_build = yes
@@ -727,7 +727,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reoccupy_the_ward 
-						 date < 785.01.01}
+						 date < 0785.01.01}
 		search_filters = { FOCUS_FILTER_INDUSTRY } ##### WAITING RESPONSE
 		ai_will_do = {
 			factor = 1
@@ -893,31 +893,51 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		293 = {
+		8 = {
 
 				add_building_construction = {
 
-					type = industrial_complex
+					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
-
-			293 = {
+			
+		9 = {
 
 				add_building_construction = {
 
-					type = industrial_complex
+					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
-
-			293 = {
+			
+		7 = {
 
 				add_building_construction = {
 
-					type = industrial_complex
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		6 = {
+
+				add_building_construction = {
+
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		254 = {
+
+				add_building_construction = {
+
+					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
@@ -946,87 +966,7 @@ focus_tree = {
 				add_building_construction = {
 
 					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = arms_factory
-					level = 1
+					level = 9
 					instant_build = yes
 				}
 			}
@@ -1048,7 +988,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		358 = {
+			358 = {
 
 				add_building_construction = {
 
@@ -1058,62 +998,22 @@ focus_tree = {
 				}
 			}
 
+			221 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			
 			358 = {
 
 				add_building_construction = {
 
 					type = dockyard
 					level = 4
-					instant_build = yes
-				}
-			}
-
-			358 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			358 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			358 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			358 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			358 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
 					instant_build = yes
 				}
 			}
@@ -1135,6 +1035,56 @@ focus_tree = {
 		}
 		completion_reward = {
 
+		254 = {
+
+				add_building_construction = {
+				
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		8 = {
+
+				add_building_construction = {
+				
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		9 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		7 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		6 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
 		2 = {
 
 				add_building_construction = {
@@ -1144,18 +1094,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			3 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-
-			4 = {
+			
+		3 = {
 
 				add_building_construction = {
 
@@ -1165,7 +1105,18 @@ focus_tree = {
 				}
 			}
 
-			5 = {
+		4 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+
+		5 = {
 
 				add_building_construction = {
 
@@ -1175,7 +1126,27 @@ focus_tree = {
 				}
 			}
 
-			2 = {
+		10 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		1 = {
+
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		14 = {
 
 				add_building_construction = {
 
@@ -1185,7 +1156,7 @@ focus_tree = {
 				}
 			}
 
-			2 = {
+		13 = {
 
 				add_building_construction = {
 
@@ -1194,6 +1165,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			
 		}
 	}
 
@@ -1612,7 +1584,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 150
-			# Upon civil war start, player will control Soravian provinces.
+			#Upon civil war start, player will control Soravian provinces.
 		}
 	}
 
@@ -1897,7 +1869,7 @@ focus_tree = {
 				ideology = neutrality
 				popularity = 0.1
 			}
-			conscription_factor = 0.3
+			conscription = 0.3
 			# every_owned_state = { conscription = 0.3 }
 		}
 	}
@@ -1932,7 +1904,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available = {
-			controls_state = 293
+			controls_state = 403
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_maintain_royal_authority }
@@ -1941,8 +1913,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_ideas = {
+			CWE_soravian_involvement
+			}
 		}
 	}
+
 	#Focus for Develop Nicevian Resources
 	focus = {
 		id = CWE_develop_nicevian_resources
@@ -1963,22 +1939,22 @@ focus_tree = {
 			add_resource = {
 				type = oil
 				amount = 10
-				state = 293
+				state = 267
 			}
 			add_resource = {
 				type = oil
 				amount = 8
-				state = 293
+				state = 268
 			}
 			add_resource = {
 				type = oil
 				amount = 4
-				state = 293
+				state = 269
 			}
 			add_resource = {
 				type = oil
 				amount = 3
-				state = 293
+				state = 270
 			}
 
 		}
@@ -2014,10 +1990,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_timed_idea = {
-		idea = Technology_Reclamation
-		days = 300
-			}
+			add_timed_idea = { idea = CWE_technology_reclamation days = 300 }
 		}
 	}
 	#Focus for Victory Through Tradition
@@ -2550,7 +2523,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			fascism > 0.6
-			date > 785.01.01
+			date > 0785.01.01
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_kirknell_authority focus = CWE_subjugate_protectorates }
@@ -2571,7 +2544,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			NOT = { has_war_with = CWE }
-			date > 786.01.01
+			date > 0786.01.01
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_slay_the_eagle }
@@ -2767,7 +2740,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			communism > 0.6
-			date > 785.01.01
+			date > 0785.01.01
 		}
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_revolutionary_spirit }
@@ -2788,7 +2761,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			NOT = { has_war_with = CWE }
-			date > 786.01.01
+			date > 0786.01.01
 		}
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_the_great_struggle }
@@ -2820,10 +2793,12 @@ focus_tree = {
 		}
 		completion_reward = { 
 		army_experience = 25
-		add_ideas =
+		add_ideas = {
 		CWE_empowered_war_council_idea
 		}
 	}
+	}
+	
 	#Focus for Militaristic Transformation
 	focus = {
 		id = CWE_militaristic_transformation
@@ -2861,7 +2836,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					technology = armored_car1
+				}
 		}
 	}
 	#Focus for The Niska
@@ -2894,7 +2873,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_niska }
-		available = { date > 784.01.01 }
+		available = { date > 0784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -2922,7 +2901,8 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_timed_idea = {
-		idea = CWE_integrated_militias days = 300
+		idea = CWE_integrated_militias
+		days = 300
 			}
 		}
 	}
@@ -2964,7 +2944,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_infantry_innovations }
-		available = { date > 784.01.01 }
+		available = { date > 0784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -3023,7 +3003,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_establish_warden_officer_academy }
-		available = { date > 784.01.01 }
+		available = { date > 0784.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -3034,7 +3014,7 @@ focus_tree = {
 		add_popularity = {
 	ideology = neutrality
 	popularity = 0.20
-}
+		}
 		add_ideas ={
 		CWE_command_protocols
 			}		
@@ -3099,7 +3079,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-						add_tech_bonus = {
+				add_tech_bonus = {
 					bonus = 1
 					uses = 1
 					category = artillery
@@ -3301,14 +3281,15 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_combined_arms_doctrine }
-		available = { date > 785.01.01 }
+		available = { date > 0785.01.01 }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 		add_timed_idea = {
-		idea = CWE_final_offensive_doctrine days = 150
+		idea = CWE_final_offensive_doctrine 
+		days = 150
 			}
 		}
 	}
@@ -3329,10 +3310,10 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_ideas ={
-		CWE_northern_guardians
+			CWE_northern_guardians
 			}
-			add_ideas ={
-		extensive_conscription
+		add_ideas ={
+			extensive_conscription
 			}
 		}
 	}
@@ -3561,8 +3542,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
-		add_ideas ={
-		CWE_caovish_naval_legacy
+			add_ideas ={
+			CWE_caovish_naval_legacy
 			}
 		}
 	}

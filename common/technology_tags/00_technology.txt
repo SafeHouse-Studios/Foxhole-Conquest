@@ -16,6 +16,7 @@ technology_categories = {
 	infantry_weapons
 	motorized_equipment
 	cat_mechanized_equipment
+	cat_armored_car
 	naval_equipment
 	rocketry
 	nuclear
