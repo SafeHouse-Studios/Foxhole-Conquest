@@ -22,11 +22,11 @@ The invite will appear in the email you registered github with not in your githu
 
 4. Go to your Hearts of Iron IV launcher and on the left hand side, select "All installed mods". In the right hand corner, you should see an icon called, "Upload Mod", click that and then click "Create a Mod".
 Now fill in the required info:
-       a. Name = Foxhole Conquest: Dev Version
-       b. Version = 1.11
-       c. Directory = FoxholeConquestDevVersion (Cannot have any special cases and spaces)
-       d. Tags = (should have no effect on the mod but select all of consistency so we know if something goes wrong it isn’t that somehow).
-       e. Click Create Mod
+	Name = Foxhole Conquest: Dev Version
+	Version = 1.11
+	Directory = FoxholeConquestDevVersion (Cannot have any special cases and spaces)
+	Tags = (should have no effect on the mod but select all of consistency so we know if something goes wrong it isn’t that somehow).
+	Click Create Mod
 Now it will take you to another page, just ignore it. Now close the HOI4 launcher.
 
 5. Go to the newly created folder in your directory.
