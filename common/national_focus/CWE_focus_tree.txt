@@ -11,7 +11,7 @@ focus_tree = {
 	#Focus for The Council On Industrial Development
 	focus = {
 		id = CWE_the_council_on_industrial_development
-		icon = the_council_on_industrial_development
+		icon = GFX_goal_generic_national_unity
 		x = 10
 		y = 0
 		cost = 5
@@ -30,7 +30,7 @@ focus_tree = {
 	#Focus for The Port of Whedon's Row
 	focus = {
 		id = CWE_the_port_of_whedons_row
-		icon = the_port_of_whedons_row
+		icon = GFX_godscroft_naval_bases
 		x = 10
 		y = 1
 		cost = 5
@@ -63,7 +63,7 @@ focus_tree = {
     #Focus for Repair Central Infrastructure
 	focus = {
 		id = CWE_repair_central_infastructure
-		icon = repair_central_infastructure
+		icon = GFX_focus_rebuild_the_nation
 		x = 10
 		y = 2
 		cost = 5
@@ -222,7 +222,7 @@ focus_tree = {
     #Focus for The Elksford Rail Line
 	focus = {
 		id = CWE_the_elksford_rail_line
-		icon = the_elksford_rail_line
+		icon = GFX_focus_generic_africa_infrastructure
 		x = 10
 		y = 3
 		cost = 5
@@ -328,7 +328,7 @@ focus_tree = {
      #Focus for Create The Lochan Birth Rail Hub
 	focus = {
 		id = CWE_create_the_lochan_birth_rail_hub
-		icon = create_the_lochan_birth_rail_hub
+		icon = GFX_focus_fund_damokratos_rail_line
 		x = 10
 		y = 4
 		cost = 5
@@ -739,7 +739,7 @@ focus_tree = {
 	#Focus for The Port of Ogmaran
 	focus = {
 		id = CWE_the_port_of_ogmaran
-		icon = the_port_of_ogmaran
+		icon = GFX_godscroft_naval_bases
 		x = 8
 		y = 1
 		cost = 5
@@ -797,7 +797,7 @@ focus_tree = {
 	#Focus for Port of Buckler Sound
 	focus = {
 		id = CWE_port_of_buckler_sound
-		icon = port_of_buckler_sound
+		icon = GFX_focus_generic_cruiser2
 		x = 8
 		y = 2
 		cost = 5
@@ -843,7 +843,7 @@ focus_tree = {
 	#Focus for Skelter Course
 	focus = {
 		id = CWE_skelter_course
-		icon = skelter_course
+		icon = GFX_focus_generic_cruiser2
 		x = 8
 		y = 3
 		cost = 5
@@ -881,7 +881,7 @@ focus_tree = {
 	#Focus for Forward Western Factories
 	focus = {
 		id = CWE_forward_western_factories
-		icon = forward_western_factories
+		icon = GFX_focus_generic_industry_1
 		x = 6
 		y = 2
 		cost = 5
@@ -948,7 +948,7 @@ focus_tree = {
 	#Focus for Facilitate Heavy Arms Plants
 	focus = {
 		id = CWE_facilitate_heavy_arms_plants
-		icon = facilitate_heavy_arms_plants
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 6
 		y = 3
 		cost = 5
@@ -976,7 +976,7 @@ focus_tree = {
 	#Focus for Build the Ulster Dam
 	focus = {
 		id = CWE_build_the_ulster_dam
-		icon = build_the_ulster_dam
+		icon = GFX_goal_generic_construction
 		x = 7
 		y = 4
 		cost = 5
@@ -1023,7 +1023,7 @@ focus_tree = {
 	#Focus for Farranac Industrial Concern
 	focus = {
 		id = CWE_farranac_industrial_concern
-		icon = farranac_industrial_concern
+		icon = GFX_goal_generic_construction2
 		x = 7
 		y = 5
 		cost = 5
@@ -1172,7 +1172,7 @@ focus_tree = {
 	#Focus for Develop Nicevian Oil Fields
 	focus = {
 		id = CWE_develop_nicevian_oil_fields
-		icon = develop_nicevian_oil_fields
+		icon = GFX_goal_generic_oil_refinery
 		x = 3
 		y = 1
 		cost = 5
@@ -1191,7 +1191,7 @@ focus_tree = {
 	#Focus for Develop Snowfal Refineries
 	focus = {
 		id = CWE_develop_snowfal_refineries
-		icon = develop_snowfal_refineries
+		icon = GFX_goal_generic_oil_refinery
 		x = 3
 		y = 2
 		cost = 5
@@ -1208,7 +1208,7 @@ focus_tree = {
 	#Focus for Pace Extraction
 	focus = {
 		id = CWE_pace_extraction
-		icon = pace_extraction
+		icon = GFX_focus_construct_new_ordnance_plants
 		x = 4
 		y = 3
 		cost = 5
@@ -1228,7 +1228,7 @@ focus_tree = {
 	#Focus for Increase Labor Quotas
 	focus = {
 		id = CWE_increase_labor_quotas
-		icon = increase_labor_quotas
+		icon = GFX_focus_generic_military_academy
 		x = 2
 		y = 3
 		cost = 5
@@ -1249,7 +1249,7 @@ focus_tree = {
 	#Focus for The Port of Viper Pit
 	focus = {
 		id = CWE_the_port_of_viper_pit
-		icon = the_port_of_viper_pit
+		icon = GFX_godscroft_naval_bases
 		x = 12
 		y = 1
 		cost = 5
@@ -1336,7 +1336,7 @@ focus_tree = {
 	#Focus for Port of Rime
 	focus = {
 		id = CWE_port_of_rime
-		icon = port_of_rime
+		icon = GFX_focus_generic_cruiser2
 		x = 12
 		y = 2
 		cost = 5
@@ -1353,7 +1353,7 @@ focus_tree = {
 	#Focus for Port of Axehead
 	focus = {
 		id = CWE_port_of_axehead
-		icon = port_of_axehead
+		icon = GFX_focus_generic_cruiser2
 		x = 12
 		y = 3
 		cost = 5
@@ -1371,7 +1371,7 @@ focus_tree = {
 	#Focus for Forward Eastern Factories
 	focus = {
 		id = CWE_forward_eastern_factories
-		icon = forward_eastern_factories
+		icon = GFX_focus_generic_industry_2
 		x = 14
 		y = 2
 		cost = 5
@@ -1388,7 +1388,7 @@ focus_tree = {
 	#Focus for Focus Land Infrastructure Development
 	focus = {
 		id = CWE_focus_land_infastructure_development
-		icon = focus_land_infastructure_development
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 14
 		y = 3
 		cost = 5
@@ -1406,7 +1406,7 @@ focus_tree = {
 	#Focus for Smokestacks of Malden's Veil
 	focus = {
 		id = CWE_smokestacks_of_maldens_veil
-		icon = smokestacks_of_maldens_veil
+		icon = GFX_legion_of_liberty
 		x = 13
 		y = 4
 		cost = 5
@@ -1423,7 +1423,7 @@ focus_tree = {
 	#Focus for Endless Foundries
 	focus = {
 		id = CWE_endless_foundries
-		icon = endless_foundries
+		icon = GFX_focus_invest_in_therizian_industry
 		x = 13
 		y = 5
 		cost = 5
@@ -1440,7 +1440,7 @@ focus_tree = {
 	#Focus for Develop Soravian Aluminium Mines
 	focus = {
 		id = CWE_develop_soravian_aluminium_mines
-		icon = develop_soravian_aluminium_mines
+		icon = GFX_goal_generic_improve_relations
 		x = 17
 		y = 1
 		cost = 5
@@ -1456,7 +1456,7 @@ focus_tree = {
 	#Focus for Forges of Red Chapel
 	focus = {
 		id = CWE_forges_of_red_chapel
-		icon = forges_of_red_chapel
+		icon = GFX_goal_generic_soviet_construction
 		x = 17
 		y = 2
 		cost = 5
@@ -1472,7 +1472,7 @@ focus_tree = {
 	#Focus for Rapid Development
 	focus = {
 		id = CWE_rapid_development
-		icon = rapid_development
+		icon = GFX_goal_generic_production2
 		x = 16
 		y = 3
 		cost = 5
@@ -1489,7 +1489,7 @@ focus_tree = {
 	#Focus for Balanced Development
 	focus = {
 		id = CWE_balanced_development
-		icon = balanced_development
+		icon = GFX_goal_generic_neutrality_focus
 		x = 18
 		y = 3
 		cost = 5

@@ -454,6 +454,30 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_generic_navy_doctrines_tactics.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_godscroft_naval_bases"
+		texturefile = "gfx/interface/goals/godscroft_naval_bases.png"
+	}
+	SpriteType = {
+		name = "GFX_revive_the_ancient_capital"
+		texturefile = "gfx/interface/goals/revive_the_ancient_capital.png"
+	}
+
+	SpriteType = {
+		name = "GFX_reoccupy_the_ward"
+		texturefile = "gfx/interface/goals/reoccupy_the_ward.png"
+	}
+	SpriteType = {
+		name = "GFX_the_domain_of_sunhaven"
+		texturefile = "gfx/interface/goals/the_domain_of_sunhaven.png"
+		
+	}
+	#Smokestacks of maldens veil
+	SpriteType = {
+		name = "GFX_legion_of_liberty"
+		texturefile = "gfx/interface/goals/legion_of_liberty.png"
+	}
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
