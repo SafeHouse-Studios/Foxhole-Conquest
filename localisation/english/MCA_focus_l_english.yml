@@ -340,7 +340,7 @@ MCA_tempest_isle_naval_bases_desc:0 "If we are to maintain and secure naval supe
 MCA_orebreaker_isle_naval_bases:0 "Orebreaker Isle Naval Bases"
 MCA_orebreaker_isle_naval_bases_desc:0 "If we are to extend our naval influence in the Aging Ocean we must construct new ports in the newly captured region of Orebreaker Isle."
 MCA_godscroft_naval_bases:0 "Godscroft Naval Bases"
-MCA_godscroft_naval_bases_desc:0 "(NEED DESCRIPTION)"
+MCA_godscroft_naval_bases_desc:0 "If we are to extend our naval influence in the Endless Sea we must construct new ports in the newly captured region of Orebreaker Isle."
 MCA_submarine_focus:0 "Submarine Focus"
 MCA_submarine_focus_desc:0 "The Speculatores and partisans of the colonial legion have brought devastation to the Caovish on land, it is only logical that we extend that doctrine to the seas. We must develop the Pistrus class submarine."
 MCA_grand_colonial_navy:0 "Grand Colonial Navy"
