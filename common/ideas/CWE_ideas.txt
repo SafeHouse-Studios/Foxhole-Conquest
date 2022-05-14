@@ -105,7 +105,7 @@ ideas = {
 
 		}
 
-		CWE_the_domain_of_sunhaven_idea = {
+		CWE_the_dominion_of_sunhaven_idea = {
 			
 			allowed = {
 				original_tag = CWE
@@ -121,6 +121,8 @@ ideas = {
 			
 			modifier = {
 				
+				defence = 0.2 
+				offence = 0.2
 			}
 
 		}
