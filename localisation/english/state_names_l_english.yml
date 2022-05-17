@@ -402,3 +402,10 @@
  STATE_401:0 "Unknown Northwestern Lands"
  STATE_402:0 "Forbidden Northeast"
  STATE_403:0 "Unknown Northeastern Lands"
+ STATE_404:0 "Unknown Distant Island West 1"
+ STATE_405:0 "Unknown Distant Island West 2"
+ STATE_406:0 "Unknown Distant Island West 3"
+ STATE_407:0 "Unknown Distant Island West 4"
+ STATE_408:0 "Unknown Distant Island West 5"
+ STATE_409:0 "Unknown Distant Island West 6"
+
