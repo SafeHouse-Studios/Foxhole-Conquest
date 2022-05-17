@@ -120,9 +120,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
-				defence = 0.2 
-				offence = 0.2
 			}
 
 		}
