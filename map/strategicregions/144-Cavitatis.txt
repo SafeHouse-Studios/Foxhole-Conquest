@@ -1,8 +1,9 @@
+
 strategic_region={
 	id=144
 	name="STRATEGICREGION_144"
 	provinces={
-		12095 12492 
+		12095 12193 12492 
 	}
 	weather={
 		period={
@@ -96,6 +97,5 @@ strategic_region={
 			sandstorm=0.000
 			min_snow_level=0.000
 		}
-	
 	}
 }

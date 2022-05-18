@@ -1,3 +1,4 @@
+
 strategic_region={
 	id=156
 	name="STRATEGICREGION_156"
@@ -96,6 +97,5 @@ strategic_region={
 			sandstorm=0.000
 			min_snow_level=0.000
 		}
-	
 	}
 }
