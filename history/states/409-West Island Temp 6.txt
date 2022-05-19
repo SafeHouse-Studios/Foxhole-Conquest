@@ -5,7 +5,13 @@ state={
 	provinces={
 		853 1279 3222 3350 5228 5431 5727 8492 9849 9852 9874 
 	}
-	manpower=0
+	manpower=1000
+
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	history = {
+		owner = CWE
+		
+	}
 }
