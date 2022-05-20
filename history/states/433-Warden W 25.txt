@@ -1,0 +1,11 @@
+
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		2063 3837 4103 7175 7722 8082 9325 9364 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
