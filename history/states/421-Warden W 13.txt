@@ -2,6 +2,12 @@
 state={
 	id=421
 	name="STATE_421"
+
+	history={
+		owner = CWE
+
+	}
+
 	provinces={
 		1801 2417 2664 5578 6038 6317 6404 6679 9332 9409 9421 9467 
 	}
