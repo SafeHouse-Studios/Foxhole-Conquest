@@ -41,22 +41,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			293 = {
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-
-					}
-
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-
-					}
-
-			}
+			
 		}
 	}
 
@@ -74,148 +59,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
 
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
- 	
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-
+			
 		}
 	}
 
@@ -232,7 +77,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			293 = {
+			387 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -242,85 +87,7 @@ focus_tree = {
 
 			}
 
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
+			
 
 		}
 	}
@@ -339,8 +106,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			293 = {
-				add_building_constructiontion = {
+			344 = {
+				add_building_construction = {
 					type = industrial_complex
 					level = 3
 					instant_build = yes
@@ -349,67 +116,7 @@ focus_tree = {
 
 			}
 
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
-			293 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-
-				}
-
-			}
-
+			
 
 		}
 	}
@@ -429,205 +136,70 @@ focus_tree = {
 		}
 		completion_reward = {
 
-			293 = {
+			352 = {
 
 				add_building_construction = {
 
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 
-			293 = {
+			352 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7647
 					level = 2
+					province = { 
+						all_provinces = yes
+					}
 				}
 			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
+			
+			354 = {
 
 				add_building_construction = {
 
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
+			354 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7647
 					level = 2
+					province = {
+						all_provinces = yes
+					}
 				}
 			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
+			
+			355 = {
 
 				add_building_construction = {
 
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
+			355 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7647
 					level = 2
+					province = {
+						all_provinces = yes
+					}
 				}
 			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
+			
 		}
 	}
 
@@ -646,75 +218,38 @@ focus_tree = {
 		}
 		completion_reward = {
 
-			293 = {
+			235 = {
 
 				add_building_construction = {
 
 					type = bunker
-					province = 7647
+					province = { 
+						all_provinces = 
+					}
 					level = 2
 				}
 			}
 
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
-
-				add_building_construction = {
-
-					type = bunker
-					province = 7647
-					level = 2
-				}
-			}
-
-			293 = {
+			235 = {
 
 				add_building_construction = {
 
 					type = dockyard
+					
 					level = 2
-					instant_build = yes
 				}
 			}
 
-			293 = {
+			235 = {
 
 				add_building_construction = {
 
 					type = infrastructure
-					level = 2
-					instant_build = yes
+					
+					level = 1
 				}
 			}
+
 		}
 	}
 
@@ -722,6 +257,7 @@ focus_tree = {
 	focus = {
 		id = CWE_the_domain_of_sunhaven
 		icon = GFX_the_domain_of_sunhaven
+		
 		x = 10
 		y = 7
 		cost = 5
@@ -733,6 +269,13 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			235 = {
+				set_state_name = "Sunhaven"
+			}
+			add_ideas = {
+				CWE_the_dominion_of_sunhaven_idea
+					}
+				
 		}
 	}
 
@@ -998,15 +541,6 @@ focus_tree = {
 				}
 			}
 
-			221 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
 			
 			358 = {
 
@@ -1219,8 +753,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {add_ideas ={
-		CWE_pace_extraction_idea
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = CWE_pace_extraction_idea
+				days = 600
 			}
 		}
 	}
@@ -1239,9 +776,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
 		completion_reward = {
-		add_ideas ={
-		CWE_increased_labor_quotas_idea
+			add_timed_idea = {
+				idea = CWE_increased_labor_quotas_idea
+				days = 600
 			}
 		}
 	}
@@ -1261,7 +800,7 @@ focus_tree = {
 		}
 		completion_reward = {
 
-		339 = {
+			339 = {
 
 				add_building_construction = {
 
@@ -1281,55 +820,7 @@ focus_tree = {
 				}
 			}
 
-			339 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			339 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			339 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			339 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			339 = {
-
-				add_building_construction = {
-
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
+			
 		}
 	}
 
@@ -1347,6 +838,20 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			332 = {
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1417,6 +922,27 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			221 = {
+				add_building_construction = {
+
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+	
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+	
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			
 		}
 	}
 
@@ -1739,7 +1265,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_ideas ={
-		Two_Front_Strife
+			Two_Front_Strife
 			}
 		}
 	}
