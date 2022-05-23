@@ -72,12 +72,20 @@ focus_tree = {
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			387 = {
+				is_controlled_by = CWE
+			}
+			
+		}
 		prerequisite = { focus = CWE_repair_central_infastructure }		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
+			
 			387 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -107,6 +115,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			344 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -129,7 +138,13 @@ focus_tree = {
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_create_the_lochan_birth_rail_hub }
+		available = {
+			has_war_support > 0.6
+		}
+		prerequisite = { 
+			focus = CWE_create_the_lochan_birth_rail_hub
+		}
+		
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -144,9 +159,9 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
+			
 
-			352 = {
+			
 
 				add_building_construction = {
 
@@ -166,8 +181,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
-			354 = {
+			
 
 				add_building_construction = {
 
@@ -187,8 +201,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
-			355 = {
+			
 
 				add_building_construction = {
 
@@ -211,7 +224,17 @@ focus_tree = {
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_revive_the_ancient_capital }
+		available = {
+			235 = {
+				is_controlled_by = CWE
+			}
+			
+		}
+		
+		prerequisite = {
+			focus = CWE_revive_the_ancient_capital
+			
+		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -219,18 +242,18 @@ focus_tree = {
 		completion_reward = {
 
 			235 = {
-
+				
 				add_building_construction = {
 
 					type = bunker
 					province = { 
-						all_provinces = 
+						all_provinces = yes
 					}
 					level = 2
 				}
-			}
-
-			235 = {
+			
+				add_extra_state_shared_building_slots = 2
+			
 
 				add_building_construction = {
 
@@ -238,9 +261,9 @@ focus_tree = {
 					
 					level = 2
 				}
-			}
+			
 
-			235 = {
+			
 
 				add_building_construction = {
 
@@ -262,8 +285,11 @@ focus_tree = {
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_reoccupy_the_ward 
-						 date < 0785.01.01}
+		available = {
+			date > 0785.01.01
+		}
+		prerequisite = { focus = CWE_reoccupy_the_ward }
+						 
 		search_filters = { FOCUS_FILTER_INDUSTRY } ##### WAITING RESPONSE
 		ai_will_do = {
 			factor = 1
@@ -274,7 +300,7 @@ focus_tree = {
 			}
 			add_ideas = {
 				CWE_the_dominion_of_sunhaven_idea
-					}
+			}
 				
 		}
 	}
@@ -295,16 +321,14 @@ focus_tree = {
 		completion_reward = {
 		
 			374 = {
-
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 
 					type = industrial_complex
 					level = 3
 					instant_build = yes
 				}
-			}
-
-				374 = {
+			
 
 				add_building_construction = {
 
@@ -316,7 +340,7 @@ focus_tree = {
 			}	
 
 			373 = {
-
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 
 					type = industrial_complex
@@ -326,7 +350,7 @@ focus_tree = {
 			}
 
 			376 = {
-
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 
 					type = industrial_complex
@@ -352,16 +376,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			278 = {
-
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 
 					type = industrial_complex
 					level = 2
 					instant_build = yes
 				}
-			}
-
-			278 = {
+			
 
 				add_building_construction = {
 
@@ -400,16 +422,14 @@ focus_tree = {
 		completion_reward = {
 
 			259 = {
-
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 
 					type = industrial_complex
 					level = 2
 					instant_build = yes
 				}
-			}
-
-			259 = {
+			
 
 				add_building_construction = {
 
@@ -524,6 +544,12 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			358 = {
+		
+				is_controlled_by = CWE
+			}
+		}
 		prerequisite = { focus = CWE_facilitate_heavy_arms_plants focus = CWE_skelter_course }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -532,17 +558,14 @@ focus_tree = {
 		completion_reward = {
 
 			358 = {
-
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
-			}
-
 			
-			358 = {
 
 				add_building_construction = {
 
@@ -793,6 +816,11 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			339 = { 
+				is_controlled_by = CWE
+			}
+		}
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -801,16 +829,14 @@ focus_tree = {
 		completion_reward = {
 
 			339 = {
-
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 
 					type = industrial_complex
 					level = 3
 					instant_build = yes
 				}
-			}
-
-			339 = {
+			
 
 				add_building_construction = {
 
@@ -831,6 +857,11 @@ focus_tree = {
 		x = 12
 		y = 2
 		cost = 5
+		available = {
+			332 = {
+				is_controlled_by = CWE
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_port_of_viper_pit }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -839,6 +870,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			332 = {
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 
 					type = industrial_complex
@@ -862,6 +894,10 @@ focus_tree = {
 		x = 12
 		y = 3
 		cost = 5
+		available = {
+			#Add controlled prerquisite here
+			
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_port_of_rime }
 		mutually_exclusive = { focus = CWE_focus_land_infastructure_development }
@@ -915,6 +951,11 @@ focus_tree = {
 		x = 13
 		y = 4
 		cost = 5
+		available = {
+			221 = {
+				is_controlled_by = CWE
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_focus_land_infastructure_development focus = CWE_port_of_axehead }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -923,6 +964,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			221 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 
 					type = industrial_complex
@@ -1018,7 +1060,8 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 18
 		y = 3
-		cost = 5
+		cost = 9.4
+		
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_forges_of_red_chapel }
 		mutually_exclusive = { focus = CWE_rapid_development }
