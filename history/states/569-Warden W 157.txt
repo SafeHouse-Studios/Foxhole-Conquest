@@ -1,14 +1,15 @@
 
 state={
-	id=476
-	name="STATE_476"
-	history = {
-		owner = CWE
-	}
+	id=569
+	name="STATE_569"
 	provinces={
-		4556 6704 7388 11635 11637 
+		527 2173 3795 5165 7092 10259 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
 }
