@@ -1562,9 +1562,130 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			division_template = {	
+					name = "Hands of Callahan"
+					division_names_group = CWE_INF_01
 
+					regiments = {
+						mountaineers = { x = 0 y = 0 }
+						mountaineers = { x = 0 y = 1 }
+						mountaineers = { x = 0 y = 2 }
+						mountaineers = { x = 0 y = 3 }
+						mountaineers = { x = 0 y = 4 }
+		
+						mountaineers = { x = 1 y = 0 }
+						mountaineers = { x = 1 y = 1 }
+						mountaineers = { x = 1 y = 2 }
+						mountaineers = { x = 1 y = 3 }
+						mountaineers = { x = 1 y = 4 }
+		
+						mechanized = { x = 2 y = 0 }
+						mechanized = { x = 2 y = 1 }
+						mot_artillery_brigade = { x = 2 y = 2 }
+						mot_artillery_brigade = { x = 2 y = 3 }
+						mot_anti_air_brigade = { x = 2 y = 4 }
+		
+						medium_tank_destroyer_brigade = { x = 3 y = 0 }
+						medium_sp_artillery_brigade = { x = 3 y = 1 }
+						
+						armored_car = { x = 4 y = 0 }
+						armored_car = { x = 4 y = 1 }
+					}
+	
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						mot_recon  = { x = 0 y = 2 }
+					}
+				}
+				
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
+			293 = {
+				create_unit = {
+					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
+					owner = CWE
+					prioritize_location =  7647
+				}			
+			}
 		}
 	}
+	
 	#Focus for Southwestern Protectorate State
 	focus = {
 		id = CWE_southwestern_protectorate_state
@@ -1582,7 +1703,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_state_core = 293
+			add_state_core = 1
+			add_state_core = 11
+			add_state_core = 10
+			add_state_core = 13
+			add_state_core = 14
+			add_state_core = 15
 		}
 	}
 	#Focus for Southeastern Protectorate State
@@ -1602,8 +1728,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		add_state_core = 208
+		add_state_core = 209
+		add_state_core = 210
+		add_state_core = 211
+		add_state_core = 213
+		add_state_core = 214
+		add_state_core = 215
 		}
 	}
+	
 	#Focus for Reaffirm the Nevish Alliance
 	focus = {
 		id = CWE_reaffirm_the_nevish_alliance
@@ -1622,6 +1756,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			add_ideas = {
+			CWE_nevish_alliance
+			}
 			add_war_support = 0.15
 		}
 	}
@@ -1633,7 +1770,8 @@ focus_tree = {
 		y = 9
 		cost = 5
 		available = {
-			controls_state = 293
+			controls_state = 113
+			controls_state = 65
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reaffirm_the_nevish_alliance }
@@ -1643,7 +1781,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = Last_Offensive
+				idea = CWE_last_offensive
 				days = 50
 			}
 		}
@@ -1656,12 +1794,12 @@ focus_tree = {
 		y = 8
 		cost = 5
 		available = {
-			NOT = { controls_state = 293 }
+			NOT = { controls_state = 235 }
 			OR = {
 				NOT = { 
-					controls_state = 293
-					controls_state = 293
-					controls_state = 293
+					controls_state = 278
+					controls_state = 344
+					controls_state = 332
 				}
 			}
 		}
@@ -1707,8 +1845,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas ={
-				His_Fury_Our_Voice
+			add_ideas = { 
+			CWE_his_fury_in_our_voice
 			}
 			add_war_support = 0.1
 		}
@@ -1731,7 +1869,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas ={
-				Victorious_Heritage
+				CWE_heritage_of_victory
 			}
 		}
 	}
@@ -2687,7 +2825,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		division_template = {	
+			division_template = {	
 					name = "82nd Dread Korps"
 					division_names_group = MCA_INF_01
 

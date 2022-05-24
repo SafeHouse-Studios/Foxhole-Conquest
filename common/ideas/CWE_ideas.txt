@@ -464,7 +464,45 @@ ideas = {
 				conscription_factor = 0.1
 			}
 		}
+		
+		CWE_nevish_alliance = {
+			
+			allowed = {
+				original_tag = CWE
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		
+		CWE_his_fury_in_our_voice = {
+		
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.25
+			}
+		}
+		
 		CWE_technology_reclamation = {
 			
 			allowed = {
@@ -484,6 +522,46 @@ ideas = {
 			}
 		}
 
+		CWE_last_offensive = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				breakthrough_factor = 0.15
+				army_attack_factor = 0.05
+				army_morale_factor = -0.1
+			}
+		}
+		
+		CWE_heritage_of_victory = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.05
+				army_attack_factor = 0.1
+			}
+		}
 	}
 	
 	political_advisor = {
