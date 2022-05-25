@@ -25,7 +25,7 @@ ideas = {
 
 		}
 
-		CWE_caovish_democratic_league_idea = {
+		CWE_caoivish_democratic_league = {
 
 			allowed = {
 				original_tag = CWE
@@ -42,7 +42,66 @@ ideas = {
 			modifier = {
 				democratic_drift = 0.2
 			}
+		}
 
+		CWE_question_the_regime = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = -0.1
+				stability_factor = -0.1
+			}
+		}
+
+		CWE_peoples_party = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = -0.1
+				stability_factor = -0.1
+			}
+		}
+
+		CWE_fascist_shift = {
+
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.2
+				stability_factor = -0.05
+			}
 		}
 
 		CWE_local_terrain_knowledge_idea = {
@@ -322,7 +381,7 @@ ideas = {
 
 		}
 
-		CWE_caovish_naval_legacy = {
+		CWE_caoivish_naval_legacy = {
 			
 			allowed = {
 				original_tag = CWE
@@ -365,7 +424,7 @@ ideas = {
 			}
 
 		}
-		
+
 		CWE_major_trade_hub_idea = {
 			
 			allowed = {

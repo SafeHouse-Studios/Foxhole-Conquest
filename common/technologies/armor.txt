@@ -1,4 +1,17 @@
 technologies = {
+
+	@764 = 0
+	@782 = 2
+	@784 = 4
+	@785 = 6
+	@786 = 8
+	@787 = 10
+	@788 = 12
+	@789 = 14
+	@790 = 16
+	@791 = 18
+	@792 = 20
+
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank = { #Leichttraktor
 
@@ -47,7 +60,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1918
+		start_year = 0764
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }

@@ -1059,7 +1059,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_divine_right }
-		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
+		mutually_exclusive = { focus = CWE_embrace_caoivish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1114,9 +1114,9 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Caovish Democratic League
+	#Focus for The caoivish Democratic League
 	focus = {
-		id = CWE_the_caovish_democratic_league
+		id = CWE_the_caoivish_democratic_league
 		icon = GFX_goal_support_democracy
 		x = 24
 		y = 3
@@ -1128,10 +1128,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-				remove_idea = CWE_weakened_council_idea
-				add_timed_idea = {
-					idea = CWE_caovish_democratic_league_idea
-					days = 100
+			remove_idea = CWE_weakened_council_idea
+			add_timed_idea = {
+				idea = CWE_caoivish_democratic_league
+				days = 100
 			}
 		}
 	}
@@ -1168,7 +1168,7 @@ focus_tree = {
 			democratic > 0.3
 		}
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_secure_nicevin_support focus = CWE_the_caovish_democratic_league focus = CWE_secure_soravian_support }
+		prerequisite = { focus = CWE_secure_nicevin_support focus = CWE_the_caoivish_democratic_league focus = CWE_secure_soravian_support }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1351,9 +1351,9 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Republic of Caovia
+	#Focus for The Republic of Caoivia
 	focus = {
-		id = CWE_the_republic_of_caovia
+		id = CWE_the_republic_of_caoivia
 		icon = GFX_goal_support_democracy
 		x = 24
 		y = 11
@@ -1385,7 +1385,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_imperial_truth }
-		mutually_exclusive = { focus = CWE_embrace_caovish_populism }
+		mutually_exclusive = { focus = CWE_embrace_caoivish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1604,79 +1604,57 @@ focus_tree = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
-				}			
-			}
-			293 = {
+				}
 				create_unit = {
 					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
 					owner = CWE
@@ -1875,10 +1853,10 @@ focus_tree = {
 	}
 
 	
-	#Focus for Embrace Caovish Populism
+	#Focus for Embrace caoivish Populism
 	focus = {
-		id = CWE_embrace_caovish_populism
-		icon = GFX_embrace_caovish_populism
+		id = CWE_embrace_caoivish_populism
+		icon = GFX_embrace_caoivish_populism
 		x = 37
 		y = 1
 		cost = 5
@@ -1912,14 +1890,14 @@ focus_tree = {
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_embrace_caovish_populism }
+		prerequisite = { focus = CWE_embrace_caoivish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = Questioning_the_Regime
+				idea = CWE_question_the_regime
 				days = 150
 			}
 		}
@@ -2000,7 +1978,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = the_Peoples_Party
+				idea = CWE_peoples_party
 				days = 150
 			}
 		}
@@ -2022,16 +2000,16 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = the_Peoples_Party
-				add_idea = Fascist_Shift
+				remove_idea = CWE_peoples_party
+				add_idea = CWE_fascist_shift
 			}
 		}
 	}
 
-	#Focus for Caovish Fascist Movement
+	#Focus for caoivish Fascist Movement
 	focus = {
-		id = CWE_caovish_fascist_movement
-		icon = GFX_caovish_fascist_movement
+		id = CWE_caoivish_fascist_movement
+		icon = GFX_caoivish_fascist_movement
 		x = 36
 		y = 6
 		cost = 5
@@ -2062,7 +2040,7 @@ focus_tree = {
 			fascism > 0.3
 		}
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_caovish_fascist_movement }
+		prerequisite = { focus = CWE_caoivish_fascist_movement }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -2089,6 +2067,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		
 		}
 	}
 
@@ -2133,8 +2112,41 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			269 = {
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				create_unit = {
+					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
+					owner = CWE
+					prioritize_location =  7715
+					}
+				}
+			}
 		}
-	}
+	
 
 	#Focus for Denounce the Emperor
 	focus = {
@@ -2150,6 +2162,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		
 		}
 	}
 
@@ -2168,7 +2181,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 150
-			293 = { 
+			339 = { 
 				add_building_construction = {
 					type = arms_factory
 					level = 4
@@ -2196,6 +2209,12 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			set_temp_variable = { civil_war_strength = party_popularity@fascism }
+			multiply_temp_variable = { civil_war_strength = 100 }
+			start_civil_war = {
+				ideology = fascism
+				size = var:civil_war_strength
+			}
 		}
 	}
 	
@@ -2273,10 +2292,10 @@ focus_tree = {
 		}
 	}
 
-	#Focus for United Workers of Caovia
+	#Focus for United Workers of Caoivia
 	focus = {
-		id = CWE_united_workers_of_caovia
-		icon = GFX_united_workers_of_caovia
+		id = CWE_united_workers_of_caoivia
+		icon = GFX_united_workers_of_caoivia
 		x = 38
 		y = 6
 		cost = 5
@@ -2304,7 +2323,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_labor_party }
-		mutually_exclusive = { focus = CWE_united_workers_of_caovia }
+		mutually_exclusive = { focus = CWE_united_workers_of_caoivia }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -2321,7 +2340,7 @@ focus_tree = {
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_united_workers_of_the_protectorates focus = CWE_united_workers_of_caovia }
+		prerequisite = { focus = CWE_united_workers_of_the_protectorates focus = CWE_united_workers_of_caoivia }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -2507,6 +2526,7 @@ focus_tree = {
 				}
 		}
 	}
+	
 	#Focus for The Niska
 	focus = {
 		id = CWE_the_niska
@@ -2528,6 +2548,7 @@ focus_tree = {
 				}
 		}
 	}
+	
 	#Focus for The Devitt
 	focus = {
 		id = CWE_the_devitt
@@ -2550,6 +2571,7 @@ focus_tree = {
 				}
 		}
 	}
+	
 	#Focus for Integrate Militias
 	focus = {
 		id = CWE_integrate_militias
@@ -2770,24 +2792,24 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = armor
-				}
-				add_tech_bonus = {
-					bonus = 0.5
-					uses = 1
-					category = heavy_air
-					category = medium_air
-					category = light_air
-				}
-				add_doctrine_cost_reduction = {
-		name = land_doc_bonus
-		cost_reduction = 1
-		uses = 1
-		category = land_doctrine
-		}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = heavy_air
+				category = medium_air
+				category = light_air
+			}
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 1
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	#Focus for The Silverhand
@@ -2804,11 +2826,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_tech_bonus = {
-					bonus = 1
-					uses = 1
-					category = cat_medium_armor
-				}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_medium_armor
+			}
 		}
 	}
 	#Focus for The Dread Korps
@@ -2885,49 +2907,49 @@ focus_tree = {
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
 					prioritize_location =  7647
 					}
-					limit = { ROOT = { has_full_control_of_state = PREV } }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
 				create_unit = {
 					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
 					owner = CWE
@@ -3193,10 +3215,10 @@ focus_tree = {
 
 #Naval Technology
 
-#Focus for Caovish Naval Legacy
+#Focus for Caoivish Naval Legacy
 	focus = {
-		id = CWE_caovish_naval_legacy
-		icon = GFX_caovish_naval_legacy
+		id = CWE_caoivish_naval_legacy
+		icon = GFX_caoivish_naval_legacy
 		x = 55
 		y = 0
 		cost = 5
@@ -3207,7 +3229,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			add_ideas ={
-			CWE_caovish_naval_legacy
+			CWE_caoivish_naval_legacy
 			}
 		}
 	}
@@ -3219,14 +3241,14 @@ focus_tree = {
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_caovish_naval_legacy }
+		prerequisite = { focus = CWE_caoivish_naval_legacy }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = { 
 		swap_ideas = {
-			remove_idea = CWE_caovish_naval_legacy
+			remove_idea = CWE_caoivish_naval_legacy
 			add_idea = CWE_replaced_naval_doctrines
 		}
 	}
@@ -3406,7 +3428,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_wolf_packs focus = CWE_warm_water_ports }
-		mutually_exclusive = { focus = CWE_maintain_the_traditional_caovish_admiralty }
+		mutually_exclusive = { focus = CWE_maintain_the_traditional_caoivish_admiralty }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -3417,10 +3439,10 @@ focus_tree = {
 			}
 		}
 	}
-#Focus for Maintain the Traditional Caovish Admiralty
+#Focus for Maintain the Traditional caoivish Admiralty
 	focus = {
-		id = CWE_maintain_the_traditional_caovish_admiralty
-		icon = GFX_maintain_the_traditional_caovish_admiralty
+		id = CWE_maintain_the_traditional_caoivish_admiralty
+		icon = GFX_maintain_the_traditional_caoivish_admiralty
 		x = 56
 		y = 5
 		cost = 5
@@ -3445,7 +3467,7 @@ focus_tree = {
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = CWE_maintain_the_traditional_caovish_admiralty focus = CWE_induct_nievish_admiralty }
+		prerequisite = { focus = CWE_maintain_the_traditional_caoivish_admiralty focus = CWE_induct_nievish_admiralty }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
