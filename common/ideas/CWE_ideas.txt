@@ -595,7 +595,7 @@ ideas = {
 			modifier = {
 				breakthrough_factor = 0.15
 				army_attack_factor = 0.05
-				army_morale_factor = -0.1
+				army_morale_factor = 0.1
 			}
 		}
 		
@@ -634,8 +634,30 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_org_factor = 0.05
-				war_support_factor = 0.05
+				army_attack_factor = 0.5
+				army_defence_factor = 0.5
+			}
+
+		}
+		
+		CWE_strike_down_the_false = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.25
+				army_morale_factor = 0.25
+				war_support_factor = 0.3
 			}
 
 		}

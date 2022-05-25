@@ -1,2 +1,13 @@
 ﻿l_english:
  diminian_industry_idea_swap: "Changes -20% Stability to +20% Stability" 
+ 
+ #Warden tooltips
+ 82dk_focus_tooltip: "Trains §H12 Dread Korps §Wdivisions with §HSeasoned §Wveterancy."
+ hands_of_callahan_tooltip: "Trains §H12 Hands of Callahan §Wdivisions with §HSeasoned §Wveterancy."
+ nicevian_resources_tooltip: "Add §H25 oil resources §Wacross nicevian states."
+ southwestern_protectorate_tooltip: "Gain §Hcores §Won all states of Farranc Coast."
+ southeastern_protectorate_tooltip: "Gain §Hcores §Won all states of Endless Shore."
+ nevish_fascist_party_tooltip: "Trains §H6 Seven Sister §Wdivisions with §HRegular §Wveterancy."
+ denounce_the_emperor_tooltip: "Upon civil war start, adds the §HStrike Down the False §Wnational spirit, which grants (§G+25% §WAttack, §G-25% §WRecovery Rate, §G+30% §WWar Support) for 100 days."
+ seven_sisters_tooltips: "Upon civil war start, trains §H12 Seven Sister §Wdivisions with §HRegular §Wveterancy."
+ subjugate_protectorates_tooltips: "Upon civil war start, the player will retain control of all §HNecivin §Wand §HSoravian §Wstates

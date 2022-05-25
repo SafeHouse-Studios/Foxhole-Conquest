@@ -1,4 +1,7 @@
 focus_tree = {
+
+	set_variable = { fascist_war_support = 0.5 }
+	
 	id = 2
 	country = {
 		factor = 0
@@ -14,7 +17,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 10
 		y = 0
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -33,7 +36,7 @@ focus_tree = {
 		icon = GFX_godscroft_naval_bases
 		x = 10
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -51,7 +54,7 @@ focus_tree = {
 		icon = GFX_focus_rebuild_the_nation
 		x = 10
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_port_of_whedons_row }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -59,8 +62,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-
-			
+		
 		}
 	}
 
@@ -70,7 +72,7 @@ focus_tree = {
 		icon = GFX_focus_generic_africa_infrastructure
 		x = 10
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_repair_central_infastructure }		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -84,11 +86,7 @@ focus_tree = {
 					instant_build = yes
 
 				}
-
 			}
-
-			
-
 		}
 	}
 
@@ -98,7 +96,7 @@ focus_tree = {
 		icon = GFX_focus_fund_damokratos_rail_line
 		x = 10
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_elksford_rail_line }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -115,9 +113,6 @@ focus_tree = {
 				}
 
 			}
-
-			
-
 		}
 	}
 
@@ -127,7 +122,7 @@ focus_tree = {
 		icon = GFX_revive_the_ancient_capital
 		x = 10
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_create_the_lochan_birth_rail_hub }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -209,7 +204,7 @@ focus_tree = {
 		icon = GFX_reoccupy_the_ward
 		x = 10
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_revive_the_ancient_capital }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -260,7 +255,7 @@ focus_tree = {
 		
 		x = 10
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reoccupy_the_ward 
 						 date < 0785.01.01}
@@ -285,7 +280,7 @@ focus_tree = {
 		icon = GFX_godscroft_naval_bases
 		x = 8
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -343,7 +338,7 @@ focus_tree = {
 		icon = GFX_focus_generic_cruiser2
 		x = 8
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_port_of_ogmaran }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -389,7 +384,7 @@ focus_tree = {
 		icon = GFX_focus_generic_cruiser2
 		x = 8
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_port_of_buckler_sound }
 		mutually_exclusive = { focus = CWE_facilitate_heavy_arms_plants }
@@ -427,7 +422,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_1
 		x = 6
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_port_of_ogmaran }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -494,7 +489,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 6
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_forward_western_factories }
 		mutually_exclusive = { focus = CWE_skelter_course }
@@ -522,7 +517,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 7
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_facilitate_heavy_arms_plants focus = CWE_skelter_course }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -560,7 +555,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 7
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_build_the_ulster_dam }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -709,7 +704,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 3
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -728,7 +723,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 3
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_develop_nicevian_oil_fields }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -745,7 +740,7 @@ focus_tree = {
 		icon = GFX_focus_construct_new_ordnance_plants
 		x = 4
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_develop_snowfal_refineries }
 		mutually_exclusive = { focus = CWE_increase_labor_quotas }
@@ -768,7 +763,7 @@ focus_tree = {
 		icon = GFX_focus_generic_military_academy
 		x = 2
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_develop_snowfal_refineries }
 		mutually_exclusive = { focus = CWE_pace_extraction }
@@ -791,7 +786,7 @@ focus_tree = {
 		icon = GFX_godscroft_naval_bases
 		x = 12
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -830,7 +825,7 @@ focus_tree = {
 		icon = GFX_focus_generic_cruiser2
 		x = 12
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_port_of_viper_pit }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -861,7 +856,7 @@ focus_tree = {
 		icon = GFX_focus_generic_cruiser2
 		x = 12
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_port_of_rime }
 		mutually_exclusive = { focus = CWE_focus_land_infastructure_development }
@@ -879,7 +874,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		x = 14
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus =  CWE_the_port_of_viper_pit }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -896,7 +891,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 14
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_forward_eastern_factories }
 		mutually_exclusive = { focus = CWE_port_of_axehead }
@@ -914,7 +909,7 @@ focus_tree = {
 		icon = GFX_legion_of_liberty
 		x = 13
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_focus_land_infastructure_development focus = CWE_port_of_axehead }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -952,7 +947,7 @@ focus_tree = {
 		icon = GFX_focus_invest_in_therizian_industry
 		x = 13
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_smokestacks_of_maldens_veil }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -969,7 +964,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 17
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_council_on_industrial_development }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -985,7 +980,7 @@ focus_tree = {
 		icon = GFX_goal_generic_soviet_construction
 		x = 17
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_develop_soravian_aluminium_mines }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -1001,7 +996,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		x = 16
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_forges_of_red_chapel }
 		mutually_exclusive = { focus = CWE_balanced_development }
@@ -1018,7 +1013,7 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 18
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_forges_of_red_chapel }
 		mutually_exclusive = { focus = CWE_rapid_development }
@@ -1038,7 +1033,7 @@ focus_tree = {
 		icon = GFX_focus_up_joan_of_arc
 		x = 30
 		y = 0
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
@@ -1055,7 +1050,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		x = 24
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_divine_right }
@@ -1079,7 +1074,7 @@ focus_tree = {
 		icon = GFX_focus_BUL_form_a_regency_council
 		x = 24
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_imperial_truth }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1098,7 +1093,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 22
 		y = 3
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1120,7 +1115,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		x = 24
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_depower_the_council }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1142,7 +1137,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 26
 		y = 3
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1163,7 +1158,7 @@ focus_tree = {
 		icon = GFX_focus_secret_rearmament
 		x = 24
 		y = 4
-		cost = 5
+		cost = 1
 		available = {
 			democratic > 0.3
 		}
@@ -1183,7 +1178,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_sphere
 		x = 24
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_resistance }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1200,7 +1195,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		x = 23
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_secure_military_support }
 		mutually_exclusive = { focus = CWE_continue_the_southern_crusade }
@@ -1218,7 +1213,7 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		x = 23
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_secure_colonial_support }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1235,7 +1230,7 @@ focus_tree = {
 		icon = GFX_focus_jap_strike_south
 		x = 25
 		y = 6
-		cost = 5
+		cost = 1
 		available = {
 			has_war_support > 0.8
 		}
@@ -1256,7 +1251,7 @@ focus_tree = {
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 25
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_continue_the_southern_crusade }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1276,7 +1271,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_1
 		x = 23
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1293,7 +1288,7 @@ focus_tree = {
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = 25
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_two_front_strife focus = CWE_the_greater_evil }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1313,7 +1308,7 @@ focus_tree = {
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 24
 		y = 9
-		cost = 5
+		cost = 1
 		available = {
 			democratic > 0.6
 			date > 0785.01.01
@@ -1334,7 +1329,7 @@ focus_tree = {
 		icon = GFX_focus_rom_abdicate
 		x = 24
 		y = 10
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_lighting_of_the_torch }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1345,9 +1340,7 @@ focus_tree = {
 			NOT = { has_war_with = CWE }
 		}
 		completion_reward = {
-			add_ideas ={
-				Death_to_the_False_Emperor
-			}
+			add_timed_idea = { idea = CWE_death_to_the_false_emperor days = 75 }
 		}
 	}
 
@@ -1357,7 +1350,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		x = 24
 		y = 11
-		cost = 5
+		cost = 1
 		available = {
 			NOT = { has_war_with = CWE }
 			date > 0786.01.01
@@ -1381,7 +1374,7 @@ focus_tree = {
 		icon = GFX_focus_generic_monarchy_2
 		x = 30
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_imperial_truth }
@@ -1406,7 +1399,7 @@ focus_tree = {
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 30
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_divine_right }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1428,7 +1421,7 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		x = 29
 		y = 3
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 403
 		}
@@ -1451,7 +1444,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 29
 		y = 4
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1462,27 +1455,30 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource = {
-				type = oil
-				amount = 10
-				state = 267
+			custom_effect_tooltip = nicevian_resources_tooltip
+		
+			hidden_effect = {
+				add_resource = {
+					type = oil
+					amount = 10
+					state = 267
+				}
+				add_resource = {
+					type = oil
+					amount = 8
+					state = 268
+				}
+				add_resource = {
+					type = oil
+					amount = 4
+					state = 269
+				}
+				add_resource = {
+					type = oil
+					amount = 3
+					state = 270
+				}
 			}
-			add_resource = {
-				type = oil
-				amount = 8
-				state = 268
-			}
-			add_resource = {
-				type = oil
-				amount = 4
-				state = 269
-			}
-			add_resource = {
-				type = oil
-				amount = 3
-				state = 270
-			}
-
 		}
 	}
 	#Focus for The Imperial Army
@@ -1491,7 +1487,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		x = 31
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_maintain_royal_authority }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1508,7 +1504,7 @@ focus_tree = {
 		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 31
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_imperial_army }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1525,7 +1521,7 @@ focus_tree = {
 		icon = GFX_focus_generic_monarchy_1
 		x = 30
 		y = 5
-		cost = 5
+		cost = 1
 		available = {
 			neutrality > 0.5
 		}
@@ -1550,7 +1546,7 @@ focus_tree = {
 		icon = GFX_focus_generic_little_entente
 		x = 30
 		y = 6
-		cost = 5
+		cost = 1
 		available ={
 			neutrality > 0.7
 			has_war_support > 0.7
@@ -1562,104 +1558,108 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			division_template = {	
-					name = "Hands of Callahan"
-					division_names_group = CWE_INF_01
+			custom_effect_tooltip = hands_of_callahan_tooltip
+		
+			hidden_effect = {
+				division_template = {	
+						name = "Hands of Callahan"
+						division_names_group = CWE_INF_01
 
-					regiments = {
-						mountaineers = { x = 0 y = 0 }
-						mountaineers = { x = 0 y = 1 }
-						mountaineers = { x = 0 y = 2 }
-						mountaineers = { x = 0 y = 3 }
-						mountaineers = { x = 0 y = 4 }
+						regiments = {
+							mountaineers = { x = 0 y = 0 }
+							mountaineers = { x = 0 y = 1 }
+							mountaineers = { x = 0 y = 2 }
+							mountaineers = { x = 0 y = 3 }
+							mountaineers = { x = 0 y = 4 }
+			
+							mountaineers = { x = 1 y = 0 }
+							mountaineers = { x = 1 y = 1 }
+							mountaineers = { x = 1 y = 2 }
+							mountaineers = { x = 1 y = 3 }
+							mountaineers = { x = 1 y = 4 }
+			
+							mechanized = { x = 2 y = 0 }
+							mechanized = { x = 2 y = 1 }
+							mot_artillery_brigade = { x = 2 y = 2 }
+							mot_artillery_brigade = { x = 2 y = 3 }
+							mot_anti_air_brigade = { x = 2 y = 4 }
+			
+							medium_tank_destroyer_brigade = { x = 3 y = 0 }
+							medium_sp_artillery_brigade = { x = 3 y = 1 }
+							
+							armored_car = { x = 4 y = 0 }
+							armored_car = { x = 4 y = 1 }
+						}
 		
-						mountaineers = { x = 1 y = 0 }
-						mountaineers = { x = 1 y = 1 }
-						mountaineers = { x = 1 y = 2 }
-						mountaineers = { x = 1 y = 3 }
-						mountaineers = { x = 1 y = 4 }
-		
-						mechanized = { x = 2 y = 0 }
-						mechanized = { x = 2 y = 1 }
-						mot_artillery_brigade = { x = 2 y = 2 }
-						mot_artillery_brigade = { x = 2 y = 3 }
-						mot_anti_air_brigade = { x = 2 y = 4 }
-		
-						medium_tank_destroyer_brigade = { x = 3 y = 0 }
-						medium_sp_artillery_brigade = { x = 3 y = 1 }
-						
-						armored_car = { x = 4 y = 0 }
-						armored_car = { x = 4 y = 1 }
+						support = {
+							engineer = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							mot_recon  = { x = 0 y = 2 }
+						}
 					}
-	
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-						mot_recon  = { x = 0 y = 2 }
+					
+				293 = {
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
 					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8"
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}
+					create_unit = {
+						division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+					}			
 				}
-				
-			293 = {
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}
-				create_unit = {
-					division = "name = \"Hands of Callahan Division\" division_template = \"Hands of Callahan\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-				}			
 			}
 		}
 	}
@@ -1670,7 +1670,7 @@ focus_tree = {
 		icon = GFX_focus_generic_self_management
 		x = 29
 		y = 7
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1681,12 +1681,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_state_core = 1
-			add_state_core = 11
-			add_state_core = 10
-			add_state_core = 13
-			add_state_core = 14
-			add_state_core = 15
+			custom_effect_tooltip = southwestern_protectorate_tooltip
+		
+			hidden_effect = {
+				add_state_core = 1
+				add_state_core = 11
+				add_state_core = 10
+				add_state_core = 13
+				add_state_core = 14
+				add_state_core = 15
+			}
 		}
 	}
 	#Focus for Southeastern Protectorate State
@@ -1695,7 +1699,7 @@ focus_tree = {
 		icon = GFX_focus_generic_self_management
 		x = 31
 		y = 7
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1706,13 +1710,17 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_state_core = 208
-		add_state_core = 209
-		add_state_core = 210
-		add_state_core = 211
-		add_state_core = 213
-		add_state_core = 214
-		add_state_core = 215
+			custom_effect_tooltip = southeastern_protectorate_tooltip
+		
+			hidden_effect = {
+				add_state_core = 208
+				add_state_core = 209
+				add_state_core = 210
+				add_state_core = 211
+				add_state_core = 213
+				add_state_core = 214
+				add_state_core = 215
+			}
 		}
 	}
 	
@@ -1722,7 +1730,7 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		x = 30
 		y = 8
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 		}
@@ -1746,7 +1754,7 @@ focus_tree = {
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 30
 		y = 9
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 113
 			controls_state = 65
@@ -1770,7 +1778,7 @@ focus_tree = {
 		icon = GFX_focus_GRE_a_land_of_mountains
 		x = 28
 		y = 8
-		cost = 5
+		cost = 1
 		available = {
 			NOT = { controls_state = 235 }
 			OR = {
@@ -1807,7 +1815,7 @@ focus_tree = {
 		icon = GFX_focus_generic_home_defense
 		x = 28
 		y = 9
-		cost = 5
+		cost = 1
 		available = {
 			OR = {
 				NOT = { 
@@ -1835,7 +1843,7 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_allies
 		x = 29
 		y = 10
-		cost = 5
+		cost = 1
 		available = {
 			date > 0786.01.01
 		}
@@ -1859,7 +1867,7 @@ focus_tree = {
 		icon = GFX_embrace_caoivish_populism
 		x = 37
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_state_of_the_empire }
 		mutually_exclusive = { focus = CWE_the_imperial_truth }
@@ -1888,7 +1896,7 @@ focus_tree = {
 		icon = GFX_question_the_regime
 		x = 37
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_embrace_caoivish_populism }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1909,7 +1917,7 @@ focus_tree = {
 		icon = GFX_destabilize_the_council
 		x = 36
 		y = 3
-		cost = 5
+		cost = 1
 		available ={ 
 			has_government = neutrality
 		}
@@ -1939,7 +1947,7 @@ focus_tree = {
 		icon = GFX_prosecute_the_noble_class
 		x = 38
 		y = 3
-		cost = 5
+		cost = 1
 		available ={ 
 			has_government = neutrality
 		}
@@ -1965,7 +1973,7 @@ focus_tree = {
 		icon = GFX_the_peoples_party
 		x = 37
 		y = 4
-		cost = 5
+		cost = 1
 		available ={ 
 			neutrality < 0.5
 		}
@@ -1990,7 +1998,7 @@ focus_tree = {
 		icon = GFX_shift_the_paradigm
 		x = 36
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_peoples_party }
 		mutually_exclusive = { focus = CWE_the_labor_party }
@@ -2012,7 +2020,7 @@ focus_tree = {
 		icon = GFX_caoivish_fascist_movement
 		x = 36
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_shift_the_paradigm }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2035,7 +2043,7 @@ focus_tree = {
 		icon = GFX_impose_authoritarian_council_members
 		x = 36
 		y = 7
-		cost = 5
+		cost = 1
 		available = {
 			fascism > 0.3
 		}
@@ -2059,7 +2067,7 @@ focus_tree = {
 		icon = GFX_from_the_seven_sisters
 		x = 34
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_impose_authoritarian_council_members }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2067,7 +2075,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
+			custom_effect_tooltip = seven_sisters_tooltips
 		}
 	}
 
@@ -2077,7 +2085,7 @@ focus_tree = {
 		icon = GFX_subjugate_protectorates
 		x = 34
 		y = 9
-		cost = 5
+		cost = 1
 		available = {
 			fascism > 0.4
 			controls_state = 293
@@ -2091,6 +2099,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			custom_effect_tooltip = subjugate_protectorates_tooltotip
 		}
 	}
 
@@ -2100,7 +2109,7 @@ focus_tree = {
 		icon = GFX_the_nevish_fascist_party
 		x = 33
 		y = 10
-		cost = 5
+		cost = 1
 		available = {
 			fascism > 0.5
 			controls_state = 293
@@ -2112,40 +2121,13 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			269 = {
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				create_unit = {
-					division = "name = \"Seven Sisters Division\" division_template = \"Seven Sisters Division\" start_experience_factor = 2" 
-					owner = CWE
-					prioritize_location =  7715
-					}
-				}
+			custom_effect_tooltip = nevish_fascist_party_tooltip
+		
+			hidden_effect = {
+				load_oob = "CWE_nevish_party"
 			}
 		}
+	}
 	
 
 	#Focus for Denounce the Emperor
@@ -2154,7 +2136,7 @@ focus_tree = {
 		icon = GFX_denounce_the_emperor
 		x = 36
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_impose_authoritarian_council_members }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2162,7 +2144,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
+			custom_effect_tooltip = denounce_the_emperor_tooltip
 		}
 	}
 
@@ -2172,7 +2154,7 @@ focus_tree = {
 		icon = GFX_the_kirknell_authority
 		x = 36
 		y = 9
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_denounce_the_emperor }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2197,7 +2179,7 @@ focus_tree = {
 		icon = GFX_slay_the_eagle
 		x = 35
 		y = 10
-		cost = 5
+		cost = 1
 		available = {
 			fascism > 0.6
 			date > 0785.01.01
@@ -2209,11 +2191,31 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			set_temp_variable = { civil_war_strength = party_popularity@fascism }
-			multiply_temp_variable = { civil_war_strength = 100 }
+		
+		 	set_variable = { fascist_war_support = 0.5 }
+			
 			start_civil_war = {
 				ideology = fascism
-				size = var:civil_war_strength
+				size = fascist_war_support
+			}
+			
+			hidden_effect = {
+			
+				IF = { has_completed_focus = CWE_impose_authoritarian_council_members
+					add_to_variable = { fascist_war_support = 0.1 }
+				}
+				
+				IF = { has_completed_focus = CWE_denounce_the_emperor
+					add_timed_idea = { CWE_strike_down_the_false 100 }
+				}
+				
+				IF = { has_completed_focus = CWE_from_the_seven_sisters
+					load_oob = "CWE_fascist_civil_war"
+				}
+			
+				IF = { has_completed_focus = CWE_subjugate_protectorates
+					set_state_owner =  258 266 267 268 269 270 271 272 273 400 400 404 405 406 407 408 409 
+				}
 			}
 		}
 	}
@@ -2224,7 +2226,7 @@ focus_tree = {
 		icon = GFX_the_viper_strikes_Southward
 		x = 35
 		y = 11
-		cost = 5
+		cost = 1
 		available = {
 			NOT = { has_war_with = CWE }
 			date > 0786.01.01
@@ -2245,7 +2247,7 @@ focus_tree = {
 		icon = GFX_repair_the_nation
 		x = 37
 		y = 11
-		cost = 5
+		cost = 1
 		available = {
 			NOT = { has_war_with = CWE }
 		}
@@ -2269,7 +2271,7 @@ focus_tree = {
 		icon = GFX_the_labor_party
 		x = 38
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_peoples_party }
 		mutually_exclusive = { focus = CWE_shift_the_paradigm }
@@ -2298,7 +2300,7 @@ focus_tree = {
 		icon = GFX_united_workers_of_caoivia
 		x = 38
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_labor_party }
 		mutually_exclusive = { focus = CWE_united_workers_of_the_protectorates}
@@ -2316,7 +2318,7 @@ focus_tree = {
 		icon = GFX_united_workers_of_the_protectorates
 		x = 40
 		y = 6
-		cost = 5
+		cost = 1
 		available = {
 			controls_state = 293
 			controls_state = 293
@@ -2338,7 +2340,7 @@ focus_tree = {
 		icon = GFX_the_labor_wardens
 		x = 39
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_united_workers_of_the_protectorates focus = CWE_united_workers_of_caoivia }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2361,7 +2363,7 @@ focus_tree = {
 		icon = GFX_prepare_the_red_guard
 		x = 38
 		y = 8
-		cost = 5
+		cost = 1
 		available = {
 			communism > 0.4
 		}
@@ -2381,7 +2383,7 @@ focus_tree = {
 		icon = GFX_prepare_weapon_caches
 		x = 40
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_the_labor_wardens }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2398,7 +2400,7 @@ focus_tree = {
 		icon = GFX_revolutionary_spirit
 		x = 39
 		y = 9
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = {focus = CWE_prepare_weapon_caches focus = CWE_prepare_the_red_guard }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -2420,7 +2422,7 @@ focus_tree = {
 		icon = GFX_the_great_struggle
 		x = 39
 		y = 10
-		cost = 5
+		cost = 1
 		available = {
 			communism > 0.6
 			date > 0785.01.01
@@ -2441,7 +2443,7 @@ focus_tree = {
 		icon = GFX_export_the_revolution
 		x = 39
 		y = 11
-		cost = 5
+		cost = 1
 		available = {
 			NOT = { has_war_with = CWE }
 			date > 0786.01.01
@@ -2468,7 +2470,7 @@ focus_tree = {
 		icon = GFX_focus_empower_the_war_council
 		x = 47
 		y = 0
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
@@ -2488,7 +2490,7 @@ focus_tree = {
 		icon = GFX_focus_militaristic_transformation
 		x = 45
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_empower_the_war_council }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2511,7 +2513,7 @@ focus_tree = {
 		icon = GFX_focus_armored_car_battalions
 		x = 43
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_militaristic_transformation }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2533,7 +2535,7 @@ focus_tree = {
 		icon = GFX_focus_the_niska
 		x = 43
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_armored_car_battalions }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2555,7 +2557,7 @@ focus_tree = {
 		icon = GFX_focus_the_devitt
 		x = 43
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_niska }
 		available = { date > 0784.01.01 }
@@ -2578,7 +2580,7 @@ focus_tree = {
 		icon = GFX_integrate_militias
 		x = 45
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_militaristic_transformation }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2598,7 +2600,7 @@ focus_tree = {
 		icon = GFX_infantry_innovations
 		x = 45
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_integrate_militias }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2627,7 +2629,7 @@ focus_tree = {
 		icon = GFX_warden_shock_army
 		x = 45
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_infantry_innovations }
 		available = { date > 0784.01.01 }
@@ -2650,7 +2652,7 @@ focus_tree = {
 		icon = GFX_restructured_command
 		x = 47
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_militaristic_transformation }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2669,7 +2671,7 @@ focus_tree = {
 		icon = GFX_establish_warden_officer_academy
 		x = 47
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_restructured_command }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2686,7 +2688,7 @@ focus_tree = {
 		icon = GFX_command_protocols
 		x = 47
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_establish_warden_officer_academy }
 		available = { date > 0784.01.01 }
@@ -2712,7 +2714,7 @@ focus_tree = {
 		icon = GFX_the_warden_military
 		x = 45
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_command_protocols focus = CWE_warden_shock_army focus = CWE_the_devitt }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2735,7 +2737,7 @@ focus_tree = {
 		icon = GFX_focus_the_flood
 		x = 43
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_warden_military }
 		prerequisite = { focus = CWE_the_devitt }
@@ -2757,7 +2759,7 @@ focus_tree = {
 		icon = GFX_warden_artillery_batteries
 		x = 45
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_warden_military }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2783,7 +2785,7 @@ focus_tree = {
 		icon = GFX_combined_arms_doctrine
 		x = 47
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_warden_military }
 		prerequisite = { focus = CWE_command_protocols }
@@ -2818,7 +2820,7 @@ focus_tree = {
 		icon = GFX_focus_the_silverhand
 		x = 43
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_flood }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2839,7 +2841,7 @@ focus_tree = {
 		icon = GFX_the_dread_korps
 		x = 45
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_warden_artillery_batteries }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -2847,115 +2849,119 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			division_template = {	
-					name = "82nd Dread Korps"
-					division_names_group = MCA_INF_01
+			custom_effect_tooltip = 82dk_focus_tooltip
+			
+			hidden_effect = {
+				division_template = {	
+						name = "82nd Dread Korps"
+						division_names_group = MCA_INF_01
 
-					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 0 y = 2 }
-						infantry = { x = 0 y = 3 }
-						infantry = { x = 0 y = 4 }
-		
-						infantry = { x = 1 y = 0 }
-						infantry = { x = 1 y = 1 }
-						infantry = { x = 1 y = 2 }
-						infantry = { x = 1 y = 3 }
-						infantry = { x = 1 y = 4 }
-		
-						infantry = { x = 2 y = 0 }
-						artillery_brigade = { x = 2 y = 1 }
-						artillery_brigade = { x = 2 y = 2 }
-						artillery_brigade = { x = 2 y = 3 }
-						artillery_brigade = { x = 2 y = 4 }
-		
-						medium_sp_artillery_brigade = { x = 3 y = 0 }
-						medium_sp_artillery_brigade = { x = 3 y = 1 }
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
+			
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
+			
+							infantry = { x = 2 y = 0 }
+							artillery_brigade = { x = 2 y = 1 }
+							artillery_brigade = { x = 2 y = 2 }
+							artillery_brigade = { x = 2 y = 3 }
+							artillery_brigade = { x = 2 y = 4 }
+			
+							medium_sp_artillery_brigade = { x = 3 y = 0 }
+							medium_sp_artillery_brigade = { x = 3 y = 1 }
 
+						}
+		
+						support = {
+							engineer = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							logistics_company  = { x = 0 y = 2 }
+						}
 					}
-	
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-						logistics_company  = { x = 0 y = 2 }
+					
+					293 = { 
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					create_unit = {
+						division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 0.8" 
+						owner = CWE
+						prioritize_location =  7647
+						}
 					}
-				}
-				
-				293 = { 
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				limit = { ROOT = { has_full_control_of_state = PREV } }
-				create_unit = {
-					division = "name = \"82nd Dread Korps Division\" division_template = \"82nd Dread Korps\" start_experience_factor = 3.0" 
-					owner = CWE
-					prioritize_location =  7647
-					}
-				}
+			}
 		}
 	}
 	#Focus for Final Offensive Doctrine
@@ -2964,7 +2970,7 @@ focus_tree = {
 		icon = GFX_final_offensive_doctrine
 		x = 47
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_combined_arms_doctrine }
 		available = { date > 0785.01.01 }
@@ -2985,7 +2991,7 @@ focus_tree = {
 		icon = GFX_guardians_of_the_north
 		x = 45
 		y = 8
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_final_offensive_doctrine }
 		prerequisite = { focus = CWE_the_dread_korps }
@@ -3010,7 +3016,7 @@ focus_tree = {
 		icon = GFX_warden_aviation_initiative
 		x = 49
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_empower_the_war_council }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3040,7 +3046,7 @@ focus_tree = {
 		icon = GFX_the_eagles_beak
 		x = 49
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_warden_aviation_initiative }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3063,7 +3069,7 @@ focus_tree = {
 		icon = GFX_fighter_focus
 		x = 49
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_eagles_beak }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3086,7 +3092,7 @@ focus_tree = {
 		icon = GFX_the_eagles_talon
 		x = 51
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_warden_aviation_initiative }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3108,7 +3114,7 @@ focus_tree = {
 		icon = GFX_the_manticore
 		x = 51
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_eagles_talon }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3129,7 +3135,7 @@ focus_tree = {
 		icon = GFX_form_squadron_command
 		x = 50
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_manticore focus = CWE_fighter_focus }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3151,7 +3157,7 @@ focus_tree = {
 		icon = GFX_heavy_bomber_development
 		x = 49
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_form_squadron_command }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3172,7 +3178,7 @@ focus_tree = {
 		icon = GFX_naval_bomber_development
 		x = 51
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_form_squadron_command }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3193,7 +3199,7 @@ focus_tree = {
 		icon = GFX_skyborne_battalions
 		x = 50
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_naval_bomber_development }
 		prerequisite = { focus = CWE_heavy_bomber_development }
@@ -3221,7 +3227,7 @@ focus_tree = {
 		icon = GFX_caoivish_naval_legacy
 		x = 55
 		y = 0
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
@@ -3239,7 +3245,7 @@ focus_tree = {
 		icon = GFX_replace_traditional_naval_doctrine
 		x = 55
 		y = 1
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_caoivish_naval_legacy }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3259,7 +3265,7 @@ focus_tree = {
 		icon = GFX_reinforce_ports_of_the_aging_ocean
 		x = 53
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3288,7 +3294,7 @@ focus_tree = {
 		icon = GFX_reinforce_ports_of_the_endless_sea
 		x = 53
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_reinforce_ports_of_the_aging_ocean }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3305,7 +3311,7 @@ focus_tree = {
 		icon = GFX_capital_ship_focus
 		x = 55
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
 		mutually_exclusive = { focus = CWE_destroyer_focus }
@@ -3322,7 +3328,7 @@ focus_tree = {
 		icon = GFX_dreadnought_development
 		x = 55
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_capital_ship_focus }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3339,7 +3345,7 @@ focus_tree = {
 		icon = GFX_destroyer_focus
 		x = 57
 		y = 2
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_replace_traditional_naval_doctrine }
 		mutually_exclusive = { focus = CWE_capital_ship_focus }
@@ -3356,7 +3362,7 @@ focus_tree = {
 		icon = GFX_the_ronan
 		x = 57
 		y = 3
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_destroyer_focus }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3373,7 +3379,7 @@ focus_tree = {
 		icon = GFX_warm_water_ports
 		x = 53
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3389,7 +3395,7 @@ focus_tree = {
 		icon = GFX_wolf_packs
 		x = 55
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3408,7 +3414,7 @@ focus_tree = {
 		icon = GFX_the_meterora
 		x = 57
 		y = 4
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3425,7 +3431,7 @@ focus_tree = {
 		icon = GFX_induct_nievish_admiralty
 		x = 54
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_wolf_packs focus = CWE_warm_water_ports }
 		mutually_exclusive = { focus = CWE_maintain_the_traditional_caoivish_admiralty }
@@ -3445,7 +3451,7 @@ focus_tree = {
 		icon = GFX_maintain_the_traditional_caoivish_admiralty
 		x = 56
 		y = 5
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_wolf_packs focus = CWE_the_meterora }
 		mutually_exclusive = { focus = CWE_induct_nievish_admiralty }
@@ -3465,7 +3471,7 @@ focus_tree = {
 		icon = GFX_the_warden_navy
 		x = 55
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_maintain_the_traditional_caoivish_admiralty focus = CWE_induct_nievish_admiralty }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -3481,7 +3487,7 @@ focus_tree = {
 		icon = GFX_naval_supremacy
 		x = 55
 		y = 7
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CWE_the_warden_navy }
 		search_filters = { FOCUS_FILTER_RESEARCH } 

@@ -34,61 +34,37 @@ division_template = {
 units = {
 	division = {
 		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
-		division_template = "Seven Sisters Division"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Seven Sisters Division"
+		location = 7715
 		division_template = "Seven Sisters Division"
 		start_experience_factor = 0.2
 	}

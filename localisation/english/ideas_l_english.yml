@@ -221,7 +221,7 @@
  CWE_peoples_party_desc:0 "The people's party continues its growth by attacking the conservative old government."
  CWE_fascist_shift:0 "Fascist Shift"
  CWE_fascist_shift_desc:0 "The People's Party shift to it's more fascist elements have become overwhelmingly more popular than the communist ones, overtaking the faction and the nation."
- CWE_strike_down_the_false:0 "Strike Down the Fals"
+ CWE_strike_down_the_false:0 "Strike Down the False"
  CWE_strike_down_the_false_desc:0 "Our long time enemies and traitors to our nation can finally be dealt with as our strong people rise up, and we shall seize this opportunity with ideological fanaticism."
  CWE_fascist_ethos:0 "Fascist Ethos"
  CWE_fascist_ethos_desc:0 "The ideological fanaticism can be unleashed as our soldiers march forth with a fire in their hearts."
@@ -237,6 +237,8 @@
  CWE_soravian_involvement_desc:0 ""
  CWE_nevish_alliance:0 "Nevish Alliance"
  CWE_nevish_alliance_desc:0 ""
+ CWE_strike_down_the_false:0 "Strike Down the False"
+ CWE_strike_down_the_false_desc:0 ""
  
  ###Country Leaders###
  POLITICS_IAN_CALLAHAN_DESC:0 "Ian Callahan holds the title of Archeon, the divine right, and the claim to the imperial throne. Callahan has led his people with honor and distinction for centuries and is responsible for many great feats such as the construction of the Bulwark. Although worshiped as a god emperor, he leads his empire through a council of ruling elite whilst his current status is limited to only enigmatic rumors. Despite his shadowy position, thousands of Caoivish find the power to crush their enemies simply through their zeal and belief in Callahan and through his genius the empire subsists to this day."
