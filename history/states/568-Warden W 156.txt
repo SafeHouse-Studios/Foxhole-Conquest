@@ -2,14 +2,16 @@
 state={
 	id=568
 	name="STATE_568"
+
+	history={
+		owner = CWE
+
+	}
+
 	provinces={
 		8007 11655 11661 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	history={
-		owner = CWE
-
-	}
 }

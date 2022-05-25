@@ -1,0 +1,18 @@
+
+state={
+	id=401
+	name="STATE_401"
+
+	history={
+		owner = CWE
+
+	}
+
+	provinces={
+		203 307 3567 7830 8955 8983 9010 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = CWE
+
+	}
+
+	provinces={
+		1022 2842 4114 4687 5754 7251 7278 8540 8639 8641 8683 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

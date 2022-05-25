@@ -1,0 +1,15 @@
+
+state={
+	id=728
+	name="STATE_728"
+	provinces={
+		731 1355 2623 2961 5303 5897 9049 9073 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}

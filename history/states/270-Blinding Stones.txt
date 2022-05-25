@@ -1,16 +1,18 @@
+
 state={
 	id=270
 	name="STATE_270"
+
+	history={
+		owner = CWE
+
+	}
+
 	provinces={
 		972 1549 1949 4305 4657 9859 
 	}
 	manpower=1000
-
-	state_category = town
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-	history = {
-		owner = CWE
-		
-	}
 }

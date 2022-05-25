@@ -1,0 +1,17 @@
+
+state={
+	id=620
+	name="STATE_620"
+
+	history={
+		owner = CWE
+
+	}
+
+	provinces={
+		311 716 2130 3513 7234 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

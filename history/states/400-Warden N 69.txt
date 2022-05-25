@@ -1,0 +1,18 @@
+
+state={
+	id=400
+	name="STATE_400"
+
+	history={
+		owner = CWE
+
+	}
+
+	provinces={
+		3 377 4634 4888 8226 8864 8948 8956 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=624
+	name="STATE_624"
+	provinces={
+		33 2675 2935 4055 4498 7325 9009 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}
