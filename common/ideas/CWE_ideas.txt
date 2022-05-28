@@ -396,14 +396,17 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				experience_gain_navy_factor = 0.25
+				experience_gain_navy_factor = 0.4
 				industrial_capacity_dockyard = -0.1
 				production_speed_dockyard_factor = -0.1
 			}
+			research_bonus = {
+				naval_equipment = -0.1
+			}
 
 		}
-		
-		CWE_replaced_naval_doctrines = {
+
+		CWE_caoivish_naval_legacy_idea = {
 			
 			allowed = {
 				original_tag = CWE
@@ -418,11 +421,31 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				experience_gain_navy_factor = 0.5
-				industrial_capacity_dockyard = -0.1
-				production_speed_dockyard_factor = -0.1
+				experience_gain_navy_factor = 0.4
+				
 			}
+			research_bonus = {
+				naval_equipment = 0
+			}
+			
 
+		}
+
+		CWE_mixed_admiralty = {
+			allowed = {
+				original_tag = CWE
+			}
+			allow_civil_war = {
+				always = yes
+			}
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				spotting = 0.15
+				
+			}
 		}
 
 		CWE_major_trade_hub_idea = {
