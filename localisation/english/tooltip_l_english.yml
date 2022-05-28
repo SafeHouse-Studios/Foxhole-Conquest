@@ -7,7 +7,13 @@
  nicevian_resources_tooltip: "Add §H25 oil resources §Wacross nicevian states."
  southwestern_protectorate_tooltip: "Gain §Hcores §Won all states of Farranc Coast."
  southeastern_protectorate_tooltip: "Gain §Hcores §Won all states of Endless Shore."
+ repair_the_nation_tooltip1: "Gains §HRepair the nation §Wwhich grants (§G+50% §Wrepair speed) for 350 days"
+ 
+ #fascists line
  nevish_fascist_party_tooltip: "Trains §H6 Seven Sister §Wdivisions with §HRegular §Wveterancy."
+ authoritarian_council_tooltip: "Upon civil war start, the player will retain control of §H10% §Wmore §Hdivisions §Wand §Hterritory"
  denounce_the_emperor_tooltip: "Upon civil war start, adds the §HStrike Down the False §Wnational spirit, which grants (§G+25% §WAttack, §G-25% §WRecovery Rate, §G+30% §WWar Support) for 100 days."
- seven_sisters_tooltips: "Upon civil war start, trains §H12 Seven Sister §Wdivisions with §HRegular §Wveterancy."
- subjugate_protectorates_tooltips: "Upon civil war start, the player will retain control of all §HNecivin §Wand §HSoravian §Wstates
+ seven_sisters_tooltip: "Upon civil war start, trains §H12 Seven Sister §Wdivisions with §HRegular §Wveterancy."
+ subjugate_protectorates_tooltip: "Upon civil war start, the fascists will retain control of all §HNicevin §Wand §HSoravian §Wstates"
+ 
+ 
