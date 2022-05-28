@@ -1,0 +1,15 @@
+
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		86 2682 4785 4896 4933 5624 5828 7857 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}

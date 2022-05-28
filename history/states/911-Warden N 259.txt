@@ -1,0 +1,15 @@
+
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		967 1559 4434 4470 4630 5495 7225 7290 9678 9779 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}

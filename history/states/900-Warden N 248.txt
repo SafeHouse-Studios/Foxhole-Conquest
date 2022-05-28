@@ -1,0 +1,15 @@
+
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		67 208 538 1945 3603 5034 7754 8238 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}
