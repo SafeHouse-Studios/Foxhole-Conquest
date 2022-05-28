@@ -1,4 +1,6 @@
 focus_tree = {
+
+	set_variable = { fascist_war_support = 0.5 }
 	
 	id = 2
 	country = {
@@ -130,14 +132,19 @@ focus_tree = {
 		completion_reward = {
 
 			352 = {
+
 				add_building_construction = {
+
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
+
 			352 = {
+
 				add_building_construction = {
+
 					type = bunker
 					level = 2
 					province = { 
@@ -145,15 +152,20 @@ focus_tree = {
 					}
 				}
 			}
+			
 			354 = {
+
 				add_building_construction = {
+
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
 			354 = {
+
 				add_building_construction = {
+
 					type = bunker
 					level = 2
 					province = {
@@ -161,15 +173,20 @@ focus_tree = {
 					}
 				}
 			}
+			
 			355 = {
+
 				add_building_construction = {
+
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
 			355 = {
+
 				add_building_construction = {
+
 					type = bunker
 					level = 2
 					province = {
@@ -2041,7 +2058,6 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.1
 			}
-			custom_effect_tooltip = authoritarian_council_tooltip
 		}
 	}
 
@@ -2059,7 +2075,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			custom_effect_tooltip = seven_sisters_tooltip
+			custom_effect_tooltip = seven_sisters_tooltips
 		}
 	}
 
@@ -2083,7 +2099,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			custom_effect_tooltip = subjugate_protectorates_tooltip
+			custom_effect_tooltip = subjugate_protectorates_tooltotip
 		}
 	}
 
@@ -2176,59 +2192,30 @@ focus_tree = {
 		}
 		completion_reward = {
 		
-		 	#set_variable = { fascist_war_support = 0.5 }
+		 	set_variable = { fascist_war_support = 0.5 }
 			
-			hidden_effect = {
-			
-				IF = { 
-					limit = { 
-						has_completed_focus = CWE_impose_authoritarian_council_members
-						}
-					set_variable = { fascist_war_support = 0.6 }
-					ELSE = {
-						set_variable = { fascist_war_support = 0.5 }
-					}
-				}
-				
-				IF = {
-					limit = {
-						has_completed_focus = CWE_denounce_the_emperor
-						}
-					add_timed_idea = { CWE_strike_down_the_false 100 }
-				}
-				IF = { 
-					limit = {
-						has_completed_focus = CWE_from_the_seven_sisters
-						}
-					load_oob = "CWE_fascist_civil_war"
-				}
-				IF = {
-					limit = {
-						has_completed_focus = CWE_subjugate_protectorates
-						}
-					set_state_owner = 258 
-					set_state_owner = 266 
-					set_state_owner = 267 
-					set_state_owner = 268 
-					set_state_owner = 269 
-					set_state_owner = 270 
-					set_state_owner = 271 
-					set_state_owner = 272 
-					set_state_owner = 273 
-					set_state_owner = 400 
-					set_state_owner = 401 
-					set_state_owner = 404 
-					set_state_owner = 405 
-					set_state_owner = 406 
-					set_state_owner = 407 
-					set_state_owner = 408 
-					set_state_owner = 409 
-				}
-				
 			start_civil_war = {
 				ideology = fascism
 				size = fascist_war_support
 			}
+			
+			hidden_effect = {
+			
+				IF = { has_completed_focus = CWE_impose_authoritarian_council_members
+					add_to_variable = { fascist_war_support = 0.1 }
+				}
+				
+				IF = { has_completed_focus = CWE_denounce_the_emperor
+					add_timed_idea = { CWE_strike_down_the_false 100 }
+				}
+				
+				IF = { has_completed_focus = CWE_from_the_seven_sisters
+					load_oob = "CWE_fascist_civil_war"
+				}
+			
+				IF = { has_completed_focus = CWE_subjugate_protectorates
+					set_state_owner =  258 266 267 268 269 270 271 272 273 400 400 404 405 406 407 408 409 
+				}
 			}
 		}
 	}
@@ -2271,13 +2258,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			custom_effect_tooltip = repair_the_nation_tooltip1
-			
-			hidden_effect = {
-				add_timed_idea = {
-					idea = CWE_repair_the_nation
-					days = 350
-				}
+			add_timed_idea = {
+				idea = Rebuild_the_Nation
+				days = 350
 			}
 		}
 	}

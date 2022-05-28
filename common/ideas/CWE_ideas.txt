@@ -659,36 +659,7 @@ ideas = {
 				army_morale_factor = 0.25
 				war_support_factor = 0.3
 			}
-		}
-		
-		CWE_repair_the_nation = {
-			
-			allowed = {
-				original_tag = CWE
-			}
 
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = generic_pp_unity_bonus
-
-			removal_cost = -1
-			
-			modifier = {
-				industry_repair_factor = 0.5
-				repair_speed_fuel_silo_factor = 0.5
-				repair_speed_synthetic_refinery_factor = 0.5
-				repair_speed_naval_base_factor = 0.5
-				repair_speed_radar_station_factor = 0.5
-				repair_speed_air_base_factor = 0.5
-				repair_speed_anti_air_building_factor = 0.5
-				repair_speed_bunker_factor = 0.5
-				repair_speed_coastal_bunker_factor = 0.5
-				repair_speed_rocket_site_factor = 0.5
-				repair_speed_nuclear_reactor_factor = 0.5
-				
-			}
 		}
 	}
 	
