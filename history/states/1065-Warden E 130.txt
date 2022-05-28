@@ -1,0 +1,15 @@
+
+state={
+	id=1065
+	name="STATE_1065"
+	provinces={
+		322 2377 4190 4575 6692 6995 9681 9733 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}

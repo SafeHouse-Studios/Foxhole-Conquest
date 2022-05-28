@@ -1,0 +1,15 @@
+
+state={
+	id=1059
+	name="STATE_1059"
+	provinces={
+		168 517 3020 7118 9018 9071 9098 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = CWE
+
+	}
+}
