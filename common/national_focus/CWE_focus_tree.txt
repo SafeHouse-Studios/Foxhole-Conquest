@@ -3357,6 +3357,17 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = naval_capital
+			
+			}
+			add_tech_bonus = {
+				ahead_reduction = 100
+				uses = 1
+				category = naval_capital
+			}
 		}
 	}
 #Focus for Dreadnought Development / Dreadnaught Development
@@ -3391,6 +3402,17 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = dd_tech
+			
+			}
+			add_tech_bonus = {
+				ahead_reduction = 100
+				uses = 1
+				category = dd_tech
+			}
 		}
 	}
 #Focus for The Ronan
@@ -3440,8 +3462,16 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+			add_tech_bonus = {
+				name = Interdiction
+				bonus = 1
+				uses = 1
+				category = trade_interdiction_tree
+			
+			}
+			
 		add_ideas ={
-		Wolf_Packs
+			CWE_wolf_packs
 			}
 		}
 	}
@@ -3478,7 +3508,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 		add_ideas ={
-		mixed_admiralty
+			CWE_mixed_admiralty
 			}
 		}
 	}
@@ -3498,7 +3528,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 		add_ideas ={
-		Traditional_Admiralty
+			CWE_traditional_admiralty
 			}
 		}
 	}
@@ -3516,7 +3546,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { 
+			add_tech_bonus = {
+				name = Warden_Navy
+				bonus = 1
+				uses = 1
+				category = marine_tech
+			
+			}
 		}
+		
 	}
 #Focus for Naval Supremacy
 	focus = {
@@ -3531,8 +3569,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = { 
+		
+		completion_reward = {
+			navy_experience = 150
+			swap_ideas = {
+				remove_idea = CWE_caoivish_naval_legacy_idea
+				add_idea = CWE_caoivish_naval_legacy_idea_mod2
+			}
+			
 		}
+		
 	}
 
 
