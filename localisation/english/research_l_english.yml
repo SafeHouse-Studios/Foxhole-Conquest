@@ -1072,3 +1072,7 @@ rocket_engines:0 "Rocket Warhead"
 rocket_engines_desc:0 "Knowledge of rocket propulsion is reaching a point where we can construct flying bombs and rocket-powered aircraft, operating at previously unreachable speeds."
 improved_rocket_engines:0 "Rocket Launch System"
 improved_rocket_engines_desc:0 "The first long-range ballistic missiles can be built and made ever more precise, reaching distant enemy cities and even into space."
+
+### Navy Classification Folders ###
+naval_capital:0 "Capital Ships"
+naval_capital_desc:0 ""

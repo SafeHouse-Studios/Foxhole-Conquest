@@ -27,6 +27,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			dd_tech
+			naval_capital
 		}
 	}
 	
@@ -58,6 +59,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			dd_tech
+			naval_capital
 		}
 	}
 	
@@ -88,6 +90,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			dd_tech
+			naval_capital
 		}
 	}
 	
@@ -113,6 +116,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			dd_tech
+			naval_capital
 		}
 	}
 	
@@ -148,6 +152,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cl_tech
+			naval_capital
 		}
 	}
 	
@@ -183,6 +188,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cl_tech
+			naval_capital
 		}
 	}
 	
@@ -217,6 +223,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cl_tech
+			naval_capital
 		}
 	}
 	
@@ -247,6 +254,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cl_tech
+			naval_capital
 		}
 	}
 	
@@ -283,6 +291,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ca_tech
+			naval_capital
 		}
 	}
 	
@@ -318,6 +327,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ca_tech
+			naval_capital
 		}
 	}
 	
@@ -352,6 +362,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ca_tech
+			naval_capital
 		}
 	}
 	
@@ -382,6 +393,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ca_tech
+			naval_capital
 		}
 	}
 	
@@ -414,6 +426,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			bc_tech
+			naval_capital
 		}
 	}
 	
@@ -444,6 +457,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			bc_tech
+			naval_capital
 		}
 	}
 		
@@ -474,6 +488,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			bb_tech
+			naval_capital
 		}
 	}
 	
@@ -508,6 +523,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			bb_tech
+			naval_capital
 		}
 	}
 	
@@ -537,6 +553,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			bb_tech
+			naval_capital
 		}
 	}
 	
@@ -566,6 +583,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			shbb_tech
+			naval_capital
 		}
 	}
 	
@@ -591,6 +609,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			shbb_tech
+			naval_capital
 		}
 	}
 	
@@ -624,6 +643,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			tp_tech
+			
 		}
 	}
 	
@@ -723,6 +743,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cv_tech
+			naval_capital
 		}
 	}
 	
@@ -752,6 +773,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cv_tech
+			naval_capital
 		}
 	}
 	
@@ -808,6 +830,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			cv_tech
+			naval_capital
 		}
 	}
 	
