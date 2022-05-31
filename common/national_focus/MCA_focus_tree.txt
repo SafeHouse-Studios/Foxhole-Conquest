@@ -904,7 +904,7 @@ focus_tree = {
 	#Focus for The Great Foundry Of The South 
 	focus = {
 		id = MCA_the_great_foundry_of_the_south
-		icon = the_great_foundry_of_the_south
+		icon = GFX_the_great_foundry_of_the_south
 		x = 18
 		y = 7
 		cost = 7
