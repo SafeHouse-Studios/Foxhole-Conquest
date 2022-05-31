@@ -148,8 +148,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= MCA_trade_Committe_veli_idea
-			remove_ideas=MCA_trade_Committe_idea
+			swap_ideas = {
+				remove_idea = MCA_trade_Committe_idea
+				add_idea = MCA_trade_Committe_veli_idea
+			}
+			
 		}
 	}
 
@@ -239,8 +242,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = MCA_trade_Committe_Mesean_idea
-			remove_ideas= MCA_trade_Committe_idea
+			swap_ideas = {
+				remove_idea = MCA_trade_Committe_Mesean_idea
+				add_idea = MCA_trade_Committe_idea
+			}
+			
 		}
 	}
 
@@ -362,8 +368,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = MCA_the_colonial_breadbasket_idea
-			remove_ideas = MCA_to_feed_the_legion_idea
+			swap_ideas = {
+				remove_idea =  MCA_to_feed_the_legion_idea
+				add_idea = MCA_the_colonial_breadbasket_idea
+			}
+			
 		}
 	}
 
@@ -512,15 +521,18 @@ focus_tree = {
 		prerequisite = { focus = MCA_construct_new_ordnance_plants }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		available = {
-			date > 786.01.01
 			OR ={
-				102 = {
-					is_controlled_by = CWE
+				date > 786.01.01
+				AND = {
+					241 = {
+						is_controlled_by = CWE
+					}
+					198 = {
+						is_controlled_by = CWE
+					}
 				}
-				101 = {
-					is_controlled_by = CWE
 				}
-			}
+				
 		} 
 		ai_will_do = {
 			factor = 1

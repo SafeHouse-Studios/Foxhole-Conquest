@@ -101,8 +101,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.10
-				production_factory_max_efficiency_factor = +0.15
+				license_infantry_eq_cost_factor = -0.25
+				production_factory_max_efficiency_factor = 0.1
 			}
 		}
 		MCA_dimian_industry_idea = {
