@@ -873,9 +873,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			custom_effect_tooltip = diminian_industry_idea_swap
-			remove_ideas= MCA_dimian_industry_idea
-			add_ideas= MCA_dimian_industry_two_idea
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			swap_ideas = {
+				remove_idea = MCA_dimian_industry_idea
+				add_idea = MCA_dimian_industry_two_idea
+			}
+			
 		}
 	}
 
@@ -930,8 +936,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			remove_ideas= MCA_dimian_industry_two_idea
-			add_ideas= MCA_the_great_forge_of_the_south_idea
+			swap_ideas = {
+				remove_idea = MCA_dimian_industry_two_idea
+				add_idea = MCA_the_great_forge_of_the_south_idea
+			}
+			
 		}
 	}
 
