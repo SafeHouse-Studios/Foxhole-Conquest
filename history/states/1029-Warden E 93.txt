@@ -2,14 +2,16 @@
 state={
 	id=1029
 	name="STATE_1029"
-	provinces={
-		1104 2696 5092 5236 8473 10012 10091 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
 	history={
 		owner = CWE
 
 	}
+
+	provinces={
+		1104 2696 5092 5236 5324 8473 10012 10091 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
