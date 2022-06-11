@@ -1,0 +1,14 @@
+
+state={
+	id=1358
+	name="STATE_1358"
+	provinces={
+		822 1407 5916 7673 10515 10519 10540 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = MCA
+	}
+}
