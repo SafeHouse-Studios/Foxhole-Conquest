@@ -3,9 +3,13 @@ state={
 	id=1408
 	name="STATE_1408"
 	provinces={
-		1025 4677 6150 6389 7516 8256 11215 
+		161 4249 4677 6389 7516 8256 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	history={
+		owner = MCA
+
+	}
 }
