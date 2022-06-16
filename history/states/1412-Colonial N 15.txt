@@ -1,15 +1,9 @@
 
 state={
-	id=1382
-	name="STATE_1382"
-
-	history={
-		owner = MCA
-
-	}
-
+	id=1412
+	name="STATE_1412"
 	provinces={
-		845 3555 6870 7274 10816 10820 
+		1634 2498 3975 4721 5900 8019 11542 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
