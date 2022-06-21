@@ -152,6 +152,7 @@
  MCA_dimian_industry_idea:0 "Dimian Industry"
  MCA_dimian_industry_two_idea:0 "Dimian Industry"
  MCA_the_great_forge_of_the_south_idea:0 "The Great Forge Of The South"
+
  
  ###Warden Ideas###
  CWE_major_trade_hub_idea:0 "Major Trade Hub"
@@ -234,6 +235,10 @@
  CWE_nevish_alliance_idea_desc:0 ""
  CWE_caoivish_naval_legacy_idea_mod2:0 "Caoivish Naval Legacy"
  CWE_caoivish_naval_legacy_idea_mod2_desc:0 ""
+ CWE_mixed_admiralty:0 "Mixed Admiralty"
+ CWE_mixed_admiraltydesc:0 ""
+ CWE_traditional_admiralty:0 "Tradition Admiralty"
+ CWE_traditional_admiralty_desc:0 ""
 
 
  ###Country Leaders###
