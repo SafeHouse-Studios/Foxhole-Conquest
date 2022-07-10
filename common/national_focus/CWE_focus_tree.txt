@@ -3316,7 +3316,19 @@ focus_tree = {
 			uses = 1
 			category = naval_doctrine
 			}
-		
+			252 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = { 
+						all_provinces = yes
+					}
+				}
+			}
 	}
 	}
 #Focus for Reinforce Ports of the Endless Sea
@@ -3339,9 +3351,21 @@ focus_tree = {
 				uses = 1
 				category = naval_doctrine
 				}
-		}
+			175 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = { 
+						all_provinces = yes
+					}
+				}
+			}
 	}
-
+	}
 #Focus for Capital Ship Focus
 	focus = {
 		id = CWE_capital_ship_focus
@@ -3440,12 +3464,48 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
+		available = {
+			92 = {
+				is_controlled_by = CWE
+			}
+			159 = {
+				is_controlled_by = CWE
+			}
+		}
 		prerequisite = { focus = CWE_destroyer_focus focus = CWE_dreadnought_development focus = CWE_reinforce_ports_of_the_endless_sea }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = { 
+			92 = {
+				add_building_construction = {
+
+					type = coastal_bunker
+					level = 2
+					province = { 
+						all_provinces = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+				}
+			}
+			159 = {
+				add_building_construction = {
+
+					type = coastal_bunker
+					level = 2
+					province = { 
+						all_provinces = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+				}
+			}
 		}
 	}
 #Focus for Wolf Packs
