@@ -256,6 +256,11 @@ spriteTypes = {
 	name = "GFX_focus_facilitate_therizian_arms_plants"
 	texturefile = "gfx/interface/goals/focus_facilitate_therizian_arms_plants.dds"			
 	}
+
+	SpriteType = {
+	name = "GFX_the_great_foundry_of_the_south"
+	texturefile = "gfx/interface/goals/the_great_foundry_of_the_south.png"			
+	}
 	
 	SpriteType = {
 	name = "GFX_focus_focus_mesean_industry"
@@ -285,6 +290,11 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_prosperous_republic"
 	texturefile = "gfx/interface/goals/focus_prosperous_republic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_balanced_development"
+	texturefile = "gfx/interface/goals/GFX_balanced_development.png"			
 	}
 	
 	SpriteType = {

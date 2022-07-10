@@ -101,8 +101,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.10
-				production_factory_max_efficiency_factor = +0.15
+				
+				production_factory_max_efficiency_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				
 			}
 		}
 		MCA_dimian_industry_idea = {
