@@ -43,7 +43,7 @@ Hit clone/download and get the files from github.
 7. Open the descriptor file that you have moved as well as the new one downloaded using your text editor (Notepad++ or other). Check for differences in the code (there may be changes as HoI:IV updates the descriptor files. If unsure check with a mod manager but the file should resemble the following step without the path replacements.
 
 8. One step back up in the folders at path:
-"C:\Users(username)\Documents\Paradox Interactive\Hearts of Iron IV\mod” 
+"C:\Users\(username)\Documents\Paradox Interactive\Hearts of Iron IV\mod” 
 You will find a newly created descriptor called: “FoxholeConquestDevVersion.mod”
 Also open this file in the text editor.
 You need to paste the following code into the correct place in the document:
