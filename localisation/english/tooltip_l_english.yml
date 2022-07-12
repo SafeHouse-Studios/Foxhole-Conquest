@@ -1,5 +1,5 @@
 ﻿l_english:
- diminian_industry_idea_swap: "Changes -20% Stability to +20% Stability" 
+ diminian_industry_idea_swap: "Changes -20% Stability to +20% Stability." 
  
  #Warden tooltips
  82dk_focus_tooltip: "Trains §H12 Dread Korps §Wdivisions with §HSeasoned §Wveterancy."
@@ -7,13 +7,15 @@
  nicevian_resources_tooltip: "Add §H25 oil resources §Wacross nicevian states."
  southwestern_protectorate_tooltip: "Gain §Hcores §Won all states of Farranc Coast."
  southeastern_protectorate_tooltip: "Gain §Hcores §Won all states of Endless Shore."
- repair_the_nation_tooltip1: "Gains §HRepair the nation §Wwhich grants (§G+50% §Wrepair speed) for 350 days"
+ repair_the_nation_tooltip1: "Gains §HRepair the nation §Wwhich grants (§G+50% §Wrepair speed) for 350 days."
+ repair_the_nation_tooltip2: "§WRepair Speed: §G+50%."
  
  #fascists line
  nevish_fascist_party_tooltip: "Trains §H6 Seven Sister §Wdivisions with §HRegular §Wveterancy."
- authoritarian_council_tooltip: "Upon civil war start, the player will retain control of §H10% §Wmore §Hdivisions §Wand §Hterritory"
+ authoritarian_council_tooltip: "Upon civil war start, the player will retain control of §H10% §Wmore §Hdivisions §Wand §Hterritory."
  denounce_the_emperor_tooltip: "Upon civil war start, adds the §HStrike Down the False §Wnational spirit, which grants (§G+25% §WAttack, §G-25% §WRecovery Rate, §G+30% §WWar Support) for 100 days."
  seven_sisters_tooltip: "Upon civil war start, trains §H12 Seven Sister §Wdivisions with §HRegular §Wveterancy."
- subjugate_protectorates_tooltip: "Upon civil war start, the fascists will retain control of all §HNicevin §Wand §HSoravian §Wstates"
- 
- 
+ subjugate_protectorates_tooltip: "Upon civil war start, the fascists will retain control of all §HNicevin §Wand §HSoravian §Wstates."
+ slay_the_eagle_tooltip1: "Starts a civil war between the §HCaoivish Fascist Movement §Wand the current ruling party."
+ slay_the_eagle_tooltip2: "Adds the §HFascist Ethos §Wnational spirit, which grants (§G-50% §WIdeological Drift, §G+15% §Wdivision speed, §G+15% §Wdivision recovery rate, §G+15% §Wdivision reinforce rate)." 
+ viper_strikes_southward_tooltip: "Removes the §HFascist Ethos §Wnational spirit and add the §HViper Strikes §Wnational spirit, which grants (§G-50% §WIdeological Drift, §G+15% §Wstability, §G+15% §Wdivision attack, §G+15% §Wdivision defense)."

@@ -676,18 +676,65 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industry_repair_factor = 0.5
-				repair_speed_fuel_silo_factor = 0.5
-				repair_speed_synthetic_refinery_factor = 0.5
-				repair_speed_naval_base_factor = 0.5
-				repair_speed_radar_station_factor = 0.5
-				repair_speed_air_base_factor = 0.5
-				repair_speed_anti_air_building_factor = 0.5
-				repair_speed_bunker_factor = 0.5
-				repair_speed_coastal_bunker_factor = 0.5
-				repair_speed_rocket_site_factor = 0.5
-				repair_speed_nuclear_reactor_factor = 0.5
+				custom_modifier_tooltip = repair_the_nation_tooltip2
 				
+				hidden_effect = {
+					industry_repair_factor = 0.5
+					repair_speed_fuel_silo_factor = 0.5
+					repair_speed_synthetic_refinery_factor = 0.5
+					repair_speed_naval_base_factor = 0.5
+					repair_speed_radar_station_factor = 0.5
+					repair_speed_air_base_factor = 0.5
+					repair_speed_anti_air_building_factor = 0.5
+					repair_speed_bunker_factor = 0.5
+					repair_speed_coastal_bunker_factor = 0.5
+					repair_speed_rocket_site_factor = 0.5
+					repair_speed_nuclear_reactor_factor = 0.5
+				}
+			}
+		}
+
+		CWE_fascist_ethos = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.15
+				army_speed_factor = 0.15
+				land_reinforce_rate = 0.15
+				drift_defence_factor = 0.5
+			}
+		}
+
+		CWE_viper_strike = {
+			
+			allowed = {
+				original_tag = CWE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defense_factor = 0.15
+				army_attack_factor = 0.15
+				drift_defence_factor = 0.5
+				stability_factor = 0.15
 			}
 		}
 	}

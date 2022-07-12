@@ -197,37 +197,27 @@ focus_tree = {
 		completion_reward = {
 
 			235 = {
-
 				add_building_construction = {
-
 					type = bunker
+					level = 2
 					province = { 
-						all_provinces = 
+						all_provinces = yes
 					}
-					level = 2
 				}
 			}
-
 			235 = {
-
 				add_building_construction = {
-
 					type = dockyard
-					
 					level = 2
 				}
 			}
 
 			235 = {
-
 				add_building_construction = {
-
 					type = infrastructure
-					
 					level = 1
 				}
 			}
-
 		}
 	}
 
@@ -235,7 +225,6 @@ focus_tree = {
 	focus = {
 		id = CWE_the_domain_of_sunhaven
 		icon = GFX_the_domain_of_sunhaven
-		
 		x = 10
 		y = 7
 		cost = 1
@@ -253,7 +242,6 @@ focus_tree = {
 			add_ideas = {
 				CWE_the_dominion_of_sunhaven_idea
 					}
-				
 		}
 	}
 
@@ -271,49 +259,36 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
-			374 = {
-
+			374 = {}
 				add_building_construction = {
-
 					type = industrial_complex
 					level = 3
 					instant_build = yes
 				}
 			}
-
-				374 = {
-
+			374 = {
 				add_building_construction = {
-
 					type = dockyard
 					level = 2
 					instant_build = yes
 
 				}
 			}	
-
 			373 = {
-
 				add_building_construction = {
-
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
-
 			376 = {
-
 				add_building_construction = {
-
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
 		}
-	}
 
 	#Focus for Port of Buckler Sound
 	focus = {
@@ -338,7 +313,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
 			278 = {
 
 				add_building_construction = {
@@ -348,7 +322,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
 			392 = {
 
 				add_building_construction = {
@@ -376,19 +349,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-
 			259 = {
-
 				add_building_construction = {
-
 					type = industrial_complex
 					level = 2
 					instant_build = yes
 				}
 			}
-
 			259 = {
-
 				add_building_construction = {
 
 					type = dockyard
@@ -413,31 +381,22 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-
 		8 = {
-
 				add_building_construction = {
-
 					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
-			
 		9 = {
-
 				add_building_construction = {
-
 					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
-			
 		7 = {
-
 				add_building_construction = {
-
 					type = arms_factory
 					level = 1
 					instant_build = yes
@@ -445,9 +404,7 @@ focus_tree = {
 			}
 			
 		6 = {
-
 				add_building_construction = {
-
 					type = arms_factory
 					level = 1
 					instant_build = yes
@@ -455,9 +412,7 @@ focus_tree = {
 			}
 			
 		254 = {
-
 				add_building_construction = {
-
 					type = arms_factory
 					level = 1
 					instant_build = yes
@@ -695,7 +650,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-
 
 		}
 	}
@@ -2042,6 +1996,11 @@ focus_tree = {
 				popularity = 0.1
 			}
 			custom_effect_tooltip = authoritarian_council_tooltip
+
+			hidden_effect = {
+				set_variable = { fascist_war_support = 1 }
+				set_variable = { neutral_war_support = 1 }
+			}
 		}
 	}
 
@@ -2060,7 +2019,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = seven_sisters_tooltip
-		}
+			}
 	}
 
 	#Focus for Subjugate Protectorates
@@ -2106,7 +2065,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = nevish_fascist_party_tooltip
-		
+			
 			hidden_effect = {
 				load_oob = "CWE_nevish_party"
 			}
@@ -2175,60 +2134,103 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
-		 	#set_variable = { fascist_war_support = 0.5 }
-			
+			custom_effect_tooltip = slay_the_eagle_tooltip1
+			custom_effect_tooltip = slay_the_eagle_tooltip2
 			hidden_effect = {
-			
-				IF = { 
+				add_ideas = {
+					CWE_fascist_ethos
+				}
+
+				#country_event = Warden.1
+
+				start_civil_war = {
+					ruling_party = fascism
+					ideology = neutrality
+					size = neutral_war_support
+					}
+					
+				if = { 
 					limit = { 
 						has_completed_focus = CWE_impose_authoritarian_council_members
-						}
-					set_variable = { fascist_war_support = 0.6 }
-					ELSE = {
-						set_variable = { fascist_war_support = 0.5 }
 					}
+					set_variable = { fascist_war_support = 0.6 }
+					set_variable = { neutral_war_support = 0.4 }
+					}
+				else = {
+					set_variable = { fascist_war_support = 0.5 }
+					set_variable = { neutral_war_support = 0.5 }
 				}
-				
-				IF = {
-					limit = {
-						has_completed_focus = CWE_denounce_the_emperor
-						}
-					add_timed_idea = { CWE_strike_down_the_false 100 }
+
+				if = {
+					limit = { 
+						has_completed_focus = CWE_denounce_the_emperor 
+					}
+					add_timed_idea = { idea = CWE_strike_down_the_false days = 100 }
 				}
-				IF = { 
-					limit = {
-						has_completed_focus = CWE_from_the_seven_sisters
-						}
+
+				if = { 
+					limit = { 
+						has_completed_focus = CWE_from_the_seven_sisters 
+					}
 					load_oob = "CWE_fascist_civil_war"
 				}
+
 				IF = {
-					limit = {
-						has_completed_focus = CWE_subjugate_protectorates
+					limit ={ 
+						has_completed_focus = CWE_subjugate_protectorates 
 						}
-					set_state_owner = 258 
-					set_state_owner = 266 
-					set_state_owner = 267 
-					set_state_owner = 268 
-					set_state_owner = 269 
-					set_state_owner = 270 
-					set_state_owner = 271 
-					set_state_owner = 272 
-					set_state_owner = 273 
-					set_state_owner = 400 
-					set_state_owner = 401 
-					set_state_owner = 404 
-					set_state_owner = 405 
-					set_state_owner = 406 
-					set_state_owner = 407 
-					set_state_owner = 408 
-					set_state_owner = 409 
+					258 = { 
+						transfer_state_to = CWE
+						}
+					266 = { 
+						transfer_state_to = CWE
+						}
+					267 = { 
+						transfer_state_to = CWE
+						}
+					268 = { 
+						transfer_state_to = CWE
+						}
+					269 = { 
+						transfer_state_to = CWE
+						}
+					270 = { 
+						transfer_state_to = CWE
+						}
+					271 = { 
+						transfer_state_to = CWE
+						}
+					272 = { 
+						transfer_state_to = CWE
+						}
+					273 = { 
+						transfer_state_to = CWE
+						}
+					400 = { 
+						transfer_state_to = CWE
+						}
+					401 = { 
+						transfer_state_to = CWE
+						}
+					404 = { 
+						transfer_state_to = CWE
+						}
+					405 = { 
+						transfer_state_to = CWE
+						}
+					406 = { 
+						transfer_state_to = CWE
+						}
+					407 = { 
+						transfer_state_to = CWE
+						}
+					408 = { 
+						transfer_state_to = CWE
+						}
+					409 = { 
+						transfer_state_to = CWE
+						}
 				}
-				
-			start_civil_war = {
-				ideology = fascism
-				size = fascist_war_support
-			}
 			}
 		}
 	}
@@ -2251,6 +2253,14 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+			custom_effect_tooltip = viper_strikes_southward_tooltip
+
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = CWE_fascist_ethos
+					add_idea = CWE_viper_strike 
+				}
+			}
 		}
 	}
 		
@@ -3301,7 +3311,7 @@ focus_tree = {
 			level = 2
 			instant_build = yes
 			province = 867
-			province = 1088`
+			province = 1088
 		}
 	}
 	}
@@ -3514,9 +3524,4 @@ focus_tree = {
 		completion_reward = { 
 		}
 	}
-
-
-
-
-#End of focuses 
- }
+}
