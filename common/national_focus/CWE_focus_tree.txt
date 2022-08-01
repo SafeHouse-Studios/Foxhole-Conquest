@@ -2861,7 +2861,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		
+		add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_heavy_armor
+		}
 		}
 	}
 	#Focus for The Niska
