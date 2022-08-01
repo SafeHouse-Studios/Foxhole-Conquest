@@ -780,8 +780,9 @@ technologies = {
 	
 	early_bomber = {
 
-		enable_equipments = {
-			tac_bomber_equipment_0
+		path = {
+			leads_to_tech = strategic_bomber1
+			research_cost_coeff = 1
 		}
 	
 		path = {
