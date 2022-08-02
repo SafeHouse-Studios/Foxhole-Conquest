@@ -2088,7 +2088,7 @@ focus_tree = {
 		#Focus for Reformed Legion Command
 		focus = {
 			id = MCA_reformed_legion_command
-			icon = GFX_goal_unknown
+			icon = GFX_reformed_legion_command
 			x = 51
 			y = 2
 			cost = 7
